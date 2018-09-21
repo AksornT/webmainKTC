@@ -1,0 +1,1344 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/tablet-style.css">
+    <link rel="stylesheet" href="css/mobile-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="js/jquery-1.12.4.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="js/win-ui.js"></script>
+    <title>KTC</title>
+  </head>
+  <body>
+  <div id="menu-global" class="menu-global">
+    <div class="content-wrap">
+      <div id="ktc-logo">
+        <a href="index.html">
+          <img src="img/KTC.png">
+        </a>
+      </div>
+      <ul class="scrolled-menu">
+        <li>บัตรเครดิต
+          <i class="fa fa-angle-down"></i>
+          <ul>
+            <li>ผลิตภัณฑ์บัตรเครดิต<a href="creditcard.html"></a></li>
+            <li>คะแนนสะสม<a href="forever.html"></a></li>
+            <li>แบ่งชำระ<a href="flexi.html"></a></li>
+            <li>บริจาค<a href="#"></a></li>
+            <li>บริการหักค่าใช้จ่ายอัตโนมัติ<a href="#"></a></li>
+            <li>อัตราดอกเบี้ยและค่าธรรมเนียม<a href="#"></a></li>
+          </ul>
+
+        </li>
+        <li>สินเชื่อบุคคล
+          <i class="fa fa-angle-down"></i>
+          <ul>
+            <li>ผลิตภัณฑ์สินเชื่อ<a href="loan.html"></a></li>
+            <li>แบ่งชำระ<a href="#"></a></li>
+            <li>เครื่องคำนวนสินเชื่อ<a href="#"></a></li>
+            <li>อัตราดอกเบี้ยและค่าธรรมเนียม<a href="#"></a></li>
+          </ul>
+        </li>
+        <li>โปรโมชั่น<a href="promotion.html"></a>
+        </li>
+        <li>ธุรกิจร้านค้า<a href="merchant.html"></a>
+          </li>
+        <li>บริการท่องเที่ยว<a href="#"></a>
+        </li>
+        <li>ช้อปสินค้าออนไลน์
+        </li>
+        <li>บริการลูกค้า
+          <i class="fa fa-angle-down"></i>
+          <ul>
+            <li>ติดต่อ KTC<a href="#"></a></li>
+            <li>บริการ KTC ONLINE<a href="#"></a></li>
+            <li>บริการ KTC MOBILE APPLICATION<a href="#"></a></li>
+            <li>ช่องทางการชำระเงิน<a href="#"></a></li>
+            <li>วารสารรายเดือน<a href="#"></a></li>
+            <li>ดาวน์โหลดเอกสารแบบฟอร์มและคู่มือ<a href="#"></a></li>
+            <li>คำถามที่พบบ่อย<a href="#"></a></li>
+          </ul>
+        </li>
+      </ul>
+      <div class="on-right">
+        <a class="search-on-menu" data-toggle="modal" data-target="#search-modal">
+          <i class="fa fa-search"></i>
+        </a>
+        <div id="card-register" class="card-register-btn" data-toggle="modal" data-target="#card-register-modal" href="#">สมัครบัตร</div>
+        <!-- ก่อนล็อกอิน -->
+        <!-- <a class="login-btn" href="#">
+           <i class="fa fa-lock"></i>
+          เข้าสู่ระบบ
+        </a>
+        <div class="login-mobile only-mobile" href="#">
+          <img src="img/ico-login.png">
+        </div> -->
+
+        <!-- หลังล็อกอิน -->
+        <div class="login-btn logged-in">
+          <div class="profile-image"><img src="img/img-profile.png"></div>
+          <p class="profile-name">บัญชีของฉัน</p><i class="fa fa-angle-down"></i>
+          <ul>
+            <li><a href="#"><div class="subimg-wrap"><img src="img/ico-subprofile-1.png"></div><p>บัตร KTC ของฉัน</p></a></li>
+            <li><a href="#"><div class="subimg-wrap"><img src="img/ico-subprofile-2.png"></div><p>โปรโมชั่นของฉัน</p></a></li>
+            <li><a href="#"><div class="subimg-wrap"><img src="img/ico-subprofile-3.png"></div><p>ออกจากระบบ</p></a></li>
+          </ul>
+          <div class="for-sub-profile-mobile">
+            <div class="profile-image"><img src="img/img-profile.png"></div>
+            <button type="button" class="close">
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+        </div>
+
+
+        <div class="profile-on-menu">
+          <!--<div class="profile-image"><img src="img/ico-user.png"></div>-->
+          <span class="profile-name"></span>
+          <div class="menu-mobile only-mobile" onclick="myFunction()"></div>
+        </div>
+      </div>
+      <div id="scrolled-menu-responsive" class="menu-responsive-dropdown only-mobile">
+        <div class="menu-resp-scroll">
+          <button type="button" class="menu-resp-close close">
+            <span aria-hidden="true">×</span>
+          </button>
+          <div class="menu-responsive">
+            <img src="img/ico-creditcard.png"><h3 class="menu-more">บัตรเครดิต</h3>
+            <ul>
+              <li><a href="creditcard.html">ผลิตภัณฑ์บัตรเครดิต</a></li>
+              <li><a href="forever.html">คะแนนสะสม</a></li>
+              <li><a href="flexi.html">แบ่งชำระ</a></li>
+              <li><a href="#">บริจาค</a></li>
+              <li><a href="#">บริการหักค่าใช้จ่ายอัตโนมัติ</a></li>
+              <li><a href="#">อัตราดอกเบี้ยและค่าธรรมเนียม</a></li>
+            </ul>
+          </div>
+          <div class="menu-responsive">
+            <img src="img/ico-personal-loans.png"><h3 class="menu-more">สินเชื่อบุคคล</h3>
+            <ul>
+              <li><a href="loan.html">ผลิตภัณฑ์สินเชื่อ</a></li>
+              <li><a href="flexi.html">แบ่งชำระ</a></li>
+              <li><a href="#">เครื่องคำนวนสินเชื่อ</a></li>
+              <li><a href="#">อัตราดอกเบี้ยและค่าธรรมเนียม</a></li>
+            </ul>
+          </div>
+          <a href="promotion.html" class="menu-responsive">
+            <img src="img/ico-privilege.png"><h3>โปรโมชั่น</h3>
+          </a>
+          <a class="menu-responsive" href="merchant.html">
+              <img src="img/ico-business-store.png"><h3>ธุรกิจร้านค้า</h3>
+            </a>
+          <a class="menu-responsive" href="#">
+            <img src="img/ico-travel-service.png"><h3>บริการท่องเที่ยว</h3>
+          </a>
+          <div class="menu-responsive">
+            <img src="img/ico-shopping-online.png"><h3>ช้อปสินค้าออนไลน์</h3>
+          </div>
+          <div class="menu-responsive">
+            <img src="img/ico-service-custom.png"><h3 class="menu-more">บริการลูกค้า</h3>
+            <ul>
+              <li><a href="#">ติดต่อ KTC</a></li>
+              <li><a href="#">บริการ KTC ONLINE</a></li>
+              <li><a href="#">บริการ KTC MOBILE APPLICATION</a></li>
+              <li><a href="#">ช่องทางการชำระเงิน</a></li>
+              <li><a href="#">วารสารรายเดือน</a></li>
+              <li><a href="#">ดาวน์โหลดเอกสารแบบฟอร์มและคู่มือ</a></li>
+              <li><a href="#">คำถามที่พบบ่อย</a></li>
+            </ul>
+          </div>
+
+          <div class="menu-btn">
+            <div class="menu-lang">
+              <div class="lang-header-menu">
+                <img src="img/ico-lang.png">
+                  <div class="lang-wrap active">
+                    <label for="lang-change">Language</label>
+                    <p id="lang-change">EN</p>
+                  </div>
+                  <div class="lang-wrap">
+                    <label for="lang2-change">Language</label>
+                    <p id="lang2-change">TH</p>
+                  </div>
+              </div>
+            </div>
+            <button data-toggle="modal" data-target="#card-register-modal">สมัครบัตร</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="open-on-top">
+      <div class="content-wrap">
+        <div class="row">
+          <div class="col-lg-6">
+            <h1 class="only-desktop">Fulfill your life with <span>KTC Credit</span></h1>
+            <p class="only-desktop">Suspendisse accumsan in ante et dapibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam nec pulvinar leo, vel malesuada orci.</p>
+            <h2 class="title-mobile only-mobile">ประสบการณ์<br>ให้ความหมายกับชีวิต</h2>
+          </div>
+          <div class="col-lg-6 row icon-wrap">
+            <a class="big-link col-4" href="creditcard.html">
+              <div>
+                <img src="img/ico-creditcard.png">
+                <p>บัตรเครดิต</p>
+              </div>
+            </a>
+            <a class="big-link col-4" href="loan.html">
+              <div>
+                <img src="img/ico-personal-loans.png">
+                <p>สินเชื่อบุคคล</p>
+              </div>
+            </a>
+            <a class="big-link col-4" href="promotion.html">
+              <div>
+                <img src="img/ico-privilege.png">
+                <p>โปรโมชั่น</p>
+              </div>
+            </a>
+            <a class="big-link col-4" href="merchant.html">
+              <div>
+                <img src="img/ico-business-store.png">
+                <p>ธุรกิจร้านค้า</p>
+              </div>
+            </a>
+            <a class="big-link col-4" href="article.html">
+              <div>
+                <img src="img/ico-travel-service.png">
+                <p>บริการท่องเที่ยว</p>
+                <span>KTC World</span>
+              </div>
+            </a>
+            <a class="big-link col-4" href="#">
+              <div>
+                <img src="img/ico-shopping-online.png">
+                <p>ช้อปสินค้าออนไลน์</p>
+                <span>KTC U Shop</span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="another-sub">
+        <div class="content-wrap row">
+          <a class="col-4 col-sm-4">
+            <img src="img/ico-shopping.png">
+            <p>คะแนนสะสม</p>
+            <span>Suspendisse</span>
+          </a>
+          <a class="col-4 col-sm-4" href="flexi.html">
+            <img src="img/ico-dining.png">
+            <p>แบ่งชำระ</p>
+            <span>Suspendisse</span>
+          </a>
+          <a class="col-4 col-sm-4">
+            <img src="img/ico-shoponline.png">
+            <p>บริจาค</p>
+            <span>Suspendisse</span>
+          </a>
+          <a class="col-4 col-sm-4 only-mobile">
+            <img src="img/ico-apply-card.png">
+            <p>สมัครบัตร</p>
+            <span>Others</span>
+          </a>
+          <a class="col-4 col-sm-4 only-desktop">
+            <img src="img/ico-travel.png">
+            <p>บริการลูกค้า</p>
+            <span>Suspendisse</span>
+          </a>
+          <a class="col-4 col-sm-4 only-desktop">
+            <img src="img/ico-nearby.png">
+            <p>ตรวจสอบสถานะบัตร</p>
+            <span>Suspendisse</span>
+          </a>
+          <a class="col-4 col-sm-4 only-mobile">
+            <img src="img/ico-nearby.png">
+            <p>ตรวจสอบสถานะบัตร</p>
+            <span>Suspendisse</span>
+          </a>
+          <a class="col-4 col-sm-4 only-mobile">
+            <img src="img/ico-travel.png">
+            <p>บริการลูกค้า</p>
+            <span>Suspendisse</span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div id="head-trigger"></div>
+  </div>
+
+  <!-- start page -->
+  <div class="wrapper article-page">
+
+      <div class="content-wrap">
+        <div class="row">
+          <nav class="col-12" aria-label="breadcrumb">
+            <ol class="breadcrumb bc-content">
+              <li class="breadcrumb-item"><a href="index.html">หน้าหลัก</a></li>
+              <li class="breadcrumb-item active" aria-current="page"><a href="article.html">บทความ</a></li>
+            </ol>
+          </nav>
+      </div>
+      </div>
+     
+      <div class="content-wrap slide-wrap promo-wrap no-preview">
+        <div class="index-slide1">
+          <a class="item" href="article-detail.html">
+            <img class="only-desktop" src="img/article/img-article-banner.jpg">
+            <img class="only-mobile" src="img/article/img-article-banner-m.jpg">
+          </a>
+          <a class="item" href="article-detail.html">
+            <img class="only-desktop" src="img/article/img-article-banner.jpg">
+            <img class="only-mobile" src="img/article/img-article-banner-m.jpg">
+          </a>
+          <a class="item" href="article-detail.html">
+            <img class="only-desktop" src="img/article/img-article-banner.jpg">
+            <img class="only-mobile" src="img/article/img-article-banner-m.jpg">
+          </a>
+          <a class="item" href="article-detail.html">
+            <img class="only-desktop" src="img/article/img-article-banner.jpg">
+            <img class="only-mobile" src="img/article/img-article-banner-m.jpg">
+          </a>
+          <a class="item" href="article-detail.html">
+            <img class="only-desktop" src="img/article/img-article-banner.jpg">
+            <img class="only-mobile" src="img/article/img-article-banner-m.jpg">
+          </a>
+        </div>
+      </div>
+      
+      <div class="content-wrap">
+        <div class="row-search-filter">
+          <div class="input-search-inline"><input type="text" placeholder="ค้นหาบทความ" /></div>
+        </div>
+      </div>
+
+      <div class="content-wrap menu-sub-icon">
+        <ul class="nav nav-justified five-icons">
+          <li class="nav-item"><a href="article-category.html" class="nav-link"><img src="img/ico-locations.png" /><p>Travel Guide</p></a></li>
+          <li class="nav-item"><a href="article-category.html" class="nav-link"><img src="img/ico-dining.png" /><p>Shopping</p></a></li>
+          <li class="nav-item"><a href="article-category.html" class="nav-link"><img src="img/ico-shopping.png" /><p>Dining</p></a></li>
+          <li class="nav-item"><a href="article-category.html" class="nav-link"><img src="img/ico-shoponline.png" /><p>Lifestyle</p></a></li>
+          <li class="nav-item"><a href="article-category.html" class="nav-link"><img src="img/ico-travel.png" /><p>Knowledge</p></a></li>
+        </ul>
+      </div>
+      
+      <!-- Start ROW 1 -->
+      <div class="content-wrap slide-padd">
+        <div class="text-on-slide no-subtitle row">
+          <div class="col-9 col-lg-10"><h3 class="index-head"><a href="article-category.html">Travel Guide</a></h3></div>
+          <a class="col-3 col-lg-2 ml-auto view-all" href="article-category.html">ดูทั้งหมด</a>
+        </div>
+      </div>
+
+      <div class="content-wrap slide-wrap">
+        <div class="index-slide2">
+          <a class="item" href="article-detail.html">
+            <img src="img/article/img-article-1.jpg">
+            <div class="slide-content-wrap">
+              <p class="slide-title">เที่ยวนอก เที่ยวไหน ก็เที่ยวได้ถูกกว่า เที่ยวนอก เที่ยวไหน ก็เที่ยวได้ถูกกว่า</p>
+              <p class="slide-content">เมื่อช้อปต่างประเทศหรือช้อปออนไลน์เป็นสกุลเงินต่างประเทศผ่านบัตรเครดิต KTC เมื่อช้อปต่างประเทศหรือช้อปออนไลน์เป็นสกุลเงินต่างประเทศผ่านบัตรเครดิต KTC</p>
+            </div>
+          </a>
+          <a class="item" href="article-detail.html">
+            <img src="img/article/img-article-2.jpg">
+            <div class="slide-content-wrap">
+              <p class="slide-title">เที่ยวนอก เที่ยวไหน ก็เที่ยวได้ถูกกว่า เที่ยวนอก เที่ยวไหน ก็เที่ยวได้ถูกกว่า</p>
+              <p class="slide-content">เมื่อช้อปต่างประเทศหรือช้อปออนไลน์เป็นสกุลเงินต่างประเทศผ่านบัตรเครดิต KTC เมื่อช้อปต่างประเทศหรือช้อปออนไลน์เป็นสกุลเงินต่างประเทศผ่านบัตรเครดิต KTC</p>
+            </div>
+          </a>
+          <a class="item" href="article-detail.html">
+            <img src="img/article/img-article-3.jpg">
+            <div class="slide-content-wrap">
+              <p class="slide-title">เที่ยวนอก เที่ยวไหน ก็เที่ยวได้ถูกกว่า เที่ยวนอก เที่ยวไหน ก็เที่ยวได้ถูกกว่า</p>
+              <p class="slide-content">เมื่อช้อปต่างประเทศหรือช้อปออนไลน์เป็นสกุลเงินต่างประเทศผ่านบัตรเครดิต KTC เมื่อช้อปต่างประเทศหรือช้อปออนไลน์เป็นสกุลเงินต่างประเทศผ่านบัตรเครดิต KTC</p>
+            </div>
+          </a>
+          <a class="item" href="article-detail.html">
+            <img src="img/article/img-article-1.jpg">
+            <div class="slide-content-wrap">
+              <p class="slide-title">เที่ยวนอก เที่ยวไหน ก็เที่ยวได้ถูกกว่า เที่ยวนอก เที่ยวไหน ก็เที่ยวได้ถูกกว่า</p>
+              <p class="slide-content">เมื่อช้อปต่างประเทศหรือช้อปออนไลน์เป็นสกุลเงินต่างประเทศผ่านบัตรเครดิต KTC เมื่อช้อปต่างประเทศหรือช้อปออนไลน์เป็นสกุลเงินต่างประเทศผ่านบัตรเครดิต KTC</p>
+            </div>
+          </a>
+          <a class="item" href="article-detail.html">
+            <img src="img/article/img-article-2.jpg">
+            <div class="slide-content-wrap">
+              <p class="slide-title">เที่ยวนอก เที่ยวไหน ก็เที่ยวได้ถูกกว่า เที่ยวนอก เที่ยวไหน ก็เที่ยวได้ถูกกว่า</p>
+              <p class="slide-content">เมื่อช้อปต่างประเทศหรือช้อปออนไลน์เป็นสกุลเงินต่างประเทศผ่านบัตรเครดิต KTC เมื่อช้อปต่างประเทศหรือช้อปออนไลน์เป็นสกุลเงินต่างประเทศผ่านบัตรเครดิต KTC</p>
+            </div>
+          </a>
+          <a class="item" href="article-detail.html">
+            <img src="img/article/img-article-3.jpg">
+            <div class="slide-content-wrap">
+              <p class="slide-title">เที่ยวนอก เที่ยวไหน ก็เที่ยวได้ถูกกว่า เที่ยวนอก เที่ยวไหน ก็เที่ยวได้ถูกกว่า</p>
+              <p class="slide-content">เมื่อช้อปต่างประเทศหรือช้อปออนไลน์เป็นสกุลเงินต่างประเทศผ่านบัตรเครดิต KTC เมื่อช้อปต่างประเทศหรือช้อปออนไลน์เป็นสกุลเงินต่างประเทศผ่านบัตรเครดิต KTC</p>
+            </div>
+          </a>
+        </div>
+        <script type="text/javascript">
+        $(document).ready(function() {
+          $('.index-slide2').owlCarousel({
+              loop:true,
+              responsiveClass:true,
+              responsive:{
+                  0:{
+                      items:1,
+                      nav:true,
+                      margin:12
+                  },
+                  576:{
+                      items:2,
+                      nav:true,
+                      margin:12
+                  },
+                  1000:{
+                      items:3,
+                      nav:true,
+                      loop:true,
+                      margin:12
+                  }
+              }
+            });
+          });
+        </script>
+      </div>
+      <!-- END ROW 1 -->
+      <!-- Start ROW 2 -->
+      <div class="content-wrap slide-padd">
+        <div class="text-on-slide no-subtitle row">
+          <div class="col-9 col-lg-10"><h3 class="index-head"><a href="article-category.html">Shopping</a></h3></div>
+          <a class="col-3 col-lg-2 ml-auto view-all" href="article-category.html">ดูทั้งหมด</a>
+        </div>
+      </div>
+    <div class="content-wrap slide-wrap">
+      <div class="index-slide2">
+          <a class="item" href="article-detail.html">
+            <img src="img/article/img-article-4.jpg">
+            <div class="slide-content-wrap">
+              <p class="slide-title">เที่ยวนอก เที่ยวไหน ก็เที่ยวได้ถูกกว่า เที่ยวนอก เที่ยวไหน ก็เที่ยวได้ถูกกว่า</p>
+              <p class="slide-content">เมื่อช้อปต่างประเทศหรือช้อปออนไลน์เป็นสกุลเงินต่างประเทศผ่านบัตรเครดิต KTC เมื่อช้อปต่างประเทศหรือช้อปออนไลน์เป็นสกุลเงินต่างประเทศผ่านบัตรเครดิต KTC</p>
+            </div>
+          </a>
+          <a class="item" href="article-detail.html">
+            <img src="img/article/img-article-5.jpg">
+            <div class="slide-content-wrap">
+              <p class="slide-title">เที่ยวนอก เที่ยวไหน ก็เที่ยวได้ถูกกว่า เที่ยวนอก เที่ยวไหน ก็เที่ยวได้ถูกกว่า</p>
+              <p class="slide-content">เมื่อช้อปต่างประเทศหรือช้อปออนไลน์เป็นสกุลเงินต่างประเทศผ่านบัตรเครดิต KTC เมื่อช้อปต่างประเทศหรือช้อปออนไลน์เป็นสกุลเงินต่างประเทศผ่านบัตรเครดิต KTC</p>
+            </div>
+          </a>
+          <a class="item" href="article-detail.html">
+            <img src="img/article/img-article-6.jpg">
+            <div class="slide-content-wrap">
+              <p class="slide-title">เที่ยวนอก เที่ยวไหน ก็เที่ยวได้ถูกกว่า เที่ยวนอก เที่ยวไหน ก็เที่ยวได้ถูกกว่า</p>
+              <p class="slide-content">เมื่อช้อปต่างประเทศหรือช้อปออนไลน์เป็นสกุลเงินต่างประเทศผ่านบัตรเครดิต KTC เมื่อช้อปต่างประเทศหรือช้อปออนไลน์เป็นสกุลเงินต่างประเทศผ่านบัตรเครดิต KTC</p>
+            </div>
+          </a>
+          <a class="item" href="article-detail.html">
+            <img src="img/article/img-article-4.jpg">
+            <div class="slide-content-wrap">
+              <p class="slide-title">เที่ยวนอก เที่ยวไหน ก็เที่ยวได้ถูกกว่า เที่ยวนอก เที่ยวไหน ก็เที่ยวได้ถูกกว่า</p>
+              <p class="slide-content">เมื่อช้อปต่างประเทศหรือช้อปออนไลน์เป็นสกุลเงินต่างประเทศผ่านบัตรเครดิต KTC เมื่อช้อปต่างประเทศหรือช้อปออนไลน์เป็นสกุลเงินต่างประเทศผ่านบัตรเครดิต KTC</p>
+            </div>
+          </a>
+          <a class="item" href="article-detail.html">
+            <img src="img/article/img-article-5.jpg">
+            <div class="slide-content-wrap">
+              <p class="slide-title">เที่ยวนอก เที่ยวไหน ก็เที่ยวได้ถูกกว่า เที่ยวนอก เที่ยวไหน ก็เที่ยวได้ถูกกว่า</p>
+              <p class="slide-content">เมื่อช้อปต่างประเทศหรือช้อปออนไลน์เป็นสกุลเงินต่างประเทศผ่านบัตรเครดิต KTC เมื่อช้อปต่างประเทศหรือช้อปออนไลน์เป็นสกุลเงินต่างประเทศผ่านบัตรเครดิต KTC</p>
+            </div>
+          </a>
+          <a class="item" href="article-detail.html">
+            <img src="img/article/img-article-6.jpg">
+            <div class="slide-content-wrap">
+              <p class="slide-title">เที่ยวนอก เที่ยวไหน ก็เที่ยวได้ถูกกว่า เที่ยวนอก เที่ยวไหน ก็เที่ยวได้ถูกกว่า</p>
+              <p class="slide-content">เมื่อช้อปต่างประเทศหรือช้อปออนไลน์เป็นสกุลเงินต่างประเทศผ่านบัตรเครดิต KTC เมื่อช้อปต่างประเทศหรือช้อปออนไลน์เป็นสกุลเงินต่างประเทศผ่านบัตรเครดิต KTC</p>
+            </div>
+          </a>
+        </div>
+    </div>
+    <!-- END ROW 2 -->
+    <!-- Start ROW 3 -->
+      <div class="content-wrap slide-padd">
+        <div class="text-on-slide no-subtitle row">
+          <div class="col-9 col-lg-10"><h3 class="index-head"><a href="article-category.html">Dining</a></h3></div>
+          <a class="col-3 col-lg-2 ml-auto view-all" href="article-category.html">ดูทั้งหมด</a>
+        </div>
+      </div>
+    <div class="content-wrap slide-wrap">
+      <div class="index-slide2">
+          <a class="item" href="article-detail.html">
+            <img src="img/article/img-article-7.jpg">
+            <div class="slide-content-wrap">
+              <p class="slide-title">เที่ยวนอก เที่ยวไหน ก็เที่ยวได้ถูกกว่า เที่ยวนอก เที่ยวไหน ก็เที่ยวได้ถูกกว่า</p>
+              <p class="slide-content">เมื่อช้อปต่างประเทศหรือช้อปออนไลน์เป็นสกุลเงินต่างประเทศผ่านบัตรเครดิต KTC เมื่อช้อปต่างประเทศหรือช้อปออนไลน์เป็นสกุลเงินต่างประเทศผ่านบัตรเครดิต KTC</p>
+            </div>
+          </a>
+          <a class="item" href="article-detail.html">
+            <img src="img/article/img-article-8.jpg">
+            <div class="slide-content-wrap">
+              <p class="slide-title">เที่ยวนอก เที่ยวไหน ก็เที่ยวได้ถูกกว่า เที่ยวนอก เที่ยวไหน ก็เที่ยวได้ถูกกว่า</p>
+              <p class="slide-content">เมื่อช้อปต่างประเทศหรือช้อปออนไลน์เป็นสกุลเงินต่างประเทศผ่านบัตรเครดิต KTC เมื่อช้อปต่างประเทศหรือช้อปออนไลน์เป็นสกุลเงินต่างประเทศผ่านบัตรเครดิต KTC</p>
+            </div>
+          </a>
+          <a class="item" href="article-detail.html">
+            <img src="img/article/img-article-9.jpg">
+            <div class="slide-content-wrap">
+              <p class="slide-title">เที่ยวนอก เที่ยวไหน ก็เที่ยวได้ถูกกว่า เที่ยวนอก เที่ยวไหน ก็เที่ยวได้ถูกกว่า</p>
+              <p class="slide-content">เมื่อช้อปต่างประเทศหรือช้อปออนไลน์เป็นสกุลเงินต่างประเทศผ่านบัตรเครดิต KTC เมื่อช้อปต่างประเทศหรือช้อปออนไลน์เป็นสกุลเงินต่างประเทศผ่านบัตรเครดิต KTC</p>
+            </div>
+          </a>
+          <a class="item" href="article-detail.html">
+            <img src="img/article/img-article-7.jpg">
+            <div class="slide-content-wrap">
+              <p class="slide-title">เที่ยวนอก เที่ยวไหน ก็เที่ยวได้ถูกกว่า เที่ยวนอก เที่ยวไหน ก็เที่ยวได้ถูกกว่า</p>
+              <p class="slide-content">เมื่อช้อปต่างประเทศหรือช้อปออนไลน์เป็นสกุลเงินต่างประเทศผ่านบัตรเครดิต KTC เมื่อช้อปต่างประเทศหรือช้อปออนไลน์เป็นสกุลเงินต่างประเทศผ่านบัตรเครดิต KTC</p>
+            </div>
+          </a>
+          <a class="item" href="article-detail.html">
+            <img src="img/article/img-article-8.jpg">
+            <div class="slide-content-wrap">
+              <p class="slide-title">เที่ยวนอก เที่ยวไหน ก็เที่ยวได้ถูกกว่า เที่ยวนอก เที่ยวไหน ก็เที่ยวได้ถูกกว่า</p>
+              <p class="slide-content">เมื่อช้อปต่างประเทศหรือช้อปออนไลน์เป็นสกุลเงินต่างประเทศผ่านบัตรเครดิต KTC เมื่อช้อปต่างประเทศหรือช้อปออนไลน์เป็นสกุลเงินต่างประเทศผ่านบัตรเครดิต KTC</p>
+            </div>
+          </a>
+          <a class="item" href="article-detail.html">
+            <img src="img/article/img-article-9.jpg">
+            <div class="slide-content-wrap">
+              <p class="slide-title">เที่ยวนอก เที่ยวไหน ก็เที่ยวได้ถูกกว่า เที่ยวนอก เที่ยวไหน ก็เที่ยวได้ถูกกว่า</p>
+              <p class="slide-content">เมื่อช้อปต่างประเทศหรือช้อปออนไลน์เป็นสกุลเงินต่างประเทศผ่านบัตรเครดิต KTC เมื่อช้อปต่างประเทศหรือช้อปออนไลน์เป็นสกุลเงินต่างประเทศผ่านบัตรเครดิต KTC</p>
+            </div>
+          </a>
+        </div>
+    </div>
+    <!-- END ROW 3 -->
+    <!-- Start ROW 4 -->
+      <div class="content-wrap slide-padd">
+        <div class="text-on-slide no-subtitle row">
+          <div class="col-9 col-lg-10"><h3 class="index-head"><a href="article-category.html">Lifestyle</a></h3></div>
+          <a class="col-3 col-lg-2 ml-auto view-all" href="article-category.html">ดูทั้งหมด</a>
+        </div>
+      </div>
+    <div class="content-wrap slide-wrap">
+      <div class="index-slide2">
+          <a class="item" href="article-detail.html">
+            <img src="img/article/img-article-10.jpg">
+            <div class="slide-content-wrap">
+              <p class="slide-title">เที่ยวนอก เที่ยวไหน ก็เที่ยวได้ถูกกว่า เที่ยวนอก เที่ยวไหน ก็เที่ยวได้ถูกกว่า</p>
+              <p class="slide-content">เมื่อช้อปต่างประเทศหรือช้อปออนไลน์เป็นสกุลเงินต่างประเทศผ่านบัตรเครดิต KTC เมื่อช้อปต่างประเทศหรือช้อปออนไลน์เป็นสกุลเงินต่างประเทศผ่านบัตรเครดิต KTC</p>
+            </div>
+          </a>
+          <a class="item" href="article-detail.html">
+            <img src="img/article/img-article-11.jpg">
+            <div class="slide-content-wrap">
+              <p class="slide-title">เที่ยวนอก เที่ยวไหน ก็เที่ยวได้ถูกกว่า เที่ยวนอก เที่ยวไหน ก็เที่ยวได้ถูกกว่า</p>
+              <p class="slide-content">เมื่อช้อปต่างประเทศหรือช้อปออนไลน์เป็นสกุลเงินต่างประเทศผ่านบัตรเครดิต KTC เมื่อช้อปต่างประเทศหรือช้อปออนไลน์เป็นสกุลเงินต่างประเทศผ่านบัตรเครดิต KTC</p>
+            </div>
+          </a>
+          <a class="item" href="article-detail.html">
+            <img src="img/article/img-article-12.jpg">
+            <div class="slide-content-wrap">
+              <p class="slide-title">เที่ยวนอก เที่ยวไหน ก็เที่ยวได้ถูกกว่า เที่ยวนอก เที่ยวไหน ก็เที่ยวได้ถูกกว่า</p>
+              <p class="slide-content">เมื่อช้อปต่างประเทศหรือช้อปออนไลน์เป็นสกุลเงินต่างประเทศผ่านบัตรเครดิต KTC เมื่อช้อปต่างประเทศหรือช้อปออนไลน์เป็นสกุลเงินต่างประเทศผ่านบัตรเครดิต KTC</p>
+            </div>
+          </a>
+          <a class="item" href="article-detail.html">
+            <img src="img/article/img-article-10.jpg">
+            <div class="slide-content-wrap">
+              <p class="slide-title">เที่ยวนอก เที่ยวไหน ก็เที่ยวได้ถูกกว่า เที่ยวนอก เที่ยวไหน ก็เที่ยวได้ถูกกว่า</p>
+              <p class="slide-content">เมื่อช้อปต่างประเทศหรือช้อปออนไลน์เป็นสกุลเงินต่างประเทศผ่านบัตรเครดิต KTC เมื่อช้อปต่างประเทศหรือช้อปออนไลน์เป็นสกุลเงินต่างประเทศผ่านบัตรเครดิต KTC</p>
+            </div>
+          </a>
+          <a class="item" href="article-detail.html">
+            <img src="img/article/img-article-11.jpg">
+            <div class="slide-content-wrap">
+              <p class="slide-title">เที่ยวนอก เที่ยวไหน ก็เที่ยวได้ถูกกว่า เที่ยวนอก เที่ยวไหน ก็เที่ยวได้ถูกกว่า</p>
+              <p class="slide-content">เมื่อช้อปต่างประเทศหรือช้อปออนไลน์เป็นสกุลเงินต่างประเทศผ่านบัตรเครดิต KTC เมื่อช้อปต่างประเทศหรือช้อปออนไลน์เป็นสกุลเงินต่างประเทศผ่านบัตรเครดิต KTC</p>
+            </div>
+          </a>
+          <a class="item" href="article-detail.html">
+            <img src="img/article/img-article-12.jpg">
+            <div class="slide-content-wrap">
+              <p class="slide-title">เที่ยวนอก เที่ยวไหน ก็เที่ยวได้ถูกกว่า เที่ยวนอก เที่ยวไหน ก็เที่ยวได้ถูกกว่า</p>
+              <p class="slide-content">เมื่อช้อปต่างประเทศหรือช้อปออนไลน์เป็นสกุลเงินต่างประเทศผ่านบัตรเครดิต KTC เมื่อช้อปต่างประเทศหรือช้อปออนไลน์เป็นสกุลเงินต่างประเทศผ่านบัตรเครดิต KTC</p>
+            </div>
+          </a>
+        </div>
+    </div>
+    <!-- END ROW 4 -->
+    <!-- Start ROW 5 -->
+      <div class="content-wrap slide-padd">
+        <div class="text-on-slide no-subtitle row">
+          <div class="col-9 col-lg-10"><h3 class="index-head"><a href="article-category.html">Knowledge</a></h3></div>
+          <a class="col-3 col-lg-2 ml-auto view-all" href="article-category.html">ดูทั้งหมด</a>
+        </div>
+      </div>
+    <div class="content-wrap slide-wrap">
+      <div class="index-slide2">
+          <a class="item" href="article-detail.html">
+            <img src="img/article/img-article-13.jpg">
+            <div class="slide-content-wrap">
+              <p class="slide-title">เที่ยวนอก เที่ยวไหน ก็เที่ยวได้ถูกกว่า เที่ยวนอก เที่ยวไหน ก็เที่ยวได้ถูกกว่า</p>
+              <p class="slide-content">เมื่อช้อปต่างประเทศหรือช้อปออนไลน์เป็นสกุลเงินต่างประเทศผ่านบัตรเครดิต KTC เมื่อช้อปต่างประเทศหรือช้อปออนไลน์เป็นสกุลเงินต่างประเทศผ่านบัตรเครดิต KTC</p>
+            </div>
+          </a>
+          <a class="item" href="article-detail.html">
+            <img src="img/article/img-article-14.jpg">
+            <div class="slide-content-wrap">
+              <p class="slide-title">เที่ยวนอก เที่ยวไหน ก็เที่ยวได้ถูกกว่า เที่ยวนอก เที่ยวไหน ก็เที่ยวได้ถูกกว่า</p>
+              <p class="slide-content">เมื่อช้อปต่างประเทศหรือช้อปออนไลน์เป็นสกุลเงินต่างประเทศผ่านบัตรเครดิต KTC เมื่อช้อปต่างประเทศหรือช้อปออนไลน์เป็นสกุลเงินต่างประเทศผ่านบัตรเครดิต KTC</p>
+            </div>
+          </a>
+          <a class="item" href="article-detail.html">
+            <img src="img/article/img-article-15.jpg">
+            <div class="slide-content-wrap">
+              <p class="slide-title">เที่ยวนอก เที่ยวไหน ก็เที่ยวได้ถูกกว่า เที่ยวนอก เที่ยวไหน ก็เที่ยวได้ถูกกว่า</p>
+              <p class="slide-content">เมื่อช้อปต่างประเทศหรือช้อปออนไลน์เป็นสกุลเงินต่างประเทศผ่านบัตรเครดิต KTC เมื่อช้อปต่างประเทศหรือช้อปออนไลน์เป็นสกุลเงินต่างประเทศผ่านบัตรเครดิต KTC</p>
+            </div>
+          </a>
+          <a class="item" href="article-detail.html">
+            <img src="img/article/img-article-13.jpg">
+            <div class="slide-content-wrap">
+              <p class="slide-title">เที่ยวนอก เที่ยวไหน ก็เที่ยวได้ถูกกว่า เที่ยวนอก เที่ยวไหน ก็เที่ยวได้ถูกกว่า</p>
+              <p class="slide-content">เมื่อช้อปต่างประเทศหรือช้อปออนไลน์เป็นสกุลเงินต่างประเทศผ่านบัตรเครดิต KTC เมื่อช้อปต่างประเทศหรือช้อปออนไลน์เป็นสกุลเงินต่างประเทศผ่านบัตรเครดิต KTC</p>
+            </div>
+          </a>
+          <a class="item" href="article-detail.html">
+            <img src="img/article/img-article-14.jpg">
+            <div class="slide-content-wrap">
+              <p class="slide-title">เที่ยวนอก เที่ยวไหน ก็เที่ยวได้ถูกกว่า เที่ยวนอก เที่ยวไหน ก็เที่ยวได้ถูกกว่า</p>
+              <p class="slide-content">เมื่อช้อปต่างประเทศหรือช้อปออนไลน์เป็นสกุลเงินต่างประเทศผ่านบัตรเครดิต KTC เมื่อช้อปต่างประเทศหรือช้อปออนไลน์เป็นสกุลเงินต่างประเทศผ่านบัตรเครดิต KTC</p>
+            </div>
+          </a>
+          <a class="item" href="article-detail.html">
+            <img src="img/article/img-article-15.jpg">
+            <div class="slide-content-wrap">
+              <p class="slide-title">เที่ยวนอก เที่ยวไหน ก็เที่ยวได้ถูกกว่า เที่ยวนอก เที่ยวไหน ก็เที่ยวได้ถูกกว่า</p>
+              <p class="slide-content">เมื่อช้อปต่างประเทศหรือช้อปออนไลน์เป็นสกุลเงินต่างประเทศผ่านบัตรเครดิต KTC เมื่อช้อปต่างประเทศหรือช้อปออนไลน์เป็นสกุลเงินต่างประเทศผ่านบัตรเครดิต KTC</p>
+            </div>
+          </a>
+        </div>
+    <!-- END ROW 5 -->
+    <div class="space-of-the-end"></div>
+    </div>
+    <!-- END WRAPPER -->
+
+  <!-- end page -->
+
+  <!-- start Footer -->
+
+  <div class="footer">
+    <div id="foot-trigger"></div>
+    <div class="content-wrap">
+      <div class="row">
+        <div class="col-sm-9 col-lg-10 row footer-menu">
+          <div class="col-lg-3 col-sm-6">
+            <h3>เกี่ยวกับเรา</h3>
+            <ul>
+              <li>
+                <a href="#">วิสัยทัศน์ / พันธกิจ </a>
+              </li>
+              <li>
+                <a href="#">ข้อมูลทั่วไป</a>
+              </li>
+              <li>
+                <a href="#">โครงสร้างการถือหุ้นกลุ่มบริษัท</a>
+              </li>
+              <li>
+                <a href="#">โครงสร้างการถือหุ้น</a>
+              </li>
+              <li>
+                <a href="#">โครงสร้างองค์กร</a>
+              </li>
+              <li>
+                <a href="#">คณะกรรมการ</a>
+              </li>
+              <li>
+                <a href="#">คณะผู้บริหาร</a>
+              </li>
+              <li>
+                <a href="#">เลขานุการบริษัท</a>
+              </li>
+              <li>
+                <a href="#">หัวหน้างานตรวจสอบภายใน</a>
+              </li>
+              <li>
+                <a href="#">ข่าวประชาสัมพันธ์</a>
+              </li>
+              <li>
+                <a href="article.html">บทความ</a>
+              </li>
+              <li>
+                <a href="#">สมัครงาน / ฝึกงาน</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <h3>บริการลูกค้า</h3>
+            <ul>
+              <li>
+                <a href="#">บริการออนไลน์</a>
+              </li>
+              <li>
+                <a href="#">อัตราดอกเบี้ยและค่าธรรมเนียม</a>
+              </li>
+              <li>
+                <a href="#">คำนวณดอกเบี้ย / ค่าธรรมเนียม</a>
+              </li>
+              <li>
+                <a href="#">ช่องทางการชำระเงิน</a>
+              </li>
+              <li>
+                <a href="#">บริการหักค่าใช้จ่ายรายเดือนอัตโนมัติ</a>
+              </li>
+              <li>
+                <a href="#">ดาวน์โหลด</a>
+              </li>
+              <li>
+                <a href="#">ประกาศบริษัท</a>
+              </li>
+              <li>
+                <a href="#">คำถามที่พบบ่อย</a>
+              </li>
+              <li>
+                <a href="#">แผนผังเว็บไซต์</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <h3>กำกับดูแลกิจการ</h3>
+            <ul>
+              <li class="two-line">
+                <a href="#">การควบคุมภายในและการบริหารจัดการความเสี่ยง</a>
+              </li>
+              <li>
+                <a href="#">ความรับผิดชอบต่อสังคม</a>
+              </li>
+              <li class="two-line">
+                <a href="#">ประมวลภาพกิจกรรมการกำกับดูแลกิจการและความรับผิดชอบต่อสังคม</a>
+              </li>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <h3>นักลงทุนสัมพันธ์</h3>
+            <ul>
+              <li>
+                <a href="#">ข้อมูลด้านการเงิน</a>
+              </li>
+              <li>
+                <a href="#">นโยบายการเปิดเผยข้อมูล</a>
+              </li>
+              <li>
+                <a href="#">เอกสารเผยแพร่</a>
+              </li>
+              <li>
+                <a href="#">ข้อมูลผู้ถือหุ้น</a>
+              </li>
+              <li>
+                <a href="#">การประชุมผู้ถือหุ้น</a>
+              </li>
+              <li>
+                <a href="#">ติดต่อนักลงทุนสัมพันธ์</a>
+              </li>
+          </div>
+        </div>
+        <div class="col-sm-3 col-lg-2">
+          <div class="tel">
+            <p class="tel-text">KTC PHONE</p>
+            <span>02 123 5000</span>
+          </div>
+          <img class="footer-badge" src="img/ico-footer-badge.png">
+          <div class="download-section">
+            <p>ดาวน์โหลด</p>
+            <img class="footer-badge tapktc" src="img/ico-download-tapktc.png">
+            <div class="fotter-hollow"></div>
+            <img class="footer-badge" src="img/ico-download-ios.png">
+            <img class="footer-badge" src="img/ico-download-ggplay.png">
+          </div>
+        </div>
+        <div class="col-sm-12 only-mobile">
+          <div class="social-footer">
+            <a href="#"><img src="img/ico-social-facebook.png"></a>
+            <a href="#"><img src="img/ico-social-twitter.png"></a>
+            <a href="#"><img src="img/ico-social-instagram.png"></a>
+            <a href="#"><img src="img/ico-social-line.png"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="content-wrap last-piece">
+      <div class="row">
+        <div class="col-lg-6 license">© 2561 บริษัท บัตรกรุงไทย จำกัด (มหาชน)</div>
+        <div class="col-lg-6 text-right">
+          <div class="social-footer">
+            <a href="#">
+              <img class="on-default" src="img/ico-social-facebook.png">
+              <img class="on-hover" src="img/ico-social-facebook-color.png">
+            </a>
+            <a href="#">
+              <img class="on-default" src="img/ico-social-twitter.png">
+              <img class="on-hover" src="img/ico-social-twitter-color.png">
+            </a>
+            <a href="#">
+              <img class="on-default" src="img/ico-social-instagram.png">
+              <img class="on-hover" src="img/ico-social-instagram-color.png">
+            </a>
+            <a href="#">
+              <img class="on-default" src="img/ico-social-line.png">
+              <img class="on-hover" src="img/ico-social-line-color.png">
+            </a>
+          </div>
+            <a class="lang-footer">
+              <div class="lang-wrap active">
+                <label for="lang-change">Language</label>
+                <p id="lang-change">EN</p>
+              </div>
+              <div class="lang-wrap">
+                <label for="lang2-change">Language</label>
+                <p id="lang2-change">TH</p>
+              </div>
+            </a>
+        </div>
+      </div>
+    </div>
+    <div class="chat ghost-footer"><img src="img/ico-chat.png"><p>Live Chat</p></div>
+    <div class="to-top ghost-footer">↑</div>
+  </div>
+
+  <!-- end Footer -->
+  <!-- start modal -->
+  <div id="card-register-modal" class="modal fade full-modal" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">เลือกผลิตภัณฑ์</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <a href="creditcard.html" class="card-choice">
+            <div class="left-icon">
+              <img src="img/ico-credit.png">
+            </div>
+            <p>บัตรเครดิต</p>
+          </a>
+          <a href="loan-proud.html" class="card-choice">
+            <div class="left-icon">
+              <img src="img/ico-ktcproud.png">
+            </div>
+            <p>บัตรสินเชื่อพร้อมใช้ KTC PROUD</p>
+          </a>
+          <a href="loan-cash.html" class="card-choice">
+            <div class="left-icon">
+              <img src="img/ico-ktccash.png">
+            </div>
+            <p>สินเชื่ออเนกประสงค์ KTC CASH</p>
+          </a>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+    <div id="search-modal" class="modal fade full-modal" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="search-head">
+                <div class="panel-title search-cat-head">
+                  <div class="collapsed" data-toggle="collapse" data-target="#search-cat-wrap" aria-controls="search-cat-wrap">
+                    <img src="img/ico-sort.png"><h4>ตัวกรอง</h4><i class="fa fa-angle-up"></i>
+                  </div>
+                </div>
+              </div>
+              <div id="search-cat-wrap" class="panel-collapse search-cat-wrap collapsed collapse" role="tabpanel" aria-labelledby="search-head" style="height: 0px;">
+                <div class="subcat-wrap">
+                  <input checked="checked" type="checkbox" name="" id="all-cat">
+                  <label for="all-cat">ทั้งหมด</label>
+                  <input type="checkbox" name="" id="credit-cat" class="subcat">
+                  <label for="credit-cat">บัตรเครดิต</label>
+                  <input type="checkbox" name="" id="privill-cat" class="subcat">
+                  <label for="privill-cat">สิทธิพิเศษ</label>
+                  <input type="checkbox" name="" id="article-cat" class="subcat">
+                  <label for="article-cat">บทความ</label>
+                  <input type="checkbox" name="" id="other-cat" class="subcat">
+                  <label for="other-cat">อื่นๆ</label>
+                </div>
+              </div>
+            </div>
+            <form action="search-result.html" class="search-wrap">
+              <img src="img/ico-search-black.png">
+              <div class="search-input-wrap">
+                <input id="search" autocomplete="off" class="input-search" type="text" placeholder="ค้นหาทุกสิ่งใน KTC">
+                <div tabindex="0" id="suggest-box" class="suggess-box">
+                  <div class="suggess-list">
+                    <div class="suggess-img-wrap">
+                      <img src="img/ico-credit.png">
+                    </div>
+                    <p>KTC X VISA SIGNATURE</p>
+                  </div>
+                  <div class="suggess-list">
+                    <div class="suggess-img-wrap">
+                      <img src="img/ico-shopping.png">
+                    </div>
+                    <p>KTC X MASTERCARD</p>
+                  </div>
+                  <div class="suggess-list">
+                    <div class="suggess-img-wrap">
+                      <img src="img/ico-service-custom.png">
+                    </div>
+                    <p>มูลนิธิศิริราช</p>
+                  </div>
+                  <div class="suggess-list">
+                    <div class="suggess-img-wrap">
+                      <img src="img/ico-other.png">
+                    </div>
+                    <p>Early Inactive Q1 2018</p>
+                  </div>
+                </div>
+                <div id="fake-result"></div>
+              </div>
+              <div class="btn-wrap">
+                <button class="button-search">ค้นหา</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="filter-modal" class="modal fade full-modal world-modal" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form class="content-wrap form-wrap form-content">
+              <div class="filter-select-row">
+                <button class="select-all-btn">เลือกทั้งหมด</button>
+                <button class="reset-btn" disabled>ล้างทั้งหมด</button>
+              </div>
+              <div class="topic-select-row">
+                <div class="row">
+                  <div class="col-md-3 checkbox"><input type="checkbox" name="cb-topic" id="cb_t_1"><label for="cb_t_1">ตั๋วเครื่องบิน</label></div>
+                  <div class="col-md-3 checkbox"><input type="checkbox" name="cb-topic" id="cb_t_2"><label for="cb_t_2">แพ็กเกจทัวร์</label></div>
+                  <div class="col-md-3 checkbox"><input type="checkbox" name="cb-topic" id="cb_t_3"><label for="cb_t_3">โรงแรม</label></div>
+                  <div class="col-md-3 checkbox"><input type="checkbox" name="cb-topic" id="cb_t_4"><label for="cb_t_4">ห้องอาหาร</label></div>
+                  <div class="col-md-3 checkbox"><input type="checkbox" name="cb-topic" id="cb_t_5"><label for="cb_t_5">รถเช่าและรถไฟ</label></div>
+                  <div class="col-md-3 checkbox"><input type="checkbox" name="cb-topic" id="cb_t_6"><label for="cb_t_6">บัตรเข้าชม</label></div>
+                  <div class="col-md-3 checkbox"><input type="checkbox" name="cb-topic" id="cb_t_7"><label for="cb_t_7">ประกันภัยการเดินทาง</label></div>
+                  <div class="col-md-3 checkbox"><input type="checkbox" name="cb-topic" id="cb_t_8"><label for="cb_t_8">เว็บไซต์ท่องเที่ยวชั้นนำ</label></div>
+                  <div class="col-md-3 checkbox"><input type="checkbox" name="cb-topic" id="cb_t_9"><label for="cb_t_9">อื่น ๆ</label></div>
+                </div>
+              </div>
+              <div class="card-select-row with-text">
+                <div class="img-checkbox">
+                  <input type="checkbox" name="cb-card" id="cb_c_1"><label for="cb_c_1"><img src="img/promotion/ico-ktc-card.png" /></label>
+                  <span>บัตรเครดิต</span>
+                </div>
+                <div class="img-checkbox">
+                  <input type="checkbox" name="cb-card" id="cb_c_2"><label for="cb_c_2"><img src="img/promotion/ico-ktc-proud.png" /></label>
+                  <span>สินเชื่อพร้อมใช้  KTC PROUD</span>
+                </div>
+                <div class="img-checkbox">
+                  <input type="checkbox" name="cb-card" id="cb_c_3"><label for="cb_c_3"><img src="img/promotion/ico-ktc-forever.png" /></label>
+                  <span>คะแนนสะสม</span>
+                </div>
+                <div class="img-checkbox">
+                  <input type="checkbox" name="cb-card" id="cb_c_4"><label for="cb_c_4"><img src="img/promotion/ico-ktc-flex.png" /></label>
+                  <span>แบ่งชำระ</span>
+                </div>
+              </div>
+              <div class="card-select-row">
+                <div class="img-checkbox">
+                  <input type="checkbox" name="cb-card" id="cb_c_visa"><label for="cb_c_visa"><img src="img/promotion/ico-card-visa.png" /></label>
+                </div>
+                <div class="img-checkbox">
+                  <input type="checkbox" name="cb-card" id="cb_c_master"><label for="cb_c_master"><img src="img/promotion/ico-card-master.png" /></label>
+                </div>
+                <div class="img-checkbox">
+                  <input type="checkbox" name="cb-card" id="cb_c_jcb"><label for="cb_c_jcb"><img src="img/promotion/ico-card-jcb.png" /></label>
+                </div>
+                <div class="img-checkbox">
+                  <input type="checkbox" name="cb-card" id="cb_c_union"><label for="cb_c_union"><img src="img/promotion/ico-card-union.png" /></label>
+                </div>
+              </div>
+              <div class="footer-row">
+                <button class="submit-filter-btn" disabled>ตกลง</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="sort-my-link-modal" class="modal fade full-modal" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="content-wrap">
+              <a class="edit-button" data-dismiss="modal" data-toggle="modal" data-target="#edit-my-link-modal" >แก้ไขลำดับ</a>
+            </div>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="content-wrap">
+              <a href="#" class="all-type-list">
+                <div>
+                  <img src="img/ico-shopping.png">
+                </div>
+                <p>ช็อปปิ้ง</p>
+              </a>
+              <a href="#" class="all-type-list">
+                <div>
+                  <img src="img/ico-shopping.png">
+                </div>
+                <p>ร้านอาหาร</p>
+              </a>
+              <a href="#" class="all-type-list">
+                <div>
+                  <img src="img/ico-shopping.png">
+                </div>
+                <p>โรงแรม รีสอร์ท</p>
+              </a>
+              <a href="#" class="all-type-list">
+                <div>
+                  <img src="img/ico-shopping.png">
+                </div>
+                <p>ท่องเที่ยว</p>
+              </a>
+              <a href="#" class="all-type-list">
+                <div>
+                  <img src="img/ico-shopping.png">
+                </div>
+                <p>ออนไลน์</p>
+              </a>
+              <a href="#" class="all-type-list">
+                <div>
+                  <img src="img/ico-shopping.png">
+                </div>
+                <p>นํ้ามันและรถยนต์</p>
+              </a>
+              <a href="#" class="all-type-list">
+                <div>
+                  <img src="img/ico-shopping.png">
+                </div>
+                <p>โทรศัพท์มือถือและแกดเจ็ต</p>
+              </a>
+              <a href="#" class="all-type-list">
+                <div>
+                  <img src="img/ico-shopping.png">
+                </div>
+                <p>โรงพยาบาล</p>
+              </a>
+              <a href="#" class="all-type-list">
+                <div>
+                  <img src="img/ico-shopping.png">
+                </div>
+                <p>สุขภาพและความงาม</p>
+              </a>
+              <a href="#" class="all-type-list">
+                <div>
+                  <img src="img/ico-shopping.png">
+                </div>
+                <p>กีฬา</p>
+              </a>
+              <a href="#" class="all-type-list">
+                <div>
+                  <img src="img/ico-shopping.png">
+                </div>
+                <p>เครื่องใช้ภายในบ้านและอสังหาริมทรัพย์</p>
+              </a>
+              <a href="#" class="all-type-list">
+                <div>
+                  <img src="img/ico-shopping.png">
+                </div>
+                <p>เฟอร์นิเจอร์และอุปกรณ์แต่งบ้าน</p>
+              </a>
+              <a href="#" class="all-type-list">
+                <div>
+                  <img src="img/ico-shopping.png">
+                </div>
+                <p>งานอดิเรกและบันเทิง</p>
+              </a>
+              <a href="#" class="all-type-list">
+                <div>
+                  <img src="img/ico-shopping.png">
+                </div>
+                <p>สิทธิพิเศษประกันภัย</p>
+              </a>
+              <a href="#" class="all-type-list">
+                <div>
+                  <img src="img/ico-shopping.png">
+                </div>
+                <p>สิทธิพิเศษต่างจังหวัด</p>
+              </a>
+              <a href="#" class="all-type-list">
+                <div>
+                  <img src="img/ico-shopping.png">
+                </div>
+                <p>สิทธิพิเศษต่างประเทศ</p>
+              </a>
+              <a href="#" class="all-type-list">
+                <div>
+                  <img src="img/ico-shopping.png">
+                </div>
+                <p>บริจาค</p>
+              </a>
+              <a href="#" class="all-type-list">
+                <div>
+                  <img src="img/ico-shopping.png">
+                </div>
+                <p>หนังสือและการศึกษา</p>
+              </a>
+              <a href="#" class="all-type-list">
+                <div>
+                  <img src="img/ico-shopping.png">
+                </div>
+                <p>สาธารณูปโภคและการเดินทาง</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div id="edit-my-link-modal" class="modal fade full-modal" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">จัดเรียงหมวดหมู่โปรโมชั่นตามความสนใจ 4 ลำดับ</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="content-wrap">
+              <a class="all-type-list">
+                <div>
+                  <img src="img/ico-shopping.png">
+                  <div class="list-number"></div>
+                </div>
+                <p>ช็อปปิ้ง</p>
+              </a>
+              <a class="all-type-list">
+                <div>
+                  <img src="img/ico-shopping.png">
+                  <div class="list-number"></div>
+                </div>
+                <p>ร้านอาหาร</p>
+              </a>
+              <a class="all-type-list">
+                <div>
+                  <img src="img/ico-shopping.png">
+                  <div class="list-number"></div>
+                </div>
+                <p>โรงแรม รีสอร์ท</p>
+              </a>
+              <a class="all-type-list">
+                <div>
+                  <img src="img/ico-shopping.png">
+                  <div class="list-number"></div>
+                </div>
+                <p>ท่องเที่ยว</p>
+              </a>
+              <a class="all-type-list">
+                <div>
+                  <img src="img/ico-shopping.png">
+                  <div class="list-number"></div>
+                </div>
+                <p>ออนไลน์</p>
+              </a>
+              <a class="all-type-list">
+                <div>
+                  <img src="img/ico-shopping.png">
+                  <div class="list-number"></div>
+                </div>
+                <p>นํ้ามันและรถยนต์</p>
+              </a>
+              <a class="all-type-list">
+                <div>
+                  <img src="img/ico-shopping.png">
+                  <div class="list-number"></div>
+                </div>
+                <p>โทรศัพท์มือถือและแกดเจ็ต</p>
+              </a>
+              <a class="all-type-list">
+                <div>
+                  <img src="img/ico-shopping.png">
+                  <div class="list-number"></div>
+                </div>
+                <p>โรงพยาบาล</p>
+              </a>
+              <a class="all-type-list">
+                <div>
+                  <img src="img/ico-shopping.png">
+                  <div class="list-number"></div>
+                </div>
+                <p>สุขภาพและความงาม</p>
+              </a>
+              <a class="all-type-list">
+                <div>
+                  <img src="img/ico-shopping.png">
+                  <div class="list-number"></div>
+                </div>
+                <p>กีฬา</p>
+              </a>
+              <a class="all-type-list">
+                <div>
+                  <img src="img/ico-shopping.png">
+                  <div class="list-number"></div>
+                </div>
+                <p>เครื่องใช้ภายในบ้านและอสังหาริมทรัพย์</p>
+              </a>
+              <a class="all-type-list">
+                <div>
+                  <img src="img/ico-shopping.png">
+                  <div class="list-number"></div>
+                </div>
+                <p>เฟอร์นิเจอร์และอุปกรณ์แต่งบ้าน</p>
+              </a>
+              <a class="all-type-list">
+                <div>
+                  <img src="img/ico-shopping.png">
+                  <div class="list-number"></div>
+                </div>
+                <p>งานอดิเรกและบันเทิง</p>
+              </a>
+              <a class="all-type-list">
+                <div>
+                  <img src="img/ico-shopping.png">
+                  <div class="list-number"></div>
+                </div>
+                <p>สิทธิพิเศษประกันภัย</p>
+              </a>
+              <a class="all-type-list">
+                <div>
+                  <img src="img/ico-shopping.png">
+                  <div class="list-number"></div>
+                </div>
+                <p>สิทธิพิเศษต่างจังหวัด</p>
+              </a>
+              <a class="all-type-list">
+                <div>
+                  <img src="img/ico-shopping.png">
+                  <div class="list-number"></div>
+                </div>
+                <p>สิทธิพิเศษต่างประเทศ</p>
+              </a>
+              <a class="all-type-list">
+                <div>
+                  <img src="img/ico-shopping.png">
+                  <div class="list-number"></div>
+                </div>
+                <p>บริจาค</p>
+              </a>
+              <a class="all-type-list">
+                <div>
+                  <img src="img/ico-shopping.png">
+                  <div class="list-number"></div>
+                </div>
+                <p>หนังสือและการศึกษา</p>
+              </a>
+              <a class="all-type-list">
+                <div>
+                  <img src="img/ico-shopping.png">
+                  <div class="list-number"></div>
+                </div>
+                <p>สาธารณูปโภคและการเดินทาง</p>
+              </a>
+
+              <div class="btn-wrap">
+                <button class="cancel-btn" data-dismiss="modal" data-toggle="modal" data-target="#sort-my-link-modal" >ยกเลิก</button>
+                <button class="submit-btn" data-dismiss="modal" disabled>ตกลง</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <script type="text/javascript">
+    $(document).ready(function() {
+      $('.index-slide1').owlCarousel({
+        loop:true,
+        items:1,
+        nav:true,
+        margin:12
+      });
+
+      $('.index-slide2-normal').owlCarousel({
+        loop:true,
+        dots:false,
+        responsiveClass:true,
+        responsive:{
+          0:{
+              items:2,
+              nav:true,
+              margin:12
+          },
+          576:{
+              items:2,
+              nav:true,
+              margin:26
+          },
+          1000:{
+              items:4,
+              nav:true,
+              margin:26
+          }
+        }
+      });
+
+      $('.index-slide2-mobile').owlCarousel({
+        dots:false,
+        responsiveClass:true,
+        responsive:{
+          0:{
+              items:2,
+              nav:true,
+              loop:true,
+              mouseDrag: true,
+              margin:12
+          },
+          576:{
+              items:2,
+              nav:true,
+              loop:true,
+              mouseDrag: true,
+              margin:26
+          },
+          1000:{
+              items:4,
+              nav:false,
+              loop:false,
+              mouseDrag: false,
+              margin:26
+          }
+        }
+      });
+
+      $('.slide-title').dotdotdot();
+      $('.slide-content').dotdotdot();
+
+    });
+    </script>
+  </body>
+</html>

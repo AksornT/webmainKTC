@@ -1,0 +1,1119 @@
+/* Merchant Page - @korstudio */
+.sub-sticky {
+  /* global sticky styles */
+}
+.sub-sticky .sticky-left li.nav-back {
+  margin-right: 20px;
+}
+.sub-sticky .sticky-left li.nav-back a {
+  position: relative;
+  margin-left: -20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  left: 0;
+}
+.sub-sticky .sticky-left li.nav-back a:hover {
+  left: -5px;
+}
+.sub-sticky .sticky-left li.active a {
+  color: #CF3339;
+  pointer-events: none;
+  cursor: pointer;
+}
+.sub-sticky .dropdown {
+  display: inline-block;
+  margin-right: 20px;
+}
+.sub-sticky .dropdown .btn.focus, .sub-sticky .dropdown .btn:focus {
+  box-shadow: none;
+}
+.sub-sticky .dropdown .dropdown-menu {
+  display: block;
+  padding: 0;
+  min-width: 300px;
+  top: 50px;
+  border: none;
+  border-radius: 0;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  pointer-events: none;
+  cursor: default;
+}
+.sub-sticky .dropdown .dropdown-item {
+  position: relative;
+  padding: 15px 20px;
+  font-family: "Conv_SukhumvitTadmai_Tex", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+}
+.sub-sticky .dropdown .dropdown-item::after {
+  content: '';
+  position: absolute;
+  display: block;
+  margin-top: 10px;
+  left: 20px;
+  right: 20px;
+  bottom: 0;
+  height: 1px;
+  background: #F5F6F6;
+}
+.sub-sticky .dropdown .dropdown-item:last-child::after {
+  display: none;
+}
+.sub-sticky .dropdown .dropdown-item.active, .sub-sticky .dropdown .dropdown-item:active {
+  color: #045AA7;
+  background-color: transparent;
+}
+.sub-sticky .dropdown.open .dropdown-menu {
+  display: block;
+  opacity: 1;
+  pointer-events: all;
+  cursor: pointer;
+}
+.sub-sticky .dropdown.open .dropdown-toggle::after {
+  transform: rotate(-180deg);
+}
+@media (max-width: 991px) {
+  .sub-sticky .dropdown {
+    display: none;
+  }
+}
+.sub-sticky .dropdown-toggle {
+  font-family: "Conv_SukhumvitTadmai_Tex", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  background-color: transparent;
+}
+.sub-sticky .dropdown-toggle::after {
+  content: "\f107";
+  width: auto;
+  height: auto;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  border: none;
+  vertical-align: baseline;
+}
+
+#nav-sticky-merchant .sticky-left li.active a {
+  color: #045AA7;
+}
+#nav-sticky-merchant .sticky-left li a:hover {
+  color: #045AA7;
+}
+
+article#page-merchant-content section {
+  border-bottom: none;
+}
+article#page-merchant-content h3::after, article#page-merchant-content h4::after {
+  background-color: #045AA7;
+}
+
+.btn.button-shop-register {
+  position: relative;
+  padding: 5px 30px;
+  top: 0;
+  font-family: "Conv_SukhumvitTadmai_Bol", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  color: #ffffff;
+  background: #045AA7;
+  border-radius: 6px;
+  text-decoration: none;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+.btn.button-shop-register:hover {
+  top: -3px;
+  -webkit-box-shadow: 0 1px 13px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 1px 13px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 13px rgba(0, 0, 0, 0.2);
+}
+.btn.button-shop-register.nav-center-v {
+  padding: 10px 15px;
+  margin: 18px 0 18px 20px;
+  display: inline-block;
+  min-width: 0;
+}
+.btn.button-shop-register.invert {
+  color: #045AA7;
+  background-color: #ffffff;
+  border-color: #045AA7;
+}
+
+.page-merchant-header {
+  display: flex;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  min-height: 500px;
+  align-items: center;
+  background: #ffffff url("../img/img-merchant-header.jpg") no-repeat center;
+  background-size: cover;
+  font-family: "Conv_SukhumvitTadmai_Tex", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+.page-merchant-header h1 {
+  font-size: 40px;
+  line-height: 1.5;
+}
+.page-merchant-header h1 small {
+  display: block;
+  font-family: "Conv_SukhumvitTadmai_Thi", Helvetica, Arial, sans-serif;
+  font-size: 28px;
+}
+.page-merchant-header .btn.button-shop-register {
+  margin-top: 30px;
+}
+@media (max-width: 991px) {
+  .page-merchant-header {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    min-height: auto;
+  }
+  .page-merchant-header h1 {
+    font-size: 3.2vw;
+  }
+  .page-merchant-header h1 small {
+    font-size: 0.64em;
+  }
+  .page-merchant-header .btn.button-shop-register {
+    font-size: 14px;
+  }
+}
+@media (max-width: 576px) {
+  .page-merchant-header {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  .page-merchant-header h1 {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 991px) {
+  section#section-merchant-card-type h4 {
+    font-size: 20px;
+  }
+}
+section#section-merchant-card-type .row:first-child {
+  margin-bottom: 30px;
+}
+section#section-merchant-card-type .list-card-vendors {
+  display: flex;
+  margin: 30px auto;
+  width: 45vw;
+  justify-content: space-around;
+  align-items: center;
+}
+section#section-merchant-card-type .list-card-vendors li {
+  padding: 20px 0;
+}
+@media (max-width: 991px) {
+  section#section-merchant-card-type .list-card-vendors {
+    width: 300px;
+  }
+  section#section-merchant-card-type .list-card-vendors li {
+    padding: 20px 10px;
+  }
+}
+section#section-merchant-card-type .list-payment-services {
+  display: flex;
+  margin-top: 60px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+section#section-merchant-card-type .list-payment-services .item-payment-service {
+  padding: 0 20px;
+  width: 20%;
+  text-align: center;
+}
+section#section-merchant-card-type .list-payment-services .item-payment-service h5 {
+  font-family: "Conv_SukhumvitTadmai_Tex", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.4;
+}
+section#section-merchant-card-type .list-payment-services .item-payment-service p {
+  margin-top: 5px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+@media (max-width: 991px) {
+  section#section-merchant-card-type .list-payment-services .item-payment-service {
+    /* TABLET */
+    margin-top: 20px;
+    padding: 0 12px;
+    width: 50%;
+  }
+  section#section-merchant-card-type .list-payment-services .item-payment-service:last-child {
+    width: 100%;
+  }
+  section#section-merchant-card-type .list-payment-services .item-payment-service h5 {
+    font-size: 14px;
+  }
+  section#section-merchant-card-type .list-payment-services .item-payment-service p {
+    font-size: 14px;
+  }
+}
+
+section#section-merchant-options *[class*="col"] {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  border-right: 1px solid #E7E8EA;
+}
+section#section-merchant-options *[class*="col"]:last-child {
+  border-right: none;
+}
+@media (max-width: 991px) {
+  section#section-merchant-options *[class*="col"] {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-right: none;
+    border-bottom: 1px solid #E7E8EA;
+  }
+  section#section-merchant-options *[class*="col"]:last-child {
+    border-bottom: none;
+  }
+}
+section#section-merchant-options p {
+  font-family: "Conv_SukhumvitTadmai_Tex", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+section#section-merchant-options p.small {
+  font-family: "Conv_SukhumvitTadmai_Thi", Helvetica, Arial, sans-serif;
+}
+@media (max-width: 991px) {
+  section#section-merchant-options p {
+    font-size: 20px;
+  }
+  section#section-merchant-options p.small {
+    font-size: 14px;
+  }
+}
+section#section-merchant-options a {
+  color: #045AA7;
+  text-decoration: underline;
+}
+section#section-merchant-options .content-alipay {
+  text-align: center;
+  justify-content: center;
+}
+section#section-merchant-options .content-alipay p {
+  font-size: 20px;
+}
+@media (max-width: 991px) {
+  section#section-merchant-options .content-alipay {
+    padding-top: 0;
+    padding-bottom: 30px;
+  }
+}
+section#section-merchant-options .content-flexi > *:last-child {
+  margin-bottom: 0;
+}
+section#section-merchant-options .content-flexi img {
+  margin-bottom: 20px;
+}
+@media (max-width: 991px) {
+  section#section-merchant-options .content-flexi img.auto-width-mobile {
+    width: 20vw;
+    max-width: 120px;
+  }
+}
+section#section-merchant-options .content-forever img {
+  margin-bottom: 20px;
+}
+section#section-merchant-options .content-forever img.img-forever-1000 {
+  margin-top: 30px;
+}
+section#section-merchant-options .content-forever p.small {
+  margin-top: auto;
+}
+@media (max-width: 991px) {
+  section#section-merchant-options .content-forever {
+    padding-bottom: 0;
+  }
+}
+
+@media (max-width: 991px) {
+  section#section-merchant-register-form h4 {
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+}
+section#section-merchant-register-form .form-row {
+  margin-top: 50px;
+}
+section#section-merchant-register-form .form-row.form-wrap {
+  margin-top: 0;
+}
+section#section-merchant-register-form .form-row.form-wrap input[type="text"]:focus + label,
+section#section-merchant-register-form .form-row.form-wrap input[type="text"].hasText:focus + label {
+  color: #045AA7;
+}
+section#section-merchant-register-form .form-row .form-col.left {
+  padding-right: 45px;
+}
+section#section-merchant-register-form .form-row .form-col.left label {
+  left: 5px;
+}
+section#section-merchant-register-form .form-row .form-col.right {
+  padding-left: 45px;
+}
+section#section-merchant-register-form .form-row .form-col.right label {
+  left: 45px;
+}
+@media (max-width: 991px) {
+  section#section-merchant-register-form .form-row .form-col.left {
+    padding-left: 5px;
+    padding-right: 15px;
+  }
+  section#section-merchant-register-form .form-row .form-col.left label {
+    left: 5px;
+  }
+  section#section-merchant-register-form .form-row .form-col.right {
+    padding-left: 15px;
+    padding-right: 5px;
+  }
+  section#section-merchant-register-form .form-row .form-col.right label {
+    left: 15px;
+  }
+}
+@media (max-width: 576px) {
+  section#section-merchant-register-form .form-row .form-col.left, section#section-merchant-register-form .form-row .form-col.right {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  section#section-merchant-register-form .form-row .form-col.left label, section#section-merchant-register-form .form-row .form-col.right label {
+    left: 5px;
+  }
+}
+section#section-merchant-register-form .form-control:focus {
+  border-color: transparent;
+  box-shadow: none;
+}
+section#section-merchant-register-form input[type="text"].form-control {
+  padding: 3px 0;
+  font-family: "Conv_SukhumvitTadmai_Tex", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-color: rgba(90, 102, 112, 0.4);
+  border-radius: 0;
+}
+section#section-merchant-register-form input[type="text"].form-control:focus {
+  border-color: rgba(90, 102, 112, 0.4);
+  box-shadow: none;
+}
+section#section-merchant-register-form .row-merchant-options h5 {
+  margin-bottom: 15px;
+  font-family: "Conv_SukhumvitTadmai_Tex", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  text-align: center;
+}
+section#section-merchant-register-form .row-merchant-options .custom-checkbox {
+  margin-top: 30px;
+  padding-left: 56px;
+  height: 26px;
+  /* bootstrap override */
+}
+section#section-merchant-register-form .row-merchant-options .custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
+  border-color: #045AA7;
+  background-color: #045AA7;
+}
+section#section-merchant-register-form .row-merchant-options .custom-checkbox .custom-control-input:focus ~ .custom-control-label::before {
+  box-shadow: none;
+}
+section#section-merchant-register-form .row-merchant-options label.custom-control-label {
+  font-family: "Conv_SukhumvitTadmai_Tex", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+section#section-merchant-register-form .row-merchant-options label.custom-control-label::before {
+  top: 0;
+  width: 26px;
+  height: 26px;
+  border: 1px solid #8B939A;
+  background-color: #ffffff;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+section#section-merchant-register-form .row-merchant-options label.custom-control-label::after {
+  top: 0;
+  width: 26px;
+  height: 26px;
+  background-size: 60%;
+}
+@media (max-width: 991px) {
+  section#section-merchant-register-form .row-merchant-options h5 {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+}
+section#section-merchant-register-form #sending-form {
+  background-color: #045AA7;
+}
+section#section-merchant-register-form .row-merchant-download-docs {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  justify-content: space-evenly;
+}
+section#section-merchant-register-form .row-merchant-download-docs .content-col {
+  display: flex;
+  align-items: center;
+}
+section#section-merchant-register-form .row-merchant-download-docs .img-wrap {
+  text-align: center;
+}
+section#section-merchant-register-form .row-merchant-download-docs .btn.button-download-link {
+  text-align: left;
+  font-family: "Conv_SukhumvitTadmai_Tex", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  color: #000000;
+}
+@media (max-width: 991px) {
+  section#section-merchant-register-form .row-merchant-download-docs .btn.button-download-link {
+    font-family: "Conv_SukhumvitTadmai_Thi", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+  }
+  section#section-merchant-register-form .row-merchant-download-docs .img-wrap {
+    width: 80px;
+  }
+  section#section-merchant-register-form .row-merchant-download-docs .img-wrap img {
+    max-width: 60px;
+    max-height: 60px;
+  }
+  section#section-merchant-register-form .row-merchant-download-docs .content-col {
+    flex-basis: 350px;
+    max-width: 350px;
+  }
+}
+
+.contact-ribbon {
+  padding: 17px 15px;
+  background: #045AA7;
+  text-align: center;
+}
+.contact-ribbon .text-contact {
+  font-family: "Conv_SukhumvitTadmai_Tex", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  color: #ffffff;
+}
+.contact-ribbon .text-contact::after {
+  display: none;
+}
+.contact-ribbon .text-contact em {
+  display: inline-block;
+  margin-right: 20px;
+  font-size: 28px;
+}
+.contact-ribbon .text-contact em strong {
+  font-family: "Conv_SukhumvitTadmai_Bol", Helvetica, Arial, sans-serif;
+}
+.contact-ribbon .text-contact img {
+  display: inline-block;
+  margin-left: 50px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+@media (max-width: 991px) {
+  .contact-ribbon .text-contact {
+    font-size: 14px;
+  }
+  .contact-ribbon .text-contact em {
+    font-size: 20px;
+  }
+  .contact-ribbon .text-contact img {
+    margin-left: 20px;
+  }
+}
+@media (max-width: 576px) {
+  .contact-ribbon .text-contact em {
+    display: block;
+    margin-right: 0;
+  }
+  .contact-ribbon .text-contact .tel-wrap {
+    display: block;
+    margin-top: 8px;
+    margin-bottom: 3px;
+  }
+  .contact-ribbon .text-contact img {
+    margin-left: 0;
+  }
+}
+
+#content-merchant-faq {
+  padding-top: 60px;
+}
+@media (max-width: 576px) {
+  #content-merchant-faq {
+    padding-top: 0;
+  }
+}
+
+#faq ol {
+  list-style: decimal;
+  padding-left: 16px;
+}
+
+/* Merchant Page - tablet - @korstudio */
+@media (min-width: 1024px) and (max-width: 1365px) {
+  /* iPad Pro specific fix */
+  #nav-sticky-merchant.sub-sticky {
+    height: 70px;
+  }
+  #nav-sticky-merchant.sub-sticky .dropdown {
+    margin-right: 15px;
+  }
+  #nav-sticky-merchant.sub-sticky .dropdown .dropdown-menu .dropdown-item {
+    font-size: 14px;
+  }
+  #nav-sticky-merchant.sub-sticky .dropdown-toggle {
+    font-size: 14px;
+  }
+  #nav-sticky-merchant.sub-sticky .sticky-left li {
+    margin-right: 20px;
+    font-size: 14px;
+    line-height: 70px;
+  }
+  #nav-sticky-merchant.sub-sticky .sticky-left li.nav-back {
+    margin-right: 10px;
+  }
+  #nav-sticky-merchant.sub-sticky .sticky-right .btn-action {
+    margin: 15px 0 15px 20px;
+    padding: 7px 25px;
+    font-size: 14px;
+  }
+}
+/* Merchant Page - mobile - @korstudio */
+/* Page - Merchant inner pages */
+.page-merchant-inner-header {
+  position: relative;
+  /* all background images will be inserted in HTML for template programming purpose */
+}
+.page-merchant-inner-header .header-big-cover::before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 400px;
+  height: 260px;
+  left: 50%;
+  bottom: -60px;
+  background: #ffffff;
+  border-radius: 16px;
+  transform: translateX(-50%);
+  -webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+.page-merchant-inner-header .header-big-cover img {
+  bottom: -55px;
+}
+.page-merchant-inner-header > .content-wrap::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: #E7E8EA;
+}
+.page-merchant-inner-header h1 {
+  font-size: 35px;
+}
+.page-merchant-inner-header h1.header-title.no-logo {
+  margin-top: 120px;
+  font-family: "Conv_SukhumvitTadmai_Tex", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+  line-height: 42px;
+}
+.page-merchant-inner-header h1 small {
+  display: block;
+  margin-top: 5px;
+  font-family: "Conv_SukhumvitTadmai_Thi", Helvetica, Arial, sans-serif;
+  font-size: 0.8em;
+}
+.page-merchant-inner-header h1 strong {
+  display: block;
+  margin-bottom: 22px;
+  font-family: "Conv_SukhumvitTadmai_Bol", Helvetica, Arial, sans-serif;
+}
+.page-merchant-inner-header h2 {
+  margin-top: 8px;
+  font-family: "Conv_SukhumvitTadmai_Thi", Helvetica, Arial, sans-serif;
+  font-size: 28px;
+  text-align: center;
+  line-height: 1.5;
+}
+.page-merchant-inner-header nav[aria-label="breadcrumb"] {
+  position: absolute;
+  width: 100%;
+  top: 66px;
+  background: rgba(0, 0, 0, 0.4);
+}
+.page-merchant-inner-header nav[aria-label="breadcrumb"] .breadcrumb {
+  margin: 0;
+  padding: 7px 0 10px;
+}
+.page-merchant-inner-header nav[aria-label="breadcrumb"] .breadcrumb-item + .breadcrumb-item::before {
+  color: rgba(255, 255, 255, 0.6);
+}
+.page-merchant-inner-header nav[aria-label="breadcrumb"] .breadcrumb-item a {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.6);
+}
+.page-merchant-inner-header nav[aria-label="breadcrumb"] .breadcrumb-item a:hover {
+  color: #ffffff;
+}
+.page-merchant-inner-header nav[aria-label="breadcrumb"] .breadcrumb-item.active a {
+  color: #ffffff;
+}
+
+article.page-merchant-inner-content section {
+  font-family: "Conv_SukhumvitTadmai_Tex", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  border-bottom: none;
+}
+article.page-merchant-inner-content h3, article.page-merchant-inner-content h4 {
+  font-size: 35px;
+}
+article.page-merchant-inner-content h3::after, article.page-merchant-inner-content h4::after {
+  background-color: #045AA7;
+}
+article.page-merchant-inner-content p, article.page-merchant-inner-content ul > li {
+  line-height: 1.5;
+}
+article.page-merchant-inner-content p a, article.page-merchant-inner-content ul > li a {
+  color: #045AA7;
+  text-decoration: underline;
+}
+article.page-merchant-inner-content section.section-after-header {
+  font-size: 20px;
+  line-height: 1.5;
+}
+article.page-merchant-inner-content section.section-after-header [class*="col"]:first-child {
+  padding-right: 80px;
+  border-right: 1px solid #E7E8EA;
+}
+article.page-merchant-inner-content section.section-after-header [class*="col"]:last-child {
+  padding-left: 80px;
+}
+article.page-merchant-inner-content section.section-after-header h3 {
+  margin-bottom: 20px;
+  font-size: 28px;
+  text-align: left;
+}
+article.page-merchant-inner-content section.section-after-header p, article.page-merchant-inner-content section.section-after-header ul > li {
+  line-height: 1.8;
+}
+article.page-merchant-inner-content section.section-after-header p + h3 {
+  margin-top: 40px;
+}
+article.page-merchant-inner-content section.section-after-header .btn-link.underlined {
+  color: #045AA7;
+}
+article.page-merchant-inner-content .list-card-vendors {
+  display: flex;
+  margin: 20px auto;
+  width: 65%;
+  justify-content: space-around;
+  align-items: center;
+}
+article.page-merchant-inner-content .list-card-vendors li {
+  padding: 10px 0;
+}
+article.page-merchant-inner-content .list-card-vendors img {
+  max-width: 70px;
+  max-height: 40px;
+}
+article.page-merchant-inner-content .list-app-platforms {
+  text-align: center;
+}
+article.page-merchant-inner-content .list-app-platforms li {
+  display: inline-block;
+  margin: 0 30px;
+}
+article.page-merchant-inner-content .list-app-platforms li a {
+  position: relative;
+  top: 0;
+  opacity: 1;
+}
+article.page-merchant-inner-content .list-app-platforms li a:hover {
+  top: -3px;
+  opacity: 0.6;
+}
+article.page-merchant-inner-content .list-app-platforms li img {
+  height: 70px;
+}
+article.page-merchant-inner-content .detail-register h3, article.page-merchant-inner-content .detail-register h4 {
+  padding-bottom: 0;
+}
+article.page-merchant-inner-content .detail-register .detail-register-desc:first-child {
+  padding-right: 50px;
+}
+article.page-merchant-inner-content .detail-register .detail-register-desc:last-child {
+  padding-left: 50px;
+}
+article.page-merchant-inner-content .detail-register-desc h5 {
+  font-size: 20px;
+}
+article.page-merchant-inner-content .detail-register-desc p {
+  padding-top: 15px;
+  padding-bottom: 20px;
+  font-size: 16px;
+}
+article.page-merchant-inner-content .detail-register-desc li {
+  list-style: outside;
+  margin-left: 15px;
+}
+article.page-merchant-inner-content .detail-register-desc ol + p {
+  margin-top: 10px;
+}
+article.page-merchant-inner-content .detail-register-desc .list-none li {
+  margin-left: 0;
+  list-style: none;
+}
+article.page-merchant-inner-content .video-container {
+  position: relative;
+  padding-top: 0;
+  padding-bottom: 49.7512437811%;
+}
+article.page-merchant-inner-content .video-container iframe, article.page-merchant-inner-content .video-container object, article.page-merchant-inner-content .video-container embed {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+section.content-inner-merchant-detail .row > [class*="col"] {
+  padding: 0 60px;
+}
+section.content-inner-merchant-detail p {
+  margin-bottom: 50px;
+  font-size: 20px;
+}
+section.content-inner-merchant-detail p:last-child {
+  margin-bottom: 0;
+}
+section.content-inner-merchant-detail p strong {
+  display: block;
+  font-size: 1.4em;
+}
+section.content-inner-merchant-detail p small {
+  font-family: "Conv_SukhumvitTadmai_Thi", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+}
+section.content-inner-merchant-detail .button-shop-register {
+  margin-top: 10px;
+}
+section.content-inner-merchant-detail .text-phone {
+  display: block;
+  margin-top: 15px;
+  font-family: "Conv_SukhumvitTadmai_Bol", Helvetica, Arial, sans-serif;
+  font-size: 35px;
+  line-height: 1;
+  color: #045AA7;
+}
+section.content-inner-merchant-detail .text-phone::before {
+  content: '';
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  margin-right: 12px;
+  background: transparent url("../img/ico-tel-blue.png") no-repeat;
+}
+
+#section-merchant-register-form.form-inner-page {
+  padding-bottom: 0;
+}
+
+#form-merchant.form-inner-page label {
+  font-family: "Conv_SukhumvitTadmai_Thi", Helvetica, Arial, sans-serif;
+}
+#form-merchant.form-inner-page #sending-form {
+  margin-bottom: 0;
+}
+
+/* EDC */
+.section-after-header.content-merchant-edc .list-text {
+  list-style: disc;
+}
+.section-after-header.content-merchant-edc .button-more {
+  margin-top: 30px;
+}
+
+/* mPOS */
+article.page-merchant-inner-content section.section-after-header.content-merchant-mpos [class*="col"]:first-child {
+  border: none;
+}
+
+.content-inner-merchant-detail.section-mpos-app-download {
+  text-align: center;
+}
+@media (min-width: 992px) {
+  .content-inner-merchant-detail.section-mpos-app-download {
+    padding-top: 0;
+  }
+}
+.content-inner-merchant-detail.section-mpos-app-download p {
+  margin-bottom: 15px;
+}
+.content-inner-merchant-detail.section-mpos-app-download p strong {
+  font-size: 35px;
+  line-height: 1.3;
+}
+.content-inner-merchant-detail.section-mpos-app-download .list-app-platforms {
+  margin-top: 30px;
+}
+
+/* Online */
+article.page-merchant-inner-content section.section-after-header.content-merchant-online [class*="col"]:first-child {
+  border: none;
+}
+
+article.page-merchant-inner-content section.section-after-header.content-merchant-online h3 {
+  margin-bottom: 10px;
+}
+article.page-merchant-inner-content section.section-after-header.content-merchant-online img {
+  margin-top: 30px;
+}
+
+article.page-merchant-inner-content section.full-width.content-merchant-online div[class*="col"] {
+  min-height: 300px;
+}
+
+.content-inner-merchant-detail.section-online-details {
+  text-align: center;
+}
+@media (min-width: 992px) {
+  .content-inner-merchant-detail.section-online-details {
+    padding-top: 0;
+  }
+}
+.content-inner-merchant-detail.section-online-details p {
+  margin-bottom: 15px;
+  line-height: 1.65;
+}
+.content-inner-merchant-detail.section-online-details p strong {
+  font-size: 35px;
+  line-height: 1.3;
+}
+
+/* Alipay */
+.content-inner-merchant-detail.content-merchant-alipay [class*="col"] {
+  align-items: center;
+}
+.content-inner-merchant-detail.content-merchant-alipay [class*="col"].alt-color {
+  background-color: #ffffff;
+}
+.content-inner-merchant-detail.content-merchant-alipay img {
+  margin-bottom: 15px;
+  max-width: none;
+}
+.content-inner-merchant-detail.content-merchant-alipay p {
+  font-size: 18px;
+}
+.content-inner-merchant-detail.content-merchant-alipay p strong {
+  margin-bottom: 10px;
+  font-size: 35px;
+}
+
+/* QRPay */
+.page-merchant-inner-header .header-big-cover img.img-qrpay {
+  bottom: -80px;
+}
+
+/* Merchant inner page - tablet */
+@media (max-width: 991px) {
+  article.page-merchant-inner-content {
+    /* Alipay */
+  }
+  article.page-merchant-inner-content section {
+    padding: 40px 0;
+  }
+  article.page-merchant-inner-content section.full-width div[class*="col"] {
+    min-height: 350px;
+  }
+  article.page-merchant-inner-content section.full-width.content-merchant-online div[class*="col"] {
+    /* Online */
+    min-height: 300px;
+  }
+  article.page-merchant-inner-content section.section-after-header h3 {
+    line-height: 1.5;
+  }
+  article.page-merchant-inner-content .list-card-vendors {
+    margin: 30px auto;
+    width: 100%;
+  }
+  article.page-merchant-inner-content .detail-register .detail-register-desc:first-child {
+    padding-right: 15px;
+  }
+  article.page-merchant-inner-content .detail-register .detail-register-desc:last-child {
+    padding-left: 15px;
+  }
+  article.page-merchant-inner-content section.section-after-header {
+    /* mPOS */
+  }
+  article.page-merchant-inner-content section.section-after-header [class*="col"]:first-child {
+    margin-bottom: 40px;
+    padding-right: 0;
+    border-right: none;
+    border-bottom: 1px solid #E7E8EA;
+  }
+  article.page-merchant-inner-content section.section-after-header [class*="col"]:last-child {
+    padding-left: 0;
+  }
+  article.page-merchant-inner-content section.section-after-header h3 {
+    text-align: center;
+  }
+  article.page-merchant-inner-content section.section-after-header p {
+    text-align: center;
+  }
+  article.page-merchant-inner-content section.section-after-header ul.list-text {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  article.page-merchant-inner-content section.section-after-header.content-merchant-mpos [class*="col"]:first-child {
+    margin-bottom: 0;
+    border: none;
+  }
+  article.page-merchant-inner-content section.section-after-header.content-merchant-mpos [class*="col"]:last-child {
+    margin-bottom: 40px;
+  }
+  article.page-merchant-inner-content .content-inner-merchant-detail.content-merchant-alipay img {
+    margin-bottom: 20px;
+  }
+  article.page-merchant-inner-content .content-inner-merchant-detail.content-merchant-alipay img.icon-alipay {
+    margin-bottom: 0;
+  }
+
+  section.content-inner-merchant-detail.no-padding-bottom-mobile {
+    padding-bottom: 0;
+  }
+  section.content-inner-merchant-detail .row > [class*="col"] {
+    padding: 40px;
+  }
+  section.content-inner-merchant-detail.section-online-details .row > [class*="col"] {
+    padding: 0;
+  }
+
+  /* EDC */
+  .section-after-header.content-merchant-edc .button-more {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+  }
+}
+/* Merchant inner page - mobile */
+@media (max-width: 576px) {
+  .page-merchant-inner-header .header-big-cover {
+    height: 185px;
+  }
+  .page-merchant-inner-header .header-big-cover::before {
+    width: 270px;
+    height: 175px;
+    bottom: -87.5px;
+  }
+  .page-merchant-inner-header .header-big-cover img {
+    width: auto;
+    max-width: 210px;
+    max-height: 150px;
+    bottom: -75px;
+  }
+  .page-merchant-inner-header .header-big-cover img.img-qrpay {
+    bottom: -100px;
+  }
+  .page-merchant-inner-header h1 {
+    font-size: 20px;
+  }
+  .page-merchant-inner-header h1 strong {
+    margin-bottom: 0;
+  }
+  .page-merchant-inner-header h2 {
+    font-size: 14px;
+  }
+  .page-merchant-inner-header nav[aria-label="breadcrumb"] {
+    top: 45px;
+  }
+  .page-merchant-inner-header nav[aria-label="breadcrumb"] .breadcrumb {
+    padding: 2px 0 5px;
+  }
+  .page-merchant-inner-header nav[aria-label="breadcrumb"] .breadcrumb-item + .breadcrumb-item::before {
+    padding: 0 2px;
+  }
+  .page-merchant-inner-header nav[aria-label="breadcrumb"] .breadcrumb-item a {
+    font-size: 12px;
+  }
+
+  article.page-merchant-inner-content h3, article.page-merchant-inner-content h4 {
+    font-size: 20px;
+  }
+  article.page-merchant-inner-content section.section-after-header [class*="col"]:first-child {
+    margin-bottom: 35px;
+  }
+  article.page-merchant-inner-content section.section-after-header [class*="col"]:last-child {
+    padding-left: 0;
+  }
+  article.page-merchant-inner-content section.section-after-header h3 {
+    font-size: 20px;
+  }
+  article.page-merchant-inner-content section.section-after-header p {
+    font-size: 14px;
+  }
+  article.page-merchant-inner-content section.section-after-header ul > li {
+    font-size: 14px;
+  }
+  article.page-merchant-inner-content .list-card-vendors img {
+    max-width: 65px;
+    max-height: 35px;
+  }
+  article.page-merchant-inner-content .list-app-platforms li {
+    margin: 0 15px;
+  }
+  article.page-merchant-inner-content .list-app-platforms li img {
+    height: 35px;
+  }
+
+  section.content-inner-merchant-detail p {
+    font-size: 14px;
+  }
+  section.content-inner-merchant-detail p strong {
+    font-size: 20px;
+  }
+
+  #section-merchant-register-form.form-inner-page h3, #section-merchant-register-form.form-inner-page h4 {
+    margin-bottom: 20px;
+  }
+
+  /* EDC */
+  .section-after-header.content-merchant-edc .button-more {
+    font-size: 12px;
+  }
+
+  /* mPOS */
+  .content-inner-merchant-detail.section-mpos-app-download p strong {
+    font-size: 20px;
+  }
+
+  /* Online */
+  article.page-merchant-inner-content section.full-width.content-merchant-online div[class*="col"] {
+    min-height: 165px;
+  }
+
+  .content-inner-merchant-detail.section-online-details p strong {
+    font-size: 20px;
+  }
+
+  /* Alipay */
+  .content-inner-merchant-detail.content-merchant-alipay p {
+    font-size: 14px;
+  }
+  .content-inner-merchant-detail.content-merchant-alipay p strong {
+    font-size: 20px;
+  }
+}

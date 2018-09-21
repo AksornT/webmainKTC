@@ -1,0 +1,724 @@
+/* Merchant Page - @korstudio */
+@import "variables";
+
+.sub-sticky {
+  /* global sticky styles */
+  .sticky-left li {
+    &.nav-back {
+      margin-right: 20px;
+
+      a {
+        position: relative;
+        margin-left: -20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        left: 0;
+
+        &:hover {
+          left: -5px;
+        }
+      }
+    }
+
+    &.active {
+      a {
+        color: $color-red;
+        pointer-events: none;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .dropdown {
+    display: inline-block;
+    margin-right: 20px;
+
+    .btn.focus, .btn:focus {
+      box-shadow: none;
+    }
+
+    .dropdown-menu {
+      display: block;
+      padding: 0;
+      min-width: 300px;
+      top: 50px;
+      border: none;
+      border-radius: 0;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+      opacity: 0;
+      pointer-events: none;
+      cursor: default;
+    }
+
+    .dropdown-item {
+      position: relative;
+      padding: 15px 20px;
+      font-family: $font-normal;
+      font-size: 18px;
+
+      &::after {
+        content: '';
+        position: absolute;
+        display: block;
+        margin-top: 10px;
+        left: 20px;
+        right: 20px;
+        bottom: 0;
+        height: 1px;
+        background: #F5F6F6;
+      }
+
+      &:last-child {
+        &::after {
+          display: none;
+        }
+      }
+
+      &.active, &:active {
+        color: $color-blue;
+        background-color: transparent;
+      }
+    }
+
+    &.open {
+      .dropdown-menu {
+        display: block;
+        opacity: 1;
+        pointer-events: all;
+        cursor: pointer;
+      }
+
+      .dropdown-toggle::after {
+        transform: rotate(-180deg);
+      }
+    }
+
+    @include tablet {
+      display: none;
+    }
+  }
+
+  .dropdown-toggle {
+    font-family: $font-normal;
+    font-size: 18px;
+    background-color: transparent;
+
+    &::after {
+      content: "\f107";
+      width: auto;
+      height: auto;
+      font: normal normal normal 14px/1 FontAwesome;
+      font-size: inherit;
+      text-rendering: auto;
+      -webkit-font-smoothing: antialiased;
+      border: none;
+      vertical-align: baseline;
+    }
+  }
+}
+
+#nav-sticky-merchant {
+  .sticky-left li {
+    &.active {
+      a {
+        color: $color-blue;
+      }
+    }
+
+    a:hover {
+      color: $color-blue;
+    }
+  }
+}
+
+article#page-merchant-content {
+  section {
+    border-bottom: none;
+  }
+
+  h3, h4 {
+    &::after {
+      background-color: $color-blue;
+    }
+  }
+}
+
+.btn.button-shop-register {
+  @include default-action-button($color-blue);
+
+  &.nav-center-v {
+    padding: 10px 15px;
+    margin: 18px 0 18px 20px;
+    display: inline-block;
+    min-width: 0;
+  }
+
+  &.invert {
+    color: $color-blue;
+    background-color: #ffffff;
+    border-color: $color-blue;
+  }
+}
+
+.page-merchant-header {
+  display: flex;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  min-height: 500px;
+  align-items: center;
+  background: #ffffff url("../img/img-merchant-header.jpg") no-repeat center;
+  background-size: cover;
+  font-family: $font-normal;
+  text-align: center;
+
+  h1 {
+    font-size: 40px;
+    line-height: 1.5;
+
+    small {
+      display: block;
+      font-family: $font-thin;
+      font-size: 28px;
+    }
+  }
+
+  .btn.button-shop-register {
+    margin-top: 30px;
+  }
+
+  @include tablet {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    min-height: auto;
+
+    h1 {
+      font-size: 3.2vw;
+
+      small {
+        font-size: 0.64em;
+      }
+    }
+
+    .btn.button-shop-register {
+      font-size: 14px;
+    }
+  }
+
+  @include mobile {
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+    h1 {
+      font-size: 14px;
+    }
+  }
+}
+
+section#section-merchant-card-type {
+  @include tablet {
+    h4 {
+      font-size: 20px;
+    }
+  }
+
+  .row:first-child {
+    margin-bottom: 30px;
+  }
+  .list-card-vendors {
+    display: flex;
+    margin: 30px auto;
+    width: 45vw;
+    justify-content: space-around;
+    align-items: center;
+
+    li {
+      padding: 20px 0;
+    }
+
+    @include tablet {
+      width: 300px;
+
+      li {
+        padding: 20px 10px;
+      }
+    }
+  }
+
+  .list-payment-services {
+    display: flex;
+    margin-top: 60px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    .item-payment-service {
+      padding: 0 20px;
+      width: 20%;
+      text-align: center;
+
+      h5 {
+        font-family: $font-normal;
+        font-size: 16px;
+        line-height: 1.4;
+      }
+
+      p {
+        margin-top: 5px;
+        font-size: 16px;
+        line-height: 1.5;
+      }
+
+      @include tablet {
+        /* TABLET */
+        margin-top: 20px;
+        padding: 0 12px;
+        width: 50%;
+
+        &:last-child {
+          width: 100%;
+        }
+
+        h5 {
+          font-size: 14px;
+        }
+
+        p {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
+
+section#section-merchant-options {
+  *[class*="col"] {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+
+    border-right: 1px solid $color-light-grey;
+
+    &:last-child {
+      border-right: none;
+    }
+
+    @include tablet {
+      padding-top: 40px;
+      padding-bottom: 40px;
+      border-right: none;
+      border-bottom: 1px solid $color-light-grey;
+
+      &:last-child {
+        border-bottom: none;
+      }
+    }
+  }
+
+  p {
+    font-family: $font-normal;
+    line-height: 1.5;
+    margin-bottom: 20px;
+
+    &.small {
+      font-family: $font-thin;
+    }
+
+    @include tablet {
+      font-size: 20px;
+
+      &.small {
+        font-size: 14px;
+      }
+    }
+  }
+
+  a {
+    color: $color-blue;
+    text-decoration: underline;
+  }
+
+  .content-alipay {
+    text-align: center;
+    justify-content: center;
+
+    p {
+      font-size: 20px;
+    }
+
+    @include tablet {
+      padding-top: 0;
+      padding-bottom: 30px;
+    }
+  }
+
+  .content-flexi {
+    > * {
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+
+    img {
+      margin-bottom: 20px;
+    }
+
+    @include tablet {
+      img.auto-width-mobile {
+        width: 20vw;
+        max-width: 120px;
+      }
+    }
+  }
+
+  .content-forever {
+    img {
+      margin-bottom: 20px;
+
+      &.img-forever-1000 {
+        margin-top: 30px;
+      }
+    }
+
+    p.small {
+      margin-top: auto;
+    }
+
+    @include tablet {
+      padding-bottom: 0;
+    }
+  }
+}
+
+section#section-merchant-register-form {
+  @include tablet {
+    h4 {
+      margin-bottom: 20px;
+      font-size: 20px;
+    }
+  }
+
+  .form-row {
+    margin-top: 50px;
+
+    &.form-wrap {
+      margin-top: 0;
+
+      input[type="text"]:focus + label,
+      input[type="text"].hasText:focus + label {
+        color: $color-blue;
+      }
+    }
+
+    $form-spacing: 80px;
+    .form-col {
+      &.left {
+        padding-right: ($form-spacing / 2) + 5px;
+
+        label {
+          left: 5px;
+        }
+      }
+
+      &.right {
+        padding-left: ($form-spacing / 2) + 5px;
+
+        label {
+          left: ($form-spacing / 2) + 5px;
+        }
+      }
+
+      @include tablet {
+        &.left {
+          padding-left: 5px;
+          padding-right: 15px;
+
+          label {
+            left: 5px;
+          }
+        }
+
+        &.right {
+          padding-left: 15px;
+          padding-right: 5px;
+
+          label {
+            left: 15px;
+          }
+        }
+      }
+
+      @include mobile {
+        &.left, &.right {
+          padding-left: 5px;
+          padding-right: 5px;
+
+          label {
+            left: 5px;
+          }
+        }
+      }
+    }
+  }
+
+  .form-control {
+    &:focus {
+      border-color: transparent;
+      box-shadow: none;
+    }
+  }
+
+  input[type="text"].form-control {
+    padding: 3px 0;
+    font-family: $font-normal;
+    font-size: 16px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-color: rgba(90,102,112,.4);
+    border-radius: 0;
+
+    &:focus {
+      border-color: rgba(90,102,112,.4);
+      box-shadow: none;
+    }
+  }
+
+  .row-merchant-options {
+    $checkbox-size: 26px;
+
+    h5 {
+      margin-bottom: 15px;
+      font-family: $font-normal;
+      font-size: 24px;
+      text-align: center;
+    }
+
+    .custom-checkbox {
+      margin-top: 30px;
+      padding-left: 56px;
+      height: $checkbox-size;
+
+      /* bootstrap override */
+      .custom-control-input {
+        &:checked ~ .custom-control-label {
+          &::before {
+            border-color: $color-blue;
+            background-color: $color-blue;
+          }
+        }
+
+        &:focus ~ .custom-control-label::before {
+          box-shadow: none;
+        }
+      }
+    }
+
+    label.custom-control-label {
+      font-family: $font-normal;
+      font-size: 16px;
+      line-height: 1.5;
+
+      &::before {
+        top: 0;
+        width: $checkbox-size;
+        height: $checkbox-size;
+        border: 1px solid #8B939A;
+        background-color: #ffffff;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+      }
+
+      &::after {
+        top: 0;
+        width: $checkbox-size;
+        height: $checkbox-size;
+        background-size: 60%;
+      }
+    }
+
+    @include tablet {
+      h5 {
+        font-size: 20px;
+        line-height: 1.5;
+      }
+    }
+  }
+
+  #sending-form {
+    background-color: $color-blue;
+  }
+
+  .row-merchant-download-docs {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    justify-content: space-evenly;
+
+    .content-col {
+      display: flex;
+      align-items: center;
+    }
+
+    .img-wrap {
+      text-align: center;
+    }
+
+    .btn.button-download-link {
+      text-align: left;
+      font-family: $font-normal;
+      font-size: 24px;
+      color: #000000;
+    }
+
+    @include tablet {
+      .btn.button-download-link {
+        font-family: $font-thin;
+        font-size: 18px;
+      }
+
+      .img-wrap {
+        width: 80px;
+
+        img {
+          max-width: 60px;
+          max-height: 60px;
+        }
+      }
+
+      .content-col {
+        flex-basis: 350px;
+        max-width: 350px;
+      }
+    }
+  }
+}
+
+.contact-ribbon {
+  padding: 17px 15px;
+  background: $color-blue;
+  text-align: center;
+
+  .text-contact {
+    font-family: $font-normal;
+    font-size: 20px;
+    color: #ffffff;
+
+    &::after {
+      display: none;
+    }
+
+    em {
+      display: inline-block;
+      margin-right: 20px;
+      font-size: 28px;
+
+      strong {
+        font-family: $font-bold;
+      }
+    }
+
+    img {
+      display: inline-block;
+      margin-left: 50px;
+      margin-right: 5px;
+      vertical-align: middle;
+    }
+
+    @include tablet {
+      font-size: 14px;
+
+      em {
+        font-size: 20px;
+      }
+
+      img {
+        margin-left: 20px;
+      }
+    }
+
+    @include mobile {
+      em {
+        display: block;
+        margin-right: 0;
+      }
+
+      .tel-wrap {
+        display: block;
+        margin-top: 8px;
+        margin-bottom: 3px;
+      }
+
+      img {
+        margin-left: 0;
+      }
+    }
+  }
+}
+
+#content-merchant-faq {
+  padding-top: 60px;
+
+  @include mobile {
+    padding-top: 0;
+  }
+}
+
+#faq ol {
+  list-style: decimal;
+  padding-left: 16px;
+}
+
+/* Merchant Page - tablet - @korstudio */
+@include media-query(1024px, 1365px) {
+  /* iPad Pro specific fix */
+  #nav-sticky-merchant.sub-sticky {
+    height: 70px;
+
+    .dropdown {
+      margin-right: 15px;
+
+      .dropdown-menu {
+        .dropdown-item {
+          font-size: 14px;
+        }
+      }
+    }
+
+    .dropdown-toggle {
+      font-size: 14px;
+    }
+
+    .sticky-left li {
+      margin-right: 20px;
+      font-size: 14px;
+      line-height: 70px;
+
+      &.nav-back {
+        margin-right: 10px;
+      }
+    }
+
+    .sticky-right {
+      .btn-action {
+        margin: 15px 0 15px 20px;
+        padding: 7px 25px;
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+@include tablet {
+
+}
+
+/* Merchant Page - mobile - @korstudio */
+@include mobile {
+
+}
+
+@import "merchant-inner";
+@import "merchant-inner-pages";
+
+@import "merchant-inner-responsive";

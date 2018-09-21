@@ -1,0 +1,280 @@
+/* Merchant inner page - tablet */
+@include tablet {
+  article.page-merchant-inner-content {
+    section {
+      padding: 40px 0;
+    }
+
+    section.full-width div[class*="col"] {
+      min-height: 350px;
+    }
+
+    section.full-width.content-merchant-online div[class*="col"] {
+      /* Online */
+      min-height: 300px;
+    }
+
+    section.section-after-header {
+      h3 {
+        line-height: 1.5;
+      }
+    }
+
+    .list-card-vendors {
+      margin: 30px auto;
+      width: 100%;
+    }
+
+    .detail-register {
+      .detail-register-desc:first-child {
+        padding-right: 15px;
+      }
+      .detail-register-desc:last-child {
+        padding-left: 15px;
+      }
+    }
+
+    section.section-after-header {
+      [class*="col"] {
+        &:first-child {
+          margin-bottom: 40px;
+          padding-right: 0;
+          border-right: none;
+          border-bottom: 1px solid $color-light-grey;
+        }
+
+        &:last-child {
+          padding-left: 0;
+        }
+      }
+
+      h3 {
+        text-align: center;
+      }
+
+      p {
+        text-align: center;
+      }
+
+      ul.list-text {
+        margin-left: 50px;
+        margin-right: 50px;
+      }
+
+      /* mPOS */
+      &.content-merchant-mpos {
+        [class*="col"] {
+          &:first-child {
+            margin-bottom: 0;
+            border: none;
+          }
+
+          &:last-child {
+            margin-bottom: 40px;
+          }
+        }
+      }
+    }
+
+    /* Alipay */
+    @include override-content {
+      &.content-merchant-alipay {
+        img {
+          margin-bottom: 20px;
+
+          &.icon-alipay {
+            margin-bottom: 0;
+          }
+        }
+      }
+    }
+  }
+
+  section.content-inner-merchant-detail {
+    &.no-padding-bottom-mobile {
+      padding-bottom: 0;
+    }
+
+    .row > [class*="col"] {
+      padding: 40px;
+    }
+
+    &.section-online-details {
+      .row > [class*="col"] {
+        padding: 0;
+      }
+    }
+  }
+
+  /* EDC */
+  .section-after-header.content-merchant-edc {
+    .button-more {
+      display: block;
+      margin-top: 20px;
+      text-align: center;
+    }
+  }
+}
+
+/* Merchant inner page - mobile */
+@include mobile {
+  .page-merchant-inner-header {
+    .header-big-cover {
+      height: 185px;
+
+      &::before {
+        width: 270px;
+        height: 175px;
+        bottom: -87.5px;
+      }
+
+      img {
+        width: auto;
+        max-width: 210px;
+        max-height: 150px;
+        bottom: -75px;
+
+        &.img-qrpay {
+          bottom: -100px;
+        }
+      }
+    }
+
+    h1 {
+      font-size: 20px;
+
+      strong {
+        margin-bottom: 0;
+      }
+    }
+
+    h2 {
+      font-size: 14px;
+    }
+
+    nav[aria-label="breadcrumb"] {
+      top: 45px;
+
+      .breadcrumb {
+        padding: 2px 0 5px;
+      }
+
+      .breadcrumb-item {
+        + .breadcrumb-item::before {
+          padding: 0 2px;
+        }
+
+        a {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+
+  article.page-merchant-inner-content {
+    h3, h4 {
+      font-size: 20px;
+    }
+
+    section.section-after-header {
+      [class*="col"] {
+        &:first-child {
+          margin-bottom: 35px;
+        }
+
+        &:last-child {
+          padding-left: 0;
+        }
+      }
+
+      h3 {
+        font-size: 20px;
+      }
+
+      p {
+        font-size: 14px;
+      }
+
+      ul {
+        > li {
+          font-size: 14px;
+        }
+      }
+    }
+
+    .list-card-vendors {
+      img {
+        max-width: 65px;
+        max-height: 35px;
+      }
+    }
+
+    .list-app-platforms {
+      li {
+        margin: 0 15px;
+
+        img {
+          height: 35px;
+        }
+      }
+    }
+  }
+
+  section.content-inner-merchant-detail {
+    p {
+      font-size: 14px;
+
+      strong {
+        font-size: 20px;
+      }
+    }
+  }
+
+  #section-merchant-register-form.form-inner-page {
+    h3, h4 {
+      margin-bottom: 20px;
+    }
+  }
+
+  /* EDC */
+  .section-after-header.content-merchant-edc {
+    .button-more {
+      font-size: 12px;
+    }
+  }
+
+  /* mPOS */
+  .content-inner-merchant-detail.section-mpos-app-download {
+    p strong {
+      font-size: 20px;
+    }
+  }
+
+  /* Online */
+  article.page-merchant-inner-content {
+    section.full-width.content-merchant-online div[class*="col"] {
+      min-height: 165px;
+    }
+  }
+
+  @include override-content {
+    &.section-online-details {
+      p strong {
+        font-size: 20px;
+      }
+    }
+  }
+
+  /* Alipay */
+  @include override-content {
+    &.content-merchant-alipay {
+      p {
+        font-size: 14px;
+
+        strong {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}

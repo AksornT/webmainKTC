@@ -1,0 +1,137 @@
+@mixin override-section-after-header() {
+  article.page-merchant-inner-content section.section-after-header {
+    @content;
+  }
+}
+
+@mixin override-content() {
+  .content-inner-merchant-detail {
+    @content;
+  }
+}
+
+@mixin section-after-header_no-border($element) {
+  @include override-section-after-header {
+    &#{$element} {
+      [class*="col"] {
+        &:first-child {
+          border: none;
+        }
+      }
+    }
+  }
+}
+
+/* EDC */
+.section-after-header.content-merchant-edc {
+  .list-text {
+    list-style: disc;
+  }
+
+  .button-more {
+    margin-top: 30px;
+  }
+}
+
+/* mPOS */
+@include section-after-header_no-border(".content-merchant-mpos");
+
+@include override-content {
+  &.section-mpos-app-download {
+    text-align: center;
+
+    @media (min-width: 992px) {
+      padding-top: 0;
+    }
+
+    p {
+      margin-bottom: 15px;
+
+      strong {
+        font-size: 35px;
+        line-height: 1.3;
+      }
+    }
+
+    .list-app-platforms {
+      margin-top: 30px;
+    }
+  }
+}
+
+/* Online */
+@include section-after-header_no-border(".content-merchant-online");
+
+@include override-section-after-header {
+  &.content-merchant-online {
+    h3 {
+      margin-bottom: 10px;
+    }
+
+    img {
+      margin-top: 30px;
+    }
+  }
+}
+
+article.page-merchant-inner-content {
+  section.full-width.content-merchant-online {
+    div[class*="col"] {
+      min-height: 300px;
+    }
+  }
+}
+
+@include override-content {
+  &.section-online-details {
+    text-align: center;
+
+    @media (min-width: 992px) {
+      padding-top: 0;
+    }
+
+    p {
+      margin-bottom: 15px;
+      line-height: 1.65;
+
+      strong {
+        font-size: 35px;
+        line-height: 1.3;
+      }
+    }
+  }
+}
+
+/* Alipay */
+@include override-content {
+  &.content-merchant-alipay {
+    [class*="col"] {
+      align-items: center;
+
+      &.alt-color {
+        background-color: #ffffff;
+      }
+    }
+
+    img {
+      margin-bottom: 15px;
+      max-width: none;
+    }
+
+    p {
+      font-size: 18px;
+
+      strong {
+        margin-bottom: 10px;
+        font-size: 35px;
+      }
+    }
+  }
+}
+
+/* QRPay */
+.page-merchant-inner-header {
+  .header-big-cover img.img-qrpay {
+    bottom: -80px;
+  }
+}
