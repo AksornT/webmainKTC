@@ -2797,11 +2797,18 @@ section .form-register-completed .img-result {
 	line-height: 24px;
 }
 
-.page-loan-proud .card-register-center,
-.sticky-right.page-loan .card-register-center{
+.sticky-right.page-loan .card-register-center,
+.nav-right.page-loan .card-register-center{
 	color: #CF3339;
 	border: 1px solid #CF3339;
 	background-color: #fff;
+}
+.sticky-right.page-loan .card-register-center:hover,
+.nav-right.page-loan .card-register-center:hover{
+	top: auto;
+    background-color: #CF3339;
+    border-color: transparent;
+    color: #fff;
 }
 
 h4.content-title{
@@ -3041,6 +3048,10 @@ a.media.on-desk img {
 .img-precent{
 	width: 115px;
 	height: auto;
+}
+
+#nav-flexi-navbar .nav-item.active .nav-link-act{
+	color: #CF3339;
 }
 
 /* Flexi Page - @korstudio */

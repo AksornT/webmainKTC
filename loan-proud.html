@@ -271,24 +271,42 @@
     <div id="head-trigger"></div>
   </div>
 <!-- end Header -->
+
 <!-- start sub-sticky -->
-  <div class="sub-sticky">
-    <div class="content-wrap">
-      <div class="sticky-left">
-        <ul>
-          <li class="only-desktop"><a href="#privillage">สิทธิประโยชน์</a></li>
-          <li class="only-desktop"><a href="#detail-register">รายละเอียดการสมัคร</a></li>
-          <!--<li class="only-desktop"><a href="#proud-regis">สมัครบัตรสินเชื่อพร้อมใช้ KTC PROUD</a></li>-->
-          <li class="only-mobile"><img id="sticky-ham" data-toggle="modal" data-target="#sticky-modal"  src="img/ico-menu-sticky.png"></li>
+  <div id="nav-flexi-scroll-trigger"></div>
+  <nav id="nav-flexi" class="navbar navbar-expand-lg only-desktop">
+      <div id="nav-flexi-navbar">
+        <ul class="nav navbar-nav">
+          <li class="nav-item active">
+            <a href="#privillage" class="nav-link">สิทธิประโยชน์</a>
+          </li>
+          <li class="nav-item">
+            <a href="#detail-register" class="nav-link">รายละเอียด</a>
+          </li>
         </ul>
       </div>
-      <div class="sticky-right page-loan">
-        <a href="#"><img src="img/ico-sticky-link.png"></a>
+
+      <ul class="navbar-nav justify-content-end sticky-right page-loan">
+        <li class="nav-item">
+          <button class="btn btn-flexi-share"><span class="sr-only">Share</span></button>
+        </li>
+        <li class="nav-item">
+          <a href="#proud-regis" class="card-register-center">สมัครบัตร</a>
+        </li>
+      </ul>
+  </nav>
+  <nav id="nav-flexi-mobile" class="only-mobile">
+    <div class="nav mini">
+      <button class="btn button-show-flexi-menu" data-toggle="modal" data-target="#sticky-modal"><span class="sr-only">Menu</span></button>
+      <div class="nav-right page-loan">
+        <button class="btn btn-flexi-share"><span class="sr-only">Share</span></button>
         <a href="#proud-regis" class="card-register-center">สมัครบัตร</a>
       </div>
     </div>
-  </div>
+  </nav>
+  <div id="nav-flexi-mobile-scroll-trigger"></div>
 <!-- end sub-sticky -->
+
 <!-- start page -->
     <div class="page-loan-proud">
       <div class="proud-head">

@@ -415,7 +415,6 @@ $(document).ready(function() {
             } else {
                 cards = cards + 1;
                 $(this).parent().parent().parent().parent().addClass( "active" ).addClass("choice-" + cards);
-                console.log(cards);
                 var creditImage = $(this).parent().parent().parent().parent().find('img').attr('src');
                 var creditText = $(this).parent().parent().parent().find('.credit-title').text();
                 $(".compared-box > div:nth-child("+cards+") img").attr('src', creditImage).addClass('gotImage');
@@ -427,9 +426,14 @@ $(document).ready(function() {
                 } else {
                     $('.go-compare').prop("disabled", true);
                 }
+                console.log(cards);
                 return false;
             }
+        } else {
+            console.log(cards);
+            return false;
         }
+        
         compareFunction();
     
     });
