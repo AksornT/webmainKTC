@@ -482,6 +482,9 @@
   .main-credit {
     margin-bottom: 60px;
   }
+  .btn-filter span{
+    display: none;
+  }
 
   /* creditcard detail -eve */
   #header-card-detail .center-responsive{
@@ -900,10 +903,19 @@
   }
 
   .proud-regis-complete p, .form-register-completed p {
-    font-size: 14px;
+    font-size: 32px;
     font-family: "Conv_SukhumvitTadmai_Bol";
     line-height: 22px;
     padding-bottom: 10px;
+    margin-top: 20px;
+  }
+
+  .bg-login .img-result{
+    width: auto;
+  }
+
+  .bg-login .card-register-center{
+    margin-top: 40px;
   }
 
   .proud-regis-complete span, .form-register-completed span {
@@ -1286,6 +1298,13 @@
     }
     .form-content .input-ico.input-ico-right span{
       line-height: 22px;
+    }
+    #terms-modal .header .title{
+      line-height: 50px;
+      margin-bottom: 25px;
+    }
+    #terms-modal .header .name{
+      line-height: 36px;
     }
 
     /* article detail -eve */

@@ -880,6 +880,13 @@ body .owl-dots.disabled,
 .owl-next span{
 	padding: 0 0 0 2px;
 }
+
+.owl-nav.disabled button{
+	opacity: 0 !important;
+	pointer-events: none !important;
+	display: none !important;
+}
+
 .index-slide1 .owl-nav button.owl-prev{
 	position: absolute;
 	top: 50%;
@@ -1844,6 +1851,7 @@ a:hover .on-hover{
 	border: 1px solid #5B6670;
 	border-radius: 6px;
 	font-family: 'Conv_SukhumvitTadmai_Tex';
+	line-height: 32px;
 }
 .col-right-filter input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
   	/*font-size: 14px;*/
@@ -6126,6 +6134,8 @@ a.all-type-list[href]:hover{
  	padding: 0;
 	width: 42vw !important;
 	box-shadow: 0px 1px 3px rgba(0,0,0,.16);
+	max-height: 55vh;
+	overflow: auto;
 }
 
 .ui-datepicker {

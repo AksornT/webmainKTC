@@ -935,11 +935,13 @@
 
   .bg-login .img-result{
     margin-bottom: 30px;
+    width:84px;
   }
 
   .proud-regis-complete p, .form-register-completed p{
     font-size: 24px;
     padding-bottom: 20px;
+    margin-top: 0px;
   }
 
   
@@ -964,6 +966,9 @@
   .last-piece.for-login-pg .text-right{
     padding-right: 20px;
   }
+  #box-condition{
+    padding: 4px 40px 80px 40px;
+  }
 
   /* register for member page -eve */
   .on-right.header-regis-pg {
@@ -971,7 +976,7 @@
   }
 
   button#long-button.btn-next-step{
-    width:295px;
+    width:100%;
     margin-top: 100px;
   }
   #pg-regis.form-wrap input[type="text"] + label, #pg-regis.form-wrap input[type="password"] + label{
@@ -986,8 +991,12 @@
     padding: 40px 20px 80px 20px;
   }
   .condition-title h3{
-    font-size: 32px;
-    line-height: 42px;
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .condition-content p, .condition-content li{
+    font-size: 12px;
+    line-height: 18px;
   }
 
   /* register for member 2 -eve */
@@ -1516,7 +1525,8 @@ nav[aria-label="breadcrumb"] + .row-search-filter {
 
 #terms-modal .header .title{
   font-size: 18px;
-  line-height: 30px;
+  line-height: 28px;
+  margin-bottom: 10px;
 }
 #terms-modal .header .name {
   font-size: 14px;
@@ -1549,6 +1559,7 @@ nav[aria-label="breadcrumb"] + .row-search-filter {
   .proud-regis-complete button.card-register-center{
     width: auto;
     font-size: 18px;
+    margin-top: 25px;
   }
 
   .menu-sub-icon .five-icons .nav-item:nth-child(1){
@@ -1561,6 +1572,15 @@ nav[aria-label="breadcrumb"] + .row-search-filter {
 
   .article-category .slide-wrap .index-slide2 .item{
     margin-bottom: 14px;
+  }
+
+  .banner-row a:after{
+    background: none;
+    opacity: 1;
+  }
+  .banner-row a {
+    margin-top: 40px;
+    margin-bottom: -20px;
   }
 
 /* article detail -eve */
@@ -1667,9 +1687,6 @@ nav[aria-label="breadcrumb"] + .row-search-filter {
 
   .btn-filter img{
     width: 20px;
-  }
-  .btn-filter span{
-    font-size: 12px;
   }
 
   .btn-filter.only-desktop.with-tablet {

@@ -335,14 +335,14 @@
       </div>
 
       <div class="content-wrap slide-wrap">
-        <div class="index-slide2">
+        <div class="index-slide2 no-loop">
           <a class="item" href="article-detail.html">
             <img src="img/article/img-article-1.jpg">
             <div class="slide-content-wrap">
               <p class="slide-title">เที่ยวนอก เที่ยวไหน ก็เที่ยวได้ถูกกว่า เที่ยวนอก เที่ยวไหน ก็เที่ยวได้ถูกกว่า</p>
               <p class="slide-content">เมื่อช้อปต่างประเทศหรือช้อปออนไลน์เป็นสกุลเงินต่างประเทศผ่านบัตรเครดิต KTC เมื่อช้อปต่างประเทศหรือช้อปออนไลน์เป็นสกุลเงินต่างประเทศผ่านบัตรเครดิต KTC</p>
             </div>
-          </a>
+          </a><!-- 
           <a class="item" href="article-detail.html">
             <img src="img/article/img-article-2.jpg">
             <div class="slide-content-wrap">
@@ -377,11 +377,11 @@
               <p class="slide-title">เที่ยวนอก เที่ยวไหน ก็เที่ยวได้ถูกกว่า เที่ยวนอก เที่ยวไหน ก็เที่ยวได้ถูกกว่า</p>
               <p class="slide-content">เมื่อช้อปต่างประเทศหรือช้อปออนไลน์เป็นสกุลเงินต่างประเทศผ่านบัตรเครดิต KTC เมื่อช้อปต่างประเทศหรือช้อปออนไลน์เป็นสกุลเงินต่างประเทศผ่านบัตรเครดิต KTC</p>
             </div>
-          </a>
+          </a> -->
         </div>
         <script type="text/javascript">
         $(document).ready(function() {
-          $('.index-slide2').owlCarousel({
+          $('.index-slide2.go-loop').owlCarousel({
               loop:true,
               responsiveClass:true,
               responsive:{
@@ -403,6 +403,24 @@
                   }
               }
             });
+          $('.index-slide2.no-loop').owlCarousel({
+              loop:false,
+              responsiveClass:true,
+              responsive:{
+                  0:{
+                      items:1,
+                      margin:12
+                  },
+                  576:{
+                      items:2,
+                      margin:12
+                  },
+                  1000:{
+                      items:3,
+                      margin:12
+                  }
+              }
+            });
           });
         </script>
       </div>
@@ -415,7 +433,7 @@
         </div>
       </div>
     <div class="content-wrap slide-wrap">
-      <div class="index-slide2">
+      <div class="index-slide2 go-loop">
           <a class="item" href="article-detail.html">
             <img src="img/article/img-article-4.jpg">
             <div class="slide-content-wrap">
@@ -469,7 +487,7 @@
         </div>
       </div>
     <div class="content-wrap slide-wrap">
-      <div class="index-slide2">
+      <div class="index-slide2 go-loop">
           <a class="item" href="article-detail.html">
             <img src="img/article/img-article-7.jpg">
             <div class="slide-content-wrap">
@@ -523,7 +541,7 @@
         </div>
       </div>
     <div class="content-wrap slide-wrap">
-      <div class="index-slide2">
+      <div class="index-slide2 go-loop">
           <a class="item" href="article-detail.html">
             <img src="img/article/img-article-10.jpg">
             <div class="slide-content-wrap">
@@ -577,7 +595,7 @@
         </div>
       </div>
     <div class="content-wrap slide-wrap">
-      <div class="index-slide2">
+      <div class="index-slide2 go-loop">
           <a class="item" href="article-detail.html">
             <img src="img/article/img-article-13.jpg">
             <div class="slide-content-wrap">
