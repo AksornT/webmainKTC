@@ -981,11 +981,13 @@
   }
   #pg-regis.form-wrap input[type="text"] + label, #pg-regis.form-wrap input[type="password"] + label{
     font-size: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
   }
 
-  button.btn-next-step{
-    width: 100%;
-  }
+ 
   button.btn-next-step
   #box-condition {
     padding: 40px 20px 80px 20px;
@@ -1001,11 +1003,11 @@
 
   /* register for member 2 -eve */
   button.btn-back-step{
-    width: 140px;
+    width: calc(50% - 10px);
     margin-right: 0;
   }
   button.btn-next-step{
-    width: 140px;
+    width: calc(50% - 10px);
   }
 
   /* Flexi Page - @korstudio */
