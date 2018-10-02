@@ -1137,6 +1137,10 @@
     margin: 8px 0 -8px 0;
   }
 
+  #search-cat-wrap-top .ktc-tabs {
+    margin-top: 25px;
+  }
+
   #result-content .item .slide-title,
   #result-content .item .slide-content{
     height: auto;
