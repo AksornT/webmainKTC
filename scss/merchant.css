@@ -232,6 +232,12 @@ section#section-merchant-card-type .list-payment-services .item-payment-service 
   width: 20%;
   text-align: center;
 }
+section#section-merchant-card-type .list-payment-services .item-payment-service a{
+  color: #000;
+}
+section#section-merchant-card-type .list-payment-services .item-payment-service a:hover{
+  color: #045aa7;
+}
 section#section-merchant-card-type .list-payment-services .item-payment-service h5 {
   font-family: "Conv_SukhumvitTadmai_Tex", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
@@ -480,6 +486,9 @@ section#section-merchant-register-form .row-merchant-download-docs .btn.button-d
   font-size: 24px;
   color: #000000;
 }
+section#section-merchant-register-form .row-merchant-download-docs .btn.button-download-link:hover {
+  color: #0056b3;
+}
 @media (max-width: 991px) {
   section#section-merchant-register-form .row-merchant-download-docs .btn.button-download-link {
     font-family: "Conv_SukhumvitTadmai_Thi", Helvetica, Arial, sans-serif;
@@ -518,6 +527,9 @@ section#section-merchant-register-form .row-merchant-download-docs .btn.button-d
 }
 .contact-ribbon .text-contact em strong {
   font-family: "Conv_SukhumvitTadmai_Bol", Helvetica, Arial, sans-serif;
+}
+.contact-ribbon .text-contact em a{
+  color: #fff;
 }
 .contact-ribbon .text-contact img {
   display: inline-block;
@@ -592,6 +604,9 @@ section#section-merchant-register-form .row-merchant-download-docs .btn.button-d
     margin: 15px 0 15px 20px;
     padding: 7px 25px;
     font-size: 14px;
+  }
+  #nav-sticky-merchant .btn-flexi-share {
+    margin-top: 20px;
   }
 }
 /* Merchant Page - mobile - @korstudio */

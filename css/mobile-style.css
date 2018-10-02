@@ -271,9 +271,6 @@
     width: 116px;
   }
 
-  .content-wrap {
-    padding: 0 20px;
-  }
   .menu-global .search-on-menu{
     padding: 7px;
     top: 0;
@@ -568,7 +565,7 @@
   }
   .index-head{
     font-size: 14px;
-    margin-top: 60px;
+    margin-top: 40px;
     border-bottom: 3px solid #CF3339;
   }
   .text-on-slide{
@@ -593,12 +590,11 @@
     padding-left: 15px
   }
   .item .slide-title{
-    font-size: 14px;
-    max-height: 47px;
+    font-size: 16px;
     padding-top: 10px;
   }
   .item .slide-content{
-    font-size: 12px;
+    font-size: 14px;
     padding-top: 0px;
     line-height: 18px;
   }
@@ -745,11 +741,11 @@
 
   /* loan page -eve */
   .main-loan{
-    padding-bottom: 60px;
+    padding-bottom: 40px;
   }
   .main-loan h1{
   	font-size: 20px;
-    padding-top: 60px;
+    padding-top: 40px;
     margin-bottom: 45px;
   }
   .main-loan .box-content {
@@ -824,7 +820,7 @@
   	text-decoration: underline;
   }
   .detail-register{
-    padding: 60px 0 40px 0;
+    padding: 40px 0 40px 0;
   }
   .detail-register h3{
     font-size: 20px;
@@ -868,7 +864,7 @@
   }
   .content-title{
     font-size: 23px;
-    padding-top: 60px;
+    padding-top: 40px;
 
     line-height: 34px;
   }
@@ -1091,7 +1087,7 @@
   }
 
   h4.content-title.faq-title{
-    padding-top: 60px;
+    padding-top: 40px;
     margin-bottom: 30px
   }
 
@@ -1456,7 +1452,12 @@ nav[aria-label="breadcrumb"] + .row-search-filter {
   margin-top: 0px;
 }
 #tab-sms p{
-  font-size: 12px;
+  font-size: 14px;
+}
+
+.article-wrap .article-collapse .info p {
+  font-size: 14px;
+  line-height: 24px;
 }
 
 .index-slide1 .owl-dots{
@@ -1469,7 +1470,8 @@ nav[aria-label="breadcrumb"] + .row-search-filter {
 
 .promotion-page .item .slide-title,
 .article-page .item .slide-title{
-  height: 48px;
+  height: 56px;
+  max-height: 56px;
 }
 
 .promotion-page .item .slide-title + .slide-content,
@@ -1587,8 +1589,8 @@ nav[aria-label="breadcrumb"] + .row-search-filter {
 
 /* article detail -eve */
 .article-title h1 {
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 20px;
+    line-height: 26px;
 }
 .article-title .art-con-title h2 {
     font-size: 12px;
@@ -1627,13 +1629,13 @@ nav[aria-label="breadcrumb"] + .row-search-filter {
     margin-bottom: 0px;
 }
 #article-detail .article-wrap .article-content {
-    margin-bottom: 60px;
+    margin-bottom: 40px;
 }
 .art-con-comment .index-head {
     margin-top: 20px;
 }
 .sidebar-right-bottom h3.index-head{
-    margin-top: 60px;
+    margin-top: 40px;
 }
 .media.box-comment .text-right p {
     font-size: 10px;
@@ -1674,7 +1676,7 @@ nav[aria-label="breadcrumb"] + .row-search-filter {
 }
 
 .index-slide1 .item {
-    padding-top: 5px;
+    padding-top: 13px;
 }
 
   .btn-filter.only-mobile{
@@ -1755,6 +1757,10 @@ nav[aria-label="breadcrumb"] + .row-search-filter {
     }
     .flexi-modal table thead{
       border-bottom: 1px solid #E6E8EA;
+    }
+
+    .main-credit.addTop{
+      padding-top: 200px;
     }
 
 

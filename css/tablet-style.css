@@ -14,7 +14,7 @@
 
   .menu-global{
     /*background: url("../img/bg_menu.png");*/
-    margin-bottom: 215px;
+    margin-bottom: 235px;
   }
   .menu-global .on-right{
     width: 160px;
@@ -272,6 +272,7 @@
   }
   .text-on-slide a{
     padding-top: 8px;
+    font-size: 16px;
   }
   .item .slide-title{
     padding-top: 10px;
@@ -480,7 +481,7 @@
     padding: 20px 10px 40px 10px;
   }
   .main-credit {
-    margin-bottom: 60px;
+    margin-bottom: 40px;
   }
   .btn-filter span{
     display: none;
@@ -529,7 +530,7 @@
     margin-bottom: 40px;
   }
   #content-card-detail.page-content .content-inner-merchant-detail .section-service-detail{
-    padding: 60px 0 60px 0;
+    padding: 40px 0;
     margin-top: -20px;
   }
   #content-card-detail section.content-inner-merchant-detail .row > [class*="col"]{
@@ -560,6 +561,10 @@
   }
 
   /* loan-cash page -eve */
+  .content-wrap {
+    padding: 0 20px;
+  }
+
   .content-wrap .on-desk{
     display: none !important;
   }
@@ -614,7 +619,7 @@
     padding: 40px 0 40px 0;
   }
   .detail-register h3{
-    margin-bottom: 60px;
+    margin-bottom: 40px;
   }
   .detail-register-desc{
     margin-bottom: 35px;
@@ -664,7 +669,7 @@
   .with-loan-img p{
     letter-spacing: 0;
     max-width: 510px;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
   }
 
   .img-precent{
@@ -681,7 +686,7 @@
   }
 
   .text-head-wrap > div:nth-child(even){
-    padding-bottom: 60px;
+    padding-bottom: 40px;
   }
 
   .text-head-wrap li {
@@ -733,10 +738,10 @@
   }
   .box-more {
     margin-top: 0;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
   }
   .box-cash {
-    margin-bottom: 60px;
+    margin-bottom: 40px;
   }
 
   h4.content-title{
@@ -755,8 +760,8 @@
     text-align: left;
   }
   .box-login-con{
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
 
   /* Flexi Page - @korstudio */
@@ -898,7 +903,7 @@
   }
 
   .two-icon-link{
-    margin: 60px 0;
+    margin: 40px 0;
   }
 
   .fakeBlock{
@@ -929,7 +934,7 @@
   .img-result{
     width: 84px;
     height: auto;
-    margin: 60px 0 24px 0;
+    margin: 40px 0 24px 0;
   }
 
   section .form-register-completed .img-result {
@@ -1031,7 +1036,7 @@
   }
 
   .forever #nav-flexi-scroll-trigger{
-    padding-bottom: 60px;
+    padding-bottom: 40px;
   }
 
   .page-forever-header h2 {
@@ -1174,7 +1179,7 @@
   }
 
  .forever section#section-flexi-shops .box-center-v {
-    padding: 60px;
+    padding: 40px 60px;
   }
 
 
@@ -1204,7 +1209,7 @@
 
   .row-search-filter.only-mobile{
     display: flex;
-    margin: 20px 0 0 0;
+    margin: 20px 0 ;
   }
 
   .row-search-filter .filter-btn.only-desktop{
@@ -1259,7 +1264,7 @@
     }
 
     .banner-row a{
-      margin-top: 60px;
+      margin-top: 40px;
       margin-bottom: 0px;
     }
     .promotion-page .text-on-slide.no-subtitle{
@@ -1309,6 +1314,9 @@
     #terms-modal .header .name{
       line-height: 36px;
     }
+    .first-box-setting {
+      margin-bottom: -30px;
+    }
 
     /* article detail -eve */
     .art-on-desktop{
@@ -1343,6 +1351,10 @@
       margin-bottom: 20px;
     }
 
+    .promotion-page .menu-sub-icon {
+      margin-bottom: 0px;
+    }
+
     .promotion-page .item .slide-title, 
     .article-page .item .slide-title{
       height: 60px;
@@ -1361,5 +1373,17 @@
     .form-wrap .left span.select-arrow{
       right: 15px;
     }
+
+    #nav-sticky-merchant .btn-flexi-share{
+    margin-top: 7px;
+  }
+
+  .slide-wrap .item .slide-btn{
+    margin-bottom: 2px;
+  }
+
+  .main-credit.addTop{
+    padding-top: 230px;
+  }
 
 }

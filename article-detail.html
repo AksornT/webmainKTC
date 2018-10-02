@@ -287,7 +287,7 @@
         <nav class="col-sm-10 art-on-mobile" aria-label="breadcrumb">
           <ol class="breadcrumb bc-content">
             <li class="breadcrumb-item"><a href="index.html">หน้าหลัก</a></li>
-            <li class="breadcrumb-item"><a href="article.html">...</a></li>
+            <li class="breadcrumb-item"><a href="article-category.html">...</a></li>
             <li class="breadcrumb-item active" aria-current="page"><a href="#">10 ที่เที่ยว กระบี่ ไปกี่ที ก็ไม่ควรพลาด เที่ยวแบบประหยัด ต้องจัดไป!</a></li>
           </ol>
         </nav>
@@ -342,9 +342,9 @@
               </div>
               <div class="art-con-comment">
                 <h3 class="index-head">ความคิดเห็น</h3>
-                <textarea placeholder="แสดงความคิดเห็นของคุณที่นี่..."></textarea>
+                <textarea id="commentInput" placeholder="แสดงความคิดเห็นของคุณที่นี่..."></textarea>
                 <div class="btn-wrap">
-                  <button id="sending-comment" class="card-register-center">ส่งความคิดเห็น</button>
+                  <button id="sending-comment" class="card-register-center snt-comment" disabled>ส่งความคิดเห็น</button>
                 </div>
               </div>
               <!-- start comment -->
@@ -463,6 +463,18 @@
               $(".btn-submit-form").addClass('disabled');
           }else{
             $(".btn-submit-form").removeClass('disabled');
+          }
+      });
+
+      //button sent comment
+      $("#commentInput").keyup(function() {
+          var empty = $(this).parent().parent().parent().find("textarea").filter(function() {
+              return this.value === "";
+          });
+          if(empty.length) {
+              $(".snt-comment").prop('disabled', true);
+          }else{
+            $(".snt-comment").prop('disabled', false);
           }
       });
     </script>
