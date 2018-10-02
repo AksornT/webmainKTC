@@ -146,10 +146,20 @@
     margin-top: 290px;
   }
 
+  .ktc-tabs li a {
+    padding: 0 15px;
+    font-size: 18px;
+    line-height: 40px;
+  }
+
 }
 
 
 @media (max-width: 576px) {
+  .ktc-tabs li a {
+    padding: 0 3px;
+    font-size: 14px;
+  }
   .breadcrumb.bc-content{
     padding: 5px 0 7px 0;
     font-size: 12px;

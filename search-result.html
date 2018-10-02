@@ -298,11 +298,11 @@
             </div>
             <div id="search-cat-wrap-top" class="panel-collapse search-cat-wrap collapsed collapse" role="tabpanel" aria-labelledby="search-head-top" style="height: 0px;">
               <ul class="nav nav-tabs ktc-tabs">
-                <li class="active"><a data-toggle="tab" href="#" data-target="#type1, #type2, #type3, #type4">ทั้งหมด</a></li>
-                <li><a data-toggle="tab" href="#type1">บัตรเครดิต</a></li>
-                <li><a data-toggle="tab" href="#type2">สิทธิพิเศษ</a></li>
-                <li><a data-toggle="tab" href="#type3">บทความ</a></li>
-                <li><a data-toggle="tab" href="#type4">อื่นๆ</a></li>
+                <li class="active"><a data-toggle="tab" href="#type-all">ทั้งหมด</a></li>
+                <li><a data-toggle="tab" href="#type-1">บัตรเครดิต</a></li>
+                <li><a data-toggle="tab" href="#type-2">สิทธิพิเศษ</a></li>
+                <li><a data-toggle="tab" href="#type-3">บทความ</a></li>
+                <li><a data-toggle="tab" href="#type-4">อื่นๆ</a></li>
               </ul>
             </div>
           </div>
@@ -312,22 +312,22 @@
       <div class="content-wrap">
         <h3 class="title-center">ผลการค้นหา "บัตรเครดิต KTC"</h3>
         <ul class="nav nav-tabs ktc-tabs only-desktop">
-          <li class="active"><a id="open-all-tabs" data-toggle="tab" href="#" data-target="#type1, #type2, #type3, #type4">ทั้งหมด</a></li>
-          <li><a data-toggle="tab" href="#type1">บัตรเครดิต</a></li>
-          <li><a data-toggle="tab" href="#type2">สิทธิพิเศษ</a></li>
-          <li><a data-toggle="tab" href="#type3">บทความ</a></li>
-          <li><a data-toggle="tab" href="#type4">อื่นๆ</a></li>
+          <li class="active"><a id="open-all-tabs" data-toggle="tab" href="#type-all">ทั้งหมด</a></li>
+          <li><a data-toggle="tab" href="#type-1">บัตรเครดิต</a></li>
+          <li><a data-toggle="tab" href="#type-2">สิทธิพิเศษ</a></li>
+          <li><a data-toggle="tab" href="#type-3">บทความ</a></li>
+          <li><a data-toggle="tab" href="#type-4">อื่นๆ</a></li>
         </ul>
       </div>
       <div id="result-content" class="tab-content">
-        <div id="type1" class="tab-pane fade in active">
+        <div id="type-all" class="tab-pane fade in active">
           <div>
             <div class="slide-padd content-wrap">
               <div class="text-on-slide row">
                 <div class="col-9 col-lg-10">
-                  <h3 class="index-head"><a href="search-result-creditcard.html">บัตรเครดิต</a></h3>
+                  <h3 class="index-head"><a href="creditcard.html">บัตรเครดิต</a></h3>
                 </div>
-                <a class="col-3 col-lg-2" href="search-result-creditcard.html">ดูทั้งหมด</a>
+                <a class="col-3 col-lg-2" href="creditcard.html">ดูทั้งหมด</a>
               </div>
             </div>
             <div class="slide-wrap content-wrap">
@@ -383,15 +383,13 @@
               </div>
             </div>
           </div>
-        </div>
-        <div id="type2" class="tab-pane fade in active">
           <div>
             <div class="slide-padd content-wrap">
               <div class="text-on-slide row">
                 <div class="col-9 col-lg-10">
-                  <h3 class="index-head"><a href="search-result-promotion.html">สิทธิพิเศษ</a></h3>
+                  <h3 class="index-head"><a href="promotion.html">สิทธิพิเศษ</a></h3>
                 </div>
-                <a class="col-3 col-lg-2" href="search-result-promotion.html">ดูทั้งหมด</a>
+                <a class="col-3 col-lg-2" href="promotion.html">ดูทั้งหมด</a>
               </div>
             </div>
             <div class="slide-wrap content-wrap">
@@ -444,15 +442,14 @@
               </div>
             </div>
           </div>
-        </div>
-        <div id="type3" class="tab-pane fade in active">
+        
           <div>
             <div class="slide-padd content-wrap">
               <div class="text-on-slide row">
                 <div class="col-9 col-lg-10">
-                  <h3 class="index-head"><a href="search-result-article.html">บทความ</a></h3>
+                  <h3 class="index-head"><a href="article.html">บทความ</a></h3>
                 </div>
-                <a class="col-3 col-lg-2" href="search-result-article.html">ดูทั้งหมด</a>
+                <a class="col-3 col-lg-2" href="article.html">ดูทั้งหมด</a>
               </div>
             </div>
             <div class="slide-wrap content-wrap">
@@ -502,7 +499,7 @@
               </div>
               <script type="text/javascript">
               $(document).ready(function() {
-                $('.search-slide.type-credits, .search-slide.type-article').owlCarousel({
+                $('#type-all .search-slide.type-credits, #type-all .search-slide.type-article').owlCarousel({
                     loop:true,
                     responsiveClass:true,
                     dots:false,
@@ -525,7 +522,7 @@
                         }
                     }
                   });
-                $('.search-slide.type-promotion').owlCarousel({
+                $('#type-all .search-slide.type-promotion').owlCarousel({
                     loop:true,
                     dots:false,
                     responsiveClass:true,
@@ -552,19 +549,304 @@
               </script>
             </div>
           </div>
-        </div>
-        <div id="type4" class="tab-pane fade in active">
+        
           <div>
             <div class="slide-padd content-wrap">
               <div class="text-on-slide row">
                 <div class="col-9 col-lg-10">
-                  <h3 class="index-head"><a href="search-result-others.html">อื่นๆ</a></h3>
+                  <h3 class="index-head"><a href="#">อื่นๆ</a></h3>
                 </div>
-                <a class="col-3 col-lg-2" href="search-result-others.html">ดูทั้งหมด</a>
               </div>
             </div>
 
             <div class="content-wrap">
+              <a class="seach-result-other-box-wrap" href="#">
+                <h3 class="search-result-headline">เที่ยวนอก เที่ยวไหน ก็เที่ยวได้ถูกกว่า </h3>
+                <p class="seach-result-text-content">เมื่อช้อปต่างประเทศเมื่อช้อปต่างประเทศหรือช้อปออนไลน์เป็นสกุลเงินต่างประเทศผ่านบัตรเครดิต KTC ถูกกว่า! ค่าธรรมเนียมอัตราความเสี่ยงการแปลงสกุลเงินต่างประเทศไม่เกิน 2% เมื่อช้อปต่างประเทศเมื่อช้อปต่างประเทศหรือช้อปออนไลน์เป็นสกุลเงินต่างประเทศผ่านบัตรเครดิต KTC ถูกกว่า! ค่าธรรมเนียมอัตราความเสี่ยงการแปลงสกุลเงินต่างประเทศไม่เกิน 2% </p>
+              </a>
+              <a class="seach-result-other-box-wrap" href="#">
+                <h3 class="search-result-headline">เที่ยวนอก เที่ยวไหน ก็เที่ยวได้ถูกกว่า </h3>
+                <p class="seach-result-text-content">เมื่อช้อปต่างประเทศเมื่อช้อปต่างประเทศหรือช้อปออนไลน์เป็นสกุลเงินต่างประเทศผ่านบัตรเครดิต KTC ถูกกว่า! ค่าธรรมเนียมอัตราความเสี่ยงการแปลงสกุลเงินต่างประเทศไม่เกิน 2% เมื่อช้อปต่างประเทศเมื่อช้อปต่างประเทศหรือช้อปออนไลน์เป็นสกุลเงินต่างประเทศผ่านบัตรเครดิต KTC ถูกกว่า! ค่าธรรมเนียมอัตราความเสี่ยงการแปลงสกุลเงินต่างประเทศไม่เกิน 2% </p>
+              </a>
+              <a class="seach-result-other-box-wrap" href="#">
+                <h3 class="search-result-headline">เที่ยวนอก เที่ยวไหน ก็เที่ยวได้ถูกกว่า </h3>
+                <p class="seach-result-text-content">เมื่อช้อปต่างประเทศเมื่อช้อปต่างประเทศหรือช้อปออนไลน์เป็นสกุลเงินต่างประเทศผ่านบัตรเครดิต KTC ถูกกว่า! ค่าธรรมเนียมอัตราความเสี่ยงการแปลงสกุลเงินต่างประเทศไม่เกิน 2% เมื่อช้อปต่างประเทศเมื่อช้อปต่างประเทศหรือช้อปออนไลน์เป็นสกุลเงินต่างประเทศผ่านบัตรเครดิต KTC ถูกกว่า! ค่าธรรมเนียมอัตราความเสี่ยงการแปลงสกุลเงินต่างประเทศไม่เกิน 2% </p>
+              </a>
+              <a class="seach-result-other-box-wrap" href="#">
+                <h3 class="search-result-headline">เที่ยวนอก เที่ยวไหน ก็เที่ยวได้ถูกกว่า </h3>
+                <p class="seach-result-text-content">เมื่อช้อปต่างประเทศเมื่อช้อปต่างประเทศหรือช้อปออนไลน์เป็นสกุลเงินต่างประเทศผ่านบัตรเครดิต KTC ถูกกว่า! ค่าธรรมเนียมอัตราความเสี่ยงการแปลงสกุลเงินต่างประเทศไม่เกิน 2% เมื่อช้อปต่างประเทศเมื่อช้อปต่างประเทศหรือช้อปออนไลน์เป็นสกุลเงินต่างประเทศผ่านบัตรเครดิต KTC ถูกกว่า! ค่าธรรมเนียมอัตราความเสี่ยงการแปลงสกุลเงินต่างประเทศไม่เกิน 2% </p>
+              </a>
+            </div>
+
+          </div>
+        </div>
+        <div id="type-1" class="tab-pane fade">
+          <div>
+            <div class="slide-padd content-wrap">
+              <div class="text-on-slide row">
+                <div class="col-9 col-lg-10">
+                  <h3 class="index-head"><a href="creditcard.html">บัตรเครดิต</a></h3>
+                </div>
+                <a class="col-3 col-lg-2" href="creditcard.html">ดูทั้งหมด</a>
+              </div>
+            </div>
+            <div class="slide-wrap content-wrap">
+              <div class="search-slide type-credits row">
+                <div class="item col-sm-6 col-lg-3">
+                  <img href="#" src="img/img-ktc-platinum-mastercard.png">
+                  <div class="slide-content-wrap">
+                    <p class="slide-title">KTC X VISA SIGNATURE</p>
+                    <p class="slide-content">Earn KTC FOREVER REWARDS X3 points for every spending in foreign currency</p>
+                    <a class="card-register-btn" href="#">สมัครบัตร</a>
+                  </div>
+                </div>
+                <div class="item col-sm-6 col-lg-3">
+                  <img href="#" src="img/img-ktc-visa-signature.png">
+                  <div class="slide-content-wrap">
+                    <p class="slide-title">KTC X WORLD REWARD MASTERCARD</p>
+                    <p class="slide-content">Earn KTC FOREVER REWARDS X3 points for every spending in foreign currency</p>
+                    <a class="card-register-btn" href="#">สมัครบัตร</a>
+                  </div>
+                </div>
+                <div class="item col-sm-6 col-lg-3">
+                  <img href="#" src="img/img-ktc-x-visa-signature.png">
+                  <div class="slide-content-wrap">
+                    <p class="slide-title">KTC X WORLD REWARD MASTERCARD</p>
+                    <p class="slide-content">Earn KTC FOREVER REWARDS X3 points for every spending in foreign currency</p>
+                    <a class="card-register-btn" href="#">สมัครบัตร</a>
+                  </div>
+                </div>
+                <div class="item col-sm-6 col-lg-3">
+                  <img href="#" src="img/img-ktc-x-world-rewards-mastercard.png">
+                  <div class="slide-content-wrap">
+                    <p class="slide-title">KTC WORLD REWARD MASTERCARD</p>
+                    <p class="slide-content">Earn KTC FOREVER REWARDS X3 points for every spending in foreign currency</p>
+                    <a class="card-register-btn" href="#">สมัครบัตร</a>
+                  </div>
+                </div>
+                <div class="item col-sm-6 col-lg-3">
+                  <img href="#" src="img/img-ktc-platinum-mastercard.png">
+                  <div class="slide-content-wrap">
+                    <p class="slide-title">KTC X VISA SIGNATURE</p>
+                    <p class="slide-content">Earn KTC FOREVER REWARDS X3 points for every spending in foreign currency</p>
+                    <a class="card-register-btn" href="#">สมัครบัตร</a>
+                  </div>
+                </div>
+                <div class="item col-sm-6 col-lg-3">
+                  <img href="#" src="img/img-ktc-x-visa-signature.png">
+                  <div class="slide-content-wrap">
+                    <p class="slide-title">KTC X WORLD REWARD MASTERCARD</p>
+                    <p class="slide-content">Earn KTC FOREVER REWARDS X3 points for every spending in foreign currency</p>
+                    <a class="card-register-btn" href="#">สมัครบัตร</a>
+                  </div>
+                </div>
+                <div class="item col-sm-6 col-lg-3">
+                  <img href="#" src="img/img-ktc-platinum-mastercard.png">
+                  <div class="slide-content-wrap">
+                    <p class="slide-title">KTC X VISA SIGNATURE</p>
+                    <p class="slide-content">Earn KTC FOREVER REWARDS X3 points for every spending in foreign currency</p>
+                    <a class="card-register-btn" href="#">สมัครบัตร</a>
+                  </div>
+                </div>
+                <div class="item col-sm-6 col-lg-3">
+                  <img href="#" src="img/img-ktc-x-visa-signature.png">
+                  <div class="slide-content-wrap">
+                    <p class="slide-title">KTC X WORLD REWARD MASTERCARD</p>
+                    <p class="slide-content">Earn KTC FOREVER REWARDS X3 points for every spending in foreign currency</p>
+                    <a class="card-register-btn" href="#">สมัครบัตร</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="type-2" class="tab-pane fade">
+          <div>
+            <div class="slide-padd content-wrap">
+              <div class="text-on-slide row">
+                <div class="col-9 col-lg-10">
+                  <h3 class="index-head"><a href="promotion.html">สิทธิพิเศษ</a></h3>
+                </div>
+                <a class="col-3 col-lg-2" href="promotion.html">ดูทั้งหมด</a>
+              </div>
+            </div>
+            <div class="slide-wrap content-wrap">
+              <div class="search-slide type-promotion row">
+                <div class="item col-6 col-sm-6 col-lg-3">
+                  <img href="#" src="img/img-flexi-promo-0percent.png">
+                  <div class="slide-content-wrap">
+                    <p class="slide-title">เที่ยวนอก เที่ยวไหน ก็เที่ยวได้ถูกกว่า</p>
+                    <p class="slide-content">เมื่อช้อปต่างประเทศหรือช้อปออนไลน์เป็นสกุลเงินต่างประเทศผ่านบัตรเครดิต KTC</p>
+                    <p class="promotion-range">1 ก.ค. 61 - 30 ก.ย. 61</p>
+                    <a class="card-register-btn" href="#">ลงทะเบียน</a>
+                  </div>
+                </div>
+                <div class="item col-6 col-sm-6 col-lg-3">
+                  <img href="#" src="img/img-flexi-promo-ais.png">
+                  <div class="slide-content-wrap">
+                    <p class="slide-title">เที่ยวนอก เที่ยวไหน ก็เที่ยวได้ถูกกว่า</p>
+                    <p class="slide-content">เมื่อช้อปต่างประเทศหรือช้อปออนไลน์เป็นสกุลเงินต่างประเทศผ่านบัตรเครดิต KTC</p>
+                    <p class="promotion-range">1 ก.ค. 61 - 30 ก.ย. 61</p>
+                    <a class="card-register-btn" href="#">ลงทะเบียน</a>
+                  </div>
+                </div>
+                <div class="item col-6 col-sm-6 col-lg-3">
+                  <img href="#" src="img/img-flexi-promo-big-c.png">
+                  <div class="slide-content-wrap">
+                    <p class="slide-title">เที่ยวนอก เที่ยวไหน ก็เที่ยวได้ถูกกว่า</p>
+                    <p class="slide-content">เมื่อช้อปต่างประเทศหรือช้อปออนไลน์เป็นสกุลเงินต่างประเทศผ่านบัตรเครดิต KTC</p>
+                    <p class="promotion-range">1 ก.ค. 61 - 30 ก.ย. 61</p>
+                    <a class="card-register-btn" href="#">ลงทะเบียน</a>
+                  </div>
+                </div>
+                <div class="item col-6 col-sm-6 col-lg-3">
+                  <img href="#" src="img/img-flexi-promo-powerbuy.png">
+                  <div class="slide-content-wrap">
+                    <p class="slide-title">เที่ยวนอก เที่ยวไหน ก็เที่ยวได้ถูกกว่า</p>
+                    <p class="slide-content">เมื่อช้อปต่างประเทศหรือช้อปออนไลน์เป็นสกุลเงินต่างประเทศผ่านบัตรเครดิต KTC</p>
+                    <p class="promotion-range">1 ก.ค. 61 - 30 ก.ย. 61</p>
+                    <a class="card-register-btn" href="#">ลงทะเบียน</a>
+                  </div>
+                </div>
+                <div class="item col-6 col-sm-6 col-lg-3">
+                  <img href="#" src="img/img-flexi-promo-tv.png">
+                  <div class="slide-content-wrap">
+                    <p class="slide-title">เที่ยวนอก เที่ยวไหน ก็เที่ยวได้ถูกกว่า</p>
+                    <p class="slide-content">เมื่อช้อปต่างประเทศหรือช้อปออนไลน์เป็นสกุลเงินต่างประเทศผ่านบัตรเครดิต KTC</p>
+                    <p class="promotion-range">1 ก.ค. 61 - 30 ก.ย. 61</p>
+                    <a class="card-register-btn" href="#">ลงทะเบียน</a>
+                  </div>
+                </div>
+                <div class="item col-6 col-sm-6 col-lg-3">
+                  <img href="#" src="img/img-flexi-promo-powerbuy.png">
+                  <div class="slide-content-wrap">
+                    <p class="slide-title">เที่ยวนอก เที่ยวไหน ก็เที่ยวได้ถูกกว่า</p>
+                    <p class="slide-content">เมื่อช้อปต่างประเทศหรือช้อปออนไลน์เป็นสกุลเงินต่างประเทศผ่านบัตรเครดิต KTC</p>
+                    <p class="promotion-range">1 ก.ค. 61 - 30 ก.ย. 61</p>
+                    <a class="card-register-btn" href="#">ลงทะเบียน</a>
+                  </div>
+                </div>
+                <div class="item col-6 col-sm-6 col-lg-3">
+                  <img href="#" src="img/img-flexi-promo-tv.png">
+                  <div class="slide-content-wrap">
+                    <p class="slide-title">เที่ยวนอก เที่ยวไหน ก็เที่ยวได้ถูกกว่า</p>
+                    <p class="slide-content">เมื่อช้อปต่างประเทศหรือช้อปออนไลน์เป็นสกุลเงินต่างประเทศผ่านบัตรเครดิต KTC</p>
+                    <p class="promotion-range">1 ก.ค. 61 - 30 ก.ย. 61</p>
+                    <a class="card-register-btn" href="#">ลงทะเบียน</a>
+                  </div>
+                </div>
+                <div class="item col-6 col-sm-6 col-lg-3">
+                  <img href="#" src="img/img-flexi-promo-powerbuy.png">
+                  <div class="slide-content-wrap">
+                    <p class="slide-title">เที่ยวนอก เที่ยวไหน ก็เที่ยวได้ถูกกว่า</p>
+                    <p class="slide-content">เมื่อช้อปต่างประเทศหรือช้อปออนไลน์เป็นสกุลเงินต่างประเทศผ่านบัตรเครดิต KTC</p>
+                    <p class="promotion-range">1 ก.ค. 61 - 30 ก.ย. 61</p>
+                    <a class="card-register-btn" href="#">ลงทะเบียน</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="type-3" class="tab-pane fade">
+          <div>
+            <div class="slide-padd content-wrap">
+              <div class="text-on-slide row">
+                <div class="col-9 col-lg-10">
+                  <h3 class="index-head"><a href="article.html">บทความ</a></h3>
+                </div>
+                <a class="col-3 col-lg-2" href="article.html">ดูทั้งหมด</a>
+              </div>
+            </div>
+            <div class="slide-wrap content-wrap">
+              <div class="search-slide type-article row">
+                <a class="item col-sm-6 col-lg-3" href="#">
+                  <img src="img/slide02-1.png">
+                  <div class="slide-content-wrap">
+                    <p class="slide-title">เที่ยวนอก เที่ยวไหน ก็เที่ยวได้ถูกกว่า</p>
+                    <p class="slide-content">เมื่อช้อปต่างประเทศหรือช้อปออนไลน์เป็นสกุลเงินต่างประเทศผ่านบัตรเครดิต KTC</p>
+                  </div>
+                </a>
+                <a class="item col-sm-6 col-lg-3" href="#">
+                  <img src="img/slide02-2.png">
+                  <div class="slide-content-wrap">
+                    <p class="slide-title">เที่ยวนอก เที่ยวไหน ก็เที่ยวได้ถูกกว่า</p>
+                    <p class="slide-content">เมื่อช้อปต่างประเทศหรือช้อปออนไลน์เป็นสกุลเงินต่างประเทศผ่านบัตรเครดิต KTC</p>
+                  </div>
+                </a>
+                <a class="item col-sm-6 col-lg-3" href="#">
+                  <img src="img/slide02-3.png">
+                  <div class="slide-content-wrap">
+                    <p class="slide-title">เที่ยวนอก เที่ยวไหน ก็เที่ยวได้ถูกกว่า</p>
+                    <p class="slide-content">เมื่อช้อปต่างประเทศหรือช้อปออนไลน์เป็นสกุลเงินต่างประเทศผ่านบัตรเครดิต KTC</p>
+                  </div>
+                </a>
+                <a class="item col-sm-6 col-lg-3" href="#">
+                  <img src="img/slide02-4.png">
+                  <div class="slide-content-wrap">
+                    <p class="slide-title">เที่ยวนอก เที่ยวไหน ก็เที่ยวได้ถูกกว่า</p>
+                    <p class="slide-content">เมื่อช้อปต่างประเทศหรือช้อปออนไลน์เป็นสกุลเงินต่างประเทศผ่านบัตรเครดิต KTC</p>
+                  </div>
+                </a>
+                <a class="item col-sm-6 col-lg-3" href="#">
+                  <img src="img/slide02-1.png">
+                  <div class="slide-content-wrap">
+                    <p class="slide-title">เที่ยวนอก เที่ยวไหน ก็เที่ยวได้ถูกกว่า</p>
+                    <p class="slide-content">เมื่อช้อปต่างประเทศหรือช้อปออนไลน์เป็นสกุลเงินต่างประเทศผ่านบัตรเครดิต KTC</p>
+                  </div>
+                </a>
+                <a class="item col-sm-6 col-lg-3" href="#">
+                  <img src="img/slide02-2.png">
+                  <div class="slide-content-wrap">
+                    <p class="slide-title">เที่ยวนอก เที่ยวไหน ก็เที่ยวได้ถูกกว่า</p>
+                    <p class="slide-content">เมื่อช้อปต่างประเทศหรือช้อปออนไลน์เป็นสกุลเงินต่างประเทศผ่านบัตรเครดิต KTC</p>
+                  </div>
+                </a>
+                <a class="item col-sm-6 col-lg-3" href="#">
+                  <img src="img/slide02-3.png">
+                  <div class="slide-content-wrap">
+                    <p class="slide-title">เที่ยวนอก เที่ยวไหน ก็เที่ยวได้ถูกกว่า</p>
+                    <p class="slide-content">เมื่อช้อปต่างประเทศหรือช้อปออนไลน์เป็นสกุลเงินต่างประเทศผ่านบัตรเครดิต KTC</p>
+                  </div>
+                </a>
+                <a class="item col-sm-6 col-lg-3" href="#">
+                  <img src="img/slide02-4.png">
+                  <div class="slide-content-wrap">
+                    <p class="slide-title">เที่ยวนอก เที่ยวไหน ก็เที่ยวได้ถูกกว่า</p>
+                    <p class="slide-content">เมื่อช้อปต่างประเทศหรือช้อปออนไลน์เป็นสกุลเงินต่างประเทศผ่านบัตรเครดิต KTC</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="type-4" class="tab-pane fade">
+          <div>
+            <div class="slide-padd content-wrap">
+              <div class="text-on-slide row">
+                <div class="col-9 col-lg-10">
+                  <h3 class="index-head"><a href="#">อื่นๆ</a></h3>
+                </div>
+              </div>
+            </div>
+
+            <div class="content-wrap">
+              <a class="seach-result-other-box-wrap" href="#">
+                <h3 class="search-result-headline">เที่ยวนอก เที่ยวไหน ก็เที่ยวได้ถูกกว่า </h3>
+                <p class="seach-result-text-content">เมื่อช้อปต่างประเทศเมื่อช้อปต่างประเทศหรือช้อปออนไลน์เป็นสกุลเงินต่างประเทศผ่านบัตรเครดิต KTC ถูกกว่า! ค่าธรรมเนียมอัตราความเสี่ยงการแปลงสกุลเงินต่างประเทศไม่เกิน 2% เมื่อช้อปต่างประเทศเมื่อช้อปต่างประเทศหรือช้อปออนไลน์เป็นสกุลเงินต่างประเทศผ่านบัตรเครดิต KTC ถูกกว่า! ค่าธรรมเนียมอัตราความเสี่ยงการแปลงสกุลเงินต่างประเทศไม่เกิน 2% </p>
+              </a>
+              <a class="seach-result-other-box-wrap" href="#">
+                <h3 class="search-result-headline">เที่ยวนอก เที่ยวไหน ก็เที่ยวได้ถูกกว่า </h3>
+                <p class="seach-result-text-content">เมื่อช้อปต่างประเทศเมื่อช้อปต่างประเทศหรือช้อปออนไลน์เป็นสกุลเงินต่างประเทศผ่านบัตรเครดิต KTC ถูกกว่า! ค่าธรรมเนียมอัตราความเสี่ยงการแปลงสกุลเงินต่างประเทศไม่เกิน 2% เมื่อช้อปต่างประเทศเมื่อช้อปต่างประเทศหรือช้อปออนไลน์เป็นสกุลเงินต่างประเทศผ่านบัตรเครดิต KTC ถูกกว่า! ค่าธรรมเนียมอัตราความเสี่ยงการแปลงสกุลเงินต่างประเทศไม่เกิน 2% </p>
+              </a>
+              <a class="seach-result-other-box-wrap" href="#">
+                <h3 class="search-result-headline">เที่ยวนอก เที่ยวไหน ก็เที่ยวได้ถูกกว่า </h3>
+                <p class="seach-result-text-content">เมื่อช้อปต่างประเทศเมื่อช้อปต่างประเทศหรือช้อปออนไลน์เป็นสกุลเงินต่างประเทศผ่านบัตรเครดิต KTC ถูกกว่า! ค่าธรรมเนียมอัตราความเสี่ยงการแปลงสกุลเงินต่างประเทศไม่เกิน 2% เมื่อช้อปต่างประเทศเมื่อช้อปต่างประเทศหรือช้อปออนไลน์เป็นสกุลเงินต่างประเทศผ่านบัตรเครดิต KTC ถูกกว่า! ค่าธรรมเนียมอัตราความเสี่ยงการแปลงสกุลเงินต่างประเทศไม่เกิน 2% </p>
+              </a>
+              <a class="seach-result-other-box-wrap" href="#">
+                <h3 class="search-result-headline">เที่ยวนอก เที่ยวไหน ก็เที่ยวได้ถูกกว่า </h3>
+                <p class="seach-result-text-content">เมื่อช้อปต่างประเทศเมื่อช้อปต่างประเทศหรือช้อปออนไลน์เป็นสกุลเงินต่างประเทศผ่านบัตรเครดิต KTC ถูกกว่า! ค่าธรรมเนียมอัตราความเสี่ยงการแปลงสกุลเงินต่างประเทศไม่เกิน 2% เมื่อช้อปต่างประเทศเมื่อช้อปต่างประเทศหรือช้อปออนไลน์เป็นสกุลเงินต่างประเทศผ่านบัตรเครดิต KTC ถูกกว่า! ค่าธรรมเนียมอัตราความเสี่ยงการแปลงสกุลเงินต่างประเทศไม่เกิน 2% </p>
+              </a>
               <a class="seach-result-other-box-wrap" href="#">
                 <h3 class="search-result-headline">เที่ยวนอก เที่ยวไหน ก็เที่ยวได้ถูกกว่า </h3>
                 <p class="seach-result-text-content">เมื่อช้อปต่างประเทศเมื่อช้อปต่างประเทศหรือช้อปออนไลน์เป็นสกุลเงินต่างประเทศผ่านบัตรเครดิต KTC ถูกกว่า! ค่าธรรมเนียมอัตราความเสี่ยงการแปลงสกุลเงินต่างประเทศไม่เกิน 2% เมื่อช้อปต่างประเทศเมื่อช้อปต่างประเทศหรือช้อปออนไลน์เป็นสกุลเงินต่างประเทศผ่านบัตรเครดิต KTC ถูกกว่า! ค่าธรรมเนียมอัตราความเสี่ยงการแปลงสกุลเงินต่างประเทศไม่เกิน 2% </p>

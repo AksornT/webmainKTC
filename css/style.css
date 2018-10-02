@@ -4475,6 +4475,7 @@ input:focus + .suggess-box,
     top: 5vw;
     position: absolute;
     pointer-events: none;
+    transform: translateY(-10px);
 }
 
 .search-slide .owl-nav button{
