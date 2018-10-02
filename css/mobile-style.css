@@ -157,8 +157,8 @@
 
 @media (max-width: 576px) {
   .ktc-tabs li a {
-    padding: 0 3px;
-    font-size: 14px;
+    padding: 0 7px;
+    font-size: 12px;
   }
   .breadcrumb.bc-content{
     padding: 5px 0 7px 0;
@@ -1129,7 +1129,12 @@
   }
 
   .title-center{
-    font-size: 14px;
+    font-size: 18px;
+    line-height: 1.4;
+  }
+
+  .search-cat-head img{
+    margin: 8px 0 -8px 0;
   }
 
   #result-content .item .slide-title,
@@ -1772,6 +1777,8 @@ nav[aria-label="breadcrumb"] + .row-search-filter {
     .main-credit.addTop{
       padding-top: 200px;
     }
+
+
 
 
 }

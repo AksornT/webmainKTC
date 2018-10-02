@@ -1386,4 +1386,18 @@
     padding-top: 230px;
   }
 
+  .search-cat-head img{
+    margin: 13px 0 -13px 0;
+  }
+
+  #search-cat-wrap-top .ktc-tabs {
+    margin-top: 25px;
+    margin-bottom: 10px;
+  }
+
+  .title-center{
+    font-size: 22px;
+    line-height: 1.4;
+  }
+
 }

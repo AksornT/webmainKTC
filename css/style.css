@@ -4358,10 +4358,6 @@ input:focus + .suggess-box,
     opacity: 1;
 }
 
-#search-result-page{
-	padding-top: 25px;
-}
-
 .content-wrap > nav > .breadcrumb{
 	padding-left: 0;
 }
@@ -4494,8 +4490,7 @@ input:focus + .suggess-box,
 }
 
 .search-slide .item img{
-	max-width: 100%;
-    width: auto;
+	width: 100%;
     height: auto;
 }
 
