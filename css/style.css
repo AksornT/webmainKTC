@@ -6981,6 +6981,31 @@ nav[aria-label="breadcrumb"]{
 	top: calc(50% - 11px);
 }
 
+.search-slide.type-credits .owl-stage,
+.search-slide.type-credits .owl-item,
+.search-slide.type-promotion .owl-stage,
+.search-slide.type-promotion .owl-item{
+	display: flex;
+}
+
+#result-content .slide-wrap .search-slide.type-credits .item,
+#result-content .slide-wrap .search-slide.type-promotion .item{
+    display: flex;
+    flex-flow: column;
+}
+
+.search-slide.type-credits .slide-content{
+	margin-bottom: 30px;
+}
+
+.search-slide.type-credits .card-register-btn,
+.search-slide.type-promotion .card-register-btn{
+	text-align: center;
+	width: 110px;
+	white-space: nowrap;
+	margin-top: auto;
+}
+
 
 /*Safari Only*/
 @media not all and (min-resolution:.001dpcm)
