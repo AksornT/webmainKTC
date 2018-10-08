@@ -668,12 +668,18 @@ a:hover{
 	background: #ededed;
 }
 
-.footer h3{
+.footer h3,
+.footer h3 a{
 	font-family: 'Conv_SukhumvitTadmai_Bol';
 	font-size: 16px;
 	margin-bottom: 9px;
 	line-height: 25px;
 	padding-top: 40px;
+}
+
+.footer h3 a{
+	margin: 0;
+	padding: 0;
 }
 
 .footer a{
@@ -695,6 +701,15 @@ a:hover{
 
 .footer a:hover{
 	color: #cf3339;
+}
+
+.footer a.tel,
+.footer a.tel:hover{
+	color: #000;
+}
+
+.footer .download-section a{
+	margin: 0;
 }
 
 .footer-menu{

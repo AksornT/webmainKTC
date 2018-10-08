@@ -2,6 +2,12 @@
   .last-piece .text-right{
     display: none;
   }
+  .last-piece.for-login-pg .license{
+    padding-left: 20px;
+  }
+  .last-piece.for-login-pg .text-right{
+    padding-right: 20px;
+  }
 
   .license{
     font-size: 12px;
@@ -751,7 +757,6 @@
   /* login page -eve */
   .last-piece.for-login-pg .text-right{
     display: inline-block;
-    padding-right: 0px;
   }
   .last-piece.for-login-pg .text-right .lang-footer label{
     display: none;
@@ -762,6 +767,10 @@
   .box-login-con{
     padding-top: 40px;
     padding-bottom: 40px;
+  }
+
+  .bg-login {
+    min-height: calc(100vh - 103px);
   }
 
   /* Flexi Page - @korstudio */
