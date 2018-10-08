@@ -793,6 +793,7 @@ article.page-content h4 {
 	font-family: "Conv_SukhumvitTadmai_Tex", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 40px;
 	text-align: center;
+	position: relative;
 }
 article.page-content h3::after,
 article.page-content h4::after {
@@ -809,6 +810,13 @@ article.page-content h4.no-dash::after {
 }
 article.page-content img {
 	max-width: 100%;
+}
+
+.share-on-top{
+	margin-left: -30px;
+	float: right;
+	position: relative;
+	padding-bottom: 8px;
 }
 
 /* slide - eve */
@@ -3227,6 +3235,7 @@ a.media.on-desk img {
 .btn-flexi-share.only-mobile {
 	margin-top: 20px;
 	width: 100%;
+	background-size: auto 80%;
 }
 
 #nav-flexi .button-flexi-start {
@@ -3294,7 +3303,7 @@ a.media.on-desk img {
 	right: 0;
 	background: #fff;
 	box-shadow: rgba(0, 0, 0, 0.2) 0 1px 6px;
-	z-index: 1;
+	z-index: 2;
 }
 #nav-flexi-mobile .nav.mini .nav-right, #nav-flexi-modal .nav.mini .nav-right {
 	margin-left: auto;
@@ -3306,8 +3315,8 @@ a.media.on-desk img {
 	font-size: 14px;
 }
 #nav-flexi-mobile .nav.mini .btn-flexi-share, #nav-flexi-modal .nav.mini .btn-flexi-share {
-	-webkit-background-size: 12px;
-	background-size: 12px;
+	-webkit-background-size: 22px;
+	background-size: 22px;
 }
 #nav-flexi-mobile .nav.mini .button-show-flexi-menu, #nav-flexi-modal .nav.mini .button-show-flexi-menu {
 	margin-left: -10px;
@@ -3350,6 +3359,7 @@ a.media.on-desk img {
 	font-family: "Conv_SukhumvitTadmai_Tex", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 40px;
 	text-align: center;
+	position: relative;
 }
 #page-flexi-content h4::after {
 	content: '';

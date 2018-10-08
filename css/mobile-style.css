@@ -1776,6 +1776,16 @@ nav[aria-label="breadcrumb"] + .row-search-filter {
       padding-top: 200px;
     }
 
+    .share-on-top {
+      position: fixed;
+      top: 55px;
+      right: 13px;
+      z-index: 1;
+    }
+
+    nav + .content-wrap .share-on-top{
+      top: 43px;
+    }
 
 
 

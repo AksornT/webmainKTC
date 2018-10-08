@@ -1409,4 +1409,25 @@
     line-height: 1.4;
   }
 
+  .share-on-top{
+    position: fixed;
+    top: 73px;
+    right: 23px;
+    z-index: 1;
+  }
+
+  nav + .content-wrap .share-on-top{
+    top: 61px;
+  }
+
+  .button-flexi-start + .share-on-top{
+    position: relative;
+    margin: 15px auto 0 auto;
+    float: none;
+    display: block;
+    width: 30px;
+    top: 0;
+    right: 0;
+  }
+
 }
