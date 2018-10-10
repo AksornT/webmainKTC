@@ -1,0 +1,156 @@
+
+/* About V1 */
+
+
+/* Board Director */
+.board-content { margin-top: 50px; margin-bottom:50px;}
+.board-content h3 { margin-bottom: 10px;}
+.board-content p { font-size:13px;}
+.board-img { width:150px; border-radius: 50%; margin: 0 auto 30px;}
+.board-img-lg { width: 240px; margin: 0 auto 60px;}
+.board-img img { border-radius: 50%;}
+
+.board-col { padding-left: 15px; padding-right: 15px;}
+.board-col-1 .board-col { width:33.333%; display: block; margin: 0 auto; }
+.board-col-3 .board-col { width: 33.333%; float: left;}
+.board-col-3 .board-col:nth-child(3n+1) { clear: both;}
+
+.cg-rating { width:35px;}
+
+
+/* Structure */
+.structure-img { max-width: 804px; margin: 0 auto 50px;}
+
+.article-wrap { padding: 40px 0 80px 40px;}
+.article-2columns.nopadding-left { padding: 0;}
+
+/* History */
+.panel-history { position: relative; padding:55px 40px 80px 40px; background-color:#fafafa;}
+.panel-history .panel-header { height:60px; position: relative; padding-bottom: 30px;}
+.panel-history .panel-header a.close-icon { font-size:20px; position: absolute; top:0; right:0; color: #333;}
+.panel-history .panel-button a { font-size:20px; color: #ddd; margin-right:4px;}
+.panel-history .panel-button .fx-prev,
+.panel-history .panel-button .fx-next { color: #333;}
+.panel-history .header-content { margin-bottom:60px;}
+
+.table-history { width: 100%; margin-bottom:40px;}
+.table-history tbody td { padding: 12px 0;}
+.table-history thead td { border-bottom: 0;}
+.table-history .tb-title { color: #333; font-weight:400;}
+.table-history strong { color: #333; font-weight:400;}
+.table-history .tb-group { margin-bottom:10px;}
+.table-history .tb-group:last-child { margin-bottom: 0;}
+.table-history ul { margin: 0 0 0 18px}
+.table-history ul li, .table-history ol li {
+    margin-bottom: 8px;
+    text-align: left;
+}
+.table-history ul li, .table-history ol ul li {
+    list-style-type: disc;
+}
+
+.dw-list p { font-size: 14px; margin-bottom: 10px;}
+.dw-list .ic { font-size:25px; margin-left: 5px;}
+.dw-list .link,.dw-list a.link { color: #bc101a;}
+
+.feed-about { padding:50px 0;}
+.feed-about h3 { height:40px; color: #FFF; margin-bottom: 0;}
+.feed-about h3 span { display: block; font-size:14px; 
+	font-family: 'sukhumvittadmai_lig';}
+.feed-about .num { 
+    line-height:1;
+    font-family: 'gothamrounded-light'; 
+    font-size:45px; color:#bc101a;
+		margin: 15px 0;
+}
+.feed-about p { font-size:14px; color: #ccc;}
+
+.site-navigation {
+    position: absolute;
+    right: 15px;
+    top: 0;
+}
+
+.px-box { position: relative; }
+.px-box-list {
+    overflow: hidden;
+    background: #FFF;
+    max-height: 2500px;
+    backface-visibility: hidden;
+    transform-origin: 50% 0%;
+    -webkit-filter: brightness(1);
+    filter: brightness(1);
+    -webkit-transform: translate3d(0, 0, 0) scale3d(1,1,1);
+    transform: translate3d(0, 0, 0) scale3d(1,1,1);
+    -webkit-transition: max-height 420ms ease-in, -webkit-transform 500ms 420ms ease, -webkit-filter 500ms 420ms ease;
+    transition: max-height 420ms ease-in, transform 500ms 420ms ease, filter 500ms 420ms ease;
+}
+.px-box-content {
+    max-height: 0px;
+    position: relative;
+    overflow: hidden;
+}
+.px-box.showPopup .px-box-list {
+    max-height: 0px;
+    -webkit-filter: brightness(1);
+    filter: brightness(1);
+    -webkit-transform: translate3d(0, 0, 0) scale(1);
+    transform: translate3d(0, 0, 0) scale(1);
+    -webkit-transition: max-height 420ms 360ms ease, -webkit-transform 500ms ease, -webkit-filter 500ms ease;
+    transition: max-height 420ms 360ms ease, transform 500ms ease, filter 500ms ease;
+}
+.px-box.showPopup .px-box-content {
+    max-height: 5000px;
+}
+.px-box-popup {
+    position: relative;
+    max-height: 0px;
+    overflow: hidden;
+    visibility: hidden;
+    width: 100%;
+    opacity: 0;
+    top: 0;
+    transition-duration: 600ms;
+    transition-property: opacity;
+}
+.px-box-popup.show {
+    visibility: visible;
+    opacity: 1;
+    max-height: 5000px;
+}
+.fxPopup { cursor: pointer;}
+
+@media screen and ( max-width:1024px ) {
+    
+    .site-navigation { display: none;}
+    .article-wrap { padding:40px 0 80px 0;} 
+    
+}
+
+@media screen and ( max-width:980px ) {
+	
+	.feed-about .num { font-size:35px;}
+	
+}
+
+
+@media screen and ( max-width:767px ) {
+    
+    .panel-history { padding:30px 20px 80px 20px;}
+    .panel-history .header-content { margin-bottom:30px;}
+    .article-2columns .article-group { margin-bottom:15px;}
+    
+    .board-img-lg { width: 200px;}
+    .board-col-1 .board-col,
+    .board-col-3 .board-col { width: 100%;}
+    .board-content { text-align: center;}
+    
+    .article-wrap { padding: 40px 0 80px 0;}
+    
+    .feed-about-container { padding: 20px 0;}
+    .feed-about h3 { height: auto;}
+    .feed-about { padding:15px 0; border-bottom: 1px solid rgba(51, 51, 51, 0.80);}
+    .feed-about .num { font-size:32px; margin:15px 0 10px 0;}
+    .feed-about.last { border-bottom: 0;}
+    .feed-about p { font-size:13px;}
+}

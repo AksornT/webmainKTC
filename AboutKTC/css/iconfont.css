@@ -1,0 +1,263 @@
+@font-face {
+  font-family: 'ico-ktc';
+  src:  url('../fonts/iconfont/ico-ktc.eot?tgm02i');
+  src:  url('../fonts/iconfont/ico-ktc.eot?tgm02i#iefix') format('embedded-opentype'),
+    url('../fonts/iconfont/ico-ktc.ttf?tgm02i') format('truetype'),
+    url('../fonts/iconfont/ico-ktc.woff?tgm02i') format('woff'),
+    url('../fonts/iconfont/ico-ktc.svg?tgm02i#ico-ktc') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/iconfont/icomoon.eot?q7uj');
+  src:  url('../fonts/iconfont/icomoon.eot?q7uj#iefix') format('embedded-opentype'),
+    url('../fonts/iconfont/icomoon.ttf?q7uj') format('truetype'),
+    url('../fonts/iconfont/icomoon.woff?q7uj') format('woff'),
+    url('../fonts/iconfont/icomoon.svg?q7uj#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.ic {
+  font-family: 'ico-ktc' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.ic-list {
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-list:before {
+  content: "\e900";
+}
+.ic-donate:before {
+  content: "\e946";
+}
+.ic-document:before {
+  content: "\e947";
+}
+.ic-times:before {
+  content: "\e945";
+}
+.ic-arrow-right-thi:before {
+  content: "\e943";
+}
+.ic-arrow-left-thi:before {
+  content: "\e944";
+}
+.ic-payment:before {
+  content: "\e942";
+}
+.ic-check:before {
+  content: "\e941";
+}
+.ic-plus-thin:before {
+  content: "\e940";
+}
+.ic-calculator:before {
+  content: "\e93e";
+}
+.ic-checkpoint:before {
+  content: "\e93f";
+}
+.ic-credit-card-o:before {
+  content: "\e93b";
+}
+.ic-service-online-o:before {
+  content: "\e93c";
+}
+.ic-register-online-o:before {
+  content: "\e93d";
+}
+.ic-personal-loan:before {
+  content: "\e93a";
+}
+.ic-refresh:before {
+  content: "\e939";
+}
+.ic-play:before {
+  content: "\e938";
+}
+.ic-comments-o:before {
+  content: "\e937";
+}
+.ic-fax-o:before {
+  content: "\e933";
+}
+.ic-faq:before {
+  content: "\e934";
+}
+.ic-file-text-o:before {
+  content: "\e935";
+}
+.ic-newspaper-o:before {
+  content: "\e936";
+}
+.ic-baht:before {
+  content: "\e900";
+}
+.ic-card:before {
+  content: "\e901";
+}
+.ic-point:before {
+  content: "\e902";
+}
+.ic-user:before {
+  content: "\e903";
+}
+.ic-search:before {
+  content: "\e904";
+}
+.ic-map-marker:before {
+  content: "\e905";
+}
+.ic-globe:before {
+  content: "\e906";
+}
+.ic-phone:before {
+  content: "\e907";
+}
+.ic-arrow-up:before {
+  content: "\e908";
+}
+.ic-arrow-down:before {
+  content: "\e909";
+}
+.ic-arrow-right:before {
+  content: "\e90a";
+}
+.ic-google-plus:before {
+  content: "\e90b";
+}
+.ic-twitter:before {
+  content: "\e90c";
+}
+.ic-facebook:before {
+  content: "\e90d";
+}
+.ic-close:before {
+  content: "\e90e";
+}
+.ic-arrow-left:before {
+  content: "\e90f";
+}
+.ic-plus:before {
+  content: "\e910";
+}
+.ic-share-alt:before {
+  content: "\e911";
+}
+.ic-location-arrow:before {
+  content: "\e912";
+}
+.ic-th:before {
+  content: "\e913";
+}
+.ic-percent:before {
+  content: "\e914";
+}
+.ic-line:before {
+  content: "\e915";
+}
+.ic-mail:before {
+  content: "\e916";
+}
+.ic-phone-o:before {
+  content: "\e917";
+}
+.ic-facebook-o:before {
+  content: "\e918";
+}
+.ic-twitter-o:before {
+  content: "\e919";
+}
+.ic-google-plus-o:before {
+  content: "\e91a";
+}
+.ic-mail-o:before {
+  content: "\e91b";
+}
+.ic-line-o:before {
+  content: "\e91c";
+}
+.ic-instagram:before {
+  content: "\e91d";
+}
+.ic-others:before {
+  content: "\e91e";
+}
+.ic-overseas:before {
+  content: "\e91f";
+}
+.ic-upcountry:before {
+  content: "\e920";
+}
+.ic-insurance:before {
+  content: "\e921";
+}
+.ic-hobbies:before {
+  content: "\e922";
+}
+.ic-furniture:before {
+  content: "\e923";
+}
+.ic-home-appliances:before {
+  content: "\e924";
+}
+.ic-sports:before {
+  content: "\e925";
+}
+.ic-health-beauty:before {
+  content: "\e926";
+}
+.ic-mobile-gadgets:before {
+  content: "\e927";
+}
+.ic-gas-auto:before {
+  content: "\e928";
+}
+.ic-online:before {
+  content: "\e929";
+}
+.ic-travel:before {
+  content: "\e92a";
+}
+.ic-hotel:before {
+  content: "\e92b";
+}
+.ic-dining:before {
+  content: "\e92c";
+}
+.ic-shopping:before {
+  content: "\e92d";
+}
+.ic-time-o:before {
+  content: "\e92e";
+}
+.ic-map-marker-o:before {
+  content: "\e92f";
+}
+.ic-globe-o:before {
+  content: "\e930";
+}
+.ic-cloud-download-o:before {
+  content: "\e931";
+}
+.ic-ellipsis-v:before {
+  content: "\e932";
+}
+

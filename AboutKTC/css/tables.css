@@ -1,0 +1,276 @@
+
+/* Table V1 */
+
+.container-table-md { width: 100%; max-width:650px; margin:0 auto;}
+
+.table-responsive {
+    width: 100%;
+    min-height: .01%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+.table-responsive table {
+    width: 100%;
+    max-width: 100%;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+.tb-mobile { display: none;}
+
+.table { width: 100%;}
+.table th,
+.table thead td {
+    font-family: 'gothamrounded-medium','sukhumvittadmai_med';
+    font-weight: normal;
+    line-height: 1;
+    font-size: 25px;
+    color: #333;
+    padding:0 0 10px 0;
+}
+.table-heading .heading {
+    margin-bottom: 10px;
+}
+.table .nowrap { white-space: nowrap;}
+.table tbody th {
+    padding: 20px 0;
+    font-weight: normal;
+}
+.table th,
+.table td {
+    vertical-align: top;
+}
+.table thead td {
+    border-bottom: 3px solid #eee;
+}
+.table thead tr th:first-child,
+.table thead tr td:first-child,
+.table tbody tr th:first-child,
+.table tbody tr td:first-child {
+    border-left: 0;
+}
+.table .nowrap { white-space: nowrap;}
+.table-wrap tbody td .table-inr { 
+    padding:20px 0 20px 0; 
+    margin-right:20px;
+    border-top:3px solid #f2f2f2;
+}
+.table-wrap tbody td + td .table-inr:last-child  { margin-right: 0; margin-left:20px;}
+.table-wrap .table-heading { margin-bottom: 10px; padding-top: 10px;}
+.table-wrap .footnote { margin-bottom: 50px;}
+.table-content { font-size: 16px;}
+.table-content p { margin-bottom: 10px;}
+.table-content p:last-child { margin-bottom:0;}
+.table-content h2 { color: #333; font-size: 24px;}
+.table-content h3 { line-height: 1.3; margin-bottom:15px;}
+.table-content ol {     
+    list-style-position: outside;
+    margin: 0;
+    padding: 0 25px;
+}
+.table-content ul { padding: 0 25px;}
+.table-content ul li,
+.table-content ol ul li { list-style-type: disc;}
+.table-content ul li:after { color: #777;}
+.table-content ol ul,
+.table-content ul ol,
+.table-content ul ul { margin-top: 10px;}
+.table-content ul li,
+.table-content ol li { margin-bottom:8px; line-height: 1.4;}
+.table-content ol li { list-style-type: decimal;}
+
+.table-detail { width: 100%; border-spacing: 0; margin: 30px 0; }
+.table-detail thead td { 
+    padding: 12px 0; 
+    font-size: 22px; 
+    font-family:'gothamrounded-medium','sukhumvittadmai_bol'; 
+    line-height: 1.2;
+    color: #333;
+    border-bottom: 3px solid #eee;
+}
+.table-detail thead th { padding: 12px 0; border-bottom: 3px solid #eee;}
+.table-detail thead th small { 
+    font-size: 14px; color: #777; 
+    font-family: 'sukhumvittadmai_lig'; 
+}
+.table-detail thead th { font-weight: normal; font-family:'gothamrounded-medium','sukhumvittadmai_bol'; color: #333;}
+.table-detail tbody h3 { font-size: 16px; margin: 0;}
+.table-detail tbody tr:first-child td { padding-top:20px;}
+.table-detail tbody td { 
+    padding:15px; 
+    font-size: 16px;
+    vertical-align: top; 
+    border-bottom: 1px solid #eee;
+}
+.table-detail .noline { border-bottom:0;}
+.table-detail .ic-check { color: #333;}
+.table-detail small { font-size:13px;} 
+.table-detail .nowrap { white-space: nowrap;}
+
+.table-detail-group { margin-bottom:30px;}
+.table-detail-group th,
+.table-detail-group td { text-align: left;}
+
+.table-data table { width: 100%; border-top:3px solid #333; margin-bottom: 40px;}
+.table-data thead th { position: relative; padding:20px; text-align:inherit;}
+.table-data thead th sup { position: absolute; top: 15px; font-size: 13px;}
+.table-data thead th:first-child { text-align: left;}
+.table-data thead th {
+    font-size: 18px;
+    font-family:'gothamrounded-medium','sukhumvittadmai_bol';
+    line-height: 1.2;
+}
+.table-data thead th small { 
+    display: block; 
+    margin-top:3px; 
+    font-family: Helvetica, Arial, sans-serif; 
+    font-size:14px; 
+    color: #777;
+}
+.table-data tbody tr { border-bottom: 1px solid #eee;}
+.table-data tbody tr.end-tr { border-bottom: 0;}
+.table-data tbody td { padding:12px 20px;}
+.table-data tbody td small { 
+    display: block;
+    padding-top:8px; 
+    font-size:12px; 
+    color: #999; 
+    line-height: 1.3;}
+.table-data tbody tr:last-child { border-bottom: 0;}
+.table-data tbody tr:last-child { border-bottom: 0;}
+.table-data tbody td:first-child { text-align:left;}
+.table-data .heading-tr { background-color: #fafafa; border-bottom: 0;}
+.table-data .heading-tr td { 
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight:700;
+    color: #333; 
+}
+.table-data .icon-dw { 
+    white-space: nowrap;
+    display: block; 
+    text-align: right;
+    padding: 4px 0;
+    font-family: 'gothamrounded-medium';
+    font-size: 12px;
+    color: #999;
+}
+.table-data .heading { color: #333;}
+.table-data .icon-dw .ic { color:#333; font-size: 20px; margin: 0 5px;}
+.table-data .heading-rowspan { border-right: 1px solid #eee; vertical-align: middle;}
+.table-data .a-center { text-align:center!important;}
+.table-data .a-right { white-space: nowrap; text-align: right;}
+.table-data .title-link:hover { color: #333; cursor: pointer;}
+.table-data .tb-logo { width: 25px; display: inline-block; margin-right: 10px;}
+.table-data .tb-hl-title,
+.table-data .tb-hl-title a { color: #333;}
+.table-data .tb-title a:hover { color: #333;}
+.table-data .tb-info {
+    padding-top: 10px;
+    padding-left: 35px;
+    color: #999;
+    white-space: initial;
+}
+.table-data .tb-info.tb-info-black { color: #333;}
+.table-data .tb-sub { padding-left:35px;}
+.table-data .tb-sub-leveltwo { padding-left: 60px;}
+.table-data .tb-footnote { 
+    color: #999; 
+    font-size: 13px;
+}
+
+.tb-control,
+.tb-control .styled-select,
+.tb-control .form-group { position: relative;}
+.nav-tb-control { float: right; text-align: right;}
+.nav-tb-control .form-group { margin-bottom: 0;}
+.nav-tb-control a { width: 45px; height: 45px; 
+    line-height: 42px; font-size:18px; 
+    border: 1px solid #e1e1e1; 
+    display: inline-block;
+    float: left;
+    vertical-align: middle; 
+    color: #bcbcbc;
+    text-align: center; }
+.nav-tb-control a:hover { color: #333;}
+.nav-tb-control a:first-child { border-right: 0;
+    -webkit-border-top-left-radius: 3px;
+    -webkit-border-bottom-left-radius: 3px;
+    -moz-border-radius-topleft: 3px;
+    -moz-border-radius-bottomleft: 3px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.nav-tb-control a:last-child {
+    -webkit-border-top-right-radius: 3px;
+    -webkit-border-bottom-right-radius: 3px;
+    -moz-border-radius-topright: 3px;
+    -moz-border-radius-bottomright: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.nav-tb-control a.active { color: #333;}
+
+.table-area { max-width:80%; margin: 0 auto;}
+.tb-h-line { height:4px; background-color:#f2f2f2; margin-bottom: 30px;}
+
+.style-col-tb-2 tbody td { padding: 10px 20px 10px 0;}
+.style-col-tb-2 tbody tr:first-child td { padding-top:25px;}
+
+.col-tb-2 th,
+.col-tb-2 td {
+    width: 50%;
+}
+.col-tb-3 th,
+.col-tb-3 td {
+    width: 33.333333%;
+}
+.col-tb-4 th,
+.col-tb-4 td {
+    width: 25%;
+}
+
+
+@media screen and ( max-width:980px ) {
+	
+    /* Table Responsive */
+    .table-responsive { margin-bottom: 15px;}
+    .table-responsive .table-detail { margin-bottom: 0;}
+
+    .table-data { font-size: 14px;}
+    .table-data thead th { font-size: 16px;}
+    .table-data thead th,
+    .table-data tbody td { padding:15px 10px;}
+    
+    /* Section Table */
+    .table-wrap tbody td .table-inr { margin: 0 0 0 0!important;}
+    .table-col-xs-12 .table th, .table-col-xs-12 .table td { width: 100%; display: block;}
+    .table-col-xs-12 .table th,
+    .table-col-xs-12 .table thead td,
+    .table-col-xs-12 .table-heading .heading {font-size:20px;}
+
+    /* Section Table No Line */
+    .table-noline tbody td > .table-inr { border-top:3px solid #f2f2f2;}
+    .table-noline tbody tr td + td > .table-inr,
+    .table-noline tbody tr + tr td .table-inr { border-top: 0;}
+    .table-noline .table-inr { border-top: 0; padding: 20px 0 10px;}
+    .table-noline .table-detail-group { margin-bottom:30px;}
+	
+}
+@media screen and ( max-width:767px ) {
+    
+    .tb-desktop { display: none;}
+    .tb-mobile { display:block;}
+	
+    .table-detail thead th small { display: block;}
+    .table-detail thead td { font-size: 20px;}
+    .table-detail tbody h3 { font-size: 14px;}
+    
+    .table-data .tb-sub { padding-left:20px;}
+    .table-data .tb-sub-leveltwo { padding-left:40px;}
+
+    .table-responsive .table tbody td { vertical-align: top;}
+    .table-area { max-width: 100%;}
+	
+}

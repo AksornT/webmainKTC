@@ -1,0 +1,593 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/tablet-style.css">
+    <link rel="stylesheet" href="css/mobile-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="js/jquery-1.12.4.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="js/win-ui.js"></script>
+    <title>KTC</title>
+  </head>
+  <body>
+  <div id="menu-global" class="menu-global">
+    <div class="content-wrap">
+      <div id="ktc-logo">
+        <a href="index.html">
+          <img src="img/KTC.png">
+        </a>
+      </div>
+      <ul class="scrolled-menu">
+        <li>บัตรเครดิต
+          <i class="fa fa-angle-down"></i>
+          <ul>
+            <li>ผลิตภัณฑ์บัตรเครดิต<a href="creditcard.html"></a></li>
+            <li>คะแนนสะสม<a href="forever.html"></a></li>
+            <li>แบ่งชำระ<a href="flexi.html"></a></li>
+            <li>บริจาค<a href="#"></a></li>
+            <li>บริการหักค่าใช้จ่ายอัตโนมัติ<a href="#"></a></li>
+            <li>อัตราดอกเบี้ยและค่าธรรมเนียม<a href="#"></a></li>
+          </ul>
+
+        </li>
+        <li>สินเชื่อบุคคล
+          <i class="fa fa-angle-down"></i>
+          <ul>
+            <li>ผลิตภัณฑ์สินเชื่อ<a href="loan.html"></a></li>
+            <li>แบ่งชำระ<a href="#"></a></li>
+            <li>เครื่องคำนวนสินเชื่อ<a href="#"></a></li>
+            <li>อัตราดอกเบี้ยและค่าธรรมเนียม<a href="#"></a></li>
+          </ul>
+        </li>
+        <li>โปรโมชั่น<a href="promotion.html"></a>
+        </li>
+        <li>ธุรกิจร้านค้า<a href="merchant.html"></a>
+          </li>
+        <li>บริการท่องเที่ยว<a href="#"></a>
+        </li>
+        <li>ช้อปสินค้าออนไลน์
+        </li>
+        <li>บริการลูกค้า
+          <i class="fa fa-angle-down"></i>
+          <ul>
+            <li>ติดต่อ KTC<a href="#"></a></li>
+            <li>บริการ KTC ONLINE<a href="#"></a></li>
+            <li>บริการ KTC MOBILE APPLICATION<a href="#"></a></li>
+            <li>ช่องทางการชำระเงิน<a href="#"></a></li>
+            <li>วารสารรายเดือน<a href="#"></a></li>
+            <li>ดาวน์โหลดเอกสารแบบฟอร์มและคู่มือ<a href="#"></a></li>
+            <li>คำถามที่พบบ่อย<a href="#"></a></li>
+          </ul>
+        </li>
+      </ul>
+      <div class="on-right">
+        <a class="search-on-menu" data-toggle="modal" data-target="#search-modal">
+          <i class="fa fa-search"></i>
+        </a>
+        <div id="card-register" class="card-register-btn" data-toggle="modal" data-target="#card-register-modal" href="#">สมัครบัตร</div>
+        <!-- ก่อนล็อกอิน -->
+        <!-- <a class="login-btn" href="#">
+           <i class="fa fa-lock"></i>
+          เข้าสู่ระบบ
+        </a>
+        <div class="login-mobile only-mobile" href="#">
+          <img src="img/ico-login.png">
+        </div> -->
+
+        <!-- หลังล็อกอิน -->
+        <div class="login-btn logged-in">
+          <div class="profile-image"><img src="img/img-profile.png"></div>
+          <p class="profile-name">บัญชีของฉัน</p><i class="fa fa-angle-down"></i>
+          <ul>
+            <li><a href="#"><div class="subimg-wrap"><img src="img/ico-subprofile-1.png"></div><p>บัตร KTC ของฉัน</p></a></li>
+            <li><a href="#"><div class="subimg-wrap"><img src="img/ico-subprofile-2.png"></div><p>โปรโมชั่นของฉัน</p></a></li>
+            <li><a href="#"><div class="subimg-wrap"><img src="img/ico-subprofile-3.png"></div><p>ออกจากระบบ</p></a></li>
+          </ul>
+          <div class="for-sub-profile-mobile">
+            <div class="profile-image"><img src="img/img-profile.png"></div>
+            <button type="button" class="close">
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+        </div>
+
+
+        <div class="profile-on-menu">
+          <!--<div class="profile-image"><img src="img/ico-user.png"></div>-->
+          <span class="profile-name"></span>
+          <div class="menu-mobile only-mobile" onclick="myFunction()"></div>
+        </div>
+      </div>
+      <div id="scrolled-menu-responsive" class="menu-responsive-dropdown only-mobile">
+        <div class="menu-resp-scroll">
+          <button type="button" class="menu-resp-close close">
+            <span aria-hidden="true">×</span>
+          </button>
+          <div class="menu-responsive">
+            <img src="img/ico-creditcard.png"><h3 class="menu-more">บัตรเครดิต</h3>
+            <ul>
+              <li><a href="creditcard.html">ผลิตภัณฑ์บัตรเครดิต</a></li>
+              <li><a href="forever.html">คะแนนสะสม</a></li>
+              <li><a href="flexi.html">แบ่งชำระ</a></li>
+              <li><a href="#">บริจาค</a></li>
+              <li><a href="#">บริการหักค่าใช้จ่ายอัตโนมัติ</a></li>
+              <li><a href="#">อัตราดอกเบี้ยและค่าธรรมเนียม</a></li>
+            </ul>
+          </div>
+          <div class="menu-responsive">
+            <img src="img/ico-personal-loans.png"><h3 class="menu-more">สินเชื่อบุคคล</h3>
+            <ul>
+              <li><a href="loan.html">ผลิตภัณฑ์สินเชื่อ</a></li>
+              <li><a href="flexi.html">แบ่งชำระ</a></li>
+              <li><a href="#">เครื่องคำนวนสินเชื่อ</a></li>
+              <li><a href="#">อัตราดอกเบี้ยและค่าธรรมเนียม</a></li>
+            </ul>
+          </div>
+          <a href="promotion.html" class="menu-responsive">
+            <img src="img/ico-privilege.png"><h3>โปรโมชั่น</h3>
+          </a>
+          <a class="menu-responsive" href="merchant.html">
+              <img src="img/ico-business-store.png"><h3>ธุรกิจร้านค้า</h3>
+            </a>
+          <a class="menu-responsive" href="#">
+            <img src="img/ico-travel-service.png"><h3>บริการท่องเที่ยว</h3>
+          </a>
+          <div class="menu-responsive">
+            <img src="img/ico-shopping-online.png"><h3>ช้อปสินค้าออนไลน์</h3>
+          </div>
+          <div class="menu-responsive">
+            <img src="img/ico-service-custom.png"><h3 class="menu-more">บริการลูกค้า</h3>
+            <ul>
+              <li><a href="#">ติดต่อ KTC</a></li>
+              <li><a href="#">บริการ KTC ONLINE</a></li>
+              <li><a href="#">บริการ KTC MOBILE APPLICATION</a></li>
+              <li><a href="#">ช่องทางการชำระเงิน</a></li>
+              <li><a href="#">วารสารรายเดือน</a></li>
+              <li><a href="#">ดาวน์โหลดเอกสารแบบฟอร์มและคู่มือ</a></li>
+              <li><a href="#">คำถามที่พบบ่อย</a></li>
+            </ul>
+          </div>
+
+          <div class="menu-btn">
+            <div class="menu-lang">
+              <div class="lang-header-menu">
+                <img src="img/ico-lang.png">
+                  <div class="lang-wrap active">
+                    <label for="lang-change">Language</label>
+                    <p id="lang-change">EN</p>
+                  </div>
+                  <div class="lang-wrap">
+                    <label for="lang2-change">Language</label>
+                    <p id="lang2-change">TH</p>
+                  </div>
+              </div>
+            </div>
+            <button data-toggle="modal" data-target="#card-register-modal">สมัครบัตร</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="open-on-top">
+      <div class="content-wrap">
+        <div class="row">
+          <div class="col-lg-6">
+            <h1 class="only-desktop">Fulfill your life with <span>KTC Credit</span></h1>
+            <p class="only-desktop">Suspendisse accumsan in ante et dapibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam nec pulvinar leo, vel malesuada orci.</p>
+            <h2 class="title-mobile only-mobile">ประสบการณ์<br>ให้ความหมายกับชีวิต</h2>
+          </div>
+          <div class="col-lg-6 row icon-wrap">
+            <a class="big-link col-4" href="creditcard.html">
+              <div>
+                <img src="img/ico-creditcard.png">
+                <p>บัตรเครดิต</p>
+              </div>
+            </a>
+            <a class="big-link col-4" href="loan.html">
+              <div>
+                <img src="img/ico-personal-loans.png">
+                <p>สินเชื่อบุคคล</p>
+              </div>
+            </a>
+            <a class="big-link col-4" href="promotion.html">
+              <div>
+                <img src="img/ico-privilege.png">
+                <p>โปรโมชั่น</p>
+              </div>
+            </a>
+            <a class="big-link col-4" href="merchant.html">
+              <div>
+                <img src="img/ico-business-store.png">
+                <p>ธุรกิจร้านค้า</p>
+              </div>
+            </a>
+            <a class="big-link col-4" href="article.html">
+              <div>
+                <img src="img/ico-travel-service.png">
+                <p>บริการท่องเที่ยว</p>
+                <span>KTC World</span>
+              </div>
+            </a>
+            <a class="big-link col-4" href="#">
+              <div>
+                <img src="img/ico-shopping-online.png">
+                <p>ช้อปสินค้าออนไลน์</p>
+                <span>KTC U Shop</span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="another-sub">
+        <div class="content-wrap row">
+          <a class="col-4 col-sm-4">
+            <img src="img/ico-shopping.png">
+            <p>คะแนนสะสม</p>
+            <span>Suspendisse</span>
+          </a>
+          <a class="col-4 col-sm-4" href="flexi.html">
+            <img src="img/ico-dining.png">
+            <p>แบ่งชำระ</p>
+            <span>Suspendisse</span>
+          </a>
+          <a class="col-4 col-sm-4">
+            <img src="img/ico-shoponline.png">
+            <p>บริจาค</p>
+            <span>Suspendisse</span>
+          </a>
+          <a class="col-4 col-sm-4 only-mobile">
+            <img src="img/ico-apply-card.png">
+            <p>สมัครบัตร</p>
+            <span>Others</span>
+          </a>
+          <a class="col-4 col-sm-4 only-desktop">
+            <img src="img/ico-travel.png">
+            <p>บริการลูกค้า</p>
+            <span>Suspendisse</span>
+          </a>
+          <a class="col-4 col-sm-4 only-desktop">
+            <img src="img/ico-nearby.png">
+            <p>ตรวจสอบสถานะบัตร</p>
+            <span>Suspendisse</span>
+          </a>
+          <a class="col-4 col-sm-4 only-mobile">
+            <img src="img/ico-nearby.png">
+            <p>ตรวจสอบสถานะบัตร</p>
+            <span>Suspendisse</span>
+          </a>
+          <a class="col-4 col-sm-4 only-mobile">
+            <img src="img/ico-travel.png">
+            <p>บริการลูกค้า</p>
+            <span>Suspendisse</span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div id="head-trigger"></div>
+  </div>
+
+  <!-- start page -->
+  <iframe id="ifrm" width="100%" src="AboutKTC/compliance-internal-audit.html"></iframe>
+  <script type="text/javascript">
+    function setIframeHeight(iframe) {
+      if (iframe) {
+        var iframeWin = iframe.contentWindow || iframe.contentDocument.parentWindow;
+        if (iframeWin.document.body) {
+          iframe.height = iframeWin.document.documentElement.scrollHeight || iframeWin.document.body.scrollHeight;
+        }
+      }
+    };
+    $(window).load(function () {
+      setIframeHeight(document.getElementById('ifrm'));
+    });
+    $( window ).resize(function() {
+      setIframeHeight(document.getElementById('ifrm'));
+    });
+  </script> 
+
+  <!-- end page -->
+
+  <!-- start Footer -->
+
+  <div class="footer">
+      <div id="foot-trigger"></div>
+      <div class="content-wrap">
+        <div class="row">
+          <div class="col-sm-9 col-lg-10 row footer-menu">
+            <div class="col-lg-3 col-sm-6">
+              <h3><a href="about.html">เกี่ยวกับเรา</a></h3>
+              <ul>
+                <li>
+                  <a href="vision.html">วิสัยทัศน์ / พันธกิจ </a>
+                </li>
+                <li>
+                  <a href="overview.html">ข้อมูลทั่วไป</a>
+                </li>
+                <li>
+                  <a href="company-shareholding-structure.html">โครงสร้างการถือหุ้นกลุ่มบริษัท</a>
+                </li>
+                <li>
+                  <a href="shareholder-structure.html">โครงสร้างการถือหุ้น</a>
+                </li>
+                <li>
+                  <a href="organization-chart-structure.html">โครงสร้างองค์กร</a>
+                </li>
+                <li>
+                  <a href="board-of-director.html">คณะกรรมการ</a>
+                </li>
+                <li>
+                  <a href="executives.html">คณะผู้บริหาร</a>
+                </li>
+                <li>
+                  <a href="company-secretary.html">เลขานุการบริษัท</a>
+                </li>
+                <li>
+                  <a href="compliance-internal-audit.html">หัวหน้างานตรวจสอบภายใน</a>
+                </li>
+                <li>
+                  <a href="news.html">ข่าวประชาสัมพันธ์</a>
+                </li>
+                <li>
+                  <a href="article.html">บทความ</a>
+                </li>
+                <li>
+                  <a href="careers.html">สมัครงาน / ฝึกงาน</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <h3><a href="support.html">บริการลูกค้า</a></h3>
+              <ul>
+                <li>
+                  <a href="/onlineservice" target="_blank">บริการออนไลน์</a>
+                </li>
+                <li>
+                  <a href="rate.html">อัตราดอกเบี้ยและค่าธรรมเนียม</a>
+                </li>
+                <li>
+                  <a href="ktc-cash.html">คำนวณดอกเบี้ย / ค่าธรรมเนียม</a>
+                </li>
+                <li>
+                  <a href="#">ช่องทางการชำระเงิน</a>
+                </li>
+                <li>
+                  <a href="ktc-autopayment.html">บริการหักค่าใช้จ่ายรายเดือนอัตโนมัติ</a>
+                </li>
+                <li>
+                  <a href="download.html">ดาวน์โหลด</a>
+                </li>
+                <li>
+                  <a href="announcement.html">ประกาศบริษัท</a>
+                </li>
+                <li>
+                  <a href="faq.html">คำถามที่พบบ่อย</a>
+                </li>
+                <li>
+                  <a href="sitemap.html">แผนผังเว็บไซต์</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <h3><a href="corporate-governance.html">กำกับดูแลกิจการ</a></h3>
+              <ul>
+                <li class="two-line">
+                  <a href="supervision.html">การควบคุมภายในและการบริหารจัดการความเสี่ยง</a>
+                </li>
+                <li>
+                  <a href="responsibility.html">ความรับผิดชอบต่อสังคม</a>
+                </li>
+                <li class="two-line">
+                  <a href="activities.html">ประมวลภาพกิจกรรมการกำกับดูแลกิจการและความรับผิดชอบต่อสังคม</a>
+                </li>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <h3><a href="/sites/ktc/investor-relations/">นักลงทุนสัมพันธ์</a></h3>
+              <ul>
+                <li>
+                  <a href="/sites/ktc/investor-relations/financialinformation/">ข้อมูลด้านการเงิน</a>
+                </li>
+                <li>
+                  <a href="/sites/ktc/investor-relations/privacy-policy/">นโยบายการเปิดเผยข้อมูล</a>
+                </li>
+                <li>
+                  <a href="/sites/ktc/investor-relations/resources/investors-news/">เอกสารเผยแพร่</a>
+                </li>
+                <li>
+                  <a href="/sites/ktc/investor-relations/debenturesinfo/bond-profile/">ข้อมูลผู้ถือหุ้นกู้</a>
+                </li>
+                <li>
+                  <a href="/sites/ktc/investor-relations/shareholder/top-10-debentures/">ข้อมูลผู้ถือหุ้น</a>
+                </li>
+                <li>
+                  <a href="/sites/ktc/investor-relations/shareholders-meetings/">การประชุมผู้ถือหุ้น</a>
+                </li>
+                <li>
+                  <a href="/sites/ktc/investor-relations/contact/">ติดต่อนักลงทุนสัมพันธ์</a>
+                </li>
+            </div>
+          </div>
+          <div class="col-sm-3 col-lg-2">
+            <a href="tel:021235000" class="tel">
+              <p class="tel-text">KTC PHONE</p>
+              <span>02 123 5000</span>
+            </a>
+            <img class="footer-badge" src="img/ico-footer-badge.png">
+            <div class="download-section">
+              <p>ดาวน์โหลด</p>
+              <img class="footer-badge tapktc" src="img/ico-download-tapktc.png">
+              <div class="fotter-hollow"></div>
+              <a href="https://itunes.apple.com/th/app/tapktc/id723657868?|s=1&mt=8"><img class="footer-badge" src="img/ico-download-ios.png"></a>
+              <a href="https://play.google.com/store/apps/details?id=com.tapktc.app"><img class="footer-badge" src="img/ico-download-ggplay.png"></a>
+            </div>
+          </div>
+          <div class="col-sm-12 only-mobile">
+            <div class="social-footer">
+              <a href="https://www.facebook.com/ktcrealprivilege">
+                <img src="img/ico-social-facebook.png">
+              </a>
+              <a href="https://twitter.com/ktcprivilege">
+                <img src="img/ico-social-twitter.png">
+              </a>
+              <a href="https://www.instagram.com/ktccard">
+                <img src="img/ico-social-instagram.png">
+              </a>
+              <a href="https://line.me/R/ti/p/@ktc_card">
+                <img src="img/ico-social-line.png">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="content-wrap last-piece">
+        <div class="row">
+          <div class="col-lg-6 license">© 2561 บริษัท บัตรกรุงไทย จำกัด (มหาชน)</div>
+          <div class="col-lg-6 text-right">
+            <div class="social-footer">
+              <a href="https://www.facebook.com/ktcrealprivilege">
+                <img class="on-default" src="img/ico-social-facebook.png">
+                <img class="on-hover" src="img/ico-social-facebook-color.png">
+              </a>
+              <a href="https://twitter.com/ktcprivilege">
+                <img class="on-default" src="img/ico-social-twitter.png">
+                <img class="on-hover" src="img/ico-social-twitter-color.png">
+              </a>
+              <a href="https://www.instagram.com/ktccard">
+                <img class="on-default" src="img/ico-social-instagram.png">
+                <img class="on-hover" src="img/ico-social-instagram-color.png">
+              </a>
+              <a href="https://line.me/R/ti/p/@ktc_card">
+                <img class="on-default" src="img/ico-social-line.png">
+                <img class="on-hover" src="img/ico-social-line-color.png">
+              </a>
+            </div>
+            <a class="lang-footer">
+              <div class="lang-wrap active">
+                <label for="lang-change">Language</label>
+                <p id="lang-change">EN</p>
+              </div>
+              <div class="lang-wrap">
+                <label for="lang2-change">Language</label>
+                <p id="lang2-change">TH</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="chat ghost-footer"><img src="img/ico-chat.png"><p>Live Chat</p></div>
+      <div class="to-top ghost-footer">↑</div>
+    </div>
+
+  <!-- end Footer -->
+  <!-- start modal -->
+  <div id="card-register-modal" class="modal fade full-modal" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">เลือกผลิตภัณฑ์</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <a href="creditcard.html" class="card-choice">
+            <div class="left-icon">
+              <img src="img/ico-credit.png">
+            </div>
+            <p>บัตรเครดิต</p>
+          </a>
+          <a href="loan-proud.html" class="card-choice">
+            <div class="left-icon">
+              <img src="img/ico-ktcproud.png">
+            </div>
+            <p>บัตรสินเชื่อพร้อมใช้ KTC PROUD</p>
+          </a>
+          <a href="loan-cash.html" class="card-choice">
+            <div class="left-icon">
+              <img src="img/ico-ktccash.png">
+            </div>
+            <p>สินเชื่ออเนกประสงค์ KTC CASH</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <div id="search-modal" class="modal fade full-modal" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="search-head">
+                <div class="panel-title search-cat-head">
+                  <div class="collapsed" data-toggle="collapse" data-target="#search-cat-wrap" aria-controls="search-cat-wrap">
+                    <img src="img/ico-sort.png"><h4>ตัวกรอง</h4><i class="fa fa-angle-up"></i>
+                  </div>
+                </div>
+              </div>
+              <div id="search-cat-wrap" class="panel-collapse search-cat-wrap collapsed collapse" role="tabpanel" aria-labelledby="search-head" style="height: 0px;">
+                <div class="subcat-wrap">
+                  <input checked="checked" type="checkbox" name="" id="all-cat">
+                  <label for="all-cat">ทั้งหมด</label>
+                  <input type="checkbox" name="" id="credit-cat" class="subcat">
+                  <label for="credit-cat">บัตรเครดิต</label>
+                  <input type="checkbox" name="" id="privill-cat" class="subcat">
+                  <label for="privill-cat">สิทธิพิเศษ</label>
+                  <input type="checkbox" name="" id="article-cat" class="subcat">
+                  <label for="article-cat">บทความ</label>
+                  <input type="checkbox" name="" id="other-cat" class="subcat">
+                  <label for="other-cat">อื่นๆ</label>
+                </div>
+              </div>
+            </div>
+            <form action="search-result.html" class="search-wrap">
+              <img src="img/ico-search-black.png">
+              <div class="search-input-wrap">
+                <input id="search" autocomplete="off" class="input-search" type="text" placeholder="ค้นหาทุกสิ่งใน KTC">
+                <div tabindex="0" id="suggest-box" class="suggess-box">
+                  <div class="suggess-list">
+                    <div class="suggess-img-wrap">
+                      <img src="img/ico-credit.png">
+                    </div>
+                    <p>KTC X VISA SIGNATURE</p>
+                  </div>
+                  <div class="suggess-list">
+                    <div class="suggess-img-wrap">
+                      <img src="img/ico-shopping.png">
+                    </div>
+                    <p>KTC X MASTERCARD</p>
+                  </div>
+                  <div class="suggess-list">
+                    <div class="suggess-img-wrap">
+                      <img src="img/ico-service-custom.png">
+                    </div>
+                    <p>มูลนิธิศิริราช</p>
+                  </div>
+                  <div class="suggess-list">
+                    <div class="suggess-img-wrap">
+                      <img src="img/ico-other.png">
+                    </div>
+                    <p>Early Inactive Q1 2018</p>
+                  </div>
+                </div>
+                <div id="fake-result"></div>
+              </div>
+              <div class="btn-wrap">
+                <button class="button-search">ค้นหา</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
