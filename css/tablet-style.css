@@ -557,6 +557,18 @@
     margin-top: 20px;
   }
 
+  .section-service-detail .service-desc .media-body h5,
+  .section-service-detail .service-desc .media-body p,
+  .static-wrap .small-desc .text-left p{
+    text-align: left !important;
+  }
+  .static-wrap .small-desc .text-left{
+    align-self: start !important;
+  }
+  .more-modal .header {
+    margin-top: 40px;
+  }
+
   /* loan page -eve */
   .main-loan .box-content {
     margin-top: 20px;
@@ -564,6 +576,20 @@
   }
   .main-loan{
     padding-bottom: 40px;
+  }
+
+  .static-wrap .overlap-wrap.text-left {
+    padding: 40px 10%;
+  }
+  .proud-loan-interest .vertical-wrap {
+    position: relative;
+    bottom: auto;
+    left: auto;
+    transform: none;
+  }
+  .proud-loan-interest .img-ico-flexi{
+    padding-top: 40px;
+    padding-bottom: 0px;
   }
 
   /* loan-cash page -eve */
@@ -733,7 +759,7 @@
 
   .proud-logo + h1 {
     font-size: 18px;
-    line-height: 32px;
+    line-height: 1.3;
   }
 
   a.card-register-center, a.btn-action {
@@ -779,7 +805,7 @@
     height: 40vw;
   }
   .page-flexi-header h1 {
-    font-size: 28px;
+    font-size: 22px;
     line-height: 1.4;
   }
 
@@ -1027,11 +1053,49 @@
     opacity: 1;
   }
 
+  .section-cards .box-title .title,
+  .section-cards .box-title .sub-title{
+    text-align: center;
+  }
+  .flexi-shop .box-title .title{
+    color: #000;
+  }
+  .flexi-shop .box-title .sub-title{
+    color: #000;
+  }
+  .section-cards a.button-contact-shop {
+    text-align: center;
+    display: block;
+  }
+  .proud-loan .sub-desc{
+    font-size: 14px;
+  }
+
+
   /*forever*/
 
   #page-flexi-content section.forever {
     padding-bottom: 0px;
     border: none;
+  }
+
+  /*.forever p.only-shopping br{
+    display: none;
+  }
+
+*/
+  #page-flexi-content.forever h4 {
+    margin-top: 25px;
+  }
+
+  .forever .section-box div[class*="col"].order-lg-last.box-center-v-1{
+    position: relative;
+    padding: 40px 100px;
+  }
+
+  .forever .section-box div[class*="col"].order-lg-last.box-center-v{
+    position: relative;
+    padding:40px 100px;
   }
 
   .forever .special-button {
@@ -1416,6 +1480,12 @@
     z-index: 1;
   }
 
+  .top-banner .share-on-top {
+    right: 39px;
+    bottom: auto;
+    top: 13px;
+  }
+
   nav + .content-wrap .share-on-top{
     top: 61px;
   }
@@ -1428,6 +1498,226 @@
     width: 30px;
     top: 0;
     right: 0;
+  }
+
+  /*Static Content*/
+  .static-wrap .static-content{
+    padding: 40px 100px;
+    position: relative;
+    margin: 0;
+  }
+
+  .static-wrap .overlap-wrap {
+    width: calc(100% + 170px);
+    margin: -40px -85px;
+    height: auto;
+    padding: 40px 20px;
+  }
+
+  .static-wrap h5{
+    line-height: 1.4;
+    font-size: 30px;
+  }
+
+  .static-wrap .text-left h5,
+  .static-wrap .text-right h5{
+    text-align: center !important;
+  }
+
+  .static-wrap .text-left p,
+  .static-wrap .text-left a,
+  .static-wrap .text-right p,
+  .static-wrap .text-right a{
+    text-align: center !important;
+  }
+
+  .static-wrap .text-left li p,
+  .static-wrap .text-left li a{
+    text-align: left !important;
+  }
+
+  .static-wrap h5 br,
+  .static-wrap p br{
+    display: none;
+  }
+ 
+  .negative-text, 
+  .negative-text .link-more{
+    color: #212529;
+  }
+
+  .static-wrap .link-more {
+    color: #CF3339;
+    text-align: center;
+  }
+
+  .static-merchant .link-more {
+    color: #0055B8;
+    margin-top: 10px;
+  }
+
+  .half-half-blue .link-more,
+  .half-half-blue-reverse .link-more{
+    color: #fff;
+  }
+
+  .tel-number p{
+    font-size: 24px;
+  }
+  .tel-number .mini-text{
+    font-size: 14px;
+  }
+  .static-wrap .link-more{
+    font-size: 18px;
+    margin-bottom: 0;
+  }
+  .tel-number .the-number{
+    font-size: 30px;
+    padding-left: 50px;
+  }
+  .global-space{
+    display: none;
+  }
+  .white-layer{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #000;
+  }
+  .white-layer h5,
+  .white-layer p,
+  .white-layer .link-more{
+    color: #fff;
+  }
+
+  .space-on-left img,
+  .page-content .space-on-left img{
+    max-width: none;
+    width: 200%;
+    margin-left: -100%;
+  }
+  .space-on-right img,
+  .page-content .space-on-right img{
+    max-width: none;
+    width: 200%;
+  }
+  .full-overimage.top-banner .text-on-left-img.text-left{
+    padding:40px 100px;
+    text-align: center !important;
+  }
+
+  .static-wrap .big-icon-content .static-content{
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .half-half-blue{
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .still-background,
+  .still-background img{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    left: 0;
+    padding: 0;
+  }
+
+  .negative-text .still-background + .static-content ,
+  .negative-text .still-background + .static-content .link-more{
+    color: #fff;
+  }
+
+  .half-half .row .row .static-content.text-on-left-img{
+    padding-left: 35px;
+  }
+
+  .static-wrap .btn.button-shop-register{
+    margin: 0 auto;
+    display: block;
+    width: 210px;
+  }
+
+  .static-content.text-on-right-img.float-up{
+    padding: 40px 100px;
+    top: 0;
+    right: 0;
+  }
+
+  .half-half-black > .row > div:nth-child(1),
+  .half-half-blue > .row > div:nth-child(1),
+  .half-half-grey > .row > div:nth-child(1),
+  .half-half-white > .row > div:nth-child(1),
+  .half-half .row > div:nth-child(1),
+  .half-overlap-grey .row > div:nth-child(1),
+  .static-wrap .order-lg-2{
+    padding: 0 15px;
+  }
+
+  .static-wrap.half-half-blue .row .tel-number{
+    padding: 20px 35px;
+  }
+
+  #section-merchant-card-type{
+    padding-top: 0;
+  }
+  section#section-merchant-card-type .list-card-vendors{
+    margin: 0 auto;
+  }
+
+  section#section-merchant-card-type .list-payment-services{
+    margin-top: 10px;
+  }
+
+  section#section-merchant-card-type .row:first-child{
+    margin-bottom: 20px;
+  }
+
+  .half-half .row .row .static-content.text-on-left-img {
+    padding-left: 100px;
+  }
+
+  .half-half .full-overimage + .full-overimage{
+    padding: 0 15px;
+  }
+
+  .half-half .full-overimage .space-on-left,
+  .half-half .full-overimage .space-on-right{
+    overflow: hidden;
+  }
+
+  .half-half .full-overimage img{
+    margin: -30.37vw 0;
+  }
+
+  .half-half .full-overimage .space-on-left img{
+    margin-left: -100%;
+  }
+
+  .top-banner > .row > div:nth-child(1) img{
+    width: 156vw;
+    max-width: none;
+    margin-left: -56vw;
+  }
+
+  .top-banner .share-on-top.with-bc .btn-flexi-share{
+    margin-top: 30px;
+  }
+
+  .proud-after-logo .btn-flexi-share{
+    background: rgba(0,0,0,0.5) url(../img/ico-share-pro-white.png) no-repeat center;
+    background-size: 80% auto;
+  }
+
+  .proud-after-logo .btn-flexi-share:focus{
+    background: #CF3339 url('../img/ico-share-pro-fill.png') no-repeat center;
+    background-size: 100% auto;
   }
 
 }

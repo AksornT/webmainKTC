@@ -570,14 +570,28 @@ $(document).ready(function() {
 
 //change header when scroll down.
 $(document).on('scroll', function() {
-    if($(this).scrollTop()>=$('#head-trigger').position().top){
-        $('#menu-global').addClass('mini-header');
-        $('.ghost-footer').addClass('active');
-    }else{
-        $('#menu-global').removeClass('mini-header');
-        $('#menu-global.expand-menu .scrolled-menu > li').removeClass('active');
-        $('.ghost-footer').removeClass('active');
-    };
+    if ($("#menu-global .scrolled-menu > li")[0]){ 
+        $("#menu-global .scrolled-menu > li").blur().removeClass('active');
+    }
+
+    if ($(".sub-sticky .dropdown")[0]){ 
+        $(".sub-sticky .dropdown").removeClass('open').attr("aria-expanded","false");
+    }
+
+    if ($(".btn-flexi-share")[0]){ 
+        $(".btn-flexi-share").blur()
+    }
+
+    if ($("#head-trigger")[0]){ 
+        if($(this).scrollTop()>=$('#head-trigger').position().top){
+            $('#menu-global').addClass('mini-header');
+            $('.ghost-footer').addClass('active');
+        }else{
+            $('#menu-global').removeClass('mini-header');
+            $('#menu-global.expand-menu .scrolled-menu > li').removeClass('active');
+            $('.ghost-footer').removeClass('active');
+        }
+    }
 
     var stickyTrigger = $('#sticky-trigger');
     var isStickyTriggerExisted = stickyTrigger.length > 0;
@@ -589,11 +603,12 @@ $(document).on('scroll', function() {
     }
 
 //something appeared on footer
-
-    if($(this).scrollTop()>=$('#foot-trigger').position().top){
-        $('.ghost-footer').addClass('active-mobile');
-    }else{
-        $('.ghost-footer').removeClass('active-mobile');
+    if ($("#foot-trigger")[0]){ 
+        if($(this).scrollTop()>=$('#foot-trigger').position().top){
+            $('.ghost-footer').addClass('active-mobile');
+        }else{
+            $('.ghost-footer').removeClass('active-mobile');
+        }
     };
 
 
@@ -623,10 +638,12 @@ $(document).on('scroll', function() {
     };
 
     // for share button
-    if($(this).scrollTop()>=$('.article-icon .share-btn').offset().top - 200){
-        $('.share-popover').addClass('on-bottom');
-    }else{
-        $('.share-popover').removeClass('on-bottom');
+    if ($(".article-icon .share-btn")[0]){ 
+        if($(this).scrollTop()>=$('.article-icon .share-btn').offset().top - 200){
+            $('.share-popover').addClass('on-bottom');
+        }else{
+            $('.share-popover').removeClass('on-bottom');
+        }
     };
 
 
