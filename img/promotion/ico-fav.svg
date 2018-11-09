@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        opacity: 0.4;
+      }
+
+      .cls-3 {
+        fill: none;
+        stroke: #5b6670;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <g id="ico-fav" transform="translate(-2804 -1132)">
+    <rect id="Rectangle_2525" data-name="Rectangle 2525" class="cls-1" width="40" height="40" transform="translate(2804 1132)"/>
+    <g id="Group_3278" data-name="Group 3278" class="cls-2" transform="translate(2779.458 1137.518)">
+      <path id="Path_1433" data-name="Path 1433" class="cls-3" d="M44.42,3.929A9.262,9.262,0,0,1,49.14.837C54.021-.627,60.2,2.464,60.53,9.462A12.772,12.772,0,0,1,56.625,18.9c-2.115,2.115-4.394,4.068-6.672,6.021L45.56,28.826c-.325.325-.651.651-1.139.163-2.929-2.441-6.021-4.719-8.787-7.16-2.441-2.115-4.882-4.394-6.184-7.648a10.054,10.054,0,0,1,.651-9.6A9.115,9.115,0,0,1,42.793,2.464,14.672,14.672,0,0,0,44.42,3.929Z" transform="translate(0 0)"/>
+    </g>
+  </g>
+</svg>

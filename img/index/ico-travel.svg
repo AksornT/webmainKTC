@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke: #f08b8f;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-2, .cls-3 {
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+
+      .cls-3 {
+        stroke: #cf3339;
+      }
+
+      .cls-4 {
+        fill: #f08b8f;
+      }
+    </style>
+  </defs>
+  <g id="ico-travel" transform="translate(-2058 -1147)">
+    <g id="Symbol_347_4" data-name="Symbol 347 – 4" transform="translate(320 -1)">
+      <rect id="Rectangle_2471" data-name="Rectangle 2471" class="cls-1" width="60" height="60" transform="translate(1738 1148)"/>
+    </g>
+    <g id="Group_3352" data-name="Group 3352" transform="translate(2064 1162)">
+      <path id="Path_1961" data-name="Path 1961" class="cls-2" d="M15.1,6l-11,.1A3.2,3.2,0,0,0,1,9.3l.1,11.3a3.222,3.222,0,0,0,3.2,3.2H6a.265.265,0,0,1,.3.3v2.7a.634.634,0,0,0,1,.5l4-3.5c.1,0,.1-.1.2-.1h7.4"/>
+      <path id="Path_1962" data-name="Path 1962" class="cls-3" d="M43.2,1l-24.4.2a3.691,3.691,0,0,0-3.7,3.7l.1,15a3.691,3.691,0,0,0,3.7,3.7h2.4a.43.43,0,0,1,.4.4v3.5a.769.769,0,0,0,1.3.6l5.1-4.4a.367.367,0,0,1,.3-.1l14.8-.1a3.691,3.691,0,0,0,3.7-3.7L47,4.7A3.777,3.777,0,0,0,43.2,1Z"/>
+      <circle id="Ellipse_750" data-name="Ellipse 750" class="cls-4" cx="2.2" cy="2.2" r="2.2" transform="translate(21.9 10.2)"/>
+      <circle id="Ellipse_751" data-name="Ellipse 751" class="cls-4" cx="2.2" cy="2.2" r="2.2" transform="translate(29.2 10.1)"/>
+      <circle id="Ellipse_752" data-name="Ellipse 752" class="cls-4" cx="2.2" cy="2.2" r="2.2" transform="translate(36.6 10.1)"/>
+    </g>
+  </g>
+</svg>

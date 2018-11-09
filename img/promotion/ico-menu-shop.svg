@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55 55">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke: #cf3339;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-2, .cls-3 {
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+
+      .cls-3 {
+        stroke: #f08b8f;
+      }
+    </style>
+  </defs>
+  <g id="ico-menu-shop" transform="translate(-191 -1221)">
+    <g id="Symbol_350_1" data-name="Symbol 350 – 1" transform="translate(-1 -1)">
+      <rect id="Rectangle_2707" data-name="Rectangle 2707" class="cls-1" width="55" height="55" transform="translate(192 1222)"/>
+    </g>
+    <g id="Group_3422" data-name="Group 3422" transform="translate(202.009 1227)">
+      <g id="Group_3415" data-name="Group 3415" transform="translate(0.992 11.231)">
+        <path id="Path_2070" data-name="Path 2070" class="cls-2" d="M28.3,10.2H5.659a1.978,1.978,0,0,0-1.95,1.718L1,36.822a1.926,1.926,0,0,0,1.95,2.147H30.034a1.926,1.926,0,0,0,1.95-2.147l-1.733-24.8A1.914,1.914,0,0,0,28.3,10.2Z" transform="translate(-0.992 -10.2)"/>
+      </g>
+      <path id="Path_2071" data-name="Path 2071" class="cls-2" d="M10.3,14.79v-7.9A5.8,5.8,0,0,1,15.86,1h0a5.726,5.726,0,0,1,5.56,5.894V14.9" transform="translate(0.632)"/>
+      <circle id="Ellipse_765" data-name="Ellipse 765" class="cls-3" cx="1.779" cy="1.779" r="1.779" transform="translate(9.314 14.399)"/>
+      <circle id="Ellipse_766" data-name="Ellipse 766" class="cls-3" cx="1.779" cy="1.779" r="1.779" transform="translate(20.22 14.399)"/>
+    </g>
+  </g>
+</svg>

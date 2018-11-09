@@ -773,9 +773,6 @@ article.page-merchant-inner-content .detail-register h3, article.page-merchant-i
 article.page-merchant-inner-content .detail-register .detail-register-desc:first-child {
   padding-right: 50px;
 }
-article.page-merchant-inner-content .detail-register .detail-register-desc:last-child {
-  padding-left: 50px;
-}
 article.page-merchant-inner-content .detail-register-desc h5 {
   font-size: 20px;
 }
@@ -1103,7 +1100,7 @@ article.page-merchant-inner-content section.full-width.content-merchant-online d
   }
 
   #section-merchant-register-form.form-inner-page h3, #section-merchant-register-form.form-inner-page h4 {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
   }
 
   /* EDC */

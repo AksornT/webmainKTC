@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke: #fff;
+        stroke-width: 2px;
+      }
+
+      .cls-2 {
+        opacity: 0.997;
+      }
+
+      .cls-3 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-5 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="ico-information" transform="translate(-2541 -2680)">
+    <g id="Group_3084" data-name="Group 3084" transform="translate(2544.593 2687.214)">
+      <g id="Group_3072" data-name="Group 3072">
+        <path id="Path_1898" data-name="Path 1898" class="cls-1" d="M44.772,41.162h0V0H4.212A4.264,4.264,0,0,0,0,4.212V40.56a4.264,4.264,0,0,0,4.212,4.212H48.5A3.648,3.648,0,0,1,44.772,41.162Z"/>
+        <path id="Path_1899" data-name="Path 1899" class="cls-2" d="M44.542,9.1H37.2V39.911a2.98,2.98,0,0,0,3.009,3.009h1.324a2.98,2.98,0,0,0,3.009-3.009Z" transform="translate(7.572 1.852)"/>
+      </g>
+      <line id="Line_1507" data-name="Line 1507" class="cls-3" x2="29.608" transform="translate(8.545 36.347)"/>
+      <line id="Line_1508" data-name="Line 1508" class="cls-3" x2="29.608" transform="translate(8.545 29.969)"/>
+      <line id="Line_1509" data-name="Line 1509" class="cls-3" x2="8.906" transform="translate(29.246 23.71)"/>
+      <line id="Line_1510" data-name="Line 1510" class="cls-3" x2="8.906" transform="translate(29.246 17.331)"/>
+      <line id="Line_1511" data-name="Line 1511" class="cls-3" x2="29.246" transform="translate(8.907 10.952)"/>
+      <g id="Rectangle_2522" data-name="Rectangle 2522" class="cls-1" transform="translate(8.407 15.786)">
+        <rect class="cls-5" width="16" height="9" rx="2"/>
+        <rect class="cls-4" x="1" y="1" width="14" height="7" rx="1"/>
+      </g>
+    </g>
+    <g id="Symbol_267_6" data-name="Symbol 267 – 6" transform="translate(626 215)">
+      <rect id="Rectangle_2475" data-name="Rectangle 2475" class="cls-4" width="60" height="60" transform="translate(1915 2465)"/>
+    </g>
+  </g>
+</svg>

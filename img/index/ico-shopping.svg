@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        fill: none;
+      }
+
+      .cls-2, .cls-4 {
+        stroke: #f08b8f;
+      }
+
+      .cls-2, .cls-3 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+
+      .cls-3 {
+        stroke: #cf3339;
+      }
+    </style>
+  </defs>
+  <g id="ico-shopping" transform="translate(-1738 -1148)">
+    <g id="Symbol_347_1" data-name="Symbol 347 – 1">
+      <rect id="Rectangle_2471" data-name="Rectangle 2471" class="cls-1" width="60" height="60" transform="translate(1738 1148)"/>
+    </g>
+    <g id="Group_3346" data-name="Group 3346" transform="translate(1749 1159)">
+      <g id="Group_3345" data-name="Group 3345">
+        <path id="Path_1949" data-name="Path 1949" class="cls-2" d="M18,8.3S16.6,1.1,12.6,1A3.255,3.255,0,0,0,9.4,4C9.1,6,10.3,8.7,18,8.3Z"/>
+        <path id="Path_1950" data-name="Path 1950" class="cls-2" d="M20,8.3S21.4,1.1,25.4,1a3.255,3.255,0,0,1,3.2,3C28.9,6,27.7,8.7,20,8.3Z"/>
+      </g>
+      <path id="Path_1951" data-name="Path 1951" class="cls-3" d="M29.6,37H8.4a2.946,2.946,0,0,1-3-3V16.2H32.7V34A3.1,3.1,0,0,1,29.6,37Z"/>
+      <path id="Path_1952" data-name="Path 1952" class="cls-3" d="M34.7,16.2H3.3A2.263,2.263,0,0,1,1,13.9v-2A2.263,2.263,0,0,1,3.3,9.6H34.7A2.263,2.263,0,0,1,37,11.9v2A2.263,2.263,0,0,1,34.7,16.2Z"/>
+      <line id="Line_1545" data-name="Line 1545" class="cls-4" y2="25.3" transform="translate(19 10.7)"/>
+    </g>
+  </g>
+</svg>

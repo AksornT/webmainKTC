@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 36 36">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #f08b8f;
+        opacity: 0.3;
+      }
+
+      .cls-3 {
+        fill: #cf3339;
+      }
+
+      .cls-4 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-5 {
+        fill: #fff;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect class="cls-1" width="11.321" height="3.339"/>
+    </clipPath>
+  </defs>
+  <g id="ico-service-custom" transform="translate(8275 5961)">
+    <g id="Group_3048" data-name="Group 3048" transform="translate(-8269.735 -5950)">
+      <path id="Path_1873" data-name="Path 1873" class="cls-2" d="M9.508,4.5H3.6A2.612,2.612,0,0,0,1,7.1l.087,5.469a2.612,2.612,0,0,0,2.6,2.6h.347a.187.187,0,0,1,.174.174V17a.344.344,0,0,0,.608.26l2.431-2.084.087-.087h4.428" transform="translate(-1 -1.496)"/>
+      <path id="Path_1874" data-name="Path 1874" class="cls-3" d="M27.641,1,12.97,1.174A2.169,2.169,0,0,0,10.8,3.431l.087,9.029a2.169,2.169,0,0,0,2.257,2.17h1.476a.23.23,0,0,1,.26.26v2.084a.468.468,0,0,0,.781.347L18.7,14.63c.087,0,.087-.087.174-.087l8.942-.087a2.169,2.169,0,0,0,2.17-2.257L29.9,3.17A2.224,2.224,0,0,0,27.641,1Z" transform="translate(-2.291 -1)"/>
+      <g id="Repeat_Grid_32" data-name="Repeat Grid 32" class="cls-4" transform="translate(12.735 6)">
+        <g transform="translate(-18.605 -9.546)">
+          <circle id="Ellipse_239" data-name="Ellipse 239" class="cls-5" cx="1.25" cy="1.25" r="1.25" transform="translate(18.605 9.546)"/>
+        </g>
+        <g transform="translate(-14.605 -9.546)">
+          <circle id="Ellipse_239-2" data-name="Ellipse 239" class="cls-5" cx="1.25" cy="1.25" r="1.25" transform="translate(18.605 9.546)"/>
+        </g>
+        <g transform="translate(-10.605 -9.546)">
+          <circle id="Ellipse_239-3" data-name="Ellipse 239" class="cls-5" cx="1.25" cy="1.25" r="1.25" transform="translate(18.605 9.546)"/>
+        </g>
+      </g>
+    </g>
+    <g id="Symbol_273_88" data-name="Symbol 273 – 88" transform="translate(-8825 -7084)">
+      <rect id="Rectangle_2505" data-name="Rectangle 2505" class="cls-1" width="36" height="36" transform="translate(550 1123)"/>
+    </g>
+  </g>
+</svg>

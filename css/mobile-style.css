@@ -323,8 +323,8 @@
     padding-left: 7px;
   }
   .login-mobile img{
-    width: 13px;
-    height: 17px;
+    width: 18px;
+    height: auto;
   }
   .menu-mobile{
     position: relative;
@@ -1274,6 +1274,7 @@
 
   .forever .btn-link.underlined {
     font-size: 14px;
+    white-space: normal;
   }
   .page-forever-header .content-wrap {
     padding: 0 20px;
@@ -1916,6 +1917,15 @@ nav[aria-label="breadcrumb"] + .row-search-filter {
 
   .top-banner .share-on-top.with-bc .btn-flexi-share {
     margin-top: 20px;
+  }
+
+  .static-content.text-left.text-on-left-img{
+    padding-left: 50px;
+  }
+
+  .static-content .media{
+    padding-left: 30px;
+    padding-right: 30px;
   }
 
 

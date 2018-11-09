@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: none;
+      }
+
+      .cls-1 {
+        stroke: #cf3339;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+
+      .cls-2 {
+        stroke: #f08b8f;
+      }
+    </style>
+  </defs>
+  <g id="ico-menu-furniture" transform="translate(-297 -1372)">
+    <g id="Group_3269" data-name="Group 3269" transform="translate(154.8 1376.9)">
+      <g id="Group_2455" data-name="Group 2455" transform="translate(157.2 17.1)">
+        <line id="Line_1272" data-name="Line 1272" class="cls-1" x2="3.107" y2="7.477" transform="translate(8.933 8.836)"/>
+        <line id="Line_1273" data-name="Line 1273" class="cls-1" x2="8.933" transform="translate(1.748 8.836)"/>
+        <line id="Line_1274" data-name="Line 1274" class="cls-1" x2="1.748" y2="8.836"/>
+        <line id="Line_1275" data-name="Line 1275" class="cls-1" x1="3.107" y2="7.477" transform="translate(1.748 8.836)"/>
+      </g>
+      <g id="Group_2456" data-name="Group 2456" transform="translate(180.116 17.1)">
+        <line id="Line_1276" data-name="Line 1276" class="cls-1" x1="3.107" y2="7.477" transform="translate(0 8.836)"/>
+        <line id="Line_1277" data-name="Line 1277" class="cls-1" x1="8.933" transform="translate(1.359 8.836)"/>
+        <line id="Line_1278" data-name="Line 1278" class="cls-1" x1="1.748" y2="8.836" transform="translate(10.293)"/>
+        <line id="Line_1279" data-name="Line 1279" class="cls-1" x2="3.01" y2="7.477" transform="translate(7.283 8.836)"/>
+      </g>
+      <line id="Line_1280" data-name="Line 1280" class="cls-2" x2="4.37" transform="translate(172.348 33.413)"/>
+      <line id="Line_1281" data-name="Line 1281" class="cls-2" y1="11.944" transform="translate(174.581 21.47)"/>
+      <line id="Line_1282" data-name="Line 1282" class="cls-2" x2="15.633" transform="translate(166.716 21.47)"/>
+    </g>
+    <g id="Symbol_350_13" data-name="Symbol 350 – 13" transform="translate(109 153)">
+      <rect id="Rectangle_2707" data-name="Rectangle 2707" class="cls-3" width="55" height="55" transform="translate(192 1222)"/>
+    </g>
+    <g id="Symbol_349_19" data-name="Symbol 349 – 19" transform="translate(-1620 -79)">
+      <rect id="Rectangle_2707-2" data-name="Rectangle 2707" class="cls-3" width="60" height="60" transform="translate(1917 1451)"/>
+    </g>
+  </g>
+</svg>

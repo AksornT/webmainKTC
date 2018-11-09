@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #cf3339;
+      }
+
+      .cls-3 {
+        fill: #e28487;
+      }
+    </style>
+  </defs>
+  <g id="ico-menu-other" transform="translate(-3003 -1441)">
+    <g id="Symbol_349_8" data-name="Symbol 349 – 8" transform="translate(1086 -10)">
+      <rect id="Rectangle_2707" data-name="Rectangle 2707" class="cls-1" width="60" height="60" transform="translate(1917 1451)"/>
+    </g>
+    <g id="Group_2814" data-name="Group 2814" transform="translate(3013.787 1451.689)">
+      <rect id="Rectangle_2064" data-name="Rectangle 2064" class="cls-2" width="15.95" height="15.95" rx="3" transform="translate(0 1)"/>
+      <rect id="Rectangle_2065" data-name="Rectangle 2065" class="cls-3" width="15.95" height="15.95" rx="3" transform="translate(21.611 1)"/>
+      <rect id="Rectangle_2066" data-name="Rectangle 2066" class="cls-2" width="15.95" height="15.95" rx="3" transform="translate(21.611 23.123)"/>
+      <rect id="Rectangle_2067" data-name="Rectangle 2067" class="cls-3" width="15.95" height="15.95" rx="3" transform="translate(0 23.123)"/>
+    </g>
+  </g>
+</svg>

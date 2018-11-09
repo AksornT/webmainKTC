@@ -71,21 +71,21 @@ jQuery.fn.forceNumber = function () {
     });
 };
 function convertToNumber(s){
-	if(s=="")s="0";
-	s += '';
-	var n = s.replace(/[,]/g, "");
-	if(isNaN(n))return 0;
-	return parseFloat(n);
+ if(s=="")s="0";
+ s += '';
+ var n = s.replace(/[,]/g, "");
+ if(isNaN(n))return 0;
+ return parseFloat(n);
 }
 function formatNumber(n){
     var d = String(n).match(/\.\d+/g);
     (d == null) && ( d = "");
     n = Math.floor(n);
-	n += '';
-	return n.replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1,")+d;
+ n += '';
+ return n.replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1,")+d;
 }
 function formatToNumber(s){
-	return parseFloat(s.replace(/[,]/g, ""));
+ return parseFloat(s.replace(/[,]/g, ""));
 }
 
 Number.prototype.formatNumber = function(){
@@ -93,8 +93,8 @@ Number.prototype.formatNumber = function(){
         d = String(n).match(/\.\d+/g);
     (d == null) && ( d = "");
     n = Math.floor(n);
-	n += '';
-	return n.replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1,")+d;
+ n += '';
+ return n.replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1,")+d;
 }
 Number.prototype.fixed = function(d,u){
     // u -> undefined,0 for Round

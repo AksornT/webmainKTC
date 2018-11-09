@@ -46,8 +46,8 @@
     top: 4px;
   }
   .login-mobile img{
-    width: 13px;
-    height: 17px;
+    width: 19px;
+    height: auto;
   }
   .menu-mobile{
     position: relative;
@@ -414,6 +414,13 @@
   .footer-menu > .col-lg-3 {
       width: 40%;
       flex: none;
+  }
+
+  .image-link .icon-last-content img {
+    width: 42px;
+  }
+  .image-link .icon-last-content p{
+    font-size: 16px;
   }
 
   /* creditcard page -eve */
@@ -954,7 +961,7 @@
   }
 
   .bg-login .img-result{
-    width: auto;
+    width: 122px;
   }
 
   .bg-login .card-register-center{
@@ -1127,6 +1134,7 @@
 
   .forever .btn.button-flexi-start {
     font-size: 18px;
+    margin-bottom: 20px;
   }
 
   #page-flexi-content.forever .content-pre-nav h3 {
@@ -1139,8 +1147,7 @@
 
 
   #page-flexi-content.forever .content-pre-nav {
-    padding-top: 35px;
-    padding-bottom: 0px;
+    padding: 35px 0;
   }
 
   .forever #nav-flexi-mobile .nav.full-size a, #nav-flexi-modal .nav.full-size a {
@@ -1224,7 +1231,7 @@
   }
 
   #page-flexi-content.forever section#section-flexi-promotions{
-    padding-top: 0px;
+    padding: 0px 20px 40px 20px;
   }
 
   .forever #section-flexi-shops div[class*="col"].order-lg-last.box-center-v {
@@ -1239,6 +1246,7 @@
   #section-flexi-cards-mobile.only-mobile.forever h4 {
     margin-top: 0px;
     margin-bottom: 0px;
+    padding-top: 5px;
   }
   .forever #section-flexi-shops {
     margin-bottom: 0px;
@@ -1478,12 +1486,7 @@
     top: 73px;
     right: 23px;
     z-index: 1;
-  }
-
-  .top-banner .share-on-top {
-    right: 39px;
-    bottom: auto;
-    top: 13px;
+    left: auto;
   }
 
   nav + .content-wrap .share-on-top{
@@ -1568,7 +1571,6 @@
     font-size: 14px;
   }
   .static-wrap .link-more{
-    font-size: 18px;
     margin-bottom: 0;
   }
   .tel-number .the-number{
@@ -1644,6 +1646,7 @@
     width: 210px;
   }
 
+  .static-content.text-on-left-img.float-up,
   .static-content.text-on-right-img.float-up{
     padding: 40px 100px;
     top: 0;
@@ -1706,10 +1709,6 @@
     margin-left: -56vw;
   }
 
-  .top-banner .share-on-top.with-bc .btn-flexi-share{
-    margin-top: 30px;
-  }
-
   .proud-after-logo .btn-flexi-share{
     background: rgba(0,0,0,0.5) url(../img/ico-share-pro-white.png) no-repeat center;
     background-size: 80% auto;
@@ -1718,6 +1717,77 @@
   .proud-after-logo .btn-flexi-share:focus{
     background: #CF3339 url('../img/ico-share-pro-fill.png') no-repeat center;
     background-size: 100% auto;
+  }
+
+  .static-wrap .row > .text-left,
+  .static-wrap .row > .text-right{
+    text-align: center !important;
+  }
+
+  .static-wrap .static-content.media-content{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .static-wrap .media-content > div{
+    padding: 0;
+  }
+  .static-content .media{
+    padding-left: 80px;
+    padding-right: 80px;
+    display: block;
+    text-align: center;
+  }
+  .static-content .media:before{
+    left: 0;
+    right: 0;
+  }
+  .static-content .media img{
+    margin: 0 0 20px 0;
+    width: 100px;
+  }
+  #header-card-detail .content-desc{
+    margin: 30px 0 0 0;
+  }
+
+  #header-card-detail .header-title .btn-flexi-share{
+    background: rgba(0,0,0,0.5) url(../img/ico-share-pro-white.png) no-repeat center;
+      background-size: 80% auto;
+  }
+
+  #header-card-detail .header-title .btn-flexi-share:focus {
+    outline: 0;
+    background: #CF3339 url(../img/ico-share-pro-fill.png) no-repeat center;
+    background-size: 100% auto;
+    box-shadow: none;
+  }
+
+  .nav.mini .btn-flexi-share + .share-popover{
+    top: 50px;
+    right: -90px;
+  }
+
+  .nav.mini .btn-flexi-share + .share-popover:after{
+    border-top: none;
+    border-bottom: 8px solid #ECEEED;
+    top: -8px;
+    bottom: auto;
+    right: 98px;
+  }
+
+  .static-content.text-left.text-on-left-img{
+    padding-left: 100px;
+  }
+
+  #header-card-detail a.card-register-center {
+    margin: 30px 0 40px 0;
+  } 
+
+  .media-content > div:nth-last-child(1) .media:before{
+    display: none;
+  }
+
+  .proud-loan .proud-after-logo br{
+    display: none;
   }
 
 }

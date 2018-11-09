@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 122 122">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-4 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #007853;
+        stroke-linejoin: round;
+        stroke-width: 6px;
+      }
+
+      .cls-1 {
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="ico-register-success" transform="translate(-2338 -746)">
+    <g id="Group_3122" data-name="Group 3122" transform="translate(2338 746)">
+      <path id="Path_1230" data-name="Path 1230" class="cls-1" d="M5.7,23.5,20.651,42.187,61.145,7.3" transform="translate(28.356 35.781)"/>
+      <g id="Ellipse_746" data-name="Ellipse 746" class="cls-2" transform="translate(0 0)">
+        <circle class="cls-3" cx="61" cy="61" r="61"/>
+        <circle class="cls-4" cx="61" cy="61" r="58"/>
+      </g>
+    </g>
+  </g>
+</svg>
