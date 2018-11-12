@@ -7902,6 +7902,42 @@ article.content-wrap{
     bottom: auto;
 }
 
+.more-modal.edc-modal .header{
+	border-bottom: none;
+}
+.table .modal-table-title th.tb-title-first{
+	text-align: left;
+	font-size: 22px;
+}
+.table .modal-table-title th{
+	text-align: center;
+	vertical-align: middle;
+	border-top: none;
+}
+.table .modal-table-title th img{
+	width: 67px;
+	margin-bottom: 6px;
+}
+.table .modal-table-desc{
+	height: 80px;
+}
+.table .modal-table-desc th{
+	vertical-align: middle;
+	min-width: 130px;
+}
+.table .modal-table-desc td{
+	text-align: center;
+	vertical-align: middle;
+	min-width: 135px;
+	max-width: 220px;
+}
+.table .modal-table-desc th p, .table .modal-table-title th p{
+	font-family: 'Conv_SukhumvitTadmai_Bol';
+}
+.table .modal-table-desc td i{
+	font-family: 'FontAwesome';
+}
+
 
 /*Safari Only*/
 @media not all and (min-resolution:.001dpcm)

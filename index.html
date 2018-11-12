@@ -100,7 +100,6 @@
 
 
           <div class="profile-on-menu">
-            <!--<div class="profile-image"><img src="img/ico-user.png"></div>-->
             <span class="profile-name"></span>
             <div class="menu-mobile only-mobile" onclick="myFunction()"></div>
           </div>
@@ -228,54 +227,60 @@
           <div class="content-wrap row">
             <a href="forever.html" class="col-4 col-sm-4">
               <img class="on-default" src="img/index/ico-shopping.svg">
-              <img class="on-hover" src="img/index/ico-shopping.svg">
+              <img class="on-hover" src="img/index/ico-shopping.gif">
               <p>คะแนนสะสม</p>
               <span>Suspendisse</span>
             </a>
             <a href="flexi.html" class="col-4 col-sm-4" href="flexi.html">
               <img class="on-default" src="img/index/ico-dining.svg">
-              <img class="on-hover" src="img/index/ico-dining.svg">
+              <img class="on-hover" src="img/index/ico-dining.gif">
               <p>แบ่งชำระ</p>
               <span>Suspendisse</span>
             </a>
             <a class="col-4 col-sm-4">
               <img class="on-default" src="img/index/ico-shoponline.svg">
-              <img class="on-hover" src="img/index/ico-shoponline.svg">
+              <img class="on-hover" src="img/index/ico-shoponline.gif">
               <p>บริจาค</p>
               <span>Suspendisse</span>
             </a>
             <a href="creditcard.html" class="col-4 col-sm-4 only-mobile">
               <img class="on-default" src="img/index/ico-apply-card.svg">
-              <img class="on-hover" src="img/index/ico-apply-card.svg">
+              <img class="on-hover" src="img/index/ico-apply-card.gif">
               <p>สมัครบัตร</p>
               <span>Others</span>
             </a>
             <a class="col-4 col-sm-4 only-desktop">
               <img class="on-default" src="img/index/ico-travel.svg">
-              <img class="on-hover" src="img/index/ico-travel.svg">
+              <img class="on-hover" src="img/index/ico-travel.gif">
               <p>บริการลูกค้า</p>
               <span>Suspendisse</span>
             </a>
             <a class="col-4 col-sm-4 only-desktop">
               <img class="on-default" src="img/index/ico-nearby.svg">
-              <img class="on-hover" src="img/index/ico-nearby.svg">
+              <img class="on-hover" src="img/index/ico-nearby.gif">
               <p>ตรวจสอบสถานะบัตร</p>
               <span>Suspendisse</span>
             </a>
             <a class="col-4 col-sm-4 only-mobile">
               <img class="on-default" src="img/index/ico-nearby.svg">
-              <img class="on-hover" src="img/index/ico-nearby.svg">
+              <img class="on-hover" src="img/index/ico-nearby.gif">
               <p>ตรวจสอบสถานะบัตร</p>
               <span>Suspendisse</span>
             </a>
             <a class="col-4 col-sm-4 only-mobile">
               <img class="on-default" src="img/index/ico-travel.svg">
-              <img class="on-hover" src="img/index/ico-travel.svg">
+              <img class="on-hover" src="img/index/ico-travel.gif">
               <p>บริการลูกค้า</p>
               <span>Suspendisse</span>
             </a>
           </div>
         </div>
+        <script type="text/javascript">
+          $('.another-sub a').hover(function(){
+            var thisGif = $(this).find('.on-hover').attr('src');
+            $(this).find('.on-hover').attr("src", thisGif );
+          });
+        </script>
       </div>
       <div id="head-trigger"></div>
     </div>
