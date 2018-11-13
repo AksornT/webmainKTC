@@ -938,12 +938,12 @@
       </div>
     </div>
 
-    <div id="sort-my-link-modal" class="modal fade full-modal" tabindex="-1">
+    <div id="sort-my-link-modal" class="modal fade full-modal" tabindex="-1" role="dialog">
       <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
           <div class="modal-header">
             <div class="content-wrap">
-              <a class="edit-button" data-dismiss="modal" data-toggle="modal" data-target="#edit-my-link-modal" >แก้ไขลำดับ</a>
+              <a class="edit-button" data-dismiss="modal" data-toggle="modal" data-target="#edit-my-link-modal">แก้ไขลำดับ</a>
             </div>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
@@ -1072,7 +1072,7 @@
     </div>
 
 
-    <div id="edit-my-link-modal" class="modal fade full-modal" tabindex="-1">
+    <div id="edit-my-link-modal" class="modal fade full-modal" tabindex="-1" role="dialog">
       <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
           <div class="modal-header">
@@ -1226,6 +1226,17 @@
         </div>
       </div>
     </div>
+
+    <script type="text/javascript">
+      $('#edit-my-link-modal').on('shown.bs.modal', function (e) {
+        $('body').addClass('modal-open');
+        $('body').append('<div class="modal-backdrop fade"></div>');
+      });
+
+      $('#edit-my-link-modal').on('hidden.bs.modal', function (e) {
+        $('.modal-backdrop').remove();
+      });
+    </script>
 
 
     <script type="text/javascript">
