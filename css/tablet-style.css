@@ -1538,11 +1538,6 @@
   .static-wrap .text-left li a{
     text-align: left !important;
   }
-
-  .static-wrap h5 br,
-  .static-wrap p br{
-    display: none;
-  }
  
   .negative-text, 
   .negative-text .link-more{
@@ -1651,6 +1646,7 @@
     padding: 40px 100px;
     top: 0;
     right: 0;
+    max-width: none;
   }
 
   .half-half-black > .row > div:nth-child(1),

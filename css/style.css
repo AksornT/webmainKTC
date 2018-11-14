@@ -7739,7 +7739,7 @@ nav[aria-label="breadcrumb"]{
     top: 50px;
     right: 50px;
     width: auto;
-    max-width: none;
+    max-width: 66%;
 }
 
 .static-content.text-on-left-img.float-up{
@@ -7959,7 +7959,11 @@ article.content-wrap{
     }
 }
 
-
+@media (min-width: 992px) {
+	.proud-after-logo .btn-flexi-share + .share-popover{
+		top: -45px;
+	}
+  }
 
 @media (min-width: 1366px) {
 	.menu-global .content-wrap{
@@ -8250,13 +8254,9 @@ article.content-wrap{
   	padding: 0 55px;
   }
 
-  @media (min-width: 992px) {
-
-  	
-
-	.proud-after-logo .btn-flexi-share + .share-popover{
-		top: -45px;
-	}
+  .static-wrap h5 br,
+  .static-wrap p br{
+    display: none;
   }
 
 
