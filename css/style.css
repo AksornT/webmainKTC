@@ -758,6 +758,7 @@ a:hover{
 article.page-content section {
 	padding: 40px 0;
 	border-bottom: 1px solid #E6E8EA;
+	overflow: hidden;
 }
 article.page-content section.no-bottom-line {
 	border-bottom: none;
@@ -835,6 +836,10 @@ article.page-content img {
 	float: right;
 	position: relative;
 	padding-bottom: 8px;
+}
+
+h1 .share-on-top{
+	left: -45px;
 }
 
 /* slide - eve */
@@ -4054,10 +4059,14 @@ section#section-flexi-cards {
 }
 
 #nav-flexi h1{
-	display: flex;
-	align-self: center;
-	margin-right: 25px;
-	font-family: "Conv_SukhumvitTadmai_Bol";
+    display: inline-block;
+    align-self: center;
+    margin-right: 25px;
+    font-family: "Conv_SukhumvitTadmai_Bol";
+    max-width: calc(100vw - 800px);
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 
 .sticky-white-menu-list li a{
@@ -7938,6 +7947,97 @@ article.content-wrap{
 	font-family: 'FontAwesome';
 }
 
+h4.no-dash{
+	width: 100%;
+	display: block;
+}
+
+.static-content .small-desc{
+	max-width: 615px;
+}
+
+#oap-loan .btn-wrap{
+	margin-bottom: 60px;
+}
+.txt-on-desktop{
+	display: inline-block;
+}
+.txt-on-mobile{
+	display: none;
+}
+
+#oap-loan-success .img-result{
+	margin-top: 60px;
+	width: 80px;
+}
+.app-download{
+	padding-bottom: 60px;
+	margin: auto;
+}
+.app-download .app-download-box{
+	text-align: center;
+	display: inline-block;
+}
+.app-download .app-download-box .media img{
+	margin-right: 15px;
+}
+.app-download .media-body{
+	font-family: 'Conv_SukhumvitTadmai_Bol';
+}
+.app-download h5{
+	font-size: 20px;
+	line-height: 28px;
+	padding-bottom: 4px;
+}
+.app-download p{
+	font-size: 25px;
+	line-height: 28px;
+	color: #CF3339;
+	padding-bottom: 0;
+}
+.app-download .btn-app-download p{
+	color: #000;
+	font-size: 14px;
+	padding-bottom: 6px;
+}
+.btn-app-download{
+	padding-top: 0px;
+}
+.btn-app-download img{
+	margin: auto 6px;
+	top: 0;
+}
+.btn-app-download img:hover{
+	position: relative;
+	top: -3px;
+}
+
+#oap-loan-success .proud-regis-complete .desc-title{
+	font-family: 'Conv_SukhumvitTadmai_Bol';
+	font-size: 30px;
+	line-height: 45px;
+	padding-bottom: 20px;
+}
+#oap-loan-success .proud-regis-complete .desc-title span{
+	font-family: 'Conv_SukhumvitTadmai_Bol';
+	font-size: 20px;
+	display: block;
+	padding: 10px 0 4px 0;
+	line-height: 28px;
+}
+#oap-loan-success .proud-regis-complete .desc-result{
+	color: #5B6670;
+	font-size: 16px;
+	line-height: 22px;
+}
+#oap-loan-success.bg-login .card-register-center {
+	margin-top: 40px;
+	margin-bottom: 60px;
+}
+.oap-top-padd{
+	padding-top: 60px;
+}
+
 
 /*Safari Only*/
 @media not all and (min-resolution:.001dpcm)
@@ -8257,6 +8357,86 @@ article.content-wrap{
   .static-wrap h5 br,
   .static-wrap p br{
     display: none;
+  }
+
+  .static-wrap .adjust-top{
+  	top: -24px;
+  }
+
+  .so-much-text {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+  }
+
+  article.page-content .so-much-text img,
+  .so-much-text img{
+    width: auto;
+    height: 100%;
+    max-width: none;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  article.page-content .so-much-text.space-on-left img,
+  .so-much-text.space-on-left img{
+  	position: absolute;
+    left: auto;
+    right: 0;
+    transform: none;
+  }
+
+  article.page-content .so-much-text.space-on-right img,
+  .so-much-text.space-on-right img{
+  	position: absolute;
+    left: 0;
+    transform: none;
+  }
+
+  .static-content li p span{
+  	display: block;
+  }
+
+  .so-much-text + .static-content{
+    position: relative;
+  }
+
+  .still-background,
+  .still-background img{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    left: 0;
+    padding: 0;
+  }
+
+  .still-background + .static-content{
+    padding: 40px 100px;
+    position: relative;
+    margin: 0;
+  }
+
+  .negative-text .still-background + .static-content ,
+  .negative-text .still-background + .static-content .link-more{
+    color: #fff;
+  }
+
+  .static-wrap .row .crob-on-tablet{
+    align-self: stretch;
+    overflow: hidden;
+  }
+
+  .static-wrap .crob-on-tablet img{
+    max-width: none;
+    width: auto;
+    height: 100%;
+    right: 0;
+    position: absolute;
   }
 
 

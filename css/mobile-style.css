@@ -1928,6 +1928,49 @@ nav[aria-label="breadcrumb"] + .row-search-filter {
     padding-right: 30px;
   }
 
+  #oap-loan-success .proud-regis-complete .desc-title{
+      font-size: 20px;
+      line-height: 26px;
+      padding-bottom: 10px;
+    }
+    #oap-loan-success .proud-regis-complete .desc-result{
+      font-size: 14px;
+      line-height: 20px;
+      padding-bottom: 0;
+    }
+    .txt-on-desktop{
+      display: none;
+    }
+    .txt-on-mobile{
+      display: inline-block;
+    }
+    .app-download .app-download-box .media img{
+      width: 48px;
+    }
+    .app-download h5{
+      font-size: 16px;
+      line-height: 21px;
+    }
+    .app-download p{
+      font-size: 20px;
+      line-height: 24px;
+      padding-bottom: 0px;
+    }
+    .app-download .btn-app-download p{
+      font-size: 10px;
+    }
+    #oap-loan-success.bg-login .card-register-center {
+      margin-top: 30px;
+      margin-bottom: 40px;
+    }
+    #oap-loan-success .proud-regis-complete .desc-title span{
+      font-size: 16px;
+      line-height: 20px;
+    }
+    #oap-loan-success .img-result {
+      margin-bottom: 20px;
+    }
+
 
 
 }

@@ -776,8 +776,7 @@
     padding: 8px 22px;
   }
   .box-more {
-    margin-top: 0;
-    margin-bottom: 40px;
+    margin: 40px 0;
   }
   .box-cash {
     margin-bottom: 40px;
@@ -1481,7 +1480,8 @@
     line-height: 1.4;
   }
 
-  .share-on-top{
+  .share-on-top,
+  h1 .share-on-top{
     position: fixed;
     top: 73px;
     right: 23px;
@@ -1588,14 +1588,18 @@
     color: #fff;
   }
 
+
+
   .space-on-left img,
+  article.page-content  .space-on-left img,
   .page-content .space-on-left img{
     max-width: none;
     width: 200%;
     margin-left: -100%;
   }
   .space-on-right img,
-  .page-content .space-on-right img{
+  .page-content .space-on-right img,
+  article.page-content .space-on-right img{
     max-width: none;
     width: 200%;
   }
@@ -1612,23 +1616,6 @@
   .half-half-blue{
     padding-top: 20px;
     padding-bottom: 20px;
-  }
-
-  .still-background,
-  .still-background img{
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    width: 100%;
-    height: 100%;
-    display: block;
-    left: 0;
-    padding: 0;
-  }
-
-  .negative-text .still-background + .static-content ,
-  .negative-text .still-background + .static-content .link-more{
-    color: #fff;
   }
 
   .half-half .row .row .static-content.text-on-left-img{
@@ -1784,6 +1771,61 @@
 
   .proud-loan .proud-after-logo br{
     display: none;
+  }
+
+  .static-wrap .adjust-top{
+    top: 0;
+  }
+
+  .so-much-text,
+  article.page-content .so-much-text,
+  .so-much-text.space-on-left img,
+  .so-much-text.space-on-right img,
+  article.page-content .so-much-text.space-on-left img,
+  article.page-content .so-much-text.space-on-right img{
+    position: relative;
+  }
+
+  .static-wrap .not-so-big img{
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  .grey-in-tablet{
+    background: #f9f9f9;
+  }
+
+  .static-content li p span{
+    display: inline;
+  }
+
+  #header-card-detail .header-title{
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .static-wrap .crob-on-tablet img{
+    position: relative;
+    height: auto;
+    width: 100%;
+  }
+
+  #oap-loan-success .proud-regis-complete .desc-title{
+    font-size: 28px;
+    margin-top: 0px;
+  }
+  .app-download h5{
+    padding-bottom: 2px;
+  }
+  .app-download p{
+    font-size: 25px;
+    line-height: 28px;
+    color: #CF3339;
+    padding-bottom: 0;
+    margin-top: 0;
+  }
+  .app-download .btn-app-download p{
+    font-size: 14px;
   }
 
 }
