@@ -394,6 +394,7 @@ a:hover{
 	font-family: 'Conv_SukhumvitTadmai_Tex';
     font-size: 13px;
     letter-spacing: 1px;
+    line-height: 16px;
     padding: 5px 12px;
     border: 1px #fff solid;
     border-radius: 6px;
@@ -478,6 +479,11 @@ a:hover{
 	font-size: 32px;
 }
 
+.open-on-top h1 + p{
+	line-height: 1.4;
+	font-size:20px;
+}
+
 .open-on-top p{
 	line-height: 21px;
 	font-family: 'Conv_SukhumvitTadmai_Tex';
@@ -487,6 +493,7 @@ a:hover{
 .big-link{
 	text-align: center;
 	padding: 0 0 26px 24px;
+	align-items: stretch;
 }
 
 .big-link > div{
@@ -495,7 +502,7 @@ a:hover{
 	width: 100%;
 	height: 153px;
 	color: #333;
-	padding: 13px 0 20px 0;
+	padding: 13px 0 ;
 	-webkit-box-shadow: 0px 3px 17px 0px rgba(150,150,150,0.79);
 	-moz-box-shadow: 0px 3px 17px 0px rgba(150,150,150,0.79);
 	box-shadow: 0px 3px 17px 0px rgba(150,150,150,0.79);
@@ -520,14 +527,20 @@ a:hover{
 }
 
 .big-link img{
-	height: auto;
-	width: 40%;
-	margin-bottom: 10px;
+    height: 104px;
+    width: auto;
+    margin: -14px 0 0px 0;
+}
+
+.big-link p{
+	font-size: 18px;
+	line-height: 1.2;
+	letter-spacing: 0px;
 }
 
 .big-link span {
 	font-family: 'Conv_SukhumvitTadmai_Bol';
-	font-size: 14px;
+	font-size: 16px;
 	text-transform: uppercase;
 	letter-spacing: 0px;
 }
@@ -1825,9 +1838,16 @@ button.close{
 
 .campare-table th > p{
 	font-size: 16px;
-	font-family: 'Conv_SukhumvitTadmai_Tex';
-	text-align: center;
-	margin: 22px 0 30px 0;
+    line-height: 1.4;
+    font-family: 'Conv_SukhumvitTadmai_Tex';
+    text-align: center;
+    margin: 22px auto 13px auto;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    height: 46px;
 }
 
 .campare-table th > a{
@@ -8135,9 +8155,6 @@ h4.no-dash{
 		font-size: 14px;
     	max-width: 70px;
 	}
-	.big-link > div{
-		height: 126px;
-	}
 	.menu-global{
 		background-position: 39% center;
 	}
@@ -8437,6 +8454,10 @@ h4.no-dash{
     height: 100%;
     right: 0;
     position: absolute;
+  }
+
+  .big-link > div{
+  	height: 175px;
   }
 
 
