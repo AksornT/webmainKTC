@@ -1746,7 +1746,8 @@
 
   .nav.mini .btn-flexi-share + .share-popover{
     top: 50px;
-    right: -90px;
+    right: auto;
+    left: -45px;
   }
 
   .nav.mini .btn-flexi-share + .share-popover:after{

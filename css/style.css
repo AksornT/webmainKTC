@@ -2849,7 +2849,7 @@ article.page-content #card-detail-regis h3::after{
 }
 
 /* loan page -eve */
-.main-loan{
+.content-wrap.main-loan{
 	padding-top: 60px;
 	padding-bottom: 100px;
 }

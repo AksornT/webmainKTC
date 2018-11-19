@@ -95,6 +95,23 @@ $(document).ready(function() {
         elem.addEventListener('touchend', touchHandler, {passive: false});
     });
 
+    //mobile-menu navigate
+    $('.sticky-white-menu-list a[href^="#"]').each(function (index, elem) {
+        var touchHandler = function (event) {
+            event.preventDefault();
+            var hash = this.hash;
+            var topOffset = $('#menu-global').innerHeight() + $('.sub-sticky').innerHeight() + 50;
+            if (hash !== "#" && hash.length > 0) {
+                navScrollTo(hash, topOffset);
+            }
+            $('#sticky-modal').modal('hide');
+            $('.modal-backdrop').remove();
+        };
+        elem.addEventListener('click', touchHandler);
+        elem.addEventListener('touchend', touchHandler, {passive: false});
+
+    });
+
 
 
     

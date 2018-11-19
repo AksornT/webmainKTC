@@ -532,11 +532,12 @@
     padding-bottom: 16px;
   }
   .big-link > div{
-    height: 89px;
+    height: 108px;
     padding-top: 6px;
   }
   .big-link img {
     margin-bottom: 0px;
+    height: 80px;
   }
   .big-link span {
     font-family: 'Conv_SukhumvitTadmai_Bol';
@@ -771,8 +772,9 @@
   }
 
   /* loan page -eve */
-  .main-loan{
+  .content-wrapmain-loan{
     padding-bottom: 40px;
+    padding-top: 0;
   }
   .main-loan h1{
   	font-size: 20px;
@@ -1969,6 +1971,10 @@ nav[aria-label="breadcrumb"] + .row-search-filter {
     }
     #oap-loan-success .img-result {
       margin-bottom: 20px;
+    }
+
+    .page-loan-proud .share-on-top{
+      top: 58px;
     }
 
 
