@@ -1773,7 +1773,7 @@ nav[aria-label="breadcrumb"] + .row-search-filter {
   .btn-filter.only-mobile{
     display: inline-block;
     float: right;
-    padding-top: 7px;
+    padding-top: 20px;
   }
   .col-right-filter .search-credit{
     display: block;
@@ -1875,7 +1875,8 @@ nav[aria-label="breadcrumb"] + .row-search-filter {
   .forever .section-box div[class*="col"].order-lg-last.box-center-v,
   .static-content.text-on-right-img.float-up,
   .full-overimage.top-banner .text-on-left-img.text-left,
-  .static-wrap .static-content {
+  .static-wrap .static-content,
+  .so-much-text + .static-content.text-on-right-img{
     padding: 40px 50px;
   }
 

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke: #fff;
+        stroke-linejoin: round;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <g id="ico-my-card" transform="translate(-37 -87)">
+    <rect id="Rectangle_666" data-name="Rectangle 666" class="cls-1" width="40" height="40" transform="translate(37 87)"/>
+    <g id="Group_924" data-name="Group 924" transform="translate(46.529 100.135)">
+      <path id="Path_892" data-name="Path 892" class="cls-2" d="M20.343,15.545H2.566A1.574,1.574,0,0,1,1,13.98V2.566A1.574,1.574,0,0,1,2.566,1H20.394a1.574,1.574,0,0,1,1.566,1.566V13.98A1.653,1.653,0,0,1,20.343,15.545Z" transform="translate(-0.949 -1)"/>
+      <line id="Line_640" data-name="Line 640" class="cls-2" x2="20.959" transform="translate(0.051 3.03)"/>
+      <line id="Line_641" data-name="Line 641" class="cls-2" x1="20.959" transform="translate(0 5.758)"/>
+    </g>
+  </g>
+</svg>

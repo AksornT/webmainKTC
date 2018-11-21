@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22.148 20.084">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1 {
+        stroke-width: 1.5px;
+      }
+
+      .cls-2 {
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <g id="ico-search-black" transform="translate(0.75 0.75)">
+    <ellipse id="Ellipse_1" data-name="Ellipse 1" class="cls-1" cx="7.712" cy="7.712" rx="7.712" ry="7.712" transform="translate(0 0)"/>
+    <line id="Line_14" data-name="Line 14" class="cls-2" x2="5.431" y2="4.779" transform="translate(14.555 13.143)"/>
+  </g>
+</svg>

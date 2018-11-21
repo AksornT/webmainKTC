@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #5b6670;
+        stroke: #5b6670;
+      }
+    </style>
+  </defs>
+  <g id="ico-calendar" transform="translate(2 1.067)">
+    <rect id="Rectangle_2742" data-name="Rectangle 2742" class="cls-1" width="24" height="24" transform="translate(-2 -1.067)"/>
+    <g id="Group_2490" data-name="Group 2490">
+      <g id="Group_2485" data-name="Group 2485" transform="translate(0 1.682)">
+        <path id="Path_1673" data-name="Path 1673" class="cls-2" d="M17.519,21.951a2.108,2.108,0,0,0,2.1-2.1V4.5a2.108,2.108,0,0,0-2.1-2.1H2.1A2.108,2.108,0,0,0,0,4.5V19.849a2.108,2.108,0,0,0,2.1,2.1ZM.911,19.849V4.5A1.256,1.256,0,0,1,2.172,3.241H17.589A1.256,1.256,0,0,1,18.85,4.5V19.849a1.256,1.256,0,0,1-1.261,1.261H2.1A1.2,1.2,0,0,1,.911,19.849Z" transform="translate(0 -2.4)"/>
+      </g>
+      <g id="Group_2488" data-name="Group 2488" transform="translate(5.256)">
+        <g id="Group_2486" data-name="Group 2486">
+          <path id="Path_1674" data-name="Path 1674" class="cls-2" d="M8.411,3.924V.42A.469.469,0,0,0,7.92,0,.452.452,0,0,0,7.5.42v3.5a.452.452,0,0,0,.42.42A.469.469,0,0,0,8.411,3.924Z" transform="translate(-7.5)"/>
+        </g>
+        <g id="Group_2487" data-name="Group 2487" transform="translate(8.339)">
+          <path id="Path_1675" data-name="Path 1675" class="cls-2" d="M20.311,3.924V.42A.469.469,0,0,0,19.82,0a.452.452,0,0,0-.42.42v3.5a.452.452,0,0,0,.42.42A.469.469,0,0,0,20.311,3.924Z" transform="translate(-19.4)"/>
+        </g>
+      </g>
+      <g id="Group_2489" data-name="Group 2489" transform="translate(0.42 5.956)">
+        <rect id="Rectangle_2018" data-name="Rectangle 2018" class="cls-2" width="18.71" height="0.911"/>
+      </g>
+    </g>
+  </g>
+</svg>

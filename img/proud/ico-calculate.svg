@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80">
+  <defs>
+    <style>
+      .cls-1, .cls-3, .cls-4 {
+        fill: none;
+      }
+
+      .cls-1 {
+        opacity: 0.278;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        stroke-linejoin: round;
+      }
+
+      .cls-2, .cls-3 {
+        stroke: #5b6670;
+        stroke-linecap: round;
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        stroke-width: 2px;
+      }
+
+      .cls-3 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-4 {
+        stroke: #cdd0d3;
+      }
+    </style>
+  </defs>
+  <g id="ico-calculate" transform="translate(-750 -3168)">
+    <rect id="Rectangle_2986" data-name="Rectangle 2986" class="cls-1" width="80" height="80" transform="translate(750 3168)"/>
+    <g id="Group_3500" data-name="Group 3500" transform="translate(-373.5 -143.5)">
+      <rect id="Rectangle_2988" data-name="Rectangle 2988" class="cls-2" width="63" height="63" rx="5" transform="translate(1132 3320)"/>
+      <g id="Group_3503" data-name="Group 3503" transform="translate(-1)">
+        <line id="Line_1297" data-name="Line 1297" class="cls-3" y1="11" transform="translate(1148.75 3331)"/>
+        <line id="Line_1298" data-name="Line 1298" class="cls-3" y1="11" transform="translate(1154.25 3336.5) rotate(90)"/>
+      </g>
+      <line id="Line_1299" data-name="Line 1299" class="cls-3" y1="11" transform="translate(1184.75 3336.5) rotate(90)"/>
+      <g id="Group_3498" data-name="Group 3498" transform="translate(2775.156 232.646) rotate(45)">
+        <line id="Line_1291" data-name="Line 1291" class="cls-3" y1="11" transform="translate(1065.75 3361.75)"/>
+        <line id="Line_1292" data-name="Line 1292" class="cls-3" y1="11" transform="translate(1071.25 3367.25) rotate(90)"/>
+      </g>
+      <line id="Line_1300" data-name="Line 1300" class="cls-3" y1="11" transform="translate(1184.75 3364.5) rotate(90)"/>
+      <line id="Line_1301" data-name="Line 1301" class="cls-3" y1="11" transform="translate(1184.75 3369.5) rotate(90)"/>
+    </g>
+    <line id="Line_1303" data-name="Line 1303" class="cls-4" y1="61" transform="translate(790 3177.5)"/>
+    <line id="Line_1304" data-name="Line 1304" class="cls-4" x2="61" transform="translate(759.5 3208)"/>
+  </g>
+</svg>

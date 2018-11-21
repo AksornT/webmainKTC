@@ -1278,6 +1278,7 @@
 
   nav[aria-label="breadcrumb"] + .row-search-filter{
     margin-top: 0px;
+    padding-top: 6px;
   }
 
   .search-wrap .btn-wrap{
@@ -1508,6 +1509,10 @@
     padding: 40px 100px;
     position: relative;
     margin: 0;
+  }
+
+  .so-much-text + .static-content.text-on-right-img{
+    padding: 40px 100px;
   }
 
   .static-wrap .overlap-wrap {

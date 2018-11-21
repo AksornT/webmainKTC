@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke: #5b6670;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <g id="ico-upload" transform="translate(2.5 4.5)">
+    <rect id="Rectangle_2743" data-name="Rectangle 2743" class="cls-1" width="24" height="24" transform="translate(-2.5 -4.5)"/>
+    <path id="Path_1676" data-name="Path 1676" class="cls-2" d="M.5,7v7.238H17.871V7" transform="translate(0 2.909)"/>
+    <line id="Line_1297" data-name="Line 1297" class="cls-2" y2="10.133" transform="translate(9.04 1.948)"/>
+    <path id="Path_1677" data-name="Path 1677" class="cls-2" d="M4,3.5" transform="translate(1.566 1.343)"/>
+    <path id="Path_1678" data-name="Path 1678" class="cls-2" d="M3.9,4.843,7.519.5l3.619,4.343" transform="translate(1.522)"/>
+  </g>
+</svg>

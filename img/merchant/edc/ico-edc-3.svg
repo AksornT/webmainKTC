@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 150">
+  <defs>
+    <style>
+      .cls-1, .cls-10, .cls-11, .cls-14 {
+        fill: none;
+      }
+
+      .cls-13, .cls-2, .cls-4, .cls-7, .cls-8 {
+        fill: #0055b8;
+      }
+
+      .cls-2 {
+        font-size: 15px;
+        font-family: Helvetica-Bold, Helvetica;
+        font-weight: 700;
+      }
+
+      .cls-12, .cls-3, .cls-5, .cls-9 {
+        fill: #fff;
+      }
+
+      .cls-10, .cls-11, .cls-12, .cls-14, .cls-3, .cls-4, .cls-9 {
+        stroke: #0055b8;
+      }
+
+      .cls-10, .cls-11, .cls-12, .cls-14, .cls-3, .cls-4, .cls-5, .cls-9 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-12, .cls-14, .cls-3, .cls-4, .cls-5, .cls-9 {
+        stroke-width: 2px;
+      }
+
+      .cls-10, .cls-11, .cls-4, .cls-6, .cls-8 {
+        opacity: 0.3;
+      }
+
+      .cls-5 {
+        stroke: #fff;
+      }
+
+      .cls-11, .cls-14, .cls-9 {
+        stroke-linecap: round;
+      }
+
+      .cls-10 {
+        stroke-width: 3px;
+      }
+
+      .cls-12 {
+        stroke-linejoin: round;
+      }
+
+      .cls-13 {
+        font-size: 18.231px;
+        font-family: Helvetica;
+      }
+    </style>
+  </defs>
+  <g id="Group_3499" data-name="Group 3499" transform="translate(-1063 -1688)">
+    <g id="Group_2667" data-name="Group 2667" transform="translate(1062.5 1687.5)">
+      <rect id="Rectangle_1965" data-name="Rectangle 1965" class="cls-1" width="150" height="150" transform="translate(0.5 0.5)"/>
+    </g>
+    <g id="Group_3498" data-name="Group 3498" transform="translate(1101 1702.25)">
+      <text id="FREE_" data-name="FREE !" class="cls-2" transform="translate(0 12.75)"><tspan x="0" y="0">FREE !</tspan></text>
+      <g id="Group_3497" data-name="Group 3497">
+        <path id="Path_1611" data-name="Path 1611" class="cls-3" d="M68.3,66.8V24.2a4.9,4.9,0,0,0-9.8,0V71.7H73.3A4.93,4.93,0,0,1,68.3,66.8Z"/>
+        <path id="Path_1612" data-name="Path 1612" class="cls-4" d="M68.3,66.8V24.2a4.9,4.9,0,0,0-9.8,0V71.7H73.3A4.93,4.93,0,0,1,68.3,66.8Z"/>
+        <g id="Group_3494" data-name="Group 3494">
+          <path id="Path_1613" data-name="Path 1613" class="cls-5" d="M72.3,98.9H36.2a3.8,3.8,0,0,1-3.8-3.8V32.9a3.8,3.8,0,0,1,3.8-3.8H72.3a3.8,3.8,0,0,1,3.8,3.8V95.1A3.8,3.8,0,0,1,72.3,98.9Z"/>
+          <g id="Group_3493" data-name="Group 3493" class="cls-6">
+            <path id="Path_1614" data-name="Path 1614" class="cls-3" d="M72.3,98.6H36.2a3.8,3.8,0,0,1-3.8-3.8V32.6a3.8,3.8,0,0,1,3.8-3.8H72.3a3.8,3.8,0,0,1,3.8,3.8V94.8A3.8,3.8,0,0,1,72.3,98.6Z"/>
+            <g id="Group_3491" data-name="Group 3491" class="cls-6">
+              <path id="Path_1615" data-name="Path 1615" class="cls-7" d="M67.8,55.1H40.7A1.812,1.812,0,0,1,39,53.5L37.6,36.1a1.6,1.6,0,0,1,1.5-1.9H69.3a1.652,1.652,0,0,1,1.5,1.9L69.4,53.5A1.645,1.645,0,0,1,67.8,55.1Z"/>
+            </g>
+            <g id="Group_3492" data-name="Group 3492">
+              <path id="Path_1616" data-name="Path 1616" class="cls-8" d="M46,71.4H40a.789.789,0,0,1-.8-.8V68a.789.789,0,0,1,.8-.8h6a.789.789,0,0,1,.8.8v2.7A.773.773,0,0,1,46,71.4Z"/>
+              <path id="Path_1617" data-name="Path 1617" class="cls-8" d="M57.2,71.4H51.3a.789.789,0,0,1-.8-.8V68a.789.789,0,0,1,.8-.8h5.9a.789.789,0,0,1,.8.8v2.7A.773.773,0,0,1,57.2,71.4Z"/>
+              <path id="Path_1618" data-name="Path 1618" class="cls-8" d="M68.4,71.4H62.5a.789.789,0,0,1-.8-.8V68a.789.789,0,0,1,.8-.8h5.9a.789.789,0,0,1,.8.8v2.7A.773.773,0,0,1,68.4,71.4Z"/>
+              <path id="Path_1619" data-name="Path 1619" class="cls-8" d="M46,64H40a.789.789,0,0,1-.8-.8V60.5a.789.789,0,0,1,.8-.8h6a.789.789,0,0,1,.8.8v2.7A.86.86,0,0,1,46,64Z"/>
+              <path id="Path_1620" data-name="Path 1620" class="cls-8" d="M57.2,64H51.3a.789.789,0,0,1-.8-.8V60.5a.789.789,0,0,1,.8-.8h5.9a.789.789,0,0,1,.8.8v2.7A.86.86,0,0,1,57.2,64Z"/>
+              <path id="Path_1621" data-name="Path 1621" class="cls-8" d="M68.4,64H62.5a.789.789,0,0,1-.8-.8V60.5a.789.789,0,0,1,.8-.8h5.9a.789.789,0,0,1,.8.8v2.7A.86.86,0,0,1,68.4,64Z"/>
+              <path id="Path_1622" data-name="Path 1622" class="cls-8" d="M46,78.9H40a.789.789,0,0,1-.8-.8V75.4a.789.789,0,0,1,.8-.8h6a.789.789,0,0,1,.8.8v2.7A.86.86,0,0,1,46,78.9Z"/>
+              <path id="Path_1623" data-name="Path 1623" class="cls-8" d="M57.2,78.9H51.3a.789.789,0,0,1-.8-.8V75.4a.789.789,0,0,1,.8-.8h5.9a.789.789,0,0,1,.8.8v2.7A.86.86,0,0,1,57.2,78.9Z"/>
+              <path id="Path_1624" data-name="Path 1624" class="cls-8" d="M68.4,78.9H62.5a.789.789,0,0,1-.8-.8V75.4a.789.789,0,0,1,.8-.8h5.9a.789.789,0,0,1,.8.8v2.7A.86.86,0,0,1,68.4,78.9Z"/>
+              <path id="Path_1625" data-name="Path 1625" class="cls-7" d="M45.6,86.2,40,85.5c-.4-.1-.8-.4-.8-.8V82.9a.713.713,0,0,1,.8-.7h5.5a1.12,1.12,0,0,1,1.2,1v2.3C46.8,85.9,46.2,86.2,45.6,86.2Z"/>
+              <path id="Path_1626" data-name="Path 1626" class="cls-7" d="M62.9,86.2l5.5-.7c.4-.1.8-.4.8-.8V82.9a.713.713,0,0,0-.8-.7H62.9a1.12,1.12,0,0,0-1.2,1v2.3C61.7,85.9,62.2,86.2,62.9,86.2Z"/>
+              <path id="Path_1627" data-name="Path 1627" class="cls-7" d="M57.2,86.3H51.3a.789.789,0,0,1-.8-.8V82.8a.789.789,0,0,1,.8-.8h5.9a.789.789,0,0,1,.8.8v2.7A.789.789,0,0,1,57.2,86.3Z"/>
+            </g>
+            <path id="Path_1628" data-name="Path 1628" class="cls-3" d="M43,91.9v12.4c0,1.3,1.3,2.3,2.9,2.3H62.4c1.6,0,2.9-1.1,2.9-2.3V91.9Z"/>
+            <line id="Line_1285" data-name="Line 1285" class="cls-9" x2="27.8" transform="translate(40.3 91.9)"/>
+            <line id="Line_1286" data-name="Line 1286" class="cls-10" y1="15.1" transform="translate(58.7 91.9)"/>
+          </g>
+        </g>
+        <path id="Path_1629" data-name="Path 1629" class="cls-3" d="M58.4,19.3H28.1A5.121,5.121,0,0,0,23,24.4V88.2H53.5a4.908,4.908,0,0,0,4.9-4.9V24.2a4.908,4.908,0,0,1,4.9-4.9H58.4Z"/>
+        <path id="Path_1630" data-name="Path 1630" class="cls-3" d="M48.5,83.3V40.8a4.9,4.9,0,0,0-9.8,0V88.3H53.5A5.015,5.015,0,0,1,48.5,83.3Z"/>
+        <path id="Path_1631" data-name="Path 1631" class="cls-4" d="M48.5,83.3V40.8a4.9,4.9,0,0,0-9.8,0V88.3H53.5A5.015,5.015,0,0,1,48.5,83.3Z"/>
+        <line id="Line_1287" data-name="Line 1287" class="cls-11" x2="14.7" transform="translate(28.5 27.1)"/>
+        <line id="Line_1288" data-name="Line 1288" class="cls-11" x2="5.1" transform="translate(49.2 27.1)"/>
+        <line id="Line_1289" data-name="Line 1289" class="cls-11" x2="5.1" transform="translate(49.2 33.3)"/>
+        <path id="Path_1632" data-name="Path 1632" class="cls-12" d="M38.7,35.8H8.9a6.594,6.594,0,0,0-6.6,6.6v71.3l4.3-4.2,4.6,4.5,4.6-4.5,4.6,4.5,4.6-4.5,4.6,4.5h.1l4.6-4.5,4.3,4.2v-73a4.908,4.908,0,0,1,4.9-4.9H38.7Z"/>
+        <g id="Group_3496" data-name="Group 3496">
+          <line id="Line_1290" data-name="Line 1290" class="cls-11" x2="14.8" transform="translate(6.6 48.4)"/>
+          <line id="Line_1291" data-name="Line 1291" class="cls-11" x2="9" transform="translate(6.6 54.4)"/>
+          <line id="Line_1292" data-name="Line 1292" class="cls-11" x2="12.2" transform="translate(6.6 61.1)"/>
+          <line id="Line_1293" data-name="Line 1293" class="cls-11" x2="27" transform="translate(6.6 68.7)"/>
+          <line id="Line_1294" data-name="Line 1294" class="cls-11" x2="27" transform="translate(6.6 75.9)"/>
+          <line id="Line_1295" data-name="Line 1295" class="cls-11" x2="6.8" transform="translate(26.8 86.2)"/>
+          <line id="Line_1296" data-name="Line 1296" class="cls-11" x2="6.8" transform="translate(26.8 94.7)"/>
+          <line id="Line_1297" data-name="Line 1297" class="cls-11" x2="5.1" transform="translate(28.5 48.4)"/>
+          <line id="Line_1298" data-name="Line 1298" class="cls-11" x2="5.1" transform="translate(28.5 61.1)"/>
+          <g id="Group_3495" data-name="Group 3495" class="cls-6">
+            <text id="B" class="cls-13" transform="translate(6.64 96.848)"><tspan x="0" y="0">B</tspan></text>
+            <line id="Line_1299" data-name="Line 1299" class="cls-14" y1="1.6" transform="translate(12.4 83.2)"/>
+            <line id="Line_1300" data-name="Line 1300" class="cls-14" y1="1.6" transform="translate(12.4 96.2)"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

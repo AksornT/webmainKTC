@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-5, .cls-6, .cls-7 {
+        fill: none;
+      }
+
+      .cls-1 {
+        opacity: 0.278;
+      }
+
+      .cls-2 {
+        stroke: #707070;
+      }
+
+      .cls-2, .cls-3, .cls-5 {
+        stroke-linecap: round;
+      }
+
+      .cls-2, .cls-3 {
+        stroke-linejoin: round;
+      }
+
+      .cls-2, .cls-3, .cls-5, .cls-7 {
+        stroke-width: 2px;
+      }
+
+      .cls-2, .cls-7 {
+        opacity: 0.3;
+      }
+
+      .cls-3, .cls-5, .cls-7 {
+        stroke: #5b6670;
+      }
+
+      .cls-4, .cls-9 {
+        fill: #5b6670;
+      }
+
+      .cls-4 {
+        font-size: 25px;
+        font-family: GothamRounded-Book, Gotham Rounded;
+      }
+
+      .cls-5 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-8, .cls-9 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="ico-payment-gateway" transform="translate(-948 -3227)">
+    <rect id="Rectangle_2985" data-name="Rectangle 2985" class="cls-1" width="80" height="80" transform="translate(948 3227)"/>
+    <g id="Group_3499" data-name="Group 3499" transform="translate(-8)">
+      <g id="Group_3494" data-name="Group 3494" transform="translate(12.278 18.706)">
+        <ellipse id="Ellipse_56" data-name="Ellipse 56" class="cls-2" cx="17.243" cy="17.243" rx="17.243" ry="17.243" transform="translate(958.747 3222.761)"/>
+        <ellipse id="Ellipse_159" data-name="Ellipse 159" class="cls-3" cx="23.243" cy="23.243" rx="23.243" ry="23.243" transform="translate(952.747 3216.76)"/>
+      </g>
+      <g id="Group_3493" data-name="Group 3493" transform="translate(969.418 3240.139)">
+        <text id="B" class="cls-4" transform="translate(10.227 27.161)"><tspan x="0" y="0">B</tspan></text>
+        <line id="Line_1232" data-name="Line 1232" class="cls-5" y1="2.799" transform="translate(18.705 7.571)"/>
+        <line id="Line_1233" data-name="Line 1233" class="cls-5" y1="2.799" transform="translate(18.705 26.461)"/>
+      </g>
+    </g>
+    <g id="Path_1620" data-name="Path 1620" class="cls-6" transform="matrix(0.788, -0.616, 0.616, 0.788, 989.967, 3278.39)">
+      <path class="cls-8" d="M.18.53A39.31,39.31,0,0,0,4.6.794,32.364,32.364,0,0,0,9.418.361L9.383,25.766a4.508,4.508,0,0,1-4.692,4.3A4.508,4.508,0,0,1,0,25.766Z"/>
+      <path class="cls-9" d="M 7.41456127166748 2.640954971313477 C 6.566340446472168 2.725351333618164 5.576094627380371 2.793910980224609 4.597445487976074 2.793910980224609 C 3.719911575317383 2.793910980224609 2.88205623626709 2.759273529052734 2.164437770843506 2.71434211730957 L 2.00000524520874 25.77180480957031 C 2.003682136535645 27.03670883178711 3.209760189056396 28.06470108032227 4.691715717315674 28.06470108032227 C 6.175925254821777 28.06470108032227 7.383425712585449 27.03346061706543 7.383425712585449 25.76321029663086 L 7.41456127166748 2.640954971313477 M 9.417635917663574 0.3607921600341797 L 9.383425712585449 25.76590156555176 C 9.383425712585449 28.14006042480469 7.282875537872314 30.06470108032227 4.691715717315674 30.06470108032227 C 2.100555419921875 30.06470108032227 -4.76837158203125e-06 28.14006042480469 -4.76837158203125e-06 25.76590156555176 L 0.1799659729003906 0.5297412872314453 C 0.1799659729003906 0.5297412872314453 2.251595497131348 0.7939109802246094 4.597445487976074 0.7939109802246094 C 6.943305492401123 0.7939109802246094 9.417635917663574 0.3607921600341797 9.417635917663574 0.3607921600341797 Z"/>
+    </g>
+    <line id="Line_1302" data-name="Line 1302" class="cls-7" x1="5" y2="4" transform="translate(996.5 3280.5)"/>
+  </g>
+</svg>

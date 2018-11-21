@@ -368,8 +368,21 @@ a:hover{
     top: 2px;
 }
 
-.menu-global a.search-on-menu:hover{
-	color: #bf2a31;
+.menu-global .search-on-menu img{
+	width: 18px;
+	height: 18px;
+}
+.menu-global .search-on-menu .search-on-default{
+	display: inline-block;
+}
+.menu-global .search-on-menu .search-on-hover{
+	display: none;
+}
+.menu-global a:hover .search-on-default{
+	display: none;
+}
+.menu-global a:hover .search-on-hover{
+	display: inline-block;
 }
 
 .card-register-btn{
@@ -414,7 +427,13 @@ a:hover{
 
 .login-btn img{
 	width: 16px;
+	height: 16px;
 	vertical-align: bottom;
+}
+
+.login-btn .subimg-wrap img{
+	width: 32px;
+	height: 32px;
 }
 
 .menu-global a.login-btn:hover{
@@ -832,7 +851,7 @@ article.page-content h4::after {
     left: 0;
     position: relative;
     width: 50%;
-    height: 2px;
+    height: 4px;
     background-color: #CF3339;
 }
 article.page-content h3.no-dash::after,
@@ -1106,7 +1125,8 @@ button:focus {
 	line-height: 29px;
 	font-size: 24px;
 	padding-left: 24px;
-	background: url(../img/ico-footer-tel.png) no-repeat;
+	background: url(../img/index/ico-footer-tel.svg) no-repeat;
+	background-size: 20px;
 	background-position: left center;
 	white-space: nowrap;
 }
@@ -1221,8 +1241,8 @@ button:focus {
 }
 
 .social-footer img{
-	width: 20px;
-	height: auto;
+	width: 24px;
+	height: 24px;
 }
 
 .social-footer a{
@@ -1298,12 +1318,13 @@ body.modal-open{
 	line-height: 38px;
 	padding-top: 30px;
 	display: block;
+	text-align: center;
 }
 
 .full-modal .modal-title{
 	text-align: center;
-	display: block;
-	width: 100%;
+	display: inline-block;
+    width: auto;
 	position: relative;
 	margin-bottom: 25px;
 	font-family: 'Conv_SukhumvitTadmai_Tex';
@@ -1313,12 +1334,11 @@ body.modal-open{
 
 .full-modal .modal-title:after{
 	height: 4px;
-	width: 50px;
+	width: 50%;
 	background: #CF3339;
-	position: absolute;
-	left: calc(50% - 25px);
+	margin-left: 25%;
 	content: "";
-	top: 100%;
+	display: block;
 }
 
 .card-choice{
@@ -1364,6 +1384,10 @@ body.modal-open{
     line-height: 1.14;
     max-width: calc(100% - 130px);
     font-family: 'Conv_SukhumvitTadmai_Tex';
+}
+.card-choice .left-icon img{
+	width: 76px;
+    height: 53px;
 }
 
 
@@ -1469,6 +1493,10 @@ body.modal-open{
 	display: inline-block;
 	vertical-align: middle;
 }
+.search-wrap img.icon-search-result{
+	width: 20px;
+	height: 20px;
+}
 
 .input-search{
 	line-height: 30px;
@@ -1485,7 +1513,6 @@ body.modal-open{
 .input-search:placeholder{
 	color: rgba(91,100,112,.15);
 }
-
 .input-search:focus::placeholder{
 	color: #fff;
 }
@@ -1558,6 +1585,11 @@ body.modal-open{
 
 .search-cat-head .collapsed i {
     transform: rotate(-180deg);
+}
+
+.search-cat-head img{
+	width: 28px;
+	height: 28px;
 }
 
 /*.search-cat-wrap input[type="checkbox"]:checked + label{
@@ -1972,12 +2004,12 @@ a:hover .on-hover{
 .col-right-filter .search-credit:after{
   display: block;
   content: '';
-  width: 24px;
-  height: 24px;
+  width: 18px;
+  height: 18px;
   background-size: contain;
-  background-image: url(../img/ico-search-inline.png);
+  background-image: url(../img/promotion/ico-search-inline.svg);
   position: absolute;
-  top: 8px;
+  top: 10px;
   right: 10px;
 }
 .btn-filter{
@@ -1986,11 +2018,12 @@ a:hover .on-hover{
 }
 .btn-filter span{
 	font-size: 18px;
+	vertical-align: middle;
 }
 .btn-filter img{
-	width: 20px;
-	height: auto;
-	vertical-align: bottom;
+	width: 26px;
+	height: 26px;
+	vertical-align: middle;
 }
 .btn-filter.only-mobile{
   display: none;
@@ -2177,9 +2210,13 @@ a:hover .on-hover{
 	cursor: pointer;
   opacity: 1;
 }
+.filter-title{
+	text-align: center;
+}
 .filter-title h1{
   position: relative;
-  display: block;
+  display: inline-block;
+  width: auto
   margin-bottom: 70px;
   padding-bottom: 10px;
   font-family: 'Conv_SukhumvitTadmai_Tex', Helvetica, Arial, sans-serif;
@@ -2188,10 +2225,10 @@ a:hover .on-hover{
 }
 .filter-title h1:after {
   height: 4px;
-  width: 50px;
+  width: 50%;
   background: #CF3339;
   position: absolute;
-  left: calc(50% - 25px);
+  left: 25%;
   content: "";
   top: 100%;
 }
@@ -2643,7 +2680,7 @@ a.card-register-center, a.btn-action {
     transform: translateX(-50%);
 }
 .content-title:after {
-    height: 2px;
+    height: 4px;
     width: 50%;
     background: #CF3339;
     position: absolute;
@@ -2853,9 +2890,15 @@ article.page-content #card-detail-regis h3::after{
 	padding-top: 60px;
 	padding-bottom: 100px;
 }
+
+.main-loan{
+	text-align: center;
+}
+
 .main-loan h1{
 	position: relative;
-	display: block;
+	display: inline-block;
+	width: auto;
 	margin-bottom: 65px;
 	padding-bottom: 10px;
 	font-family: 'Conv_SukhumvitTadmai_Tex', Helvetica, Arial, sans-serif;
@@ -2864,10 +2907,10 @@ article.page-content #card-detail-regis h3::after{
 }
 .main-loan h1:after {
     height: 4px;
-    width: 50px;
+    width: 50%;
     background: #CF3339;
     position: absolute;
-    left: calc(50% - 25px);
+    left: 25%;
     content: "";
     top: 100%;
 }
@@ -3262,6 +3305,8 @@ h4.content-title:after{
 }
 .box-con-cal a img {
     vertical-align: middle;
+    width: 80px;
+    height: 80px;
 }
 .box-con-cal .con-cal-txt{
   	padding: 20px 0;
@@ -3298,7 +3343,7 @@ h4.content-title:after{
     font-family: 'Conv_SukhumvitTadmai_Tex';
 }
 .detail-register h3:after {
-  height: 2px;
+  height: 4px;
   background: #CF3339;
   position: absolute;
   left: 25%;
@@ -3350,6 +3395,11 @@ h4.content-title:after{
 
 #nav-flexi-navbar .nav-item.active .nav-link-act{
 	color: #CF3339;
+}
+
+nav.navbar .sub-nav-flexi{
+	display: flex;
+	padding: 0;
 }
 
 /* Flexi Page - @korstudio */
@@ -3467,19 +3517,19 @@ h4.content-title:after{
 	width: 30px;
 	height: 30px;
 	border-radius: 50%;
-	background: #fff url("../img/ico-share-pro.png") no-repeat center;
+	background: #fff url("../img/promotion/ico-share-pro.svg") no-repeat center;
 	background-size: 80% auto ;
 }
 
 .btn-flexi-share:focus{
 	outline: 0;
-	background: #CF3339 url('../img/ico-share-pro-fill.png') no-repeat center;
+	background: #CF3339 url('../img/promotion/ico-share-pro-fill.svg') no-repeat center;
 	background-size: 100% auto ;
 	box-shadow: none;
 }
 
 #section-merchant-card-type .btn-flexi-share:focus{
-	background: #045AA7 url('../img/ico-share-pro-white.png') no-repeat center;
+	background: #045AA7 url('../img/promotion/ico-share-pro-white.svg') no-repeat center;
 	background-size: 80% auto ;
 }
 
@@ -3624,8 +3674,8 @@ h4.content-title:after{
 	content: '';
 	display: block;
 	margin: 10px auto;
-	width: 50px;
-	height: 2px;
+	width: 50%;
+	height: 4px;
 	background-color: #CF3339;
 }
 .forever .content-ticket{
@@ -3747,6 +3797,8 @@ section#section-flexi-cards {
 	content: '';
 	display: block;
 	margin-top: 3px;
+	width: 50%;
+	margin-left: 25%;
 	height: 4px;
 	background: transparent;
 }
@@ -4190,6 +4242,9 @@ section#section-flexi-cards {
 .section-cards{
 	overflow: hidden;
 }
+.flexi-loan .box-title{
+	display: inline-block;
+}
 .flexi-loan .box-title .title{
 	font-family: 'Conv_SukhumvitTadmai_Tex';
   	font-size: 34px;
@@ -4353,6 +4408,18 @@ section#section-flexi-cards {
 }
 .box-login-con.form-wrap input{
 	width: 100%;
+}
+.box-login-con.form-wrap input:-ms-input-placeholder{
+	color: #fff !important;
+}
+.box-login-con.form-wrap input:focus::-ms-input-placeholder{
+	color: #fff !important;
+}
+.form-wrap input:-ms-input-placeholder{
+	color: #fff !important;
+}
+.form-wrap input:focus::-ms-input-placeholder{
+	color: #fff !important;
 }
 .box-login-con.form-wrap.only-login input{
 	  width: calc(100% - 30px) !important;
@@ -5484,35 +5551,35 @@ section#section-flexi-cards-mobile.forever,section#section-flexi-cards {
 }
 .article-wrap .article-icon .share-popover a.share-fb-btn,
 .btn-flexi-share + .share-popover a.share-fb-btn {
-    background-image: url(../img/ico-social-facebook.png);
+    background-image: url(../img/index/ico-social-facebook.svg);
 }
 .article-wrap .article-icon .share-popover a.share-fb-btn:hover,
 .btn-flexi-share + .share-popover a.share-fb-btn:hover {
-    background-image: url(../img/ico-social-facebook-color.png);
+    background-image: url(../img/index/ico-social-facebook-color.svg);
 }
 .article-wrap .article-icon .share-popover a.share-tw-btn,
 .btn-flexi-share + .share-popover a.share-tw-btn {
-    background-image: url(../img/ico-social-twitter.png);
+    background-image: url(../img/index/ico-social-twitter.svg);
 }
 .article-wrap .article-icon .share-popover a.share-tw-btn:hover,
 .btn-flexi-share + .share-popover a.share-tw-btn:hover {
-    background-image: url(../img/ico-social-twitter-color.png);
+    background-image: url(../img/index/ico-social-twitter-color.svg);
 }
 .article-wrap .article-icon .share-popover a.share-line-btn,
 .btn-flexi-share + .share-popover a.share-line-btn {
-    background-image: url(../img/ico-social-line.png);
+    background-image: url(../img/index/ico-social-line.svg);
 }
 .article-wrap .article-icon .share-popover a.share-line-btn:hover,
 .btn-flexi-share + .share-popover a.share-line-btn:hover {
-    background-image: url(../img/ico-social-line-color.png);
+    background-image: url(../img/index/ico-social-line-color.svg);
 }
 .article-wrap .article-icon .share-popover a.share-mail-btn,
 .btn-flexi-share + .share-popover a.share-mail-btn {
-    background-image: url(../img/ico-social-mail.png);
+    background-image: url(../img/index/ico-social-mail.svg);
 }
 .article-wrap .article-icon .share-popover a.share-mail-btn:hover,
 .btn-flexi-share + .share-popover a.share-mail-btn:hover {
-    background-image: url(../img/ico-social-mail-color.png);
+    background-image: url(../img/index/ico-social-mail-color.svg);
 }
 .article-wrap .article-icon .share-popover:after,
 .btn-flexi-share + .share-popover:after {
@@ -5659,6 +5726,7 @@ section#section-flexi-cards-mobile.forever,section#section-flexi-cards {
 }
 .register-wrapper {
     padding: 10px 0 50px;
+    text-align: center;
 }
 .section-title {
     font-family: 'Conv_SukhumvitTadmai_Tex';
@@ -5666,15 +5734,19 @@ section#section-flexi-cards-mobile.forever,section#section-flexi-cards {
     line-height: 66px;
     position: relative;
     text-align: center;
+    display: inline-block;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 .section-title:after {
     content: '';
-    width: 50px;
+    width: 50%;
     height: 4px;
     background: #CF3339;
     position: absolute;
-    left: calc(50% - 25px);
-    bottom: -5px;
+    bottom: 0;
+    left: 25%;
 }
 .register-wrapper .nav {
     justify-content: center;
@@ -5707,20 +5779,22 @@ section#section-flexi-cards-mobile.forever,section#section-flexi-cards {
     font-size: 20px;
     line-height: 38px;
     opacity: 1;
+    position: relative;
 }
 
 .register-wrapper .nav .nav-link:after{
-	width: 100%;
-	height: 1px;
+	height: 4px;
 	content: "";
 	display: block;
 	position: absolute;
-	bottom: 5px;
-    border-bottom: 2px solid #FFF;
+	bottom: 0;
+    border-bottom: 4px solid #FFF;
+	margin-left: 25%;
+	width: 50%;
 }
 
 .register-wrapper .nav .active .nav-link:after{
-	border-bottom: 2px solid #CF3339;
+	border-bottom: 4px solid #CF3339;
 }
 /*.register-wrapper .form-register .row {
     margin: 0 -40px;
@@ -5786,7 +5860,7 @@ section#section-flexi-cards-mobile.forever,section#section-flexi-cards {
 }
 .form-content .input-ico.input-ico-right.input-date:after {
     display: inline-block;
-    background-image: url(../img/ico-calendar.png);
+    background-image: url(../img/promotion/ico-calendar.svg);
 		width: 17px;
     margin-right: 5px;
 		top: auto;
@@ -5794,7 +5868,7 @@ section#section-flexi-cards-mobile.forever,section#section-flexi-cards {
 }
 .form-content .input-ico.input-ico-right.input-upload:after {
     display: inline-block;
-    background-image: url(../img/ico-upload.png);
+    background-image: url(../img/promotion/ico-upload.svg);
 		width: 17px;
     margin-right: 5px;
 		top: auto;
@@ -5953,7 +6027,8 @@ section#section-flexi-cards-mobile.forever,section#section-flexi-cards {
 }
 
 .row-search-filter .filter-btn img {
-    width: 20px;
+    width: 26px;
+    height: 26px;
     margin-right: 5px;
 }
 
@@ -5965,12 +6040,12 @@ section#section-flexi-cards-mobile.forever,section#section-flexi-cards {
 .row-search-filter .input-search-inline:after {
     display: block;
     content: '';
-    width: 24px;
-    height: 24px;
+    width: 18px;
+    height: 18px;
     background-size: contain;
-    background-image: url(../img/ico-search-inline.png);
+    background-image: url(../img/promotion/ico-search-inline.svg);
     position: absolute;
-    top: 7px;
+    top: 10px;
     right: 10px;
 }
 
@@ -6017,8 +6092,15 @@ section#section-flexi-cards-mobile.forever,section#section-flexi-cards {
     font-family: "Conv_SukhumvitTadmai_Tex";
     font-size: 16px;
     line-height: 26px;
-    color: #5B6670;
     padding: 18px 15px 18px 15px;
+}
+
+.menu-sub-icon .nav-link p{
+    color: #5B6670;
+}
+
+.menu-sub-icon .nav-link:hover p{
+	color: #b63333;
 }
 
 .article-page .menu-sub-icon .nav-link{
@@ -6079,21 +6161,21 @@ section#section-flexi-cards-mobile.forever,section#section-flexi-cards {
     border: 0;
     width: 24px;
     height: 24px;
-    background: url(../img/ico-fav.png) no-repeat;
+    background: url(../img/promotion/ico-fav.svg) no-repeat;
     background-size: 100% auto;
     background-position: center;
     float: right;
 }
 
 .slide-wrap .item .slide-meta .fav-btn:hover {
-    background-image: url(../img/ico-fav-line.png);
+    background-image: url(../img/promotion/ico-fav-line.svg);
     background-size: 100% auto;
     background-position: center;
     cursor: pointer;
 }
 
 .slide-wrap .item .slide-meta .fav-btn.active {
-    background-image: url(../img/ico-fav-fill.png);
+    background-image: url(../img/promotion/ico-fav-fill.svg);
     background-size: 100% auto;
     background-position: center;
 }
@@ -6299,6 +6381,16 @@ nav[aria-label="breadcrumb"] + .row-search-filter{
   justify-content: center;
   flex-wrap: wrap;
   margin-bottom: 30px;
+}
+.card-select-row.with-text .img-checkbox label img{
+	height: 38px;
+    width: auto;
+    padding: 10px;
+}
+.card-select-row.type-card-select .img-checkbox label img{
+	height: 45px;
+    width: auto;
+    padding: 6px;
 }
   @media only screen and (max-width: 767px) {
     #filter-modal .card-select-row {
@@ -7344,6 +7436,10 @@ nav[aria-label="breadcrumb"]{
 	border-bottom: 1px solid rgba(112,112,112,.15);
 	margin-bottom: 20px;
 }
+.media.box-comment img{
+	width: 28px;
+	height: 28px;
+}
 .media.box-comment h5{
 	font-family: 'Conv_SukhumvitTadmai_Bol';
 	font-size: 16px;
@@ -7510,6 +7606,19 @@ nav[aria-label="breadcrumb"]{
 
 .static-wrap a:hover img{
 	cursor: pointer;
+}
+
+.static-wrap a.button-flexi-start{
+	position: relative;
+	top: 0;
+    transition: all .3s ease-out;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+}
+.static-wrap a:hover.button-flexi-start{
+	opacity: 1;
+	top: -3px;
 }
 
 .static-wrap .link-more{
@@ -7730,6 +7839,10 @@ nav[aria-label="breadcrumb"]{
 	font-size: 30px;
 }
 
+.big-icon-content img{
+	width: 150px;
+}
+
 .half-half-blue .tel-number{
 	position: relative;
 }
@@ -7817,6 +7930,11 @@ nav[aria-label="breadcrumb"]{
 
 .top-banner .share-on-top .btn-flexi-share{
     background: rgba(0,0,0,0.5) url(../img/ico-share-pro-white.png) no-repeat center;
+    background-size: 80% auto;
+}
+
+.top-banner .share-on-top .btn-flexi-share:hover{
+    background: rgba(0,0,0,0.8) url(../img/ico-share-pro-white.png) no-repeat center;
     background-size: 80% auto;
 }
 
@@ -8418,6 +8536,11 @@ h4.no-dash{
 
   .so-much-text + .static-content{
     position: relative;
+  }
+
+  .so-much-text + .static-content.text-on-right-img{
+  	margin-left: auto;
+    padding-left: 0;
   }
 
   .still-background,

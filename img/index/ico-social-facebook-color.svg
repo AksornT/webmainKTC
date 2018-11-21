@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #3b5998;
+      }
+    </style>
+  </defs>
+  <g id="ico-social-facebook-color" transform="translate(-121 -284)">
+    <rect id="Rectangle_1" data-name="Rectangle 1" class="cls-1" width="40" height="40" transform="translate(121 284)"/>
+    <path id="Path_302" data-name="Path 302" class="cls-2" d="M17.132-16.92v4.911h-2.92a2.733,2.733,0,0,0-2.158.67A3.081,3.081,0,0,0,11.5-9.33v3.516h5.45L16.22-.309H11.5V13.81H5.8V-.309H1.06V-5.815H5.8V-9.87a7.2,7.2,0,0,1,1.935-5.366,7.021,7.021,0,0,1,5.153-1.907A30.772,30.772,0,0,1,17.132-16.92Z" transform="translate(131.707 306.143)"/>
+  </g>
+</svg>

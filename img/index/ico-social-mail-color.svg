@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #cf3339;
+      }
+    </style>
+  </defs>
+  <g id="ico-social-email-color" transform="translate(-208 -284)">
+    <rect id="Rectangle_4" data-name="Rectangle 4" class="cls-1" width="40" height="40" transform="translate(208 284)"/>
+    <g id="Group_10" data-name="Group 10" transform="translate(-0.27 -0.191)">
+      <g id="Group_9" data-name="Group 9" transform="translate(212.5 293)">
+        <path id="Path_1719" data-name="Path 1719" class="cls-2" d="M15.225,12.209,29.061,0H2.11A2.02,2.02,0,0,0,1.5.1Z" transform="translate(0.026)"/>
+        <g id="Group_8" data-name="Group 8" transform="translate(0 0.539)">
+          <path id="Path_1720" data-name="Path 1720" class="cls-2" d="M31.174,20.237V2.127a2.1,2.1,0,0,0-.733-1.6L19.82,9.9,30.615,21.672A2.1,2.1,0,0,0,31.174,20.237Z" transform="translate(0.345 -0.53)"/>
+          <path id="Path_1721" data-name="Path 1721" class="cls-2" d="M.305,1.04A2.05,2.05,0,0,0,0,2.118v18.11a2.151,2.151,0,0,0,.163.814l10.2-11.13Z" transform="translate(0 -0.521)"/>
+          <path id="Path_1722" data-name="Path 1722" class="cls-2" d="M15.739,13.609a.792.792,0,0,1-.509.193.759.759,0,0,1-.509-.193L11.486,10.75,1.2,21.982a2.125,2.125,0,0,0,.916.214H29.362c.041,0,.092-.01.132-.01L18.994,10.73Z" transform="translate(0.021 -0.353)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

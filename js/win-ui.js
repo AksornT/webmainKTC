@@ -583,6 +583,28 @@ $(document).ready(function() {
         $(this).next().val(filename).addClass('hasText');
     });
 
+
+    //forgot user - password
+    $('#forgot-user').on('click touch', function () {
+        $('#type1').show();
+        $('#type2').hide();
+    });
+
+    $('#forgot-user-mer').on('click touch', function () {
+        $('#type2').show();
+        $('#type1').hide();
+    });
+
+    $('#forgot-pass').on('click touch', function () {
+        $('#type1').show();
+        $('#type2').hide();
+    });
+
+    $('#forgot-pass-mer').on('click touch', function () {
+        $('#type2').show();
+        $('#type1').hide();
+    });
+
 });
 
 //change header when scroll down.
@@ -597,6 +619,10 @@ $(document).on('scroll', function() {
 
     if ($(".btn-flexi-share")[0]){ 
         $(".btn-flexi-share").blur()
+    }
+
+    if ($(".share-btn")[0]){ 
+        $(".share-btn").removeClass('active');
     }
 
     if ($("#head-trigger")[0]){ 
@@ -728,18 +754,6 @@ function myFunction() {
     } else {
         x.style.display = "none";
     }
-}
-
-
-
-
-function show1(){
-  document.getElementById('type2').style.display ='none';
-  document.getElementById('type1').style.display ='block';
-}
-function show2(){
-  document.getElementById('type2').style.display ='block';
-  document.getElementById('type1').style.display ='none';
 }
 
 
