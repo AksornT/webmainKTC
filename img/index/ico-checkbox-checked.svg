@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #cf3339;
+        stroke: #cf3339;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+
+      .cls-4 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="ico-checkbox-checked" transform="translate(-80 -400)">
+    <g id="Rectangle_1706" data-name="Rectangle 1706" class="cls-1" transform="translate(80 400)">
+      <rect class="cls-3" width="20" height="20" rx="2"/>
+      <rect class="cls-4" x="0.5" y="0.5" width="19" height="19" rx="1.5"/>
+    </g>
+    <path id="ico-checkbox-checked-2" data-name="ico-checkbox-checked" class="cls-2" d="M33.693,50.2c1.373-1.388,2.714-2.761,4.072-4.149,1.126-1.157,2.267-2.313,3.393-3.455a1.031,1.031,0,0,1,1.234-.262,1,1,0,0,1,.617,1.033,1.432,1.432,0,0,1-.324.709q-4.048,4.141-8.112,8.282a1.026,1.026,0,0,1-1.388.123c-1.481-1.064-2.961-2.128-4.442-3.208a1.047,1.047,0,0,1-.247-1.511,1.061,1.061,0,0,1,1.511-.2q1.735,1.226,3.47,2.5C33.539,50.105,33.6,50.136,33.693,50.2Z" transform="translate(54.724 362.771)"/>
+  </g>
+</svg>

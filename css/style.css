@@ -1611,7 +1611,7 @@ body.modal-open{
 
 .search-cat-wrap input[type="checkbox"]:checked + label:after{
 	border: 1px solid rgba(207,51,57,1);
-	background: url(../img/ico-checkbox-checked.png) no-repeat;
+	background: url(../img/ico-checkbox-checked.svg) no-repeat;
 	background-position: center;
 }
 
@@ -8174,6 +8174,14 @@ h4.no-dash{
 }
 .oap-top-padd{
 	padding-top: 60px;
+}
+
+.art-con-tag.d-none + .art-con-comment .index-head{
+	margin-top: 20px;
+}
+
+.article-wrap .article-tag.d-none + .article-link{
+	margin-top: 40px;
 }
 
 
