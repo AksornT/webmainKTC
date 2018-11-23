@@ -8180,8 +8180,10 @@ h4.no-dash{
 	margin-top: 20px;
 }
 
-.article-wrap .article-tag.d-none + .article-link{
-	margin-top: 40px;
+.article-wrap .article-tag.d-none + .article-link {
+    margin-top: 40px;
+    padding-top: 40px;
+    border-top: 1px solid #E6E8EA;
 }
 
 
