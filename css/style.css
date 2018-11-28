@@ -4378,6 +4378,14 @@ section#section-flexi-cards {
 	display: block;
 	overflow: hidden;
 }
+
+/*for IE*/
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+   .box-login-con{
+   	overflow: visible;
+   }
+}
+
 .box-input-form{
 	position: relative;
 }
