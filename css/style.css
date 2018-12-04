@@ -5827,6 +5827,12 @@ section#section-flexi-cards-mobile.forever,section#section-flexi-cards {
 .form-content.form-wrap input[type="password"] + label{
 	left: 5px;
 }
+
+.form-content .input-ico > * {
+    position: relative;
+    z-index: 1;
+}
+
 .form-content .input-ico:after {
     display: inline-block;
     content: ' ';
@@ -5843,6 +5849,7 @@ section#section-flexi-cards-mobile.forever,section#section-flexi-cards {
     margin-right: 5px;
 		top: auto;
     bottom: -55px;
+    z-index: 2;
 }
 .form-content .input-ico.input-ico-right:after {
     display: none;
