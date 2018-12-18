@@ -130,6 +130,7 @@ a:hover{
 }
 
 /*Global Menu*/
+
 .menu-global{
 	width: 100%;
 	background: url("../img/bg_menu.png");
@@ -178,6 +179,10 @@ a:hover{
 	vertical-align: middle;
 }
 
+.profile-on-menu{
+	display: none !important;
+}
+
 .index-head a{
 	color: #454545;
 }
@@ -187,6 +192,7 @@ a:hover{
 }
 
 .scrolled-menu{
+	font-family: 'Conv_SukhumvitTadmai_Tex';
 	text-align: center;
 	opacity: 0;
 	pointer-events: none;
@@ -286,6 +292,30 @@ a:hover{
 	bottom: 0;
 }
 
+/* EDIT ACTIVE LINE */
+.scrolled-menu li:after {
+  left: 0.3rem;
+  right: 0.3rem;
+}
+
+@media only screen and (min-width: 1200px) {
+  .scrolled-menu li:after {
+    left: 0.8rem;
+    right: 0.8rem;
+  }
+}
+
+.scrolled-menu li.dropdown:after {
+  right: calc(0.3rem + 15px);
+}
+
+@media only screen and (min-width: 1200px) {
+  .scrolled-menu li.dropdown:after {
+    right: calc(0.8rem + 15px);
+  }
+}
+/* END */
+
 .text-on-left{
 	width: 100%;
 	display: block;
@@ -303,7 +333,7 @@ a:hover{
 .slide-wrap{
 	overflow: hidden;
 	position: relative;
-	padding-top: 5px;
+	padding-top: 20px; /* 5px */
 	margin-top: -5px;
 }
 
@@ -395,6 +425,12 @@ a:hover{
 	font-family: 'Conv_SukhumvitTadmai_Tex';
 }
 
+#card-register:hover{
+	cursor: pointer;
+	/* top: -3px; */
+	background: #c93339;
+}
+
 .menu-global .card-register-btn{
 	background: rgba(201,51,57,.9);
 }
@@ -437,7 +473,7 @@ a:hover{
 }
 
 .menu-global a.login-btn:hover{
-    top: -3px;
+    /* top: -3px; */
 }
 
 .menu-global .content-wrap{
@@ -618,11 +654,11 @@ a:hover{
 	z-index: 1;
 }
 
-.scrolled-menu > li i {
+/*.scrolled-menu > li i {
     position: absolute;
     right: 0;
     top: calc(50% - 9px);
-}
+}*/
 
 .only-desktop{
 	display: block;
@@ -638,11 +674,11 @@ a:hover{
 .index-head,
 .text-on-slide .index-head a{
 	font-family: 'Conv_SukhumvitTadmai_Bol';
-	font-size: 20px;
+	font-size: 22px;
 	color: #454545;
 	border-bottom: 4px solid #CF3339;
 	display: inline-block;
-	padding-bottom: 5px;
+	/*padding-bottom: 5px;*/
 }
 
 .text-on-slide .index-head a{
@@ -657,7 +693,7 @@ a:hover{
 }
 
 .text-on-slide p{
-	font-size: 35px;
+	font-size: 22px;
 	padding-left: 0;
 }
 
@@ -1067,13 +1103,13 @@ button:focus {
 .image-link img{
 	width: 100% ;
 	height: auto;
-	opacity: 0.65;
+	opacity: 1;
 	display: block;
 	margin-bottom: -1px;
 }
 
 .image-link a:hover img {
-    opacity: 1;
+    opacity: 0.65;
 }
 
 .image-link .icon-last-content{
@@ -1110,7 +1146,7 @@ button:focus {
 
 .image-link{
 	margin-top: 40px;
-	margin-bottom: 40px;
+	margin-bottom: 60px;
 }
 
 .tel p{
@@ -1196,7 +1232,7 @@ button:focus {
 .footer .lang-footer{
 	font-size: 12px;
     line-height: 14px;
-    padding-top: 2px;
+    /*padding-top: 2px;*/
     display: inline-block;
     max-width: none;
     margin-top: 0;
@@ -1211,11 +1247,13 @@ button:focus {
 	background: none;
 	border: #707070 solid 1px;
 	border-radius: 6px;
-	width: 29px;
+	/*width: 29px;
 	height: 28px;
 	font-size: 16px;
+	padding: 2px; */
 	font-family: 'Conv_SukhumvitTadmai_Tex';
-	padding: 2px;
+	padding: 4px 8px;
+	font-size: 14px;
     display: inline-block;
     vertical-align: middle;
     line-height: 22px;
@@ -1234,7 +1272,7 @@ button:focus {
 }
 
 .social-footer{
-	margin-top: 6px;
+	/*margin-top: 6px;*/
 	height: 23px;
 	padding-right: 6px;
 	border-right: 1px solid #4D4D4D;
@@ -1247,16 +1285,14 @@ button:focus {
 
 .social-footer a{
 	display: inline-block;
-	margin: 2px 20px 0 0;
+	margin: 0px 20px 0 0;
 }
 
 .footer .text-right{
 	white-space: nowrap;
-}
-
-#card-register:hover{
-	cursor: pointer;
-	top: -3px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
 }
 
 body.modal-open{
@@ -1338,7 +1374,8 @@ body.modal-open{
 	background: #CF3339;
 	margin-left: 25%;
 	content: "";
-	display: block;
+	/* display: block; */
+	display: none;
 }
 
 .card-choice{
@@ -1409,7 +1446,7 @@ body.modal-open{
 
 .to-top{
 	position: fixed;
-	bottom: 20px;
+	bottom: 50px; /*20*/
 	right: 37px;
 	z-index: 1;
 	width: 45px;
@@ -1469,7 +1506,7 @@ body.modal-open{
 
 .to-top:hover{
 	cursor: pointer;
-	bottom: 25px;
+	bottom: 55px; /*25px*/
 }
 
 .chat:hover{
@@ -2043,6 +2080,7 @@ a:hover .on-hover{
 	text-align: center;
 	font-size: 35px;
 	padding-bottom: 40px;
+	font-family: 'Conv_SukhumvitTadmai_Tex';
 }
 .main-credit img{
 	width: 100%;
@@ -2062,16 +2100,17 @@ a:hover .on-hover{
 }
 .main-credit .credit-title{
 	font-family: 'Gotham-Bold';
-	font-size: 14px;
+	font-size: 18px;
 	letter-spacing: 0.25px;
   line-height: 18px;
 }
 .main-credit .credit-content{
 	font-family: 'Conv_SukhumvitTadmai_Tex';
-	font-size: 12px;
+	font-size: 16px;
 	letter-spacing: 0.25px;
 	line-height: 16px;
 	padding-top: 10px;
+	margin-bottom: 10px;
 }
 .main-credit .main-content{
 	min-height: 100px;
@@ -2312,7 +2351,7 @@ a:hover .on-hover{
 }
 
 #header-card-detail .content-desc h3{
-  margin-top: 10px;
+  /*margin-top: 10px;*/
   font-size: 20px;
 }
 #header-card-detail a.card-register-center{
@@ -2673,7 +2712,7 @@ a.card-register-center, a.btn-action {
     display: inline-block;
     margin-left: 50%;
     position: relative;
-    margin-bottom: 30px;
+    margin-bottom: 20px; /* 30 */
     font-family: 'Conv_SukhumvitTadmai_Tex';
     line-height: 1.5;
     padding-top: 40px;
@@ -2686,7 +2725,8 @@ a.card-register-center, a.btn-action {
     position: absolute;
     left: 25%;
     content: "";
-    top: 100%;
+	top: 100%;
+	display:none;
 }
 
 .static-wrap.section-service-detail .text-left .row > div{
@@ -2998,6 +3038,10 @@ section#section-merchant-register-form select.form-control:focus,
 	padding: 7px 0;
     font-family: 'Conv_SukhumvitTadmai_Tex';
     line-height: 21px;
+}
+
+#proud-register .input-notice{
+	text-align: center;
 }
 
 .img-result{
@@ -3539,6 +3583,10 @@ nav.navbar .sub-nav-flexi{
 	background-size: auto 80%;
 }
 
+#nav-flexi{
+	font-size: 15px;
+}
+
 #nav-flexi .button-flexi-start {
 	display: none;
 	margin-left: 15px;
@@ -4071,6 +4119,15 @@ section#section-flexi-cards {
 	display: flex;
 }
 
+@media (min-width: 1366px) {
+	#nav-flexi .sticky-left{
+		padding-left: calc(50vw - 653px - 0.5rem);
+	}
+	#nav-flexi .sticky-right{ 
+		padding-right: calc(50vw - 653px  - 0.5rem);
+	}
+}
+
 .sticky-right a{
 	display: inline-block;
 	vertical-align: middle;
@@ -4086,9 +4143,9 @@ section#section-flexi-cards {
 
 .sticky-right .card-register-center,
 .sticky-right .btn-action {
-	font-size: 16px;
-	padding: 8px 32px;
-	line-height: 26px;
+	font-size: 13px;
+	padding: 8px 26px;
+	/*line-height: 26px;*/
 	margin: 18px 0 18px 20px;
 	display: inline-block;
 	min-width: 0;
@@ -4198,6 +4255,7 @@ section#section-flexi-cards {
 	font-size: 14px;
 	top: 38px;
 	color: black;
+	font-family: 'Conv_SukhumvitTadmai_Tex';
 }
 
 .form-wrap input[type="text"]:focus + label,
@@ -5470,7 +5528,7 @@ section#section-flexi-cards-mobile.forever,section#section-flexi-cards {
 }
 .article-wrap .article-title {
     font-family: 'Conv_SukhumvitTadmai_Bol';
-    font-size: 35px;
+    font-size: 25px;
     line-height: 54px;
     margin-bottom: 20px;
 }
@@ -5714,7 +5772,7 @@ section#section-flexi-cards-mobile.forever,section#section-flexi-cards {
 }
 .article-wrap .article-link .link {
     font-family: Helvetica, Arial, sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 30px;
     font-weight: bold;
     color: #CF3339;
@@ -6016,7 +6074,7 @@ section#section-flexi-cards-mobile.forever,section#section-flexi-cards {
 .row-search-filter .input-search-inline input{
 	border-radius: 6px;
     border: 1px solid #5B6670;
-    padding: 6px 15px;
+    padding: 6px 33px 6px 15px;
     display: block;
     width: 100%;
     height: 40px;
@@ -6048,7 +6106,7 @@ section#section-flexi-cards-mobile.forever,section#section-flexi-cards {
 }
 
 .row-search-filter .filter-btn img + span{
-	font-size: 18px;
+	font-size: 16px;
 	font-family: "Conv_SukhumvitTadmai_Tex";
 }
 
@@ -6179,7 +6237,8 @@ section#section-flexi-cards-mobile.forever,section#section-flexi-cards {
     background: url(../img/promotion/ico-fav.svg) no-repeat;
     background-size: 100% auto;
     background-position: center;
-    float: right;
+	float: left;
+	margin-right: 10px;
 }
 
 .slide-wrap .item .slide-meta .fav-btn:hover {
@@ -7205,8 +7264,14 @@ a.all-type-list[href]:hover{
 #terms-modal .content .content-head{
 	margin-bottom: 30px;
 }
+
+#terms-modal .content ul, 
+#terms-modal .content ol{
+	padding-left: 20px;
+}
+
 #terms-modal .content li{
-		list-style: inside;
+	list-style: decimal;
 }
 
 .form-content .input-ico input:focus{
@@ -7327,6 +7392,10 @@ nav[aria-label="breadcrumb"]{
 	margin-bottom: 0;
 }
 
+.promotion-page .promo-wrap .item img:hover{
+	top: 0;
+}	
+
 .promotion-page .slide-wrap:nth-last-child(1){
 	padding-bottom: 100px;
 }
@@ -7358,7 +7427,7 @@ nav[aria-label="breadcrumb"]{
 }
 .article-title h1{
 	font-family: 'Conv_SukhumvitTadmai_Bol';
-	font-size: 35px;
+	font-size: 25px;
 	line-height: 46px;
 }
 .article-title .art-con-title{
@@ -8010,6 +8079,10 @@ article.content-wrap{
 	right: 25px;
 	bottom: 0;
 	background: rgba(91,102,112,0.15);
+}
+
+.static-content > div:last-child  .media:before{
+	display: none;
 }
 
 .static-wrap .media-body .link-more{
