@@ -878,6 +878,7 @@ article.page-content h4 {
     margin-left: 50%;
     transform: translateX(-50%);
     white-space: nowrap;
+    line-height: 1;
 }
 article.page-content h3::after,
 article.page-content h4::after {
@@ -2329,8 +2330,13 @@ a:hover .on-hover{
 .proud-head.card-details-bkkhospital{
 	background: url(../img/card-details/img-bg-banner-1.png);
 }
+.background-after-head{
+	background: url(../img/card-details/platinum/bg-section-01.png);
+}
 #header-card-detail .proud-head{
   margin-bottom: 125px;
+  margin-top: 0;
+  height: 321px;
 }
 #header-card-detail .header-title{
   font-family: 'Conv_SukhumvitTadmai_Bol';
@@ -2343,7 +2349,7 @@ a:hover .on-hover{
 }
 #header-card-detail .content-desc h2{
   font-family: 'Conv_SukhumvitTadmai_Tex';
-  font-size: 50px;
+  font-size: 36px;
 }
 
 #header-card-detail .content-desc h2 .smaller-text{
@@ -2360,6 +2366,20 @@ a:hover .on-hover{
 #header-card-detail.page-merchant-inner-header > .content-wrap::after{
   display: none;
 }
+.type-card{
+	margin: 72px auto 44px auto;
+}
+.type-card img{
+	width: 100%;
+}
+.type-card h3{
+	font-size: 28px;
+	padding-bottom: 36px;
+}
+.type-card p{
+	font-size: 20px;
+	padding-top: 20px;
+}
 article#content-card-detail section{
   padding-top: 0px;
 }
@@ -2369,6 +2389,18 @@ article#content-card-detail section{
 }
 #content-card-detail .content-title{
   padding-top: 0px;
+}
+#content-card-detail .content-title.title-section{
+	margin-left: 0;
+	transform: translateX(0);
+}
+.static-content .text-point{
+	margin-bottom: -15px;
+	color: #CF3339;
+}
+.static-content .img-point{
+	margin: 0;
+    height: 96px;
 }
 #content-card-detail .section-after-header img{
   height: 150px;
@@ -2515,7 +2547,7 @@ article.page-content #card-detail-regis h3::after{
 	padding: 13px 49px;
 	border-radius: 6px;
 	border: transparent;
-	margin: 60px 0;
+	margin: 30px 0 60px 0;
 	min-width: 176px;
 	position: relative;
 	top: 0;
@@ -2805,16 +2837,13 @@ a.card-register-center, a.btn-action {
 
 
 /* creditcard detail -eve*/
-#header-card-detail .proud-head{
-  margin-bottom: 125px;
-}
 #header-card-detail .header-title{
   font-family: 'Conv_SukhumvitTadmai_Bol';
   text-align: center;
   margin-top: 20px;
 }
 #header-card-detail a.card-register-center{
-  margin: 60px 0 60px 0;
+  margin: 20px 0 40px 0;
 }
 #header-card-detail.page-merchant-inner-header > .content-wrap::after{
   display: none;
@@ -2923,6 +2952,58 @@ article.page-content #card-detail-regis h3::after{
 }
 #header-card-detail .content-desc.only-mobile{
   display: none;
+}
+
+.after-header-on-mobile{
+	display: none;
+}
+.static-wrap  .position-on-top{
+	align-self: start !important;
+}
+.static-wrap .negative-text.position-on-top .link-more{
+	margin: 30px 20px 60px 20px;
+}
+.block-wrap{
+	padding: 30px 30px 40px 30px;
+	margin: 0 auto;
+}
+.block-wrap.block-content{
+	background: url(../img/card-details/platinum/bg-section-06.jpg);
+	border-radius: 6px;
+	height: 361px;
+	width: 519px;
+	box-shadow: 0px 3px 10px rgba(0,0,0,0.16);
+}
+.static-wrap .block-wrap img{
+	height: 100px;
+	width: auto;
+	margin-top: 0;
+}
+.static-wrap .block-wrap h5{
+	font-family: 'Gotham-Bold';
+	font-size: 30px;
+	letter-spacing: 0;
+	color: #000;
+}
+.static-wrap .block-wrap p{
+	font-size: 20px;
+	color: #000;
+}
+.static-wrap .row > div.position-on-top .block-wrap.block-content .link-more{
+	font-size: 16px;
+	color: #000;
+	padding-top: 20px;
+	margin: 0;
+}
+.static-wrap .link-more.link-no-margin{
+	margin: 0;
+}
+.page-content .bg-pink-text{
+	width: 90%;
+	height: auto;
+	position: absolute;
+	top: -12%;
+	left: 16%;
 }
 
 /* loan page -eve */
@@ -3038,10 +3119,14 @@ section#section-merchant-register-form select.form-control:focus,
 	padding: 7px 0;
     font-family: 'Conv_SukhumvitTadmai_Tex';
     line-height: 21px;
+    margin-top: 50px;
 }
 
 #proud-register .input-notice{
 	text-align: center;
+}
+article.page-content .title-red-line h3::after{
+	background-color: #CF3339;
 }
 
 .img-result{
@@ -7653,6 +7738,7 @@ nav[aria-label="breadcrumb"]{
 	padding: 0 !important;
 	margin: 0 !important;
 	overflow: hidden;
+	letter-spacing: 0;
 }
 
 .static-wrap img{
@@ -7669,8 +7755,12 @@ nav[aria-label="breadcrumb"]{
 	margin:0 0 14px 0;
 }
 
+.static-wrap .gold-header h5{
+	color: #C6663A;
+}
+
 .static-wrap p{
-	font-family: 'Conv_SukhumvitTadmai_Thi';
+	font-family: 'Conv_SukhumvitTadmai_Tex';
 	font-size: 20px;
 	display: block;
 }
@@ -7709,7 +7799,7 @@ nav[aria-label="breadcrumb"]{
 	font-family: 'Conv_SukhumvitTadmai_Tex';
 	font-size: 16px;
 	text-decoration: underline;
-	color: #CF3339;
+	color: #000;
 	margin: 33px 0;
 	display: block;
 	margin: 33px 0 0 0;
@@ -7892,6 +7982,20 @@ nav[aria-label="breadcrumb"]{
     background: rgba(255,255,255,0.8);
 }
 
+.white-layer.white-100{
+	top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 100px;
+    background: none;
+}
+
+.white-layer.white-100 > div{
+	background: rgba(255,255,255,0.55);
+    padding: 30px 50px;
+}
+
 .white-layer > div{
     align-self: center;
     margin: 0 auto;
@@ -7941,6 +8045,16 @@ nav[aria-label="breadcrumb"]{
 	background: rgba(255,255,255,0.15);
 }
 
+#content-card-detail .static-wrap  .content-title{
+	transform: none;
+	margin: 0 auto 35px 0;
+	line-height: 60px;
+}
+
+#content-card-detail .static-wrap  .content-title:after{
+	margin:  0 auto;
+}
+
 .static-wrap .link-square{
 	padding: 8px 10px;
 	border-radius: 4px;
@@ -7976,6 +8090,14 @@ nav[aria-label="breadcrumb"]{
     left: 50px;
     width: auto;
     max-width: none;
+}
+
+.static-content.text-on-right-img.float-up.xvisa{
+	background: none;
+    top: 11vw;
+    padding: 0;
+    right: 9.5vw;
+    max-width: 60%;
 }
 
 .full-full .static-content{
@@ -8053,17 +8175,24 @@ article.content-wrap{
 .static-content .media img{
 	width: 50px;
 	height: auto;
-	margin:0 20px 0 0;
+	margin:0 20px 7px 0;
+}
+
+.static-content .media .media-img-wrap img{
+	display: block;
 }
 
 .static-wrap .media h5{
 	font-size: 20px;
 	font-family: 'Conv_SukhumvitTadmai_Tex';
 	margin-bottom: 10px;
+	color: #5B6670;
 }
 
 .static-wrap .media p{
 	font-size: 14px;
+	line-height: 23px;
+	color: #5B6670;
 	font-family: Helvetica, Arial, sans-serif;
 }
 
@@ -8089,6 +8218,7 @@ article.content-wrap{
 	font-family: Helvetica, Arial, sans-serif;
 	margin-top: 5px;
 	font-size: 14px;
+	color: #5B6670;
 }
 
 .static-wrap .media-body .link-more{
@@ -8272,6 +8402,39 @@ h4.no-dash{
     margin-top: 40px;
     padding-top: 40px;
     border-top: 1px solid #E6E8EA;
+}
+
+.page-content .static-wrap{
+	border: none;
+}
+
+.static-wrap .real-size{
+  	width: auto;
+  	height: auto;
+  	margin: 30px 0 30px auto;
+}
+
+.static-wrap.half-half-reverse .real-size{
+	margin-left: 0;
+    max-width: calc(100% - 30px);
+}
+
+section#detail-register{
+	border: none;
+}
+
+.visasig-wrap img{
+	margin: 0 auto;
+	width:230px;
+	padding:0 15px
+}
+
+.visasig-wrap{
+	padding: 6.955vw 30px 4.393vw 30px;
+}
+
+.static-wrap .visasig-wrap p{
+	font-size: 30px;
 }
 
 
@@ -8556,10 +8719,6 @@ h4.no-dash{
 		display: none;
 	}
 
-  /* creditcard detail -eve */
-  #card-detail-regis .detail-register-desc.section-doc-regis h5 {
-    margin-top: 40px;
-  }
   
   /* creditcard detail -eve */
   #card-detail-regis .detail-register-desc h5 {
@@ -8568,6 +8727,23 @@ h4.no-dash{
   #card-detail-regis .detail-register-desc.section-doc-regis h5{
     margin-top: 40px;
   }
+  .block-wrap.block-content{
+    margin-top: 30px;
+  }
+  .block-wrap.block-content{
+    height: 386px;
+    width: 100%;
+  }
+  .page-content .still-background.still-width img{
+  	width: 100%;
+  }
+  .page-content .bg-pink-text {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: -20%;
+    left: 18%;
+   }
 
   .owl-item {
     opacity: 1;
@@ -8653,6 +8829,11 @@ h4.no-dash{
     padding: 0;
   }
 
+  .page-content .still-background img{
+  	max-width: none;
+  	width: auto;
+  }
+
   .still-background + .static-content{
     padding: 40px 100px;
     position: relative;
@@ -8679,6 +8860,16 @@ h4.no-dash{
 
   .big-link > div{
   	height: 175px;
+  }
+
+  .white-layer.white-100{
+  	padding-left: 50px;
+  	padding-right: 50px;
+  }
+
+  .static-wrap .visasig-wrap p{
+    font-size: 25px;
+    padding: 0 5px;
   }
 
 

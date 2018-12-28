@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <g id="Symbol_493_6" data-name="Symbol 493 – 6" transform="translate(-723 -7468)">
+    <rect id="Rectangle_1999" data-name="Rectangle 1999" width="50" height="50" transform="translate(723 7468)" fill="none"/>
+    <g id="Group_3764" data-name="Group 3764" transform="translate(-873.959 7326.76)">
+      <path id="Rectangle_3104" data-name="Rectangle 3104" d="M3,0H33a3,3,0,0,1,3,3V8.036a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V3A3,3,0,0,1,3,0Z" transform="translate(1603.959 149.758)" fill="#cf3339" opacity="0.3"/>
+      <rect id="Rectangle_3105" data-name="Rectangle 3105" width="36" height="36" rx="3" transform="translate(1603.959 149.758)" stroke-width="1" stroke="#5b6670" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+      <line id="Line_1391" data-name="Line 1391" y2="5.435" transform="translate(1613.834 146.24)" fill="none" stroke="#5b6670" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <line id="Line_1392" data-name="Line 1392" y2="5.435" transform="translate(1630.084 146.24)" fill="none" stroke="#5b6670" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text id="_0" data-name="0" transform="translate(1611.581 178.783)" fill="#5b6670" font-size="24" font-family="Helvetica"><tspan x="0" y="0">0</tspan></text>
+      <text id="_" data-name="%" transform="translate(1629.083 178.173)" fill="#5b6670" font-size="7" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="0" y="0">%</tspan></text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <g id="Symbol_502_6" data-name="Symbol 502 – 6" transform="translate(-80 -7811)">
+    <rect id="Rectangle_2000" data-name="Rectangle 2000" width="50" height="50" transform="translate(80 7811)" fill="none"/>
+    <g id="Group_3748" data-name="Group 3748" transform="translate(-1514.959 7618.055)">
+      <g id="Group_3747" data-name="Group 3747">
+        <g id="Group_3743" data-name="Group 3743">
+          <g id="Group_3742" data-name="Group 3742">
+            <g id="Group_3741" data-name="Group 3741">
+              <path id="Path_2080" data-name="Path 2080" d="M1620.091,237.668c9.26-2.933,16.082-11.167,16.082-18.569,0-2.614.04-12.764.05-15.713a28.857,28.857,0,0,1-12.023-2.907,23.565,23.565,0,0,1-4.109-2.534,23.637,23.637,0,0,1-4.109,2.534,28.862,28.862,0,0,1-12.023,2.907c.01,2.949.05,13.1.05,15.713C1604.009,226.5,1610.831,234.735,1620.091,237.668Z" fill="none" stroke="#5b6670" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+            </g>
+          </g>
+        </g>
+        <g id="Group_3746" data-name="Group 3746" opacity="0.3">
+          <g id="Group_3745" data-name="Group 3745">
+            <g id="Group_3744" data-name="Group 3744">
+              <path id="Path_2081" data-name="Path 2081" d="M1620.292,234.086c7.59-2.4,13.182-9.153,13.182-15.22,0-2.143.033-10.462.041-12.879a23.655,23.655,0,0,1-9.855-2.383,19.331,19.331,0,0,1-3.368-2.077Z" fill="#cf3339"/>
+            </g>
+          </g>
+        </g>
+        <path id="Path_2082" data-name="Path 2082" d="M1625.636,223.259" fill="#fff" stroke="#5b6670" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path id="Path_2083" data-name="Path 2083" d="M1633.034,221.416" fill="#fff" stroke="#5b6670" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <path id="Path_2084" data-name="Path 2084" d="M1626.518,220.567l-3.493-.968a1.015,1.015,0,0,1-.557-1.506,10.009,10.009,0,0,0,1.242-4.769c0-3.022-1.62-3.925-3.619-3.925s-3.62.9-3.62,3.925a10.009,10.009,0,0,0,1.242,4.769,1.014,1.014,0,0,1-.556,1.506l-3.493.968a3.045,3.045,0,0,0-2.293,2.9v.451a1.107,1.107,0,0,0,.966,1.114h0a68.5,68.5,0,0,0,15.508,0h0a1.107,1.107,0,0,0,.966-1.114v-.451A3.045,3.045,0,0,0,1626.518,220.567Z" fill="#fff" stroke="#5b6670" stroke-miterlimit="10" stroke-width="1"/>
+    </g>
+  </g>
+</svg>
