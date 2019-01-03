@@ -144,6 +144,7 @@ a:hover{
 
 .menu-global a{
 	color: rgba(255,255,255,0.7);
+	display: inline-block;
 }
 
 .menu-global a.menu-responsive{
@@ -158,7 +159,6 @@ a:hover{
 
 #ktc-logo{
 	float: left;
-	width: 66px;
 	height: 66px;
 	display: inline-block;
 	opacity: 1;
@@ -166,6 +166,11 @@ a:hover{
 
 #ktc-logo img{
 	margin-top: 13px;
+	max-width: 79px;
+}
+
+.mini-header #ktc-logo img{
+	max-width: 61px;
 }
 
 .menu-global .on-right{
@@ -393,9 +398,9 @@ a:hover{
 
 .menu-global .search-on-menu{
 	font-size: 18px;
-    padding: 16px;
-    position: relative;
-    top: 2px;
+	padding: 16px;
+	position: relative;
+	top: 2px;
 }
 
 .menu-global .search-on-menu img{
@@ -423,6 +428,8 @@ a:hover{
 	position: relative;
 	top: 0;
 	font-family: 'Conv_SukhumvitTadmai_Tex';
+	height: 30px;
+	letter-spacing: 1px;
 }
 
 #card-register:hover{
@@ -431,27 +438,20 @@ a:hover{
 	background: #c93339;
 }
 
-.menu-global .card-register-btn{
-	background: rgba(201,51,57,.9);
-}
-
-.menu-global a.card-register-btn:hover{
-	background: #bf2a31;
-}
 
 .login-btn{
 	font-family: 'Conv_SukhumvitTadmai_Tex';
     font-size: 13px;
     letter-spacing: 1px;
     line-height: 16px;
-    padding: 5px 12px;
+    padding: 4px 12px;
     border: 1px #fff solid;
     border-radius: 6px;
     margin-left: 4px;
     position: relative;
     top: 0;
     background: rgba(255,255,255,0);
-
+		height: 30px;
 }
 
 .login-btn i{
@@ -462,8 +462,8 @@ a:hover{
 }
 
 .login-btn img{
-	width: 16px;
-	height: 16px;
+	width: 18px;
+	height: 18px;
 	vertical-align: bottom;
 }
 
@@ -878,7 +878,6 @@ article.page-content h4 {
     margin-left: 50%;
     transform: translateX(-50%);
     white-space: nowrap;
-    line-height: 1;
 }
 article.page-content h3::after,
 article.page-content h4::after {
@@ -971,29 +970,35 @@ body .owl-dots.disabled,
 .owl-prev span,
 .owl-next span{
 	width: 45px;
-    height: 45px;
-    background: #fff;
-    background-size: 100% 100%;
-    display: block;
-    border-radius: 50%;
-    font-size: 50px;
-    line-height: 35px;
-    color: #CF3339;
-    -webkit-box-shadow: 0px 7px 12px 0px rgba(0,0,0,0.1);
-	-moz-box-shadow: 0px 7px 12px 0px rgba(0,0,0,0.1);
+	height: 45px;
+	background: #fff;
+	background-position: center -11px;
+	display: block;
+	border-radius: 50%;
+	/*font-size: 50px;
+	line-height: 35px;*/
+	color: #CF3339;
 	box-shadow: 0px 7px 12px 0px rgba(0,0,0,0.1);
-	padding-right: 2px;
-	opacity: 0;
+		-webkit-box-shadow: 0px 7px 12px 0px rgba(0,0,0,0.1);
+		-moz-box-shadow: 0px 7px 12px 0px rgba(0,0,0,0.1);
+	opacity: 1;
 	transition: all .15s ease-out;
     -webkit-transition: all .15s ease-out;
     -moz-transition: all .15s ease-out;
-    -o-transition: all .15s ease-out;
+		-o-transition: all .15s ease-out;
+	overflow: hidden;
+	text-indent: -999px;
 }
-.slide-wrap:hover .owl-prev span, .slide-wrap:hover .owl-next span{
-	opacity: 1;
+
+.owl-prev span{
+	background-image: url('../img/ico-slide-left.svg');
 }
 .owl-next span{
-	padding: 0 0 0 2px;
+	background-image: url('../img/ico-slide-right.svg');
+}
+
+.slide-wrap:hover .owl-prev span, .slide-wrap:hover .owl-next span{
+	opacity: 1;
 }
 
 .owl-nav.disabled button{
@@ -1257,7 +1262,8 @@ button:focus {
 	font-size: 14px;
     display: inline-block;
     vertical-align: middle;
-    line-height: 22px;
+	line-height: 22px;
+	margin-left: 30px;
 }
 
 .lang-footer:hover{
@@ -1309,7 +1315,7 @@ body.modal-open{
 }
 
 .modal-backdrop.in{
-	opacity: 0.4;
+	opacity: 0.65;
 }
 
 .modal.in .modal-dialog {
@@ -1318,14 +1324,24 @@ body.modal-open{
 }
 
 .full-modal .close{
-	top: 1rem;
-	right: 2rem;
-	position: fixed;
-	color: #CF3339;
+	top: 20px;
+	right: 20px;
+	position: absolute;
+	/*color: #CF3339;
 	font-size: 40px;
+	font-family: "Conv_SukhumvitTadmai_Thi";*/
 	opacity: 1;
 	z-index: 6;
-	font-family: "Conv_SukhumvitTadmai_Thi";
+	background-image: url('../img/ico-close.svg');
+	background-size: 16px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	width: 40px;
+	height: 40px;
+}
+
+.full-modal .close span{
+	display: none;
 }
 
 .full-modal .close:hover{
@@ -1334,39 +1350,67 @@ body.modal-open{
 }
 
 .full-modal .modal-dialog {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  max-width: none;
+  /*width: 100%;*/
+  /*margin: 0 auto;*/
+  /*padding: 0;*/
+	max-width: 945px;
+}
+
+.full-modal .modal-dialog.modal-sm {
+	max-width: 485px;
 }
 
 .full-modal .modal-content {
-  height: 100%;
-  border-radius: 0;
-  overflow: auto;
-  border: none;
-  border-top: 4px solid #CF3339;
+  	border: none;
+	border-top: 4px solid #CF3339;
+	border-radius: 4px;
+	max-height: 90vh;
 }
 
 .full-modal .modal-header{
 	border: none;
 	font-size: 40px;
 	line-height: 38px;
-	padding-top: 30px;
+	padding: 40px 40px 20px;
 	display: block;
 	text-align: center;
+}
+
+.full-modal .modal-body{
+	margin: 0;
+	padding: 0 40px 40px;
+	overflow: auto;
+	overflow-x: hidden;
+	height: 80vh;
+}
+
+.full-modal .modal-sm .modal-body{
+	height: auto;
+}
+
+.full-modal .modal-content:after{
+	display: block;
+	content: '';
+	width: calc(100% - 20px);
+	height: 40px;
+	background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 60%); 
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}	
+
+.full-modal .content-wrap{
+	padding: 0;
 }
 
 .full-modal .modal-title{
 	text-align: center;
 	display: inline-block;
-    width: auto;
+  width: auto;
 	position: relative;
-	margin-bottom: 25px;
+	/*margin-bottom: 25px;*/
 	font-family: 'Conv_SukhumvitTadmai_Tex';
-	font-size: 35px;
-
+	font-size: 28px;
 }
 
 .full-modal .modal-title:after{
@@ -1380,22 +1424,22 @@ body.modal-open{
 }
 
 .card-choice{
-	width: 510px;
+	/*width: 510px;*/
 	max-width: 100%;
-    display: block;
-    margin: 0 auto 35px auto;
-    padding: 13px 15px 14px 15px;
-    border-radius: 6px;
-    position: relative;
-    top: 0;
-    color: #000;
-    -webkit-box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.2);
+	display: block;
+	margin: 0 5px 35px;
+	padding: 13px 15px 14px 15px;
+	border-radius: 6px;
+	position: relative;
+	top: 0;
+	color: #000;
+  -webkit-box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.2);
 	-moz-box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.2);
 	box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.2);
 }
 
-.card-choice:nth-child(1){
-	margin-top: 38px;
+.card-choice:first-child{
+	margin-top: 5px;
 }
 
 .card-choice:hover{
@@ -1412,23 +1456,21 @@ body.modal-open{
 }
 
 .left-icon{
-    width: 120px;
+    width: 80px;
     text-align: center;
 }
 
 .left-icon + p{
     padding-left: 15px;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 1.14;
-    max-width: calc(100% - 130px);
+    max-width: calc(100% - 80px);
     font-family: 'Conv_SukhumvitTadmai_Tex';
 }
 .card-choice .left-icon img{
 	width: 76px;
-    height: 53px;
+  height: 53px;
 }
-
-
 
 .only-mobile .social-footer{
     text-align: center;
@@ -2103,7 +2145,7 @@ a:hover .on-hover{
 	font-family: 'Gotham-Bold';
 	font-size: 18px;
 	letter-spacing: 0.25px;
-  line-height: 18px;
+  	line-height: 18px;
 }
 .main-credit .credit-content{
 	font-family: 'Conv_SukhumvitTadmai_Tex';
@@ -2115,13 +2157,18 @@ a:hover .on-hover{
 }
 .main-credit .main-content{
 	min-height: 100px;
+	text-decoration: none;
 }
 .main-credit a{
+	color: #000;
+	display: block;
+}
+.main-credit .box-credit-content .row a{
 	font-family: 'Conv_SukhumvitTadmai_Tex';
 	font-size: 12px;
 	color: #000;
 	display: block;
-	text-decoration: underline !important;
+	text-decoration: underline;
 }
 .txt-link-right{
 	padding: 2px 10px;
@@ -2330,13 +2377,8 @@ a:hover .on-hover{
 .proud-head.card-details-bkkhospital{
 	background: url(../img/card-details/img-bg-banner-1.png);
 }
-.background-after-head{
-	background: url(../img/card-details/platinum/bg-section-01.png);
-}
 #header-card-detail .proud-head{
   margin-bottom: 125px;
-  margin-top: 0;
-  height: 321px;
 }
 #header-card-detail .header-title{
   font-family: 'Conv_SukhumvitTadmai_Bol';
@@ -2349,7 +2391,7 @@ a:hover .on-hover{
 }
 #header-card-detail .content-desc h2{
   font-family: 'Conv_SukhumvitTadmai_Tex';
-  font-size: 36px;
+  font-size: 50px;
 }
 
 #header-card-detail .content-desc h2 .smaller-text{
@@ -2366,20 +2408,6 @@ a:hover .on-hover{
 #header-card-detail.page-merchant-inner-header > .content-wrap::after{
   display: none;
 }
-.type-card{
-	margin: 72px auto 44px auto;
-}
-.type-card img{
-	width: 100%;
-}
-.type-card h3{
-	font-size: 28px;
-	padding-bottom: 36px;
-}
-.type-card p{
-	font-size: 20px;
-	padding-top: 20px;
-}
 article#content-card-detail section{
   padding-top: 0px;
 }
@@ -2389,18 +2417,6 @@ article#content-card-detail section{
 }
 #content-card-detail .content-title{
   padding-top: 0px;
-}
-#content-card-detail .content-title.title-section{
-	margin-left: 0;
-	transform: translateX(0);
-}
-.static-content .text-point{
-	margin-bottom: -15px;
-	color: #CF3339;
-}
-.static-content .img-point{
-	margin: 0;
-    height: 96px;
 }
 #content-card-detail .section-after-header img{
   height: 150px;
@@ -2485,6 +2501,7 @@ article#content-card-detail section{
 }
 article.page-content #card-detail-regis h3::after{
   background-color: #CF3339;
+  display: none;
 }
 .card-sub-sticky .nav-img-card img{
   height: 40px;
@@ -2547,7 +2564,7 @@ article.page-content #card-detail-regis h3::after{
 	padding: 13px 49px;
 	border-radius: 6px;
 	border: transparent;
-	margin: 30px 0 60px 0;
+	margin: 60px 0;
 	min-width: 176px;
 	position: relative;
 	top: 0;
@@ -2837,13 +2854,16 @@ a.card-register-center, a.btn-action {
 
 
 /* creditcard detail -eve*/
+#header-card-detail .proud-head{
+  margin-bottom: 125px;
+}
 #header-card-detail .header-title{
   font-family: 'Conv_SukhumvitTadmai_Bol';
   text-align: center;
   margin-top: 20px;
 }
 #header-card-detail a.card-register-center{
-  margin: 20px 0 40px 0;
+  margin: 60px 0 60px 0;
 }
 #header-card-detail.page-merchant-inner-header > .content-wrap::after{
   display: none;
@@ -2941,6 +2961,7 @@ article#content-card-detail section{
 }
 article.page-content #card-detail-regis h3::after{
   background-color: #CF3339;
+  display: none;
 }
 .card-sub-sticky .nav-img-card img{
   height: 40px;
@@ -2952,58 +2973,6 @@ article.page-content #card-detail-regis h3::after{
 }
 #header-card-detail .content-desc.only-mobile{
   display: none;
-}
-
-.after-header-on-mobile{
-	display: none;
-}
-.static-wrap  .position-on-top{
-	align-self: start !important;
-}
-.static-wrap .negative-text.position-on-top .link-more{
-	margin: 30px 20px 60px 20px;
-}
-.block-wrap{
-	padding: 30px 30px 40px 30px;
-	margin: 0 auto;
-}
-.block-wrap.block-content{
-	background: url(../img/card-details/platinum/bg-section-06.jpg);
-	border-radius: 6px;
-	height: 361px;
-	width: 519px;
-	box-shadow: 0px 3px 10px rgba(0,0,0,0.16);
-}
-.static-wrap .block-wrap img{
-	height: 100px;
-	width: auto;
-	margin-top: 0;
-}
-.static-wrap .block-wrap h5{
-	font-family: 'Gotham-Bold';
-	font-size: 30px;
-	letter-spacing: 0;
-	color: #000;
-}
-.static-wrap .block-wrap p{
-	font-size: 20px;
-	color: #000;
-}
-.static-wrap .row > div.position-on-top .block-wrap.block-content .link-more{
-	font-size: 16px;
-	color: #000;
-	padding-top: 20px;
-	margin: 0;
-}
-.static-wrap .link-more.link-no-margin{
-	margin: 0;
-}
-.page-content .bg-pink-text{
-	width: 90%;
-	height: auto;
-	position: absolute;
-	top: -12%;
-	left: 16%;
 }
 
 /* loan page -eve */
@@ -3116,17 +3085,14 @@ section#section-merchant-register-form select.form-control:focus,
 }
 
 .input-notice{
+	margin-top: 30px;
 	padding: 7px 0;
     font-family: 'Conv_SukhumvitTadmai_Tex';
     line-height: 21px;
-    margin-top: 50px;
 }
 
 #proud-register .input-notice{
 	text-align: center;
-}
-article.page-content .title-red-line h3::after{
-	background-color: #CF3339;
 }
 
 .img-result{
@@ -4727,7 +4693,7 @@ button.btn-default:disabled:hover{
 	vertical-align: top;
 }
 .on-right.header-regis-pg img{
-	width: 13px;
+	width: 16px;
 }
 .box-login-con.form-wrap input[type="checkbox"]{
 	display: none;
@@ -5617,16 +5583,27 @@ section#section-flexi-cards-mobile.forever,section#section-flexi-cards {
     line-height: 54px;
     margin-bottom: 20px;
 }
+.article-wrap .article-meta{
+	display: flex;
+  	align-content: space-between;
+}
+.article-wrap .article-code {
+	font-family: 'Conv_SukhumvitTadmai_Tex';
+	padding-top: 16px;
+	font-size: 14px;
+	color: rgba(91, 102, 112, 0.6);
+}
 .article-wrap .article-icon {
     text-align: right;
-    padding: 16px 0 0 0;
+	padding-top: 16px;
+	margin-left: auto;
 }
 .article-wrap .article-icon .fav-btn {
     border: 0;
     width: 25px;
     height: 25px;
     background-size: contain;
-    background-image: url(../img/promotion/ico-fav.svg);
+    background-image: url(../img/promotion/ico-art-fav.svg);
     background-color: transparent;
     background-repeat: no-repeat;
     margin-right: 10px;
@@ -5634,17 +5611,17 @@ section#section-flexi-cards-mobile.forever,section#section-flexi-cards {
 		cursor: pointer;
 }
 .article-wrap .article-icon .fav-btn:hover {
-    background-image: url(../img/promotion/ico-fav-line.svg);
+    background-image: url(../img/promotion/ico-art-fav-line.svg);
 }
 .article-wrap .article-icon .fav-btn.active {
-    background-image: url(../img/promotion/ico-fav-fill.svg);
+    background-image: url(../img/promotion/ico-art-fav-fill.svg);
 }
 .article-wrap .article-icon .share-btn {
     border: 0;
     width: 25px;
     height: 25px;
     background-size: contain;
-    background-image: url(../img/promotion/ico-share-pro.svg);
+    background-image: url(../img/promotion/ico-art-share.svg);
     background-color: transparent;
     background-repeat: no-repeat;
     position: relative;
@@ -5652,10 +5629,10 @@ section#section-flexi-cards-mobile.forever,section#section-flexi-cards {
 		cursor: pointer;
 }
 .article-wrap .article-icon .share-btn:hover {
-    background-image: url(../img/promotion/ico-share-pro-line.svg);
+    background-image: url(../img/promotion/ico-art-share-line.svg);
 }
 .article-wrap .article-icon .share-btn.active {
-    background-image: url(../img/promotion/ico-share-pro-fill.svg);
+    background-image: url(../img/promotion/ico-art-share-fill.svg);
 }
 .article-wrap .article-icon .share-popover,
 .btn-flexi-share + .share-popover {
@@ -5752,11 +5729,14 @@ section#section-flexi-cards-mobile.forever,section#section-flexi-cards {
     bottom: -8px;
     top: auto;
 }
+.article-wrap{
+	margin-bottom: 40px;
+}
 .article-wrap .article-content {
     font-family: Helvetica, Arial, sans-serif;
     font-size: 18px;
     line-height: 30px;
-    margin-bottom: 40px;
+    /*margin-bottom: 40px;*/
 }
 .article-wrap .article-content p {
     margin-bottom: 20px;
@@ -5790,13 +5770,14 @@ section#section-flexi-cards-mobile.forever,section#section-flexi-cards {
     margin-left: 10px;
     font-family: 'FontAwesome';
 }
-.article-wrap .article-collapse .title .op-modal{
+.article-wrap .article-collapse .title img{
 	vertical-align: middle;
-    width: 18px;
-    margin-left: 10px;
-    margin-top: -5px;
+	width: 18px;
+	margin-left: 10px;
+	margin-top: -5px;
 }
-.article-wrap .article-collapse .title.collapsed i {
+.article-wrap .article-collapse .title.collapsed i,
+.article-wrap .article-collapse .title.collapsed img {
     transform: rotate(180deg);
 }
 .article-wrap .article-collapse .info {
@@ -5860,7 +5841,8 @@ section#section-flexi-cards-mobile.forever,section#section-flexi-cards {
     font-size: 16px;
     line-height: 30px;
     font-weight: bold;
-    color: #CF3339;
+	color: #CF3339;
+	margin-bottom: 5px;
 }
 .article-wrap .article-link .link img {
     position: relative;
@@ -5875,6 +5857,17 @@ section#section-flexi-cards-mobile.forever,section#section-flexi-cards {
 .article-wrap .article-link .link a:hover{
 		color: #CF3339;
 }
+
+@media only screen and (min-width: 992px) {
+  .article-wrap .article-readmore > div:first-child {
+    padding-right: 45px;
+  }
+
+  .article-wrap .article-readmore > div:last-child {
+    padding-left: 45px;
+  }
+}
+
 .register-wrapper {
     padding: 10px 0 50px;
     text-align: center;
@@ -6073,7 +6066,7 @@ section#section-flexi-cards-mobile.forever,section#section-flexi-cards {
     border-radius: 2px;
     position: absolute;
     left: 0px;
-    top: -3px;
+    top: calc(50% - 10px)
 }
 .form-content .checkbox input:checked + label:before {
     border: 1px solid #CF3339;
@@ -6437,18 +6430,6 @@ nav[aria-label="breadcrumb"] + .row-search-filter{
 	cursor: pointer;
 }
 
-  .form-content .checkbox label:before {
-    content: '';
-    display: block;
-    width: 20px;
-    height: 20px;
-    border: 1px solid #8B939A;
-    border-radius: 3px;
-    position: absolute;
-    left: 0px;
-    top: -3px;
-}
-
 #filter-modal .form-content .checkbox input {
   display: none;
 }
@@ -6471,14 +6452,24 @@ nav[aria-label="breadcrumb"] + .row-search-filter{
 }
 }
 
+#filter-modal .filter-header {
+  font-family: 'Conv_SukhumvitTadmai_Bol';
+  margin-bottom: 20px;
+  font-size: 24px;
+  display: block;
+  text-align: center;
+}
+
+#filter-modal .filter-title {
+  font-family: 'Conv_SukhumvitTadmai_Bol';
+  margin-bottom: 20px;
+  text-align: left;
+}
+
 #filter-modal .filter-select-row {
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
-  @media only screen and (max-width: 767px) {
-    #filter-modal .filter-select-row {
-      margin-bottom: 35px;
-}
-}
+
   #filter-modal .filter-select-row button {
     font-family: "Conv_SukhumvitTadmai_Bol";
     font-size: 14px;
@@ -6516,9 +6507,16 @@ nav[aria-label="breadcrumb"] + .row-search-filter{
 
 #filter-modal .topic-select-row {
   border-bottom: 1px solid #E6E8EA;
-  padding-bottom: 30px;
-  margin-bottom: 40px;
+  padding-bottom: 0px;
+  margin-bottom: 30px;
 }
+
+#filter-modal .topic-select-row.no-border {
+  border-bottom: 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
   #filter-modal .topic-select-row .checkbox {
     margin-bottom: 30px;
 }
@@ -6533,6 +6531,12 @@ nav[aria-label="breadcrumb"] + .row-search-filter{
       #filter-modal .topic-select-row .checkbox:last-child {
         margin-bottom: 0;
 }
+}
+
+#filter-modal .type-card-select .checkbox label img{
+	height: 45px;
+    width: auto;
+    padding: 6px;
 }
 
 #filter-modal .card-select-row {
@@ -6625,11 +6629,11 @@ nav[aria-label="breadcrumb"] + .row-search-filter{
 #filter-modal .footer-row {
   display: flex;
   justify-content: center;
-  padding-top: 30px;
+  /*padding-top: 30px;*/
 }
   @media only screen and (max-width: 767px) {
     #filter-modal .footer-row {
-      padding-top: 20px;
+      /*padding-top: 20px;*/
 }
 }
   #filter-modal .footer-row .submit-filter-btn {
@@ -6668,10 +6672,17 @@ nav[aria-label="breadcrumb"] + .row-search-filter{
 .edit-button{
 	font-size: 18px;
 	font-family: "Conv_SukhumvitTadmai_Tex";
-	padding-left: 25px;
+	/*padding-left: 25px;
 	background: url("../img/ico-edit.png") no-repeat;
-	background-position: left center;
+	background-position: left center;*/
 	float: right;
+	color: #5B6670 !important;
+}
+
+.edit-button img{
+	margin-right: 5px;
+	top: 8px;
+	position: relative;
 }
 
 .all-type-list{
@@ -6680,8 +6691,8 @@ nav[aria-label="breadcrumb"] + .row-search-filter{
 	position: relative;
 	top: 0;
 	vertical-align: top;
-	width: 145px;
-	max-width: 19.5vw;
+	width: calc(14% - 12px);
+	/*max-width: 19.5vw;*/
 }
 
 a.all-type-list[href]:hover{
@@ -7323,11 +7334,13 @@ a.all-type-list[href]:hover{
 .main-terms-modal.world-modal .close {
     color: #CF3339;
 }
+
 #terms-modal .header {
     border-bottom: 1px solid #E6E8EA;
-    padding-bottom: 7px;
-    margin-bottom: 24px;
-    margin-top: 80px;
+	padding-bottom: 7px;
+	text-align: left;
+    /*margin-bottom: 24px;
+    margin-top: 80px;*/
 }
 #terms-modal .header .title {
     font-family: 'Conv_SukhumvitTadmai_Tex';
@@ -7738,7 +7751,6 @@ nav[aria-label="breadcrumb"]{
 	padding: 0 !important;
 	margin: 0 !important;
 	overflow: hidden;
-	letter-spacing: 0;
 }
 
 .static-wrap img{
@@ -7755,12 +7767,8 @@ nav[aria-label="breadcrumb"]{
 	margin:0 0 14px 0;
 }
 
-.static-wrap .gold-header h5{
-	color: #C6663A;
-}
-
 .static-wrap p{
-	font-family: 'Conv_SukhumvitTadmai_Tex';
+	font-family: 'Conv_SukhumvitTadmai_Thi';
 	font-size: 20px;
 	display: block;
 }
@@ -7799,7 +7807,7 @@ nav[aria-label="breadcrumb"]{
 	font-family: 'Conv_SukhumvitTadmai_Tex';
 	font-size: 16px;
 	text-decoration: underline;
-	color: #000;
+	color: #CF3339;
 	margin: 33px 0;
 	display: block;
 	margin: 33px 0 0 0;
@@ -7982,20 +7990,6 @@ nav[aria-label="breadcrumb"]{
     background: rgba(255,255,255,0.8);
 }
 
-.white-layer.white-100{
-	top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    padding: 100px;
-    background: none;
-}
-
-.white-layer.white-100 > div{
-	background: rgba(255,255,255,0.55);
-    padding: 30px 50px;
-}
-
 .white-layer > div{
     align-self: center;
     margin: 0 auto;
@@ -8045,16 +8039,6 @@ nav[aria-label="breadcrumb"]{
 	background: rgba(255,255,255,0.15);
 }
 
-#content-card-detail .static-wrap  .content-title{
-	transform: none;
-	margin: 0 auto 35px 0;
-	line-height: 60px;
-}
-
-#content-card-detail .static-wrap  .content-title:after{
-	margin:  0 auto;
-}
-
 .static-wrap .link-square{
 	padding: 8px 10px;
 	border-radius: 4px;
@@ -8090,14 +8074,6 @@ nav[aria-label="breadcrumb"]{
     left: 50px;
     width: auto;
     max-width: none;
-}
-
-.static-content.text-on-right-img.float-up.xvisa{
-	background: none;
-    top: 11vw;
-    padding: 0;
-    right: 9.5vw;
-    max-width: 60%;
 }
 
 .full-full .static-content{
@@ -8175,24 +8151,17 @@ article.content-wrap{
 .static-content .media img{
 	width: 50px;
 	height: auto;
-	margin:0 20px 7px 0;
-}
-
-.static-content .media .media-img-wrap img{
-	display: block;
+	margin:0 20px 0 0;
 }
 
 .static-wrap .media h5{
 	font-size: 20px;
 	font-family: 'Conv_SukhumvitTadmai_Tex';
 	margin-bottom: 10px;
-	color: #5B6670;
 }
 
 .static-wrap .media p{
 	font-size: 14px;
-	line-height: 23px;
-	color: #5B6670;
 	font-family: Helvetica, Arial, sans-serif;
 }
 
@@ -8218,7 +8187,6 @@ article.content-wrap{
 	font-family: Helvetica, Arial, sans-serif;
 	margin-top: 5px;
 	font-size: 14px;
-	color: #5B6670;
 }
 
 .static-wrap .media-body .link-more{
@@ -8404,39 +8372,6 @@ h4.no-dash{
     border-top: 1px solid #E6E8EA;
 }
 
-.page-content .static-wrap{
-	border: none;
-}
-
-.static-wrap .real-size{
-  	width: auto;
-  	height: auto;
-  	margin: 30px 0 30px auto;
-}
-
-.static-wrap.half-half-reverse .real-size{
-	margin-left: 0;
-    max-width: calc(100% - 30px);
-}
-
-section#detail-register{
-	border: none;
-}
-
-.visasig-wrap img{
-	margin: 0 auto;
-	width:230px;
-	padding:0 15px
-}
-
-.visasig-wrap{
-	padding: 6.955vw 30px 4.393vw 30px;
-}
-
-.static-wrap .visasig-wrap p{
-	font-size: 30px;
-}
-
 
 /*Safari Only*/
 @media not all and (min-resolution:.001dpcm)
@@ -8523,11 +8458,11 @@ section#detail-register{
 	}
 	.card-register-btn{
 		font-size: 12px;
-    	padding: 8px 16px;
+    	padding: 9px 16px;
 	}
 	.login-btn{
 		font-size: 12px;
-    	padding: 7px 16px;
+    padding: 4px 8px;
 	}
 
 	.profile-name{
@@ -8719,6 +8654,10 @@ section#detail-register{
 		display: none;
 	}
 
+  /* creditcard detail -eve */
+  #card-detail-regis .detail-register-desc.section-doc-regis h5 {
+    margin-top: 40px;
+  }
   
   /* creditcard detail -eve */
   #card-detail-regis .detail-register-desc h5 {
@@ -8727,23 +8666,6 @@ section#detail-register{
   #card-detail-regis .detail-register-desc.section-doc-regis h5{
     margin-top: 40px;
   }
-  .block-wrap.block-content{
-    margin-top: 30px;
-  }
-  .block-wrap.block-content{
-    height: 386px;
-    width: 100%;
-  }
-  .page-content .still-background.still-width img{
-  	width: 100%;
-  }
-  .page-content .bg-pink-text {
-    width: 100%;
-    height: auto;
-    position: absolute;
-    top: -20%;
-    left: 18%;
-   }
 
   .owl-item {
     opacity: 1;
@@ -8829,11 +8751,6 @@ section#detail-register{
     padding: 0;
   }
 
-  .page-content .still-background img{
-  	max-width: none;
-  	width: auto;
-  }
-
   .still-background + .static-content{
     padding: 40px 100px;
     position: relative;
@@ -8862,15 +8779,10 @@ section#detail-register{
   	height: 175px;
   }
 
-  .white-layer.white-100{
-  	padding-left: 50px;
-  	padding-right: 50px;
-  }
 
-  .static-wrap .visasig-wrap p{
-    font-size: 25px;
-    padding: 0 5px;
-  }
+}
 
-
+.loading{
+	margin-bottom: 60px;
+	text-align: center;
 }

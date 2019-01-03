@@ -1,45 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55 55">
-  <defs>
-    <style>
-      .cls-1, .cls-3 {
-        fill: none;
-      }
-
-      .cls-2, .cls-4 {
-        opacity: 0.3;
-      }
-
-      .cls-3 {
-        stroke: #cf3339;
-        stroke-linecap: round;
-        stroke-linejoin: round;
-        stroke-miterlimit: 10;
-        stroke-width: 2px;
-      }
-
-      .cls-4 {
-        fill: #cf3339;
-      }
-    </style>
-  </defs>
-  <g id="ico-menu-hotel" transform="translate(-409 -1221)">
-    <g id="Symbol_350_3" data-name="Symbol 350 – 3" transform="translate(217 -1)">
-      <rect id="Rectangle_2707" data-name="Rectangle 2707" class="cls-1" width="55" height="55" transform="translate(192 1222)"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" viewBox="0 0 55 55">
+  <g id="Group_3615" data-name="Group 3615" transform="translate(-409 -1221)">
+    <g id="Symbol_350_28" data-name="Symbol 350 – 28" transform="translate(217 -1)">
+      <rect id="Rectangle_2707" data-name="Rectangle 2707" width="55" height="55" transform="translate(192 1222)" fill="none"/>
     </g>
     <g id="Group_3378" data-name="Group 3378" transform="translate(418 1229)">
-      <g id="Group_3377" data-name="Group 3377" class="cls-2">
-        <path id="Path_2004" data-name="Path 2004" class="cls-3" d="M29.5,6.2H7A1.9,1.9,0,0,0,5.1,8.1V36.2H31.5V8.1A1.988,1.988,0,0,0,29.5,6.2Z"/>
-        <path id="Path_2005" data-name="Path 2005" class="cls-3" d="M26.8,1H9.7A1.367,1.367,0,0,0,8.3,2.4V6.2H28.2V2.4A1.367,1.367,0,0,0,26.8,1Z"/>
+      <g id="Group_3377" data-name="Group 3377" opacity="0.3">
+        <path id="Path_2004" data-name="Path 2004" d="M29.5,6.2H7A1.9,1.9,0,0,0,5.1,8.1V36.2H31.5V8.1A1.988,1.988,0,0,0,29.5,6.2Z" fill="none" stroke="#cf3339" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+        <path id="Path_2005" data-name="Path 2005" d="M26.8,1H9.7A1.367,1.367,0,0,0,8.3,2.4V6.2H28.2V2.4A1.367,1.367,0,0,0,26.8,1Z" fill="none" stroke="#cf3339" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
       </g>
-      <path id="Path_2006" data-name="Path 2006" class="cls-3" d="M28.2,6.2V2.3A1.324,1.324,0,0,0,26.9,1H9.6A1.324,1.324,0,0,0,8.3,2.3V6.2H6.8A1.71,1.71,0,0,0,5.1,8V36.3H31.5V8a1.685,1.685,0,0,0-1.7-1.7H28.2Z"/>
-      <line id="Line_1568" data-name="Line 1568" class="cls-3" x2="34.5" transform="translate(1 36.3)"/>
-      <path id="Path_2007" data-name="Path 2007" class="cls-4" d="M12.2,16H9.7a.9.9,0,0,1-.9-.9V12.6a.9.9,0,0,1,.9-.9h2.5a.9.9,0,0,1,.9.9v2.5A.9.9,0,0,1,12.2,16Z"/>
-      <path id="Path_2008" data-name="Path 2008" class="cls-4" d="M19.6,16H17.1a.9.9,0,0,1-.9-.9V12.6a.9.9,0,0,1,.9-.9h2.5a.9.9,0,0,1,.9.9v2.5C20.6,15.6,20.1,16,19.6,16Z"/>
-      <path id="Path_2009" data-name="Path 2009" class="cls-4" d="M26.9,16H24.4a.9.9,0,0,1-.9-.9V12.6a.9.9,0,0,1,.9-.9h2.5a.9.9,0,0,1,.9.9v2.5A.9.9,0,0,1,26.9,16Z"/>
-      <path id="Path_2010" data-name="Path 2010" class="cls-4" d="M12.2,23H9.7a.9.9,0,0,1-.9-.9V19.6a.9.9,0,0,1,.9-.9h2.5a.9.9,0,0,1,.9.9v2.5A.9.9,0,0,1,12.2,23Z"/>
-      <path id="Path_2011" data-name="Path 2011" class="cls-4" d="M19.6,23H17.1a.9.9,0,0,1-.9-.9V19.6a.9.9,0,0,1,.9-.9h2.5a.9.9,0,0,1,.9.9v2.5C20.6,22.6,20.1,23,19.6,23Z"/>
-      <path id="Path_2012" data-name="Path 2012" class="cls-4" d="M26.9,23H24.4a.9.9,0,0,1-.9-.9V19.6a.9.9,0,0,1,.9-.9h2.5a.9.9,0,0,1,.9.9v2.5A.9.9,0,0,1,26.9,23Z"/>
-      <path id="Path_2013" data-name="Path 2013" class="cls-4" d="M20.4,28H16.1a1,1,0,0,0-1,1v6.2a1,1,0,0,0,1,1h4.3a1,1,0,0,0,1-1V29C21.5,28.4,21,28,20.4,28Z"/>
+      <path id="Path_2006" data-name="Path 2006" d="M28.2,6.2V2.3A1.324,1.324,0,0,0,26.9,1H9.6A1.324,1.324,0,0,0,8.3,2.3V6.2H6.8A1.71,1.71,0,0,0,5.1,8V36.3H31.5V8a1.685,1.685,0,0,0-1.7-1.7H28.2Z" fill="none" stroke="#cf3339" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+      <line id="Line_1568" data-name="Line 1568" x2="34.5" transform="translate(1 36.3)" fill="none" stroke="#cf3339" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_2007" data-name="Path 2007" d="M12.2,16H9.7a.9.9,0,0,1-.9-.9V12.6a.9.9,0,0,1,.9-.9h2.5a.9.9,0,0,1,.9.9v2.5A.9.9,0,0,1,12.2,16Z" fill="#cf3339" opacity="0.3"/>
+      <path id="Path_2008" data-name="Path 2008" d="M19.6,16H17.1a.9.9,0,0,1-.9-.9V12.6a.9.9,0,0,1,.9-.9h2.5a.9.9,0,0,1,.9.9v2.5C20.6,15.6,20.1,16,19.6,16Z" fill="#cf3339" opacity="0.3"/>
+      <path id="Path_2009" data-name="Path 2009" d="M26.9,16H24.4a.9.9,0,0,1-.9-.9V12.6a.9.9,0,0,1,.9-.9h2.5a.9.9,0,0,1,.9.9v2.5A.9.9,0,0,1,26.9,16Z" fill="#cf3339" opacity="0.3"/>
+      <path id="Path_2010" data-name="Path 2010" d="M12.2,23H9.7a.9.9,0,0,1-.9-.9V19.6a.9.9,0,0,1,.9-.9h2.5a.9.9,0,0,1,.9.9v2.5A.9.9,0,0,1,12.2,23Z" fill="#cf3339" opacity="0.3"/>
+      <path id="Path_2011" data-name="Path 2011" d="M19.6,23H17.1a.9.9,0,0,1-.9-.9V19.6a.9.9,0,0,1,.9-.9h2.5a.9.9,0,0,1,.9.9v2.5C20.6,22.6,20.1,23,19.6,23Z" fill="#cf3339" opacity="0.3"/>
+      <path id="Path_2012" data-name="Path 2012" d="M26.9,23H24.4a.9.9,0,0,1-.9-.9V19.6a.9.9,0,0,1,.9-.9h2.5a.9.9,0,0,1,.9.9v2.5A.9.9,0,0,1,26.9,23Z" fill="#cf3339" opacity="0.3"/>
+      <path id="Path_2013" data-name="Path 2013" d="M20.4,28H16.1a1,1,0,0,0-1,1v6.2a1,1,0,0,0,1,1h4.3a1,1,0,0,0,1-1V29C21.5,28.4,21,28,20.4,28Z" fill="#cf3339" opacity="0.3"/>
     </g>
   </g>
 </svg>

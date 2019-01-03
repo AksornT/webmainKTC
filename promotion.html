@@ -327,14 +327,14 @@
       <div class="content-wrap menu-sub-icon">
         <ul class="nav nav-justified">
           <!--<li class="nav-item permanent-link"><a href="#" class="nav-link"><img src="img/ico-promotion-travel.png" /><p>โปรโมชั่น<br>การเดินทาง</p></a></li>-->
-          <li class="nav-item"><a href="#" class="nav-link"><img src="img/promotion/ico-menu-health.svg" /><p>สุขภาพและความงาม</p></a></li>
+          <li class="nav-item"><a href="#" class="nav-link"><img src="img/promotion/ico-menu-fav.svg" /><p>รายการโปรด</p></a></li>
           <li class="nav-item"><a href="promotion-dining.html" class="nav-link"><img src="img/promotion/ico-menu-restuarant.svg" /><p>ร้านอาหาร</p></a></li>
+          <li class="nav-item"><a href="#" class="nav-link"><img src="img/promotion/ico-menu-health.svg" /><p>สุขภาพและความงาม</p></a></li>
           <li class="nav-item"><a href="#" class="nav-link"><img src="img/promotion/ico-menu-shop.svg" /><p>ช็อปปิ้ง</p></a></li>
           <li class="nav-item"><a href="#" class="nav-link"><img src="img/promotion/ico-menu-hotel.svg" /><p>โรงแรมและรีสอร์ต</p></a></li>
           <li class="nav-item"><a href="#" class="nav-link"><img src="img/promotion/ico-menu-online.svg" /><p>ออนไลน์</p></a></li>
           <li class="nav-item"><a href="#" class="nav-link"><img src="img/promotion/ico-menu-sport.svg" /><p>กีฬา</p></a></li>
-          <li class="nav-item only-mobile"><a href="#" class="nav-link"><img src="img/promotion/ico-menu-travel.svg" /><p>ท่องเที่ยว</p></a></li>
-          <li class="nav-item"><a href="#" class="nav-link" data-toggle="modal" data-target="#sort-my-link-modal"><img src="img/promotion/ico-menu-other.svg" /><p>อื่นๆ</p></a></li>
+          <li class="nav-item"><a href="#" class="nav-link" data-toggle="modal" data-target="#sort-my-link-modal"><img src="img/promotion/ico-menu-all.svg" /><p>ทั้งหมด</p></a></li>
         </ul>
       </div>
       
@@ -558,6 +558,9 @@
       </div>
       <!-- END ROW 3 -->
 
+      <!-- LOADING -->
+      <div class="content-wrap text-center loading"><img src="img/loading.gif" /></div>
+
       <div class="content-wrap only-mobile">
         <div class="row banner-row last-bn">
           <div class="col-12"><a href="#"><img src="img/promotion/banner-cash.jpg" /></a></div>
@@ -763,7 +766,7 @@
   <!-- end Footer -->
   <!-- start modal -->
   <div id="card-register-modal" class="modal fade full-modal" tabindex="-1">
-    <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-dialog modal-dialog-centered modal-sm" role="document">
       <div class="modal-content">
         <div class="modal-header">
           <h5 class="modal-title" id="exampleModalLongTitle">เลือกผลิตภัณฑ์</h5>
@@ -874,6 +877,7 @@
       <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
           <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">เลือกโปรโมชั่นที่สนใจ</h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
@@ -884,53 +888,40 @@
                 <button class="select-all-btn">เลือกทั้งหมด</button>
                 <button class="reset-btn" disabled>ล้างทั้งหมด</button>
               </div>
+              <div class="filter-title">หมวดหมู่</div>
               <div class="topic-select-row">
                 <div class="row">
-                  <div class="col-md-3 checkbox"><input type="checkbox" name="cb-topic" id="cb_t_1"><label for="cb_t_1">ตั๋วเครื่องบิน</label></div>
-                  <div class="col-md-3 checkbox"><input type="checkbox" name="cb-topic" id="cb_t_2"><label for="cb_t_2">แพ็กเกจทัวร์</label></div>
-                  <div class="col-md-3 checkbox"><input type="checkbox" name="cb-topic" id="cb_t_3"><label for="cb_t_3">โรงแรม</label></div>
-                  <div class="col-md-3 checkbox"><input type="checkbox" name="cb-topic" id="cb_t_4"><label for="cb_t_4">ห้องอาหาร</label></div>
-                  <div class="col-md-3 checkbox"><input type="checkbox" name="cb-topic" id="cb_t_5"><label for="cb_t_5">รถเช่าและรถไฟ</label></div>
-                  <div class="col-md-3 checkbox"><input type="checkbox" name="cb-topic" id="cb_t_6"><label for="cb_t_6">บัตรเข้าชม</label></div>
-                  <div class="col-md-3 checkbox"><input type="checkbox" name="cb-topic" id="cb_t_7"><label for="cb_t_7">ประกันภัยการเดินทาง</label></div>
-                  <div class="col-md-3 checkbox"><input type="checkbox" name="cb-topic" id="cb_t_8"><label for="cb_t_8">เว็บไซต์ท่องเที่ยวชั้นนำ</label></div>
-                  <div class="col-md-3 checkbox"><input type="checkbox" name="cb-topic" id="cb_t_9"><label for="cb_t_9">อื่น ๆ</label></div>
+                  <div class="col-md-4 checkbox"><input type="checkbox" name="cb-topic" id="cb_t_1"><label for="cb_t_1">ตั๋วเครื่องบิน</label></div>
+                  <div class="col-md-4 checkbox"><input type="checkbox" name="cb-topic" id="cb_t_2"><label for="cb_t_2">แพ็กเกจทัวร์</label></div>
+                  <div class="col-md-4 checkbox"><input type="checkbox" name="cb-topic" id="cb_t_3"><label for="cb_t_3">โรงแรม</label></div>
+                  <div class="col-md-4 checkbox"><input type="checkbox" name="cb-topic" id="cb_t_4"><label for="cb_t_4">ห้องอาหาร</label></div>
+                  <div class="col-md-4 checkbox"><input type="checkbox" name="cb-topic" id="cb_t_5"><label for="cb_t_5">รถเช่าและรถไฟ</label></div>
+                  <div class="col-md-4 checkbox"><input type="checkbox" name="cb-topic" id="cb_t_6"><label for="cb_t_6">บัตรเข้าชม</label></div>
+                  <div class="col-md-4 checkbox"><input type="checkbox" name="cb-topic" id="cb_t_7"><label for="cb_t_7">ประกันภัยการเดินทาง</label></div>
+                  <div class="col-md-4 checkbox"><input type="checkbox" name="cb-topic" id="cb_t_8"><label for="cb_t_8">เว็บไซต์ท่องเที่ยวชั้นนำ</label></div>
+                  <div class="col-md-4 checkbox"><input type="checkbox" name="cb-topic" id="cb_t_9"><label for="cb_t_9">อื่น ๆ</label></div>
                 </div>
               </div>
-              <div class="card-select-row with-text">
-                <div class="img-checkbox">
-                  <input type="checkbox" name="cb-card" id="cb_c_1"><label for="cb_c_1"><img src="img/index/ico-ktc-card.svg" /></label>
-                  <span>บัตรเครดิต</span>
-                </div>
-                <div class="img-checkbox">
-                  <input type="checkbox" name="cb-card" id="cb_c_2"><label for="cb_c_2"><img src="img/index/ico-ktc-proud.svg" /></label>
-                  <span>สินเชื่อพร้อมใช้  KTC PROUD</span>
-                </div>
-                <div class="img-checkbox">
-                  <input type="checkbox" name="cb-card" id="cb_c_3"><label for="cb_c_3"><img src="img/index/ico-ktc-forever.svg" /></label>
-                  <span>คะแนนสะสม</span>
-                </div>
-                <div class="img-checkbox">
-                  <input type="checkbox" name="cb-card" id="cb_c_4"><label for="cb_c_4"><img src="img/index/ico-ktc-flex.svg" /></label>
-                  <span>แบ่งชำระ</span>
+              <div class="filter-title">ผลิตภัณฑ์และบริการ</div>
+              <div class="topic-select-row">
+                <div class="row">
+                  <div class="col-md-4 checkbox"><input type="checkbox" name="cb-product" id="cb_c_1"><label for="cb_c_1">บัตรเครดิต KTC</label></div>
+                  <div class="col-md-4 checkbox"><input type="checkbox" name="cb-product" id="cb_c_2"><label for="cb_c_2">บัตรกดเงินสด KTC PROUD</label></div>
+                  <div class="col-md-4 checkbox"><input type="checkbox" name="cb-product" id="cb_c_3"><label for="cb_c_3">คะแนน</label></div>
+                  <div class="col-md-4 checkbox"><input type="checkbox" name="cb-product" id="cb_c_4"><label for="cb_c_4">ผ่อนชำระ</label></div>
                 </div>
               </div>
-              <div class="card-select-row type-card-select">
-                <div class="img-checkbox">
-                  <input type="checkbox" name="cb-card" id="cb_c_visa"><label for="cb_c_visa"><img src="img/index/ico-card-visa.svg" /></label>
-                </div>
-                <div class="img-checkbox">
-                  <input type="checkbox" name="cb-card" id="cb_c_master"><label for="cb_c_master"><img src="img/index/ico-card-master.svg" /></label>
-                </div>
-                <div class="img-checkbox">
-                  <input type="checkbox" name="cb-card" id="cb_c_jcb"><label for="cb_c_jcb"><img src="img/index/ico-card-jcb.svg" /></label>
-                </div>
-                <div class="img-checkbox">
-                  <input type="checkbox" name="cb-card" id="cb_c_union"><label for="cb_c_union"><img src="img/index/ico-card-union.svg" /></label>
+              <div class="filter-title">แบรนด์</div>
+              <div class="topic-select-row type-card-select no-border">
+                <div class="row">
+                  <div class="col-md-4 checkbox"><input type="checkbox" name="cb-card" id="cb_c_master"><label for="cb_c_master"><img src="img/index/ico-card-master.svg" /></label></div>
+                  <div class="col-md-4 checkbox"><input type="checkbox" name="cb-card" id="cb_c_jcb"><label for="cb_c_jcb"><img src="img/index/ico-card-jcb.svg" /></label></div>
+                  <div class="col-md-4 checkbox"><input type="checkbox" name="cb-card" id="cb_c_visa"><label for="cb_c_visa"><img src="img/index/ico-card-visa.svg" /></label></div>
+                  <div class="col-md-4 checkbox"><input type="checkbox" name="cb-card" id="cb_c_union"><label for="cb_c_union"><img src="img/index/ico-card-union.svg" /></label></div>
                 </div>
               </div>
               <div class="footer-row">
-                <button class="submit-filter-btn" disabled>ตกลง</button>
+                <button class="submit-filter-btn" disabled>ค้นหา</button>
               </div>
             </form>
           </div>
@@ -943,7 +934,8 @@
         <div class="modal-content">
           <div class="modal-header">
             <div class="content-wrap">
-              <a class="edit-button" data-dismiss="modal" data-toggle="modal" data-target="#edit-my-link-modal">แก้ไขลำดับ</a>
+              <a class="edit-button" data-dismiss="modal" data-toggle="modal" data-target="#edit-my-link-modal">
+                <img src="img/ico-setting.svg">ตั้งค่าหมวดหมู่ที่ชื่นชอบ</a>
             </div>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
@@ -955,7 +947,7 @@
                 <div>
                   <img src="img/promotion/ico-menu-shop.svg">
                 </div>
-                <p>ช็อปปิ้ง</p>
+                <p>ช้อปปิ้ง</p>
               </a>
               <a href="#" class="all-type-list">
                 <div>
@@ -967,13 +959,13 @@
                 <div>
                   <img src="img/promotion/ico-menu-hotel.svg">
                 </div>
-                <p>โรงแรม รีสอร์ท</p>
+                <p>โรงแรม & รีสอร์ท</p>
               </a>
               <a href="#" class="all-type-list">
                 <div>
                   <img src="img/promotion/ico-menu-travel.svg">
                 </div>
-                <p>ท่องเที่ยว</p>
+                <p>ตั๋วเครื่องบิน & ท่องเที่ยว</p>
               </a>
               <a href="#" class="all-type-list">
                 <div>
@@ -985,13 +977,13 @@
                 <div>
                   <img src="img/promotion/ico-menu-car.svg">
                 </div>
-                <p>นํ้ามันและรถยนต์</p>
+                <p>นํ้ามัน & รถยนต์</p>
               </a>
               <a href="#" class="all-type-list">
                 <div>
                   <img src="img/promotion/ico-menu-gadget.svg">
                 </div>
-                <p>โทรศัพท์มือถือและแกดเจ็ต</p>
+                <p>มือถือ & อุปกรณ์เสริม</p>
               </a>
               <a href="#" class="all-type-list">
                 <div>
@@ -1003,7 +995,7 @@
                 <div>
                   <img src="img/promotion/ico-menu-health.svg">
                 </div>
-                <p>สุขภาพและความงาม</p>
+                <p>สุขภาพ & ความงาม</p>
               </a>
               <a href="#" class="all-type-list">
                 <div>
@@ -1015,19 +1007,19 @@
                 <div>
                   <img src="img/promotion/ico-menu-home.svg">
                 </div>
-                <p>เครื่องใช้ภายในบ้านและอสังหาริมทรัพย์</p>
+                <p>เครื่องใช้ไฟฟ้า บ้าน & คอนโด</p>
               </a>
               <a href="#" class="all-type-list">
                 <div>
                   <img src="img/promotion/ico-menu-furniture.svg">
                 </div>
-                <p>เฟอร์นิเจอร์และอุปกรณ์แต่งบ้าน</p>
+                <p>เฟอร์นิเจอร์ & อุปกรณ์แต่งบ้าน</p>
               </a>
               <a href="#" class="all-type-list">
                 <div>
                   <img src="img/promotion/ico-menu-entertainment.svg">
                 </div>
-                <p>งานอดิเรกและบันเทิง</p>
+                <p>หนังสือ งานอดิเรก & บันเทิง</p>
               </a>
               <a href="#" class="all-type-list">
                 <div>
@@ -1057,13 +1049,13 @@
                 <div>
                   <img src="img/promotion/ico-menu-learn.svg">
                 </div>
-                <p>หนังสือและการศึกษา</p>
+                <p>การศึกษา</p>
               </a>
               <a href="#" class="all-type-list">
                 <div>
-                  <img src="img/promotion/ico-menu-journey.svg">
+                  <img src="img/promotion/ico-menu-bill.svg">
                 </div>
-                <p>สาธารณูปโภคและการเดินทาง</p>
+                <p>การหักค่าใช้จ่ายอัตโนมัติ & การเดินทาง</p>
               </a>
             </div>
           </div>
@@ -1211,7 +1203,7 @@
               </a>
               <a class="all-type-list">
                 <div>
-                  <img src="img/promotion/ico-menu-journey.svg">
+                  <img src="img/promotion/ico-menu-bill.svg">
                   <div class="list-number"></div>
                 </div>
                 <p>สาธารณูปโภคและการเดินทาง</p>

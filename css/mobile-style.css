@@ -270,7 +270,7 @@
 
   .download-section p{
     text-align: right;
-    width: 90px;
+    width: 110px;
     display: inline-block;
     vertical-align: middle;
     margin: 8px 0 3px 0;
@@ -302,7 +302,6 @@
     display: inline-block;
     vertical-align: middle;
     top: 0;
-    margin-left: 6px;
   }
   .menu-global .on-right .only-mobile.login-mobile{
     display: inline-block;
@@ -333,16 +332,17 @@
     opacity: 0;
     pointer-events: none;
     width: 0px;
-    background: url("../img/ico-menu-mobile.png") no-repeat center center;
+    background: url("../img/index/ico-menu-mobile.svg") no-repeat center center;
   }
+
   .mini-header .menu-mobile {
-    background: url("../img/ico-menu-mobile.png") no-repeat center center;
+    background: url("../img/index/ico-menu-mobile.svg") no-repeat center center;
     background-size: 100%;
     opacity: 1;
     pointer-events: all;
     width: 18px;
     height: 16px;
-    margin-left: 14px;
+    margin-left: 6px;
   }
 
   .menu-responsive-dropdown{
@@ -759,6 +759,7 @@
     font-size: 18px;
     margin-bottom: 40px;
   }
+
   .more-modal .header {
     margin-top: 0px;
   }
@@ -768,44 +769,6 @@
   .more-modal .content li,
   .more-modal .content p{
     font-size: 12px;
-  }
-  .after-header-on-mobile{
-    display: block;
-  }
-  .after-header-on-desktop{
-    display: none;
-  }
-  .type-card {
-    margin: 60px auto 0px auto;
-  }
-  .type-card h3 {
-    font-size: 26px;
-  }
-  .type-card p{
-    font-size: 18px;
-    padding-top: 15px;
-    padding-bottom: 30px;
-  }
-  .static-wrap .negative-text.position-on-top{
-    color: #fff;
-  }
-  .static-wrap .negative-text.position-on-top .link-more{
-    color: #fff;
-    margin: 20px 0 0 0;
-  }
-  .block-wrap.block-content{
-    height: auto;
-    width: 100%;
-  }
-  .static-wrap .negative-text .block-wrap.block-content .link-more{
-    color: #000;
-  }
-  .static-wrap .block-wrap h5{
-    font-size: 26px;
-    line-height: 32px;
-  }
-  .static-wrap .block-wrap p{
-    font-size: 18px;
   }
 
   /* loan page -eve */
@@ -1917,10 +1880,6 @@ nav[aria-label="breadcrumb"] + .row-search-filter {
     padding: 40px 50px;
   }
 
-  .static-wrap .static-content.pl-0{
-    padding: 40px 50px !important;
-  }
-
   .static-wrap .overlap-wrap {
     width: calc(100% + 70px);
     margin: -40px -35px;
@@ -2018,24 +1977,6 @@ nav[aria-label="breadcrumb"] + .row-search-filter {
     .page-loan-proud .share-on-top{
       top: 58px;
     }
-
-  .static-content.text-on-right-img.float-up.xvisa{
-    padding: 40px 50px;
-  }
-
-  .visasig-wrap{
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 50px;
-  }
-
-  h1 .share-on-top{
-    right: 16px;
-    top: 60px;
-  }
-  #header-card-detail .proud-head{
-    height: 234px;
-  }
 
 
 

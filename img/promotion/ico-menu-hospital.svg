@@ -1,41 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55 55">
-  <defs>
-    <style>
-      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
-        fill: none;
-      }
-
-      .cls-2, .cls-3, .cls-4, .cls-5 {
-        stroke: #cf3339;
-        stroke-miterlimit: 10;
-        stroke-width: 2px;
-      }
-
-      .cls-2 {
-        opacity: 0.3;
-      }
-
-      .cls-4, .cls-5 {
-        stroke-linejoin: round;
-      }
-
-      .cls-5 {
-        stroke-linecap: round;
-      }
-    </style>
-  </defs>
-  <g id="ico-menu-hospital" transform="translate(-951 -1221)">
-    <g id="Symbol_350_8" data-name="Symbol 350 – 8" transform="translate(759 -1)">
-      <rect id="Rectangle_2707" data-name="Rectangle 2707" class="cls-1" width="55" height="55" transform="translate(192 1222)"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" viewBox="0 0 55 55">
+  <g id="Group_3621" data-name="Group 3621" transform="translate(-951 -1221)">
+    <g id="Symbol_350_35" data-name="Symbol 350 – 35" transform="translate(759 -1)">
+      <rect id="Rectangle_2707" data-name="Rectangle 2707" width="55" height="55" transform="translate(192 1222)" fill="none"/>
     </g>
-    <g id="Group_3384" data-name="Group 3384" transform="translate(960 1230)">
-      <circle id="Ellipse_759" data-name="Ellipse 759" class="cls-2" cx="8.5" cy="8.5" r="8.5" transform="translate(10.5 12.7)"/>
-      <path id="Path_2022" data-name="Path 2022" class="cls-3" d="M32.5,34.6H5.5A4.481,4.481,0,0,1,1,30.1V12.3A4.481,4.481,0,0,1,5.5,7.8H32.4a4.481,4.481,0,0,1,4.5,4.5V30.1A4.337,4.337,0,0,1,32.5,34.6Z"/>
-      <g id="Group_3383" data-name="Group 3383">
-        <line id="Line_1575" data-name="Line 1575" class="cls-4" y2="8.2" transform="translate(19 17.1)"/>
-        <line id="Line_1576" data-name="Line 1576" class="cls-4" x1="8.2" transform="translate(14.9 21.2)"/>
-      </g>
-      <path id="Path_2023" data-name="Path 2023" class="cls-5" d="M22.9,1H15.1a3.329,3.329,0,0,0-3.3,3.3V7.8H26.2V4.3A3.329,3.329,0,0,0,22.9,1Z"/>
+    <g id="Group_3537" data-name="Group 3537" transform="translate(960 1230)">
+      <path id="Path_2186" data-name="Path 2186" d="M32.45,34.64H5.55A4.554,4.554,0,0,1,1,30.09V12.34A4.554,4.554,0,0,1,5.55,7.79H32.46a4.554,4.554,0,0,1,4.55,4.55V30.09A4.569,4.569,0,0,1,32.45,34.64Z" fill="none" stroke="#cf3339" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_2187" data-name="Path 2187" d="M22.88,1H15.11a3.329,3.329,0,0,0-3.33,3.33V7.79H26.2V4.33A3.314,3.314,0,0,0,22.88,1Z" fill="none" stroke="#cf3339" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_2188" data-name="Path 2188" d="M25.32,19H21.21V14.9H16.79V19H12.68v4.42h4.11v4.11h4.42V23.42h4.11Z" fill="none" stroke="#f08b8f" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
     </g>
   </g>
 </svg>

@@ -1,47 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55 55">
-  <defs>
-    <style>
-      .cls-1, .cls-2 {
-        fill: none;
-      }
-
-      .cls-2 {
-        stroke: #cf3339;
-        stroke-miterlimit: 10;
-        stroke-width: 2px;
-      }
-
-      .cls-3 {
-        fill: #fff;
-      }
-
-      .cls-4 {
-        fill: #cf3339;
-      }
-
-      .cls-5 {
-        opacity: 0.3;
-      }
-    </style>
-  </defs>
-  <g id="ico-menu-insurant" transform="translate(-517 -1375)">
-    <g id="Symbol_350_18" data-name="Symbol 350 – 18" transform="translate(325 153)">
-      <rect id="Rectangle_2707" data-name="Rectangle 2707" class="cls-1" width="55" height="55" transform="translate(192 1222)"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" viewBox="0 0 55 55">
+  <g id="Group_3627" data-name="Group 3627" transform="translate(-517 -1375)">
+    <g id="Symbol_350_41" data-name="Symbol 350 – 41" transform="translate(325 153)">
+      <rect id="Rectangle_2707" data-name="Rectangle 2707" width="55" height="55" transform="translate(192 1222)" fill="none"/>
     </g>
-    <g id="Group_3401" data-name="Group 3401" transform="translate(526.039 1381.006)">
-      <path id="Path_2047" data-name="Path 2047" class="cls-2" d="M28.2,27a12.374,12.374,0,0,0-1.8-5,5.3,5.3,0,0,0-1.2-1,21.294,21.294,0,0,0-4.1-1.1c-1.7-.3-2.5-.3-3-1.4-.8-1.8-.2-1.6.4-3.1v-.1c.1-.2.3-.4.4-.6a8.271,8.271,0,0,0,1.3-3.6c.1-1.3.2-2.6.3-3.5,0-.2.4-2.7-.5-4.3-.3-.6-2.9-2.2-5.5-2.3A8.768,8.768,0,0,0,9.6,2.6c-1.5,1-1.3,4.3-1.1,4.9a4.331,4.331,0,0,0,.1.5,2.687,2.687,0,0,1,0,1,9.165,9.165,0,0,0,1.9,6c0,.1.1.1.1.2h0c.6,1.4,1.2,1.3.4,3.1-.7,1.5-1.8,1-4.8,1.8-.6.2-1.3.4-2.1.7a2.388,2.388,0,0,0-1.4,1.1,12.322,12.322,0,0,0-1.7,5,9.7,9.7,0,0,0,.2,2.7c3,1.5,7.8,2.5,13.4,2.5,5.5,0,10.4-1,13.4-2.5C28.1,28.5,28.2,27.4,28.2,27Z"/>
-      <g id="Group_3397" data-name="Group 3397">
-        <path id="Path_2048" data-name="Path 2048" class="cls-3" d="M24.9,40.7c-5.2-1.8-9.3-6.5-9.3-10.9V20.6a19.055,19.055,0,0,0,7.2-1.9A18.314,18.314,0,0,0,25,17.4a18.314,18.314,0,0,0,2.2,1.3,18.525,18.525,0,0,0,7.2,1.9v9.2C34.3,34.2,30.2,39,24.9,40.7Z"/>
-        <g id="Group_3396" data-name="Group 3396">
-          <path id="Path_2049" data-name="Path 2049" class="cls-4" d="M24.9,18.8c.5.3,1.1.6,1.8,1a20.155,20.155,0,0,0,6.6,1.9V30c0,3.8-3.7,8.1-8.3,9.8-4.6-1.7-8.3-6-8.3-9.8V21.7a20.95,20.95,0,0,0,6.6-1.9c.6-.4,1.2-.7,1.6-1m0-2.5a13.675,13.675,0,0,1-2.6,1.6,19.123,19.123,0,0,1-7.7,1.9V29.9c0,4.7,4.4,10,10.3,11.9,5.9-1.9,10.3-7.2,10.3-11.9V19.8a17.218,17.218,0,0,1-7.7-1.9,15.377,15.377,0,0,1-2.6-1.6Z"/>
+    <g id="Group_3546" data-name="Group 3546" transform="translate(528 1381)">
+      <g id="Group_3547" data-name="Group 3547">
+        <g id="Group_3546-2" data-name="Group 3546">
+          <path id="Path_2208" data-name="Path 2208" d="M1.02,6.88c0,3.24-.02,17.5-.02,19.8,0,3.49,1.88,7.74,15.45,15.07,5.75-3.11,9.76-5.91,12.26-8.54,2.13-2.25,3.12-4.33,3.12-6.53,0-2.83.04-16.62.05-19.8a25.065,25.065,0,0,1-11.5-3.14A22.794,22.794,0,0,1,16.45,1a22.794,22.794,0,0,1-3.93,2.74A25.065,25.065,0,0,1,1.02,6.88Z" fill="none" stroke="#cf3339" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
         </g>
       </g>
-      <g id="Group_3400" data-name="Group 3400" class="cls-5">
-        <g id="Group_3399" data-name="Group 3399">
-          <g id="Group_3398" data-name="Group 3398">
-            <path id="Path_2050" data-name="Path 2050" class="cls-4" d="M25.2,37.3c3.9-1.2,6.7-4.6,6.7-7.7V23.1a13.5,13.5,0,0,1-5-1.2,7.1,7.1,0,0,1-1.7-1.1Z"/>
+      <g id="Group_3550" data-name="Group 3550">
+        <g id="Group_3549" data-name="Group 3549">
+          <g id="Group_3548" data-name="Group 3548">
+            <path id="Path_2209" data-name="Path 2209" d="M4.98,10.61c0,2.41-.02,13-.02,14.71,0,2.59,1.4,5.75,11.48,11.2a37.076,37.076,0,0,0,9.11-6.35,7.025,7.025,0,0,0,2.32-4.85c0-2.1.03-12.34.04-14.71a18.712,18.712,0,0,1-8.54-2.33,16.954,16.954,0,0,1-2.92-2.03,16.954,16.954,0,0,1-2.92,2.03A18.721,18.721,0,0,1,4.98,10.61Z" fill="none" stroke="#f08b8f" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
           </g>
         </g>
+        <line id="Line_1641" data-name="Line 1641" x2="16.29" y2="16.3" transform="translate(11.2 9.49)" fill="none" stroke="#f08b8f" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+        <line id="Line_1642" data-name="Line 1642" x2="19.61" y2="19.61" transform="translate(5.58 10.91)" fill="none" stroke="#f08b8f" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
       </g>
     </g>
   </g>

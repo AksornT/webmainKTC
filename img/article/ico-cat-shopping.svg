@@ -1,37 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60">
-  <defs>
-    <style>
-      .cls-1, .cls-2, .cls-3 {
-        fill: none;
-      }
-
-      .cls-2 {
-        stroke: #cf3339;
-        stroke-linecap: round;
-        stroke-linejoin: round;
-      }
-
-      .cls-2, .cls-3 {
-        stroke-miterlimit: 10;
-        stroke-width: 2px;
-      }
-
-      .cls-3 {
-        stroke: #f08b8f;
-      }
-    </style>
-  </defs>
-  <g id="ico-cat-shopping" transform="translate(-2018 -1315)">
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+  <g id="Group_3467" data-name="Group 3467" transform="translate(-2018 -1315)">
     <g id="Symbol_352_3" data-name="Symbol 352 – 3" transform="translate(219 -8)">
-      <rect id="Rectangle_2743" data-name="Rectangle 2743" class="cls-1" width="60" height="60" transform="translate(1799 1323)"/>
+      <rect id="Rectangle_2743" data-name="Rectangle 2743" width="60" height="60" transform="translate(1799 1323)" fill="none"/>
     </g>
     <g id="Group_3416" data-name="Group 3416" transform="translate(2031.009 1325)">
       <g id="Group_3415" data-name="Group 3415" transform="translate(0.992 11.231)">
-        <path id="Path_2070" data-name="Path 2070" class="cls-2" d="M28.3,10.2H5.659a1.978,1.978,0,0,0-1.95,1.718L1,36.822a1.926,1.926,0,0,0,1.95,2.147H30.034a1.926,1.926,0,0,0,1.95-2.147l-1.733-24.8A1.914,1.914,0,0,0,28.3,10.2Z" transform="translate(-0.992 -10.2)"/>
+        <path id="Path_2070" data-name="Path 2070" d="M28.3,10.2H5.659a1.978,1.978,0,0,0-1.95,1.718L1,36.822a1.926,1.926,0,0,0,1.95,2.147H30.034a1.926,1.926,0,0,0,1.95-2.147l-1.733-24.8A1.914,1.914,0,0,0,28.3,10.2Z" transform="translate(-0.992 -10.2)" fill="none" stroke="#cf3339" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
       </g>
-      <path id="Path_2071" data-name="Path 2071" class="cls-2" d="M10.3,14.79v-7.9A5.8,5.8,0,0,1,15.86,1h0a5.726,5.726,0,0,1,5.56,5.894V14.9" transform="translate(0.632)"/>
-      <circle id="Ellipse_765" data-name="Ellipse 765" class="cls-3" cx="1.779" cy="1.779" r="1.779" transform="translate(9.314 14.399)"/>
-      <circle id="Ellipse_766" data-name="Ellipse 766" class="cls-3" cx="1.779" cy="1.779" r="1.779" transform="translate(20.22 14.399)"/>
+      <path id="Path_2071" data-name="Path 2071" d="M10.3,14.79v-7.9A5.8,5.8,0,0,1,15.86,1h0a5.726,5.726,0,0,1,5.56,5.894V14.9" transform="translate(0.632)" fill="none" stroke="#cf3339" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+      <circle id="Ellipse_765" data-name="Ellipse 765" cx="1.779" cy="1.779" r="1.779" transform="translate(9.314 14.399)" fill="none" stroke="#f08b8f" stroke-miterlimit="10" stroke-width="2"/>
+      <circle id="Ellipse_766" data-name="Ellipse 766" cx="1.779" cy="1.779" r="1.779" transform="translate(20.22 14.399)" fill="none" stroke="#f08b8f" stroke-miterlimit="10" stroke-width="2"/>
     </g>
   </g>
 </svg>

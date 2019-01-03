@@ -1,37 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 75.366 73.776">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="75.366" height="73.776" viewBox="0 0 75.366 73.776">
   <defs>
-    <style>
-      .cls-1, .cls-7 {
-        fill: none;
-      }
-
-      .cls-2, .cls-3 {
-        fill: #f08b8f;
-      }
-
-      .cls-2 {
-        opacity: 0.3;
-      }
-
-      .cls-4, .cls-5 {
-        fill: #cf3339;
-      }
-
-      .cls-5, .cls-6 {
-        opacity: 0.203;
-      }
-
-      .cls-7 {
-        stroke: #cf3339;
-        stroke-linecap: round;
-        stroke-miterlimit: 10;
-        stroke-width: 2px;
-      }
-
-      .cls-8 {
-        filter: url(#Path_1794);
-      }
-    </style>
     <filter id="Path_1794" x="0" y="20.912" width="68.063" height="52.865" filterUnits="userSpaceOnUse">
       <feOffset dy="3" input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="3" result="blur"/>
@@ -40,21 +8,16 @@
       <feComposite in="SourceGraphic"/>
     </filter>
   </defs>
-  <g id="ico-creditcard" transform="translate(-2319.634 -738)">
+  <g id="Symbol_329_1" data-name="Symbol 329 – 1" transform="translate(-2319.634 -738)">
     <g id="Symbol_263_2" data-name="Symbol 263 – 2" transform="translate(-23 210)">
-      <rect id="Rectangle_2470" data-name="Rectangle 2470" class="cls-1" width="70" height="70" transform="translate(2348 528)"/>
+      <rect id="Rectangle_2470" data-name="Rectangle 2470" width="70" height="70" transform="translate(2348 528)" fill="none"/>
     </g>
     <g id="Group_2919" data-name="Group 2919" transform="translate(2328.634 754.719)">
-      <path id="Path_1793" data-name="Path 1793" class="cls-2" d="M54.252,43.27l-43.8-9.119a2.591,2.591,0,0,1-2.056-3.129l5.99-28.875A2.591,2.591,0,0,1,17.51.091l43.8,9.119a2.591,2.591,0,0,1,2.056,3.129l-5.99,28.875A2.591,2.591,0,0,1,54.252,43.27Z" transform="translate(-0.882)"/>
-      <g class="cls-8" transform="matrix(1, 0, 0, 1, -9, -16.72)">
-        <path id="Path_1794-2" data-name="Path 1794" class="cls-3" d="M47.38,46.265H2.682A2.634,2.634,0,0,1,0,43.583v-29.5A2.634,2.634,0,0,1,2.682,11.4h44.7a2.634,2.634,0,0,1,2.682,2.682v29.5A2.634,2.634,0,0,1,47.38,46.265Z" transform="translate(9 15.51)"/>
+      <path id="Path_1793" data-name="Path 1793" d="M54.252,43.27l-43.8-9.119a2.591,2.591,0,0,1-2.056-3.129l5.99-28.875A2.591,2.591,0,0,1,17.51.091l43.8,9.119a2.591,2.591,0,0,1,2.056,3.129l-5.99,28.875A2.591,2.591,0,0,1,54.252,43.27Z" transform="translate(-0.882)" fill="#f08b8f" opacity="0.3"/>
+      <g transform="matrix(1, 0, 0, 1, -9, -16.72)" filter="url(#Path_1794)">
+        <path id="Path_1794-2" data-name="Path 1794" d="M47.38,46.265H2.682A2.634,2.634,0,0,1,0,43.583v-29.5A2.634,2.634,0,0,1,2.682,11.4h44.7a2.634,2.634,0,0,1,2.682,2.682v29.5A2.634,2.634,0,0,1,47.38,46.265Z" transform="translate(9 15.51)" fill="#f08b8f"/>
       </g>
-      <rect id="Rectangle_2469" data-name="Rectangle 2469" class="cls-4" width="50.062" height="7.241" transform="translate(0 16.183)"/>
-      <path id="Path_1795" data-name="Path 1795" class="cls-5" d="M48.04,43.3H41.782A2.634,2.634,0,0,1,39.1,40.617V38.382A2.634,2.634,0,0,1,41.782,35.7H48.04a2.634,2.634,0,0,1,2.682,2.682v2.235A2.634,2.634,0,0,1,48.04,43.3Z" transform="translate(-4.146 -3.783)"/>
-      <g id="Group_2918" data-name="Group 2918" class="cls-6" transform="translate(5.274 34.062)">
-        <line id="Line_1475" data-name="Line 1475" class="cls-7" x2="15.913"/>
-        <line id="Line_1476" data-name="Line 1476" class="cls-7" x2="11.264" transform="translate(0 3.308)"/>
-      </g>
+      <rect id="Rectangle_2469" data-name="Rectangle 2469" width="50.062" height="7.241" transform="translate(0 16.183)" fill="#cf3339"/>
     </g>
   </g>
 </svg>

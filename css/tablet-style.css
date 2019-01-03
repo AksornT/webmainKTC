@@ -35,7 +35,7 @@
   }
   .menu-global .on-right .only-mobile{
   	display: inline-block;
-    padding: 15px 0;
+    padding: 14px 0;
   }
   .on-right .profile-image img{
     width: 28px;
@@ -43,23 +43,24 @@
   }
   .login-mobile{
     position: relative;
-    top: 4px;
+    top: 2px;
   }
   .login-mobile img{
     width: 19px;
     height: auto;
   }
+
   .menu-mobile{
     position: relative;
-    top: 4px;
+    top: 1px;
     padding-left: 0px;
     opacity: 0;
     pointer-events: none;
     width: 0px;
-    background: url("../img/ico-menu-mobile.png") no-repeat center center;
+    background: url("../img/index/ico-menu-mobile.svg") no-repeat center center;
   }
   .mini-header .menu-mobile {
-    background: url("../img/ico-menu-mobile.png") no-repeat center center;
+    background: url("../img/index/ico-menu-mobile.svg") no-repeat center center;
     background-size: 100%;
     opacity: 1;
     pointer-events: all;
@@ -139,7 +140,7 @@
     position: absolute;
     top: 18px;
     padding-left: 15px;
-    width: 88vw;
+    width: 80vw;
   }
   .menu-responsive-dropdown .menu-responsive{
     position: relative;
@@ -180,7 +181,7 @@
     bottom: 0;
   }
   .menu-responsive-dropdown .lang-header-menu img{
-    padding-left: 0;
+    padding: 5px;
   }
   .menu-responsive-dropdown .lang-header-menu label{
     display: inline-block;
@@ -212,13 +213,18 @@
     border: none;
     border-radius: 3px;
     color: #fff;
-    width: 94vw;
+    width: 90vw;
     height: 45px;
   }
   #ktc-logo{
     position: relative;
     z-index: 6;
   }
+  #ktc-logo img {
+    margin-top: 13px;
+    max-width: 61px;
+  }
+
   .menu-resp-close{
     top: 7px;
     right: 20px;
@@ -574,26 +580,6 @@
   }
   .more-modal .header {
     margin-top: 40px;
-  }
-
-  .type-card p{
-    padding-bottom: 40px;
-  }
-  .static-wrap .negative-text.position-on-top{
-    color: #fff;
-  }
-  .static-wrap .negative-text.position-on-top .link-more{
-    color: #fff;
-  }
-  .block-wrap.block-content{
-    height: auto;
-    width: 100%;
-  }
-  .bg-grey{
-    background-color: #f6f7f7;
-  }
-  .page-content .bg-pink-text{
-    display: none;
   }
 
   /* loan page -eve */
@@ -1531,10 +1517,6 @@
     margin: 0;
   }
 
-  .static-wrap .static-content.pl-0{
-    padding: 40px 100px !important;
-  }
-
   .so-much-text + .static-content.text-on-right-img{
     padding: 40px 100px;
   }
@@ -1574,7 +1556,7 @@
   }
 
   .static-wrap .link-more {
-    color: #000;
+    color: #CF3339;
     text-align: center;
   }
 
@@ -1610,13 +1592,6 @@
     right: 0;
     bottom: 0;
     background: #000;
-  }
-  .white-layer.white-100{
-    background: #000;
-  }
-  .white-layer.white-100 > div{
-    background: none;
-    padding: 0;
   }
   .white-layer h5,
   .white-layer p,
@@ -1863,47 +1838,6 @@
   }
   .app-download .btn-app-download p{
     font-size: 14px;
-  }
-
-  .static-content .media .media-img-wrap img{
-    display: inline-block;
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-
-  .static-content.text-on-right-img.float-up.xvisa{
-    top: 0;
-    right: 0;
-    padding: 40px 100px;
-    max-width: 100%;
-  }
-
-  .static-wrap .real-size,
-  .static-wrap.half-half-reverse .real-size{
-    margin: 30px auto;
-    max-width: calc(100% - 30px);
-  }
-
-  .visasig-wrap{
-    padding-left: 100px;
-    padding-right: 100px;
-  }
-
-  .visasig-wrap img{
-    padding:0 30px 0 0;
-  }
-
-  .static-wrap .visasig-wrap > div{
-    margin-bottom: 45px;
-  }
-
-  .static-wrap .visasig-wrap .link-more{
-    margin-top: 16px;
-  }
-
-  article.page-content h3, 
-  article.page-content h4{
-    font-size: 30px;
   }
 
 }

@@ -21,11 +21,11 @@
       <div class="content-wrap">
         <div id="ktc-logo">
           <a href="index.html">
-            <img src="img/KTC.png">
+            <img src="img/index/logo-ktc.svg">
           </a>
         </div>
         <ul class="scrolled-menu">
-          <li>บัตรเครดิต
+          <li class="dropdown">บัตรเครดิต
             <i class="fa fa-angle-down"></i>
             <ul>
               <li>ผลิตภัณฑ์บัตรเครดิต<a href="creditcard.html"></a></li>
@@ -34,10 +34,13 @@
               <li>บริจาค<a href="#"></a></li>
               <li>บริการหักค่าใช้จ่ายอัตโนมัติ<a href="#"></a></li>
               <li>อัตราดอกเบี้ยและค่าธรรมเนียม<a href="#"></a></li>
+              <li>KTC Sumsung Pay<a href="#"></a></li>
+              <li>KTC Fitbit Pay<a href="#"></a></li>
+              <li>KTC Garmin Pay<a href="#"></a></li>
             </ul>
 
           </li>
-          <li>สินเชื่อบุคคล
+          <li class="dropdown">สินเชื่อบุคคล
             <i class="fa fa-angle-down"></i>
             <ul>
               <li>ผลิตภัณฑ์สินเชื่อ<a href="loan.html"></a></li>
@@ -59,7 +62,7 @@
             <ul>
               <li>ติดต่อ KTC<a href="#"></a></li>
               <li>บริการ KTC ONLINE<a href="#"></a></li>
-              <li>บริการ KTC MOBILE APPLICATION<a href="#"></a></li>
+              <li>แอป KTC MOBILE<a href="#"></a></li>
               <li>ช่องทางการชำระเงิน<a href="#"></a></li>
               <li>วารสารรายเดือน<a href="#"></a></li>
               <li>ดาวน์โหลดเอกสารแบบฟอร์มและคู่มือ<a href="#"></a></li>
@@ -81,6 +84,8 @@
             <img src="img/index/ico-login.svg">
           </a>
 
+          <div class="menu-mobile only-mobile" onclick="myFunction()"></div>
+
           <!-- หลังล็อกอิน -->
           <!-- <div class="login-btn logged-in">
             <div class="profile-image"><img src="img/img-profile.png"></div>
@@ -98,11 +103,11 @@
             </div>
           </div> -->
 
-
-          <div class="profile-on-menu">
+          <!--<div class="profile-on-menu">
             <span class="profile-name"></span>
             <div class="menu-mobile only-mobile" onclick="myFunction()"></div>
-          </div>
+          </div>-->
+
         </div>
         <div id="scrolled-menu-responsive" class="menu-responsive-dropdown only-mobile">
           <div class="menu-resp-scroll">
@@ -157,7 +162,7 @@
             <div class="menu-btn">
               <div class="menu-lang">
                 <div class="lang-header-menu">
-                  <img src="img/ico-lang.png">
+                  <img src="img/index/ico-lang.svg">
                   <div class="lang-wrap active">
                     <label for="lang-change">Language</label>
                     <p id="lang-change">EN</p>
@@ -225,53 +230,35 @@
         </div>
         <div class="another-sub">
           <div class="content-wrap row">
-            <a href="forever.html" class="col-4 col-sm-4">
-              <img class="on-default" src="img/index/ico-shopping.svg">
-              <img class="on-hover" src="img/index/ico-shopping.gif">
-              <p>คะแนนสะสม</p>
-              <span>Suspendisse</span>
+            <a class="col-4 col-sm-2" href="forever.html">
+              <img class="on-default" src="img/index/ico-main-gift.svg">
+              <img class="on-hover" src="img/index/ico-main-gift.gif">
+              <p>คะแนน</p>
             </a>
-            <a href="flexi.html" class="col-4 col-sm-4" href="flexi.html">
-              <img class="on-default" src="img/index/ico-dining.svg">
-              <img class="on-hover" src="img/index/ico-dining.gif">
-              <p>แบ่งชำระ</p>
-              <span>Suspendisse</span>
+            <a class="col-4 col-sm-2" href="flexi.html">
+              <img class="on-default" src="img/index/ico-main-installment.svg">
+              <img class="on-hover" src="img/index/ico-main-installment.gif">
+              <p>ผ่อนชำระ</p>
             </a>
-            <a class="col-4 col-sm-4">
-              <img class="on-default" src="img/index/ico-shoponline.svg">
-              <img class="on-hover" src="img/index/ico-shoponline.gif">
+            <a class="col-4 col-sm-2">
+              <img class="on-default" src="img/index/ico-main-donate.svg">
+              <img class="on-hover" src="img/index/ico-main-donate.gif">
               <p>บริจาค</p>
-              <span>Suspendisse</span>
             </a>
-            <a href="creditcard.html" class="col-4 col-sm-4 only-mobile">
-              <img class="on-default" src="img/index/ico-apply-card.svg">
-              <img class="on-hover" src="img/index/ico-apply-card.gif">
+            <a class="col-4 col-sm-2" href="creditcard.html" >
+              <img class="on-default" src="img/index/ico-main-register.svg">
+              <img class="on-hover" src="img/index/ico-main-register.gif">
               <p>สมัครบัตร</p>
-              <span>Others</span>
             </a>
-            <a class="col-4 col-sm-4 only-desktop">
-              <img class="on-default" src="img/index/ico-travel.svg">
-              <img class="on-hover" src="img/index/ico-travel.gif">
-              <p>บริการลูกค้า</p>
-              <span>Suspendisse</span>
-            </a>
-            <a class="col-4 col-sm-4 only-desktop">
-              <img class="on-default" src="img/index/ico-nearby.svg">
-              <img class="on-hover" src="img/index/ico-nearby.gif">
+            <a class="col-4 col-sm-2">
+              <img class="on-default" src="img/index/ico-main-card.svg">
+              <img class="on-hover" src="img/index/ico-main-card.gif">
               <p>ตรวจสอบสถานะบัตร</p>
-              <span>Suspendisse</span>
             </a>
-            <a class="col-4 col-sm-4 only-mobile">
-              <img class="on-default" src="img/index/ico-nearby.svg">
-              <img class="on-hover" src="img/index/ico-nearby.gif">
-              <p>ตรวจสอบสถานะบัตร</p>
-              <span>Suspendisse</span>
-            </a>
-            <a class="col-4 col-sm-4 only-mobile">
-              <img class="on-default" src="img/index/ico-travel.svg">
-              <img class="on-hover" src="img/index/ico-travel.gif">
+            <a class="col-4 col-sm-2">
+              <img class="on-default" src="img/index/ico-main-service.svg">
+              <img class="on-hover" src="img/index/ico-main-service.gif">
               <p>บริการลูกค้า</p>
-              <span>Suspendisse</span>
             </a>
           </div>
         </div>
@@ -288,7 +275,7 @@
     <div class="content-wrap">
       <h3 class="index-head"><a href="promotion.html">โปรโมชั่น</a></h3>
       <div class="text-on-slide row">
-        <p class="col-9 col-lg-10">สิทธิพิเศษเพื่อตอบโจทย์คุณ</p>
+        <p class="col-9 col-lg-10">ตอบโจทย์ทุกไลฟ์สไตล์ พิเศษกว่าใคร ได้ทุกวัน</p>
         <a class="col-3 col-lg-2" href="promotion.html">ดูทั้งหมด</a>
       </div>
     </div>
@@ -317,7 +304,7 @@
       $(document).ready(function() {
         $('.index-slide1').owlCarousel({
             loop:true,
-            dots:false,
+            dots:true,
             responsiveClass:true,
             responsive:{
                 0:{
@@ -566,7 +553,7 @@
             </a>
             <img class="footer-badge" src="img/ico-footer-badge.png">
             <div class="download-section">
-              <p>ดาวน์โหลด</p>
+              <p>ดาวน์โหลดแอป</p>
               <img class="footer-badge tapktc" src="img/ico-download-tapktc.png">
               <div class="fotter-hollow"></div>
               <a href="https://itunes.apple.com/th/app/tapktc/id723657868?|s=1&mt=8"><img class="footer-badge" src="img/ico-download-ios.png"></a>
@@ -615,11 +602,9 @@
             </div>
             <a class="lang-footer">
               <div class="lang-wrap active">
-                <label for="lang-change">Language</label>
                 <p id="lang-change">EN</p>
               </div>
               <div class="lang-wrap">
-                <label for="lang2-change">Language</label>
                 <p id="lang2-change">TH</p>
               </div>
             </a>
@@ -632,7 +617,7 @@
 
 
     <div id="card-register-modal" class="modal fade full-modal" tabindex="-1">
-      <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-dialog modal-dialog-centered modal-sm" role="document">
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title" id="exampleModalLongTitle">เลือกผลิตภัณฑ์</h5>
@@ -651,7 +636,7 @@
               <div class="left-icon">
                 <img src="img/index/ico-prod-proud.svg">
               </div>
-              <p>บัตรสินเชื่อพร้อมใช้ KTC PROUD</p>
+              <p>บัตรกดเงินสด KTC PROUD</p>
             </a>
             <a href="loan-cash.html" class="card-choice">
               <div class="left-icon">
