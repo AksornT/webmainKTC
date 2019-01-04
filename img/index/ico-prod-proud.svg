@@ -1,38 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 77.541 54.424">
-  <defs>
-    <style>
-      .cls-1 {
-        fill: none;
-        stroke: #000;
-        stroke-linejoin: round;
-        stroke-miterlimit: 10;
-        stroke-width: 2px;
-      }
-
-      .cls-2 {
-        opacity: 0.3;
-      }
-
-      .cls-3 {
-        font-size: 10px;
-        font-family: GothamRounded-Medium, Gotham Rounded;
-        font-weight: 500;
-      }
-
-      .cls-4 {
-        opacity: 0.5;
-      }
-    </style>
-  </defs>
-  <g id="ico-prod-proud" transform="translate(-467.182 -359.781)">
-    <g id="Group_949" data-name="Group 949" transform="translate(467.1 359.781)">
-      <path id="Path_902" data-name="Path 902" class="cls-1" d="M70.716,53.424H6.643A5.671,5.671,0,0,1,1,47.781V6.643A5.671,5.671,0,0,1,6.643,1H70.9a5.671,5.671,0,0,1,5.643,5.643V47.781A5.956,5.956,0,0,1,70.716,53.424Z" transform="translate(0.082)"/>
-      <rect id="Rectangle_680" data-name="Rectangle 680" class="cls-2" width="76" height="11" transform="translate(0.9 10.219)"/>
-    </g>
-    <text id="KTC_PROUD" data-name="KTC PROUD" class="cls-3" transform="translate(504 406)"><tspan x="-30.655" y="0">KTC PROUD</tspan></text>
-    <g id="Group_951" data-name="Group 951" class="cls-4" transform="translate(473.486 385.828)">
-      <rect id="Rectangle_671" data-name="Rectangle 671" class="cls-2" width="11.967" height="8.745" rx="1" transform="translate(0 0)"/>
-      <path id="Rectangle_672" data-name="Rectangle 672" class="cls-2" d="M0,0H6.364a1,1,0,0,1,1,1V4.063a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 1.841)"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="60" viewBox="0 0 80 60">
+  <g id="Group_2224" data-name="Group 2224" transform="translate(-501 -404)">
+    <rect id="Rectangle_2016" data-name="Rectangle 2016" width="80" height="60" transform="translate(501 404)" fill="none"/>
+    <g id="Group_2222" data-name="Group 2222" transform="translate(42.57 -16.781)">
+      <g id="Group_949" data-name="Group 949" transform="translate(468 429.781)">
+        <rect id="Rectangle_680" data-name="Rectangle 680" width="60.87" height="8.81" transform="translate(0 7.384)" fill="#f08b8f"/>
+        <path id="Path_902" data-name="Path 902" d="M56.837,42.987H5.519A4.542,4.542,0,0,1,1,38.468V5.519A4.542,4.542,0,0,1,5.519,1H56.983A4.542,4.542,0,0,1,61.5,5.519V38.468A4.77,4.77,0,0,1,56.837,42.987Z" transform="translate(-0.854 -1)" fill="none" stroke="#cf3339" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+      </g>
+      <text id="KTC_PROUD" data-name="KTC PROUD" transform="translate(498.005 461.591)" fill="#f08b8f" font-size="8" font-family="GothamRounded-Medium, Gotham Rounded" font-weight="500"><tspan x="-24.524" y="0">KTC PROUD</tspan></text>
     </g>
   </g>
 </svg>

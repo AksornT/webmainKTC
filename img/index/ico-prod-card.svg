@@ -1,38 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 77.541 54.424">
-  <defs>
-    <style>
-      .cls-1 {
-        opacity: 0.3;
-      }
-
-      .cls-2 {
-        fill: none;
-        stroke: #000;
-        stroke-linejoin: round;
-        stroke-miterlimit: 10;
-        stroke-width: 2px;
-      }
-
-      .cls-3 {
-        font-size: 10px;
-        font-family: GothamRounded-Medium, Gotham Rounded;
-        font-weight: 500;
-      }
-
-      .cls-4 {
-        opacity: 0.5;
-      }
-    </style>
-  </defs>
-  <g id="ico-prod-card" transform="translate(-467.182 -225.781)">
-    <g id="Group_948" data-name="Group 948" transform="translate(467.1 225.781)">
-      <rect id="Rectangle_680" data-name="Rectangle 680" class="cls-1" width="76" height="11" transform="translate(0.9 10.219)"/>
-      <path id="Path_902" data-name="Path 902" class="cls-2" d="M70.716,53.424H6.643A5.671,5.671,0,0,1,1,47.781V6.643A5.671,5.671,0,0,1,6.643,1H70.9a5.671,5.671,0,0,1,5.643,5.643V47.781A5.956,5.956,0,0,1,70.716,53.424Z" transform="translate(0.082)"/>
-    </g>
-    <text id="Credit_Card" data-name="Credit Card" class="cls-3" transform="translate(502 272)"><tspan x="-28.995" y="0">Credit Card</tspan></text>
-    <g id="Group_950" data-name="Group 950" class="cls-4" transform="translate(473.486 251.828)">
-      <rect id="Rectangle_671" data-name="Rectangle 671" class="cls-1" width="11.967" height="8.745" rx="1" transform="translate(0 0)"/>
-      <path id="Rectangle_672" data-name="Rectangle 672" class="cls-1" d="M0,0H6.364a1,1,0,0,1,1,1V4.063a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 1.841)"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="60" viewBox="0 0 80 60">
+  <g id="Group_2225" data-name="Group 2225" transform="translate(-501 -306)">
+    <rect id="Rectangle_2014" data-name="Rectangle 2014" width="80" height="60" transform="translate(501 306)" fill="none"/>
+    <g id="Group_2221" data-name="Group 2221" transform="translate(42.566 19.219)">
+      <g id="Group_948" data-name="Group 948" transform="translate(468 295.781)">
+        <rect id="Rectangle_680" data-name="Rectangle 680" width="60.868" height="8.81" transform="translate(0 7.384)" fill="#f08b8f"/>
+        <path id="Path_902" data-name="Path 902" d="M56.836,42.986H5.519A4.542,4.542,0,0,1,1,38.467V5.519A4.542,4.542,0,0,1,5.519,1H56.982A4.542,4.542,0,0,1,61.5,5.519V38.467A4.77,4.77,0,0,1,56.836,42.986Z" transform="translate(-0.854 -1)" fill="none" stroke="#cf3339" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+      </g>
+      <text id="Credit_Card" data-name="Credit Card" transform="translate(498.004 326.59)" fill="#f08b8f" font-size="8" font-family="GothamRounded-Medium, Gotham Rounded" font-weight="500"><tspan x="-23.196" y="0">Credit Card</tspan></text>
     </g>
   </g>
 </svg>
