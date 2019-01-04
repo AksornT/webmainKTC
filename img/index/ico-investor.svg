@@ -1,18 +1,33 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
-  <g id="Group_3071" data-name="Group 3071" transform="translate(-1915 -2465)">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <g id="ico-investor" transform="translate(-1915 -2465)">
     <g id="Symbol_267_1" data-name="Symbol 267 – 1">
-      <rect id="Rectangle_2475" data-name="Rectangle 2475" width="60" height="60" transform="translate(1915 2465)" fill="none"/>
+      <rect id="Rectangle_2475" data-name="Rectangle 2475" class="cls-1" width="60" height="60" transform="translate(1915 2465)"/>
     </g>
     <g id="Group_3131" data-name="Group 3131" transform="translate(1922 2472)">
-      <path id="Path_1929" data-name="Path 1929" d="M41.9,1S33.6,25,1,25" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
-      <path id="Path_1930" data-name="Path 1930" d="M34.2,3.5,41.9,1l2.5,7.7" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
-      <line id="Line_1526" data-name="Line 1526" y1="13.8" transform="translate(1 31.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
-      <line id="Line_1527" data-name="Line 1527" y1="15.8" transform="translate(9.3 29.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
-      <line id="Line_1528" data-name="Line 1528" y1="18" transform="translate(17.7 27.3)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
-      <line id="Line_1529" data-name="Line 1529" y1="20.7" transform="translate(26 24.6)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
-      <line id="Line_1530" data-name="Line 1530" y1="25.1" transform="translate(34.3 20.2)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
-      <line id="Line_1531" data-name="Line 1531" y1="28.6" transform="translate(42.7 16.7)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
-      <line id="Line_1532" data-name="Line 1532" x2="41.7" transform="translate(1 45.3)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_1929" data-name="Path 1929" class="cls-2" d="M41.9,1S33.6,25,1,25"/>
+      <path id="Path_1930" data-name="Path 1930" class="cls-2" d="M34.2,3.5,41.9,1l2.5,7.7"/>
+      <line id="Line_1526" data-name="Line 1526" class="cls-2" y1="13.8" transform="translate(1 31.5)"/>
+      <line id="Line_1527" data-name="Line 1527" class="cls-2" y1="15.8" transform="translate(9.3 29.5)"/>
+      <line id="Line_1528" data-name="Line 1528" class="cls-2" y1="18" transform="translate(17.7 27.3)"/>
+      <line id="Line_1529" data-name="Line 1529" class="cls-2" y1="20.7" transform="translate(26 24.6)"/>
+      <line id="Line_1530" data-name="Line 1530" class="cls-2" y1="25.1" transform="translate(34.3 20.2)"/>
+      <line id="Line_1531" data-name="Line 1531" class="cls-2" y1="28.6" transform="translate(42.7 16.7)"/>
+      <line id="Line_1532" data-name="Line 1532" class="cls-2" x2="41.7" transform="translate(1 45.3)"/>
     </g>
   </g>
 </svg>

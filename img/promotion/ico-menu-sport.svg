@@ -1,20 +1,46 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" viewBox="0 0 55 55">
-  <g id="Group_3623" data-name="Group 3623" transform="translate(-1168 -1221)">
-    <g id="Symbol_350_37" data-name="Symbol 350 – 37" transform="translate(976 -1)">
-      <rect id="Rectangle_2707" data-name="Rectangle 2707" width="55" height="55" transform="translate(192 1222)" fill="none"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55 55">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke: #cf3339;
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5 {
+        fill: none;
+      }
+
+      .cls-2 {
+        opacity: 0.3;
+      }
+
+      .cls-4 {
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+  <g id="ico-menu-sport" transform="translate(5 15)">
+    <g id="Group_3389" data-name="Group 3389">
+      <path id="Path_2030" data-name="Path 2030" class="cls-1" d="M14,22.7h-.3a2.9,2.9,0,0,1-2.9-2.9V3.9A2.9,2.9,0,0,1,13.7,1H14a2.9,2.9,0,0,1,2.9,2.9V19.8A2.9,2.9,0,0,1,14,22.7Z"/>
+      <path id="Path_2031" data-name="Path 2031" class="cls-1" d="M7.9,18.4H7.6a2.9,2.9,0,0,1-2.9-2.9V8.2A2.9,2.9,0,0,1,7.6,5.3h.3a2.9,2.9,0,0,1,2.9,2.9v7.3A2.9,2.9,0,0,1,7.9,18.4Z"/>
+      <path id="Path_2032" data-name="Path 2032" class="cls-1" d="M31.5,22.7h.3a2.9,2.9,0,0,0,2.9-2.9V3.9A2.9,2.9,0,0,0,31.8,1h-.3a2.9,2.9,0,0,0-2.9,2.9V19.8A2.9,2.9,0,0,0,31.5,22.7Z"/>
+      <path id="Path_2033" data-name="Path 2033" class="cls-1" d="M37.6,18.4h.3a2.9,2.9,0,0,0,2.9-2.9V8.2a2.9,2.9,0,0,0-2.9-2.9h-.3a2.9,2.9,0,0,0-2.9,2.9v7.3A2.9,2.9,0,0,0,37.6,18.4Z"/>
     </g>
-    <g id="Group_3542" data-name="Group 3542" transform="translate(1177.525 1229.531)">
-      <rect id="Rectangle_2754" data-name="Rectangle 2754" width="4.705" height="12.211" transform="translate(21.112 12.569) rotate(45)" stroke-width="2" stroke="#f08b8f" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" fill="none"/>
-      <g id="Group_3542-2" data-name="Group 3542" transform="translate(15.074 1)">
-        <path id="Path_2195" data-name="Path 2195" d="M18.384,2.925h0a2.262,2.262,0,0,0,0,3.187l8.93,8.93a2.262,2.262,0,0,0,3.187,0h0a2.262,2.262,0,0,0,0-3.187l-8.93-8.93A2.241,2.241,0,0,0,18.384,2.925Z" transform="translate(-12.276 -0.789)" fill="none" stroke="#cf3338" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
-        <path id="Path_2196" data-name="Path 2196" d="M22.5,1.665h0a2.262,2.262,0,0,0,0,3.187L28.1,10.444a2.262,2.262,0,0,0,3.187,0h0a2.262,2.262,0,0,0,0-3.187L25.691,1.665A2.241,2.241,0,0,0,22.5,1.665Z" transform="translate(-11.586 -1)" fill="none" stroke="#cf3338" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
-        <path id="Path_2197" data-name="Path 2197" d="M13.714,3.675h0a2.262,2.262,0,0,0,0,3.187L27.221,20.369a2.262,2.262,0,0,0,3.187,0h0a2.262,2.262,0,0,0,0-3.187L16.9,3.675A2.241,2.241,0,0,0,13.714,3.675Z" transform="translate(-13.057 -0.664)" fill="none" stroke="#cf3338" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
-      </g>
-      <g id="Group_3543" data-name="Group 3543" transform="translate(1.008 15.076)">
-        <path id="Path_2198" data-name="Path 2198" d="M15.041,30.5h0a2.262,2.262,0,0,0,0-3.187l-8.93-8.93a2.262,2.262,0,0,0-3.187,0h0a2.262,2.262,0,0,0,0,3.187l8.93,8.93A2.241,2.241,0,0,0,15.041,30.5Z" transform="translate(-0.797 -12.276)" fill="none" stroke="#cf3338" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
-        <path id="Path_2199" data-name="Path 2199" d="M10.443,31.283h0a2.262,2.262,0,0,0,0-3.187L4.851,22.5a2.262,2.262,0,0,0-3.187,0h0a2.262,2.262,0,0,0,0,3.187l5.592,5.592A2.241,2.241,0,0,0,10.443,31.283Z" transform="translate(-1.008 -11.586)" fill="none" stroke="#cf3338" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
-        <path id="Path_2200" data-name="Path 2200" d="M20.368,30.408h0a2.262,2.262,0,0,0,0-3.187L6.861,13.714a2.262,2.262,0,0,0-3.187,0h0a2.262,2.262,0,0,0,0,3.187L17.181,30.408A2.241,2.241,0,0,0,20.368,30.408Z" transform="translate(-0.671 -13.057)" fill="none" stroke="#cf3338" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
-      </g>
+    <line id="Line_1581" data-name="Line 1581" class="cls-2" x2="3.9" transform="translate(40.8 11.1)"/>
+    <line id="Line_1582" data-name="Line 1582" class="cls-3" x2="11.7" transform="translate(16.9 11.1)"/>
+    <line id="Line_1583" data-name="Line 1583" class="cls-2" x2="3.7" transform="translate(1 11.1)"/>
+    <g id="Group_3390" data-name="Group 3390">
+      <path id="Path_2034" data-name="Path 2034" class="cls-4" d="M13.8,1a2.923,2.923,0,0,0-3.1,2.7V8A2.923,2.923,0,0,0,7.6,5.3,2.8,2.8,0,0,0,4.7,8v7.7a2.923,2.923,0,0,0,3.1,2.7,2.923,2.923,0,0,0,3.1-2.7V20A2.923,2.923,0,0,0,14,22.7,2.923,2.923,0,0,0,17.1,20V3.7A3.264,3.264,0,0,0,13.8,1Z"/>
+      <path id="Path_2035" data-name="Path 2035" class="cls-4" d="M37.8,5.3A2.923,2.923,0,0,0,34.7,8V3.7A2.923,2.923,0,0,0,31.6,1a2.923,2.923,0,0,0-3.1,2.7V20a2.923,2.923,0,0,0,3.1,2.7A2.923,2.923,0,0,0,34.7,20V15.7a3.13,3.13,0,0,0,6.2,0V8A2.988,2.988,0,0,0,37.8,5.3Z"/>
+    </g>
+    <g id="Symbol_350_9" data-name="Symbol 350 – 9" transform="translate(-197 -1237)">
+      <rect id="Rectangle_2707" data-name="Rectangle 2707" class="cls-5" width="55" height="55" transform="translate(192 1222)"/>
     </g>
   </g>
 </svg>

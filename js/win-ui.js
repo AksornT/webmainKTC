@@ -53,6 +53,13 @@ $(document).ready(function() {
             navScrollTo(hash, 150);
         }
     });
+    $("#nav-flexi-navbar-desktop a.nav-link").on('click touch', function (event) {
+        event.preventDefault();
+        var hash = this.hash;
+        if (hash.length > 0) {
+            navScrollTo(hash, 130);
+        }
+    });
 
     $("#nav-flexi-mobile a.nav-link, #nav-flexi-modal .nav a.nav-link").each(function (index, elem) {
         elem.addEventListener('touchend', function (event) {

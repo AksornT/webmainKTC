@@ -1,13 +1,35 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
-  <g id="Group_3465" data-name="Group 3465" transform="translate(-2474 -1315)">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke: #f08b8f;
+      }
+
+      .cls-2, .cls-3 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+
+      .cls-3 {
+        stroke: #cf3339;
+      }
+    </style>
+  </defs>
+  <g id="ico-cat-lifestyle" transform="translate(-2474 -1315)">
     <g id="Symbol_352_5" data-name="Symbol 352 – 5" transform="translate(675 -8)">
-      <rect id="Rectangle_2743" data-name="Rectangle 2743" width="60" height="60" transform="translate(1799 1323)" fill="none"/>
+      <rect id="Rectangle_2743" data-name="Rectangle 2743" class="cls-1" width="60" height="60" transform="translate(1799 1323)"/>
     </g>
     <g id="Group_3460" data-name="Group 3460" transform="translate(2483.139 1328.175)">
-      <path id="Path_2091" data-name="Path 2091" d="M9.394,3.2H6.065C5.6,3.2,5.2,3.727,5.2,4.342v.527c0,.615.4,1.142.865,1.142H9.327c.466,0,.865-.527.865-1.142V4.342A.962.962,0,0,0,9.394,3.2Z" transform="translate(-0.512 -0.268)" fill="none" stroke="#f08b8f" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
-      <path id="Path_2092" data-name="Path 2092" d="M36.767,5.742H28.635L26.9,2.229A1.828,1.828,0,0,0,25.171,1H16.06a2.044,2.044,0,0,0-1.732,1.142l-1.807,3.6H4.012A3.3,3.3,0,0,0,1,9.254V28.836a3.3,3.3,0,0,0,3.012,3.512H36.767a3.3,3.3,0,0,0,3.012-3.512V9.254A3.3,3.3,0,0,0,36.767,5.742Z" fill="none" stroke="#cf3339" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
-      <circle id="Ellipse_774" data-name="Ellipse 774" cx="9.5" cy="9.5" r="9.5" transform="translate(11.093 9.376)" stroke-width="2" stroke="#f08b8f" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" fill="none"/>
-      <line id="Line_1598" data-name="Line 1598" x2="3" transform="translate(32.384 10.396)" fill="none" stroke="#f08b8f" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_2091" data-name="Path 2091" class="cls-2" d="M9.394,3.2H6.065C5.6,3.2,5.2,3.727,5.2,4.342v.527c0,.615.4,1.142.865,1.142H9.327c.466,0,.865-.527.865-1.142V4.342A.962.962,0,0,0,9.394,3.2Z" transform="translate(-0.512 -0.268)"/>
+      <path id="Path_2092" data-name="Path 2092" class="cls-3" d="M36.767,5.742H28.635L26.9,2.229A1.828,1.828,0,0,0,25.171,1H16.06a2.044,2.044,0,0,0-1.732,1.142l-1.807,3.6H4.012A3.3,3.3,0,0,0,1,9.254V28.836a3.3,3.3,0,0,0,3.012,3.512H36.767a3.3,3.3,0,0,0,3.012-3.512V9.254A3.3,3.3,0,0,0,36.767,5.742Z"/>
+      <circle id="Ellipse_774" data-name="Ellipse 774" class="cls-2" cx="9.5" cy="9.5" r="9.5" transform="translate(11.093 9.376)"/>
+      <line id="Line_1598" data-name="Line 1598" class="cls-2" x2="3" transform="translate(32.384 10.396)"/>
     </g>
   </g>
 </svg>

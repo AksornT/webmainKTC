@@ -624,6 +624,30 @@
     padding-top: 40px;
     padding-bottom: 0px;
   }
+  .proud-loan .proud-after-logo {
+    margin: 117px auto 5px auto;
+  }
+  .proud-loan .sub-desc{
+    margin-bottom: 40px;
+    font-size: 24px;
+    line-height: 1.4;
+  }
+  .proud-loan .content-desc h2{
+    font-size: 30px;
+    line-height: 36px;
+  }
+  .proud-loan .content-desc h3 {
+    font-family: 'Conv_SukhumvitTadmai_Tex';
+    font-size: 16px;
+  }
+  .img-full-half img{
+    width: 45%;
+    margin: 40px auto auto;
+  }
+  .box-more-wrap .box-con-cal {
+    margin: 0 auto 40px auto;
+    padding: 0 15px;
+  }
 
   /* loan-cash page -eve */
   .content-wrap {
@@ -858,6 +882,9 @@
     font-family: "Conv_SukhumvitTadmai_Tex", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 20px;
   }
+  #page-flexi-content.forever .content-pre-nav h4{
+    margin-top: 0;
+  }
   #page-flexi-content .content-pre-nav h4 {
     font-family: "Conv_SukhumvitTadmai_Thi", Helvetica, Arial, sans-serif;
     font-size: 14px;
@@ -943,6 +970,7 @@
   #content-flexi-installments p {
     font-size: 14px;
   }
+
 
   section#section-flexi-shops h4 {
     margin-bottom: 30px;
@@ -1099,8 +1127,9 @@
     text-align: center;
     display: block;
   }
-  .proud-loan .sub-desc{
-    font-size: 14px;
+  .flexi-credit .box-title .title,
+  .flexi-loan .box-title .title{
+    font-size: 30px;
   }
 
 
@@ -1163,11 +1192,13 @@
   }
 
   #page-flexi-content.forever .content-pre-nav h3 {
-    font-size: 22px;
+    font-family: "Conv_SukhumvitTadmai_Bol";
+    font-size: 42px;
   }
 
-  #page-flexi-content .content-pre-nav h4 {
-    font-size: 20px;
+  #page-flexi-content.forever .content-pre-nav h4 {
+    font-family: "Conv_SukhumvitTadmai_Tex";
+    font-size: 35px;
   }
 
 
@@ -1185,6 +1216,12 @@
     margin-top: 30px;
   }
 
+  #page-flexi-content.forever #section-flexi-promotions h4{
+    font-size: 30px;
+    margin-top: 40px;
+    margin-bottom: 0;
+  }
+
   #section-flexi-cards-mobile.forever .title-new{
     margin-top: 28px;
   }
@@ -1200,6 +1237,11 @@
   .forever #page-flexi-content img {
     width:100%;
     height: auto;
+  }
+
+  .forever#page-flexi-content .half-img-responsive img{
+    max-width: calc(100vw - 60px);
+    margin: 0 auto;
   }
 
   .forever #section-flexi-shops .row {
@@ -1242,9 +1284,6 @@
     display: inline-block;
   }
 
-  #page-flexi-content.forever .content-pre-nav h3 {
-    font-size: 30px;
-  }
 
   #page-flexi-content .box-info-forever img {
     width: 66%;
@@ -1272,6 +1311,7 @@
     margin-top: 0px;
     margin-bottom: 0px;
     padding-top: 5px;
+    font-size: 30px;
   }
   .forever #section-flexi-shops {
     margin-bottom: 0px;
@@ -1629,6 +1669,14 @@
   .white-layer .link-more{
     color: #fff;
   }
+  .white-layer.white-half{
+    left: 0;
+    background: #f9f9f9;
+  }
+  .white-layer.white-half h5,
+  .white-layer.white-half p{
+    color: #000;
+  }
 
 
 
@@ -1648,6 +1696,9 @@
   .full-overimage.top-banner .text-on-left-img.text-left{
     padding:40px 100px;
     text-align: center !important;
+  }
+  .full-overimage.top-banner .text-on-left-img.text-left.only-forever{
+    display: none;
   }
 
   .static-wrap .big-icon-content .static-content{
@@ -1907,9 +1958,18 @@
     margin-top: 16px;
   }
 
-  article.page-content h3, 
-  article.page-content h4{
+  #proud-regis .content-title{
     font-size: 30px;
+    line-height: 45px;
+    white-space: nowrap;
+  }
+
+  .detail-register h3,
+  .page-loan-proud #privillage,
+  #content-card-detail .static-wrap .content-title{
+    font-size: 30px;
+    line-height: 45px;
+    padding: 0;
   }
 
 }

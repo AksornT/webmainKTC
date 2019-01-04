@@ -868,23 +868,12 @@ article.page-content section.full-width.alt-color {
 article.page-content section.full-width.alt-color .row {
 	background-color: transparent;
 }
-article.page-content h3,
-article.page-content h4 {
-	font-family: "Conv_SukhumvitTadmai_Tex", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 40px;
-	text-align: center;
-	position: relative;
-	display: inline-block;
-	margin-left: 50%;
-	transform: translateX(-50%);
-	white-space: nowrap;
-	line-height: 1;
-}
+
 article.page-content h3::after,
 article.page-content h4::after {
 	content: '';
     display: block;
-    margin: 10px auto;
+    margin: 0 auto;
     left: 0;
     position: relative;
     width: 50%;
@@ -2456,7 +2445,8 @@ article#content-card-detail section{
 }
 .static-content .img-point{
 	margin: 0;
-    height: 96px;
+	padding-top: 20px;
+    height: 90px;
 }
 #content-card-detail .section-after-header img{
   height: 150px;
@@ -2541,7 +2531,6 @@ article#content-card-detail section{
 }
 article.page-content #card-detail-regis h3::after{
   background-color: #CF3339;
-  display: none;
 }
 .card-sub-sticky .nav-img-card img{
   height: 40px;
@@ -2555,7 +2544,24 @@ article.page-content #card-detail-regis h3::after{
   display: none;
 }
 
-.proud-head, .header-big-cover {
+.proud-head{
+	background: url("../img/proud/bg-proud.jpg");
+	background-size: cover !important;
+	height: 387px;
+	width: 100%;
+	position: relative;
+	margin-top: -66px;
+}
+.proud-loan.cash-loan .proud-head{
+	background: url("../img/cash/bg-cash.jpg");
+	margin-bottom: 0;
+}
+.proud-loan .proud-head{
+	margin-bottom: 125px;
+    margin-top: 0;
+    height: 321px;
+}
+.header-big-cover {
 	background: url("../img/bg_menu.png");
 	background-size: cover !important;
 	height: 387px;
@@ -2815,7 +2821,6 @@ a.card-register-center, a.btn-action {
     left: 25%;
     content: "";
 	top: 100%;
-	display:none;
 }
 
 .static-wrap.section-service-detail .text-left .row > div{
@@ -2998,7 +3003,6 @@ article#content-card-detail section{
 }
 article.page-content #card-detail-regis h3::after{
   background-color: #CF3339;
-  display: none;
 }
 .card-sub-sticky .nav-img-card img{
   height: 40px;
@@ -3184,7 +3188,7 @@ section#section-merchant-register-form select.form-control:focus,
 #proud-register .input-notice{
 	text-align: center;
 }
-article.page-content .title-red-line h3::after{
+article.page-content .title-red-line h3:after{
 	background-color: #CF3339;
 }
 
@@ -3222,6 +3226,7 @@ section .form-register-completed .img-result {
 	height: auto;
 	position: relative;
 	box-shadow: 0px 3px 10px rgba(0,0,0,0.2);
+	border-radius: 10px;
 }
 .main-loan .box-content{
 	margin-top: 28px;
@@ -3256,10 +3261,6 @@ h4.content-title{
 	text-align: left;
 	font-size: 28px;
 	padding-top: 0px;
-}
-
-h4.content-title:after{
-	display: none;
 }
 
 .collapse.in{
@@ -3333,17 +3334,44 @@ h4.content-title:after{
 	font-weight: 100;
 }
 
+.table.faq-tb{
+	width: 50%;
+    margin: 25px auto auto;
+}
+.table.faq-tb strong{
+	font-weight: 600;
+}
+
 .proud-loan{
 	overflow: hidden;
 }
 .proud-loan .proud-after-logo{
-	font-family: 'Conv_SukhumvitTadmai_Thi';
+	font-family: 'Conv_SukhumvitTadmai_Bol';
+	font-size: 35px;
+	text-align: center;
+	margin: 117px auto 22px auto;
 }
 .proud-loan .sub-desc{
-	font-family: 'Conv_SukhumvitTadmai_Thi';
-	font-size: 18px;
+	font-family: 'Conv_SukhumvitTadmai_Tex';
+	font-size: 28px;
 	text-align: center;
-	padding-top: 15px;
+	margin-bottom: 60px;
+	line-height: 38px;
+}
+.proud-loan.cash-loan .proud-after-logo {
+	margin: 70px auto 15px auto;
+}
+.proud-loan.cash-loan .sub-desc{
+	margin-bottom: 15px;
+}
+.proud-loan .content-desc h2 {
+    font-family: 'Conv_SukhumvitTadmai_Tex';
+    font-size: 35px;
+    letter-spacing: 0;
+    margin-bottom: 15px;
+}
+.proud-loan .content-desc h3 {
+    font-size: 20px;
 }
 .proud-service-withdraw .text-head-wrap{
 	font-size: 40px;
@@ -3477,6 +3505,11 @@ h4.content-title:after{
 	margin: 40px 0;
 	text-align: center;
 }
+.box-more-wrap .box-con-cal{
+	padding-left: calc(30% - 350px);
+    padding-right: calc(30% - 350px);
+    margin: 0 40px;
+}
 .box-con-cal{
 	padding-left: calc(40% - 350px);
     padding-right: calc(40% - 350px);
@@ -3510,11 +3543,31 @@ h4.content-title:after{
 	padding-bottom: 10px;
 }
 .box-con-cal .con-cal-txt p{
-	color: #CF3339;
+	color: #5B6670;
 	font-family: 'Conv_SukhumvitTadmai_Bol';
 	font-size: 14px;
 	line-height: 26px;
 	text-decoration: underline;
+	white-space: nowrap;
+}
+.box-con-cal .con-cal-txt h4 > span{
+	display: inline-block;
+}
+.box-con-cal .con-cal-txt p > span{
+	display: inline-block;
+}
+.box-con-cal .con-cal-txt.content-sub h4{
+	font-family: 'Conv_SukhumvitTadmai_Tex';
+	font-size: 30px;
+	color: #000;
+	padding-bottom: 17px;
+}
+.box-con-cal .con-cal-txt.content-sub p{
+	color: #000;
+	font-family: 'Conv_SukhumvitTadmai_Tex';
+	font-size: 20px;
+	line-height: 32px;
+	text-decoration: none;
 }
 /*.box-line-right{
 	border-left: 1px solid rgba(91, 102, 112, 0.15);
@@ -3522,7 +3575,7 @@ h4.content-title:after{
 .detail-register h3{
 	text-align: center;
     font-size: 35px;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
     margin-bottom: 40px;
     display: inline-block;
     position: relative;
@@ -3530,7 +3583,8 @@ h4.content-title:after{
     transform: translateX(-50%);
     font-family: 'Conv_SukhumvitTadmai_Tex';
 }
-.detail-register h3:after {
+.detail-register h3:after,
+.title-red-line h3:after {
   height: 4px;
   background: #CF3339;
   position: absolute;
@@ -3538,6 +3592,7 @@ h4.content-title:after{
   right: 25%;
   content: "";
   top: 100%;
+  display: block;
 }
 .detail-register{
 	background-color: rgba(91, 102, 112, 0.05);
@@ -3554,10 +3609,11 @@ h4.content-title:after{
 }
 .detail-register-desc li{
 	font-family: Helvetica, Arial, sans-serif ;
-	list-style: inside;
-	font-size: 14px;
-	line-height: 24px;
-	letter-spacing: 0px;
+	list-style: outside;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    margin-left: 17px;
 }
 
 .detail-register-desc > h5{
@@ -3581,7 +3637,8 @@ h4.content-title:after{
 	height: auto;
 }
 
-#nav-flexi-navbar .nav-item.active .nav-link-act{
+#nav-flexi-navbar .nav-item.active .nav-link-act,
+#nav-flexi-navbar-desktop .nav-item.active .nav-link-act{
 	color: #CF3339;
 }
 
@@ -3674,30 +3731,37 @@ nav.navbar .sub-nav-flexi{
 	pointer-events: all;
 }
 
-#nav-flexi-navbar {
+#nav-flexi-navbar,
+#nav-flexi-navbar-desktop {
 	display: flex;
 	flex: 1;
 }
 
-#nav-flexi-navbar .navbar-nav {
+#nav-flexi-navbar .navbar-nav,
+#nav-flexi-navbar-desktop .navbar-nav {
 	margin: auto;
 	padding-left: 30px;
 }
 
-#nav-flexi-navbar .nav-item {
+#nav-flexi-navbar .nav-item,
+#nav-flexi-navbar-desktop .nav-item {
 	border-right: 1px solid #E6E8EA;
 }
 
-#nav-flexi-navbar .nav-item:last-child {
+#nav-flexi-navbar .nav-item:last-child,
+#nav-flexi-navbar-desktop .nav-item:last-child {
 	border-right: none;
 }
 
-#nav-flexi-navbar .nav-item .nav-link {
+#nav-flexi-navbar .nav-item .nav-link,
+#nav-flexi-navbar-desktop .nav-item .nav-link {
 	padding: 16px 40px;
 	color: #000000;
 }
 
-#nav-flexi-navbar .nav-item.active .nav-link {
+#nav-flexi-navbar .nav-item.active .nav-link,
+#nav-flexi-navbar-desktop .nav-item.active .nav-link,
+#nav-flexi-navbar-desktop .nav-item .nav-link:hover {
 	color: #cf3339;
 }
 
@@ -4441,6 +4505,37 @@ section#section-flexi-cards {
   	font-size: 20px;
 }
 
+article.page-content .flexi-installments h4::after{
+	background: none;
+}
+.installments-wrap .left{
+	margin: auto;
+}
+.installments-wrap .right{
+	padding-top: 20px;
+}
+.installments-wrap p{
+	font-family: 'Conv_SukhumvitTadmai_Tex';
+	font-size: 20px;
+	line-height: 1.4;
+	color: #5B6670;
+	letter-spacing: 0;
+}
+.installments-wrap p.main-desc{
+	color: #000;
+}
+.installments-wrap p.title-desc{
+	font-size: 24px;
+	color: #000;
+}
+.installments-wrap .btn-link{
+	padding: 0;
+	font-family: 'Conv_SukhumvitTadmai_Tex';
+	color: #5B6670;
+	font-size: 20px;
+	text-decoration: underline;
+}
+
 .section-cards{
 	overflow: hidden;
 }
@@ -4468,7 +4563,7 @@ section#section-flexi-cards {
 .section-cards .box-info span{
 	font-family: 'Conv_SukhumvitTadmai_Tex';
   	font-size: 90px;
-  	margin: 30px auto;
+  	/*margin: 30px auto;*/
 }
 .section-cards .box-info small{
 	font-family: 'Conv_SukhumvitTadmai_Tex';
@@ -4493,28 +4588,32 @@ section#section-flexi-cards {
     flex-flow: column;
     /* padding: 10px 30px; */
 }
-.section-cards figure.box-info > .left {
-    border-right: 1px solid #E6E8EA;
+.flexi-credit.section-cards figure.box-info > .left,
+.flexi-loan.section-cards figure.box-info > .left{
+	position: relative;
 }
-.flexi-credit.section-cards figure.box-info > .left {
-    border-right: 1px solid #cf3339;
+.flexi-credit.section-cards figure.box-info > .left:after,
+.flexi-loan.section-cards figure.box-info > .left:after {
+    border-right: 1px solid rgba(0,0,0,0.16);
+    width: 1px;
+    right: 0;
+    content: "";
+    position: absolute;
+    bottom: 0;
+    top: 20px;
+    right: 0;
 }
 .flexi-credit .box-title .sub-title{
 	font-family: 'Conv_SukhumvitTadmai_Tex';
-  	font-size: 24px;
+  	font-size: 20px;
   	line-height: 1.4;
-  	color: #cf3339;
 }
 .flexi-credit .box-title .title{
 	font-family: 'Conv_SukhumvitTadmai_Tex';
-  	font-size: 34px;
-  	color: #cf3339;
+  	font-size: 40px;
   	text-align: center;
 }
-.flexi-credit .box-info h5{
-	color: #cf3339;
-}
-.flexi-credit .box-info span{
+.box-info span{
 	color: #cf3339;
 }
 .flexi-shop .box-title .title{
@@ -4533,6 +4632,34 @@ section#section-flexi-cards {
 }
 .section-cards a.link-more.button-contact-shop{
 	font-size: 14px;
+}
+
+#nav-flexi-desktop{
+	padding: 0;
+}
+
+#nav-flexi-desktop #nav-flexi-navbar-desktop .nav-item .nav-link{
+	font-size: 18px;
+	font-family: 'Conv_SukhumvitTadmai_Tex';
+	color: #000;
+	padding: 16px 40px;
+}
+
+#nav-flexi-desktop #nav-flexi-navbar-desktop .nav-item .nav-link:hover{
+	color: #cf3339;
+}
+
+#nav-flexi-desktop .navbar-nav{
+	position: absolute;
+    top: 50px;
+    right: 30px;
+}
+
+#nav-flexi-desktop .nav{
+	position: relative;
+	top: 0;
+	right: 0;
+	padding: 40px 0;
 }
 
 
@@ -5321,6 +5448,9 @@ img[href]:hover{
 
 /*== page forever ==*/
 
+.static-wrap.forever-banner h5{
+	margin: 0;
+}
 
 .page-forever-header .content-wrap{
 	padding: 0 60px;
@@ -5330,8 +5460,9 @@ img[href]:hover{
 }
 
 .forever .btn-link.underlined {
-    font-size: 20px;
-    color: #DB195E;
+	font-family: "Conv_SukhumvitTadmai_Tex";
+    font-size: 16px;
+    color: #000;
     text-decoration: underline;
     padding: 0px 0 5px 0;
     vertical-align: middle;
@@ -5606,6 +5737,12 @@ section#section-flexi-cards-mobile.forever,section#section-flexi-cards {
 	margin-top: 8px;
 }
 
+.forever .only-shopping .btn-link.underlined{
+	font-size: 20px;
+	line-height: 33px;
+	color: #000;
+}
+
 .forever .section-box .button-contact-shop {
 	margin-top: 0px;
 	font-size: 20px;
@@ -5636,6 +5773,10 @@ section#section-flexi-cards-mobile.forever,section#section-flexi-cards {
 	display: block;
 	text-align: center;
 	padding-top: 13px;
+}
+
+.forever-share-top{
+	margin-top: 30px;
 }
 
 /* promotion detail -eve */
@@ -8073,6 +8214,21 @@ nav[aria-label="breadcrumb"]{
 	padding-left: 6%
 }
 
+.static-wrap .flexi-banner{
+	font-family: 'Conv_SukhumvitTadmai_Bol';
+	font-size: 42px;
+	margin: 0;
+}
+
+.static-wrap .flexi-banner + p{
+	font-size: 35px;
+	margin-bottom: 38px;
+}
+
+#section-flexi-promotions{
+	overflow: visible;
+}
+
 .full-overimage{
 	position: relative;
 }
@@ -8105,6 +8261,15 @@ nav[aria-label="breadcrumb"]{
 .white-layer > div{
     align-self: center;
     margin: 0 auto;
+}
+
+.white-layer.white-half{
+	top: auto;
+    left: 6%;
+    right: auto;
+    bottom: auto;
+    display: block;
+    background: rgba(255,255,255,0.6);
 }
 
 .page-merchant-inner-header .breadcrumb-top[aria-label="breadcrumb"]{
@@ -8543,6 +8708,30 @@ section#detail-register{
 	font-size: 30px;
 }
 
+#proud-regis .content-title{
+	margin-bottom: 32px;
+}
+
+#proud-box .box-more{
+	max-width: 880px;
+	padding-left: 30px;
+	padding-right: 30px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.page-loan-proud #privillage{
+	padding-top: 0;
+}
+
+.page-loan-proud #privillage:after{
+	display: block;
+}
+
+.static-wrap h5 + h5 + img{
+	margin-top: 20px;
+}
+
 
 /*Safari Only*/
 @media not all and (min-resolution:.001dpcm)
@@ -8667,8 +8856,8 @@ section#detail-register{
 	}
 
 	.detail-register-desc h5{
-    margin-top: 0px;
-  }
+	    /*margin-top: 0px;*/
+	}
 
 	.faq-head .collapsed {
     font-size: 14px;
@@ -8809,6 +8998,10 @@ section#detail-register{
 
 	.forever .text-on-slide {
     margin: 5px 0;
+	}
+
+	.installments-wrap p br{
+		display: none;
 	}
 
 	/* creditcard page -eve */

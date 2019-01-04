@@ -1,14 +1,45 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
-  <g id="Group_3468" data-name="Group 3468" transform="translate(-1790 -1315)">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke: #f08b8f;
+        stroke-dasharray: 3 3;
+      }
+
+      .cls-2, .cls-3 {
+        stroke-linejoin: round;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+
+      .cls-3 {
+        stroke: #cf3339;
+        stroke-linecap: round;
+      }
+
+      .cls-4 {
+        fill: #f08b8f;
+      }
+
+      .cls-5 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="ico-cat-travel" transform="translate(-1790 -1315)">
     <g id="Symbol_352_1" data-name="Symbol 352 – 1" transform="translate(-9 -8)">
-      <rect id="Rectangle_2743" data-name="Rectangle 2743" width="60" height="60" transform="translate(1799 1323)" fill="none"/>
+      <rect id="Rectangle_2743" data-name="Rectangle 2743" class="cls-1" width="60" height="60" transform="translate(1799 1323)"/>
     </g>
     <g id="Group_3470" data-name="Group 3470" transform="translate(1802 1326.038)">
-      <path id="Path_2099" data-name="Path 2099" d="M1,26.5c3.1,4.1,17.5,5.8,20.2-4.7A14.737,14.737,0,0,1,36,10.4" fill="none" stroke="#f08b8f" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" stroke-dasharray="3 3"/>
-      <path id="Path_2100" data-name="Path 2100" d="M34.3,37.5l-9.7-2.7a.854.854,0,0,0-.7,0L13,37.8a1.1,1.1,0,0,1-.8,0L1.9,34.5A1.424,1.424,0,0,1,1,33.2V2.3A1.341,1.341,0,0,1,2.7,1l9.6,2.8a.638.638,0,0,0,.6,0L24.5,1.3h.6L35,3.6a1.3,1.3,0,0,1,1,1.3V36.3A1.283,1.283,0,0,1,34.3,37.5Z" fill="none" stroke="#cf3339" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_2099" data-name="Path 2099" class="cls-2" d="M1,26.5c3.1,4.1,17.5,5.8,20.2-4.7A14.737,14.737,0,0,1,36,10.4"/>
+      <path id="Path_2100" data-name="Path 2100" class="cls-3" d="M34.3,37.5l-9.7-2.7a.854.854,0,0,0-.7,0L13,37.8a1.1,1.1,0,0,1-.8,0L1.9,34.5A1.424,1.424,0,0,1,1,33.2V2.3A1.341,1.341,0,0,1,2.7,1l9.6,2.8a.638.638,0,0,0,.6,0L24.5,1.3h.6L35,3.6a1.3,1.3,0,0,1,1,1.3V36.3A1.283,1.283,0,0,1,34.3,37.5Z"/>
       <g id="Group_3469" data-name="Group 3469">
-        <path id="Path_2101" data-name="Path 2101" d="M17.5,14.6c0,2.2-2.9,6.9-4.3,9.1a.936.936,0,0,1-1.6,0c-1.4-2.2-4.3-7-4.3-9.1a5.231,5.231,0,0,1,5.1-5.3A5.231,5.231,0,0,1,17.5,14.6Z" fill="#f08b8f"/>
-        <circle id="Ellipse_777" data-name="Ellipse 777" cx="2.3" cy="2.3" r="2.3" transform="translate(10.1 11.6)" fill="#fff"/>
+        <path id="Path_2101" data-name="Path 2101" class="cls-4" d="M17.5,14.6c0,2.2-2.9,6.9-4.3,9.1a.936.936,0,0,1-1.6,0c-1.4-2.2-4.3-7-4.3-9.1a5.231,5.231,0,0,1,5.1-5.3A5.231,5.231,0,0,1,17.5,14.6Z"/>
+        <circle id="Ellipse_777" data-name="Ellipse 777" class="cls-5" cx="2.3" cy="2.3" r="2.3" transform="translate(10.1 11.6)"/>
       </g>
     </g>
   </g>
