@@ -4238,7 +4238,8 @@ section#section-flexi-cards {
 	font-size: 14px;
 	line-height: 1.5;
 }
-.flexi-modal p strong {
+.flexi-modal p strong,
+.flexi-modal p b {
 	font-family: "Conv_SukhumvitTadmai_Bol", Helvetica, Arial, sans-serif;
 }
 .flexi-modal p.table-title {
@@ -4286,6 +4287,13 @@ section#section-flexi-cards {
 	min-width: 150px;
 }
 
+#forever-rewards-modal p.row-title {
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+#forever-rewards-modal p{
+	margin-bottom: 20px;
+}
 
 
 .sub-sticky{
