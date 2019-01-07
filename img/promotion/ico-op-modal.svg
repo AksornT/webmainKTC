@@ -1,28 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18">
-  <defs>
-    <style>
-      .cls-1, .cls-2 {
-        fill: none;
-      }
-
-      .cls-2 {
-        stroke: #000;
-        stroke-linecap: round;
-        stroke-linejoin: round;
-        stroke-miterlimit: 10;
-        stroke-width: 2px;
-      }
-    </style>
-  </defs>
-  <g id="ico-op-modal" transform="translate(-1937 -2452)">
+<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+  <g id="Symbol_341_1" data-name="Symbol 341 – 1" transform="translate(-1937 -2452)">
     <g id="Symbol_340_1" data-name="Symbol 340 – 1" transform="translate(-39 6)">
-      <rect id="Rectangle_2737" data-name="Rectangle 2737" class="cls-1" width="18" height="18" transform="translate(1976 2446)"/>
+      <rect id="Rectangle_2737" data-name="Rectangle 2737" width="18" height="18" transform="translate(1976 2446)" fill="none"/>
     </g>
-    <g id="Group_3336" data-name="Group 3336" transform="translate(1938 2454)">
-      <path id="Path_1936" data-name="Path 1936" class="cls-2" d="M12.2,9.9v1.5a2.051,2.051,0,0,1-2.1,2.1h-7A2.051,2.051,0,0,1,1,11.4v-7A2.051,2.051,0,0,1,3.1,2.3H4.3"/>
-      <g id="Group_3335" data-name="Group 3335">
-        <path id="Path_1937" data-name="Path 1937" d="M14.9,0,7.2,1.7,9.4,3.4a.3.3,0,0,1,0,.4L7,6,8.5,7.6l2.4-2.3a.3.3,0,0,1,.4,0l1.6,2.5Z"/>
-      </g>
+    <g id="Group_3709" data-name="Group 3709" transform="translate(1349.151 2272.032)">
+      <path id="Path_2365" data-name="Path 2365" d="M601,192.236v1.122a2.091,2.091,0,0,1-2.091,2.091H591.94a2.091,2.091,0,0,1-2.091-2.091v-6.969a2.091,2.091,0,0,1,2.091-2.091h1.548" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_2366" data-name="Path 2366" d="M603.764,181.968l-7.7,1.682,2.153,1.688a.269.269,0,0,1-.009.381l-2.354,2.3,1.484,1.594,2.353-2.3a.27.27,0,0,1,.382.008l1.646,2.507Z"/>
     </g>
   </g>
 </svg>
