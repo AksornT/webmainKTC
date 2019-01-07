@@ -786,7 +786,7 @@ a:hover{
     font-weight: 300;
 	letter-spacing: 0;
 	font-size: 19px;
-	line-height: 17px;
+	line-height: 1.2;
 	display: block;
 	position: relative;
 	left: 0;
@@ -2876,7 +2876,7 @@ a.card-register-center, a.btn-action {
 	/*font-family: Helvetica, Arial, sans-serif;*/
 	font-family: 'Conv_PSL249pro';
 	font-size: 20px;
-	line-height: 1;
+	line-height: 1.2;
 }
 .section-service-detail .service-desc .media-body p span{
 	text-decoration: underline;
@@ -2886,7 +2886,7 @@ a.card-register-center, a.btn-action {
 	/*font-family: Helvetica, Arial, sans-serif;*/
 	font-family: 'Conv_PSL249pro';
 	font-size: 20px;
-	line-height: 1;
+	line-height: 1.2;
 	display: inline;
     margin: auto 0 0 0;
 }
@@ -2913,7 +2913,7 @@ a.card-register-center, a.btn-action {
 .more-modal .content p{
 	/*font-family: Helvetica, Arial, sans-serif;*/
 	font-family: 'Conv_PSL249pro';
-	line-height: 1;
+	line-height: 1.2;
 }
 .more-modal .content p b{
 	font-weight: bold;
@@ -3357,7 +3357,7 @@ h4.content-title{
 	padding: 0 0 30px 0;
 	font-size: 20px;
 	color: #000;
-	line-height: 20px;
+	line-height: 1.2;
 	/*font-family: Helvetica, Arial, sans-serif;*/
 	font-family: 'Conv_PSL249pro';
 	font-weight: 100;
@@ -6052,7 +6052,7 @@ section#section-flexi-cards-mobile.forever,section#section-flexi-cards {
     /*font-family: Helvetica, Arial, sans-serif;*/
     font-family: 'Conv_PSL249pro';
     font-size: 24px;
-    line-height: 28px;
+    line-height: 1.2;
     margin-top: 10px;
 }
 .article-wrap .article-collapse .info span {
@@ -7592,7 +7592,7 @@ a.all-type-list[href]:hover{
 	margin-bottom: 10px;
 }
 #promotion-detail .article-wrap .article-content p{
-	line-height: 1;
+	line-height: 1.2;
 }
 
 .modal.full-modal.show {
@@ -7812,7 +7812,7 @@ nav[aria-label="breadcrumb"]{
 	/*font-family: Helvetica, Arial, sans-serif;*/
 	font-family: 'Conv_PSL249pro';
 	font-size: 20px;
-	line-height: 1;
+	line-height: 1.2;
 }
 .article-content .art-con-detail p b,
 .article-content .art-con-detail p strong{
@@ -8498,7 +8498,7 @@ article.content-wrap{
 
 .static-wrap .media p{
 	font-size: 20px;
-	line-height: 23px;
+	line-height: 1.2;
 	color: #5B6670;
 	/*font-family: Helvetica, Arial, sans-serif;*/
 	font-family: 'Conv_PSL249pro';
@@ -8527,6 +8527,7 @@ article.content-wrap{
 	font-family: 'Conv_PSL249pro';
 	margin-top: 5px;
 	font-size: 20px;
+	line-height: 1.2
 	color: #5B6670;
 }
 
