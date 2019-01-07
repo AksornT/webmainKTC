@@ -1536,8 +1536,8 @@ nav[aria-label="breadcrumb"] + .row-search-filter {
   opacity: 1;
 }
 .article-wrap .article-content p{
-  font-size: 14px;
-  line-height: 1.4;
+  font-size: 20px;
+  line-height: 1;
 }
 .article-wrap .article-content .hightlight{
   font-size: 16px;

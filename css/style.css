@@ -779,12 +779,13 @@ a:hover{
 
 .footer a{
 	color: #000;
-	font-family: Helvetica, Arial, sans-serif ;
+	/*font-family: Helvetica, Arial, sans-serif ;*/
+	font-family: 'Conv_PSL249pro';
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-weight: 300;
 	letter-spacing: 0;
-	font-size: 13px;
+	font-size: 19px;
 	line-height: 17px;
 	display: block;
 	position: relative;
@@ -1226,8 +1227,9 @@ button:focus {
 }
 
 .license{
-	font-family: sans-serif;
-	font-size: 12px;
+	/*font-family: sans-serif;*/
+	font-family: 'Conv_PSL249pro';
+	font-size: 18px;
 	line-height: 14px;
 	padding-top: 12px;
 }
@@ -1242,7 +1244,7 @@ button:focus {
 }
 
 .footer .lang-footer{
-	font-size: 12px;
+	font-size: 18px;
     line-height: 14px;
     /*padding-top: 2px;*/
     display: inline-block;
@@ -1938,9 +1940,10 @@ button.close{
 
 .campare-table td{
 	text-align: center;
-	font-size: 14px;
+	font-size: 20px;
 	line-height: 26px;
-	font-family: Helvetica, Arial, sans-serif;
+	/*font-family: Helvetica, Arial, sans-serif;*/
+	font-family: 'Conv_PSL249pro';
 	border-left: rgba(91,102,112,0.2) solid 1px;
 	padding: 22px 42px 28px 42px;
 }
@@ -2508,8 +2511,9 @@ article#content-card-detail section{
 }
 #content-card-detail .section-service-detail p,
 #content-card-detail .section-service-detail li{
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  /*font-family: Helvetica, Arial, sans-serif;*/
+  font-family: 'Conv_PSL249pro';
+  font-size: 20px;
   letter-spacing: 0;
   line-height: 26px;
 }
@@ -2535,8 +2539,9 @@ article#content-card-detail section{
   padding: 24px 0 10px 0;
 }
 #card-detail-regis .detail-register-desc span{
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  /*font-family: Helvetica, Arial, sans-serif;*/
+  font-family: 'Conv_PSL249pro';
+  font-size: 20px;
   line-height: 24px;
   letter-spacing: 0px;
   padding-top: 6px;
@@ -2868,16 +2873,20 @@ a.card-register-center, a.btn-action {
 }
 .section-service-detail .service-desc .media-body li,
 .section-service-detail .service-desc .media-body p{
-	font-family: Helvetica, Arial, sans-serif;
-	font-size: 14px;
+	/*font-family: Helvetica, Arial, sans-serif;*/
+	font-family: 'Conv_PSL249pro';
+	font-size: 20px;
+	line-height: 1;
 }
 .section-service-detail .service-desc .media-body p span{
 	text-decoration: underline;
 	font-family: 'Conv_SukhumvitTadmai_Bol';
 }
 .static-wrap .link-more.link-on-desc{
-	font-family: Helvetica, Arial, sans-serif;
-	font-size: 14px;
+	/*font-family: Helvetica, Arial, sans-serif;*/
+	font-family: 'Conv_PSL249pro';
+	font-size: 20px;
+	line-height: 1;
 	display: inline;
     margin: auto 0 0 0;
 }
@@ -2902,8 +2911,9 @@ a.card-register-center, a.btn-action {
 }
 .more-modal .content li,
 .more-modal .content p{
-	font-family: Helvetica, Arial, sans-serif;
-	line-height: 1.4;
+	/*font-family: Helvetica, Arial, sans-serif;*/
+	font-family: 'Conv_PSL249pro';
+	line-height: 1;
 }
 .more-modal .content p b{
 	font-weight: bold;
@@ -2980,8 +2990,9 @@ article#content-card-detail section{
 }
 #content-card-detail .section-service-detail p,
 #content-card-detail .section-service-detail li{
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  /*font-family: Helvetica, Arial, sans-serif;*/
+  font-family: 'Conv_PSL249pro';
+  font-size: 20px;
   letter-spacing: 0;
   line-height: 26px;
 }
@@ -3007,8 +3018,9 @@ article#content-card-detail section{
   padding: 24px 0 10px 0;
 }
 #card-detail-regis .detail-register-desc span{
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  /*font-family: Helvetica, Arial, sans-serif;*/
+  font-family: 'Conv_PSL249pro';
+  font-size: 20px;
   line-height: 24px;
   letter-spacing: 0px;
   padding-top: 6px;
@@ -3343,10 +3355,11 @@ h4.content-title{
 
 .faq-answer > div{
 	padding: 0 0 30px 0;
-	font-size: 14px;
+	font-size: 20px;
 	color: #000;
 	line-height: 20px;
-	font-family: Helvetica, Arial, sans-serif;
+	/*font-family: Helvetica, Arial, sans-serif;*/
+	font-family: 'Conv_PSL249pro';
 	font-weight: 100;
 }
 
@@ -3624,9 +3637,10 @@ h4.content-title{
 	padding: 24px 0 10px 0;
 }
 .detail-register-desc li{
-	font-family: Helvetica, Arial, sans-serif ;
+	/*font-family: Helvetica, Arial, sans-serif ;*/
+	font-family: 'Conv_PSL249pro';
 	list-style: outside;
-    font-size: 14px;
+    font-size: 20px;
     line-height: 24px;
     letter-spacing: 0px;
     margin-left: 17px;
@@ -5064,8 +5078,9 @@ button.btn-next-step{
 	margin-bottom: 20px;
 }
 .condition-content p, .condition-content li{
-	font-family: Helvetica, Arial, sans-serif;
-	font-size: 18px;
+	/*font-family: Helvetica, Arial, sans-serif;*/
+	font-family: 'Conv_PSL249pro';
+	font-size: 24px;
 	line-height: 32px;
 	letter-spacing: 0px;
 }
@@ -5832,6 +5847,7 @@ section#section-flexi-cards-mobile.forever,section#section-flexi-cards {
     font-size: 25px;
     line-height: 54px;
     margin-bottom: 20px;
+    padding: 0 15px;
 }
 .article-wrap .article-meta{
 	display: flex;
@@ -6089,8 +6105,9 @@ section#section-flexi-cards-mobile.forever,section#section-flexi-cards {
 	margin-bottom: 40px;
 }
 .article-wrap .article-link .link {
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 16px;
+    /*font-family: Helvetica, Arial, sans-serif;*/
+    font-family: 'Conv_PSL249pro';
+    font-size: 22px;
     line-height: 30px;
     font-weight: bold;
 	color: #CF3339;
@@ -7574,7 +7591,7 @@ a.all-type-list[href]:hover{
 	margin-bottom: 10px;
 }
 #promotion-detail .article-wrap .article-content p{
-	line-height: 1.4;
+	line-height: 1;
 }
 
 .modal.full-modal.show {
@@ -7606,8 +7623,9 @@ a.all-type-list[href]:hover{
     line-height: 32px;
 }
 #terms-modal .content {
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 14px;
+    /*font-family: Helvetica, Arial, sans-serif;*/
+    font-family: 'Conv_PSL249pro';
+    font-size: 20px;
     line-height: 30px;
 		letter-spacing: 0;
 }
@@ -8478,10 +8496,11 @@ article.content-wrap{
 }
 
 .static-wrap .media p{
-	font-size: 14px;
+	font-size: 20px;
 	line-height: 23px;
 	color: #5B6670;
-	font-family: Helvetica, Arial, sans-serif;
+	/*font-family: Helvetica, Arial, sans-serif;*/
+	font-family: 'Conv_PSL249pro';
 }
 
 .static-wrap .media-content > div{
@@ -8503,9 +8522,10 @@ article.content-wrap{
 }
 
 .static-wrap .media-body .link-more{
-	font-family: Helvetica, Arial, sans-serif;
+	/*font-family: Helvetica, Arial, sans-serif;*/
+	font-family: 'Conv_PSL249pro';
 	margin-top: 5px;
-	font-size: 14px;
+	font-size: 20px;
 	color: #5B6670;
 }
 
@@ -8514,8 +8534,8 @@ article.content-wrap{
 }
 
 .static-wrap .media-body p b{
-	font-family: Helvetica, Arial, sans-serif;
-	font-weight: bold;
+	font-family: 'Conv_PSL251pro';
+	font-weight: normal;
 }
 
 .static-modal .header{
