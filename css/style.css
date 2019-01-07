@@ -61,6 +61,22 @@
 	unicode-range: U+30-39, U+41-5A, U+61-7A, U+C0-FF;
 }
 
+
+@font-face {
+	font-family: 'Conv_PSL249pro';
+	src: url('../fonts/PSL249pro.eot');
+	src: local('☺'), url('../fonts/PSL249pro.woff') format('woff'), url('../fonts/PSL249pro.ttf') format('truetype'), url('../fonts/PSL249pro.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Conv_PSL251pro';
+	src: url('../fonts/PSL251pro.eot');
+	src: local('☺'), url('../fonts/PSL251pro.woff') format('woff'), url('../fonts/PSL251pro.ttf') format('truetype'), url('../fonts/PSL251pro.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -5967,8 +5983,9 @@ section#section-flexi-cards-mobile.forever,section#section-flexi-cards {
 	margin-bottom: 40px;
 }
 .article-wrap .article-content {
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 18px;
+    /*font-family: Helvetica, Arial, sans-serif;*/
+    font-family: 'Conv_PSL249pro';
+    font-size: 24px;
     line-height: 30px;
     /*margin-bottom: 40px;*/
 }
@@ -6015,8 +6032,9 @@ section#section-flexi-cards-mobile.forever,section#section-flexi-cards {
     transform: rotate(180deg);
 }
 .article-wrap .article-collapse .info {
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 18px;
+    /*font-family: Helvetica, Arial, sans-serif;*/
+    font-family: 'Conv_PSL249pro';
+    font-size: 24px;
     line-height: 28px;
     margin-top: 10px;
 }
@@ -7772,19 +7790,18 @@ nav[aria-label="breadcrumb"]{
 	letter-spacing: 0px;
 }
 .article-content .art-con-detail{
-	font-family: Helvetica, Arial, sans-serif;
-	font-size: 14px;
-	line-height: 1.4;
+	/*font-family: Helvetica, Arial, sans-serif;*/
+	font-family: 'Conv_PSL249pro';
+	font-size: 20px;
+	line-height: 1;
 }
-.article-content .art-con-detail p b{
-	font-family: Helvetica, Arial, sans-serif;
-	font-weight: 600;
-	font-size: 14px;
-}
+.article-content .art-con-detail p b,
 .article-content .art-con-detail p strong{
-	display: block;
-	font-weight: 600;
-	font-size: 14px;
+	/*font-family: Helvetica, Arial, sans-serif;
+	font-weight: 600;*/
+	font-family: 'Conv_PSL251pro';
+	font-weight: normal;
+	font-size: 20px;
 }
 .art-con-detail img{
 	width: 100%;
