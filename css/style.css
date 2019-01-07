@@ -1417,7 +1417,7 @@ body.modal-open{
 	background: #CF3339;
 	margin-left: 25%;
 	content: "";
-	/* display: block; */
+	/*display: block;*/
 	display: none;
 }
 
@@ -6166,7 +6166,7 @@ section#section-flexi-cards-mobile.forever,section#section-flexi-cards {
 	display: block;
 	position: absolute;
 	bottom: 0;
-    border-bottom: 4px solid #FFF;
+  border-bottom: 4px solid #FFF;
 	margin-left: 25%;
 	width: 50%;
 }
