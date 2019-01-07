@@ -3365,6 +3365,7 @@ h4.content-title{
 
 .table.faq-tb{
 	width: 50%;
+	min-width: 280px;
     margin: 25px auto auto;
 }
 .table.faq-tb strong{
