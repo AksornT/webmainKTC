@@ -4286,14 +4286,36 @@ section#section-flexi-cards {
 	min-width: 150px;
 }
 
+#forever-rewards-modal .modal-title,
+#forever-donate-modal .modal-title{
+	font-family: 'Conv_PSL249pro';
+	border-bottom: 1px solid #E6E8EA;
+	width: 100%;
+	text-align: left;
+	font-size: 36px;
+}
 #forever-rewards-modal p.row-title {
-	font-size: 18px;
+	font-family: 'Conv_PSL249pro';
+	font-size: 26px;
 	margin-bottom: 5px;
 }
 #forever-rewards-modal p{
+	font-family: 'Conv_PSL249pro';
 	margin-bottom: 20px;
+	font-size: 22px;
+	line-height: 1.2;
 }
-
+#forever-rewards-modal p strong,
+#forever-rewards-modal p b {
+	font-family: 'Conv_PSL249pro';
+	font-weight: bold;
+}
+#forever-rewards-modal p a,
+#forever-rewards-modal p a:hover,
+#forever-rewards-modal p a:visited{
+	color: #000;
+	text-decoration: underline;
+}	
 
 .sub-sticky{
 	position: fixed;
