@@ -3202,6 +3202,7 @@ section#section-merchant-register-form select.form-control:focus,
 	font-size: 14px;
   margin-top: 38px;
   color: rgba(90,102,112,.7);
+  font-family: 'Conv_SukhumvitTadmai_Tex';
 }
 
 .input-notice{
@@ -4511,6 +4512,7 @@ section#section-flexi-cards {
     color: rgba(90,102,112,.7);
     pointer-events: none;
     opacity: 1;
+    font-family: 'Conv_SukhumvitTadmai_Tex';
 }
 
 .form-wrap input[type="text"]:focus,
