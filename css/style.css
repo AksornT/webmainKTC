@@ -451,7 +451,7 @@ a:hover{
 #card-register:hover{
 	cursor: pointer;
 	/* top: -3px; */
-	background: #c93339e6;
+	background: #c93339;
 }
 
 
@@ -1435,7 +1435,7 @@ body.modal-open{
 	background: #CF3339;
 	margin-left: 25%;
 	content: "";
-	/*display: block;*/
+	/* display: block; */
 	display: none;
 }
 
@@ -2826,7 +2826,7 @@ a.card-register-center, a.btn-action {
     text-align: center;
     font-size: 35px;
     display: inline-block;
-    left: 50%;
+    margin-left: 50%;
     position: relative;
     margin-bottom: 20px; /* 30 */
     font-family: 'Conv_SukhumvitTadmai_Tex';
@@ -3287,7 +3287,6 @@ section .form-register-completed .img-result {
 
 h4.content-title{
 	text-align: left;
-	font-size: 28px;
 	padding-top: 0px;
 }
 
@@ -3605,11 +3604,12 @@ h4.content-title{
 .detail-register h3{
 	text-align: center;
     font-size: 35px;
+    line-height: 1.5;
     padding-bottom: 5px;
     margin-bottom: 40px;
     display: inline-block;
     position: relative;
-    margin-left: 50%;
+    left: 50%;
     transform: translateX(-50%);
     font-family: 'Conv_SukhumvitTadmai_Tex';
 }
@@ -6210,7 +6210,7 @@ section#section-flexi-cards-mobile.forever,section#section-flexi-cards {
 	display: block;
 	position: absolute;
 	bottom: 0;
-  border-bottom: 4px solid #FFF;
+    border-bottom: 4px solid #FFF;
 	margin-left: 25%;
 	width: 50%;
 }
@@ -7600,7 +7600,7 @@ a.all-type-list[href]:hover{
 	margin-bottom: 10px;
 }
 #promotion-detail .article-wrap .article-content p{
-	line-height: 1.2;
+	line-height: 1.4;
 }
 
 .modal.full-modal.show {
@@ -8360,13 +8360,12 @@ nav[aria-label="breadcrumb"]{
 	background: rgba(255,255,255,0.15);
 }
 
-#content-card-detail .static-wrap  .content-title{
+#content-card-detail .static-wrap .content-title{
 	transform: none;
 	margin: 0 auto 35px 0;
-	line-height: 60px;
 }
 
-#content-card-detail .static-wrap  .content-title:after{
+#content-card-detail .static-wrap .content-title:after{
 	margin:  0 auto;
 }
 
