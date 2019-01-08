@@ -2826,7 +2826,7 @@ a.card-register-center, a.btn-action {
     text-align: center;
     font-size: 35px;
     display: inline-block;
-    margin-left: 50%;
+    left: 50%;
     position: relative;
     margin-bottom: 20px; /* 30 */
     font-family: 'Conv_SukhumvitTadmai_Tex';
