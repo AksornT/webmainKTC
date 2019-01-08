@@ -2422,6 +2422,7 @@ a:hover .on-hover{
 
 #header-card-detail .content-desc h3{
   /*margin-top: 10px;*/
+  font-family: 'Conv_SukhumvitTadmai_Tex';
   font-size: 20px;
 }
 #header-card-detail a.card-register-center{
@@ -2439,10 +2440,12 @@ a:hover .on-hover{
 .type-card h3{
 	font-size: 28px;
 	padding-bottom: 36px;
+  font-family: 'Conv_SukhumvitTadmai_Tex';
 }
 .type-card p{
 	font-size: 20px;
 	padding-top: 20px;
+  font-family: 'Conv_SukhumvitTadmai_Tex';
 }
 article#content-card-detail section{
   padding-top: 0px;
@@ -2548,7 +2551,6 @@ article#content-card-detail section{
 }
 #card-detail-regis .detail-register-desc span strong{
   text-decoration: underline;
-  font-weight: 600;
 }
 article.page-content #card-detail-regis h3::after{
   background-color: #CF3339;
@@ -3025,10 +3027,6 @@ article#content-card-detail section{
   letter-spacing: 0px;
   padding-top: 6px;
 }
-#card-detail-regis .detail-register-desc span strong{
-  text-decoration: underline;
-  font-weight: 600;
-}
 article.page-content #card-detail-regis h3::after{
   background-color: #CF3339;
 }
@@ -3187,7 +3185,7 @@ section#section-merchant-register-form select.form-control:focus,
     display: inline-block;
     right: 15px;
     position: absolute;
-    background: url(../img/ico-input-arrow.png) no-repeat;
+    background: url(../img/ico-input-arrow.svg) no-repeat;
     background-position: center center;
     pointer-events: none;
 }
@@ -3203,6 +3201,7 @@ section#section-merchant-register-form select.form-control:focus,
 .before-dropdown{
 	font-size: 14px;
   margin-top: 38px;
+  color: rgba(90,102,112,.7);
 }
 
 .input-notice{
@@ -5358,7 +5357,7 @@ input:focus + .suggess-box,
     display: inline-block;
     right: 0;
     position: absolute;
-    background: url('../img/ico-input-arrow.png') no-repeat;
+    background: url('../img/ico-input-arrow.svg') no-repeat;
     background-position: center center;
     pointer-events: none;
 }
@@ -6256,7 +6255,7 @@ section#section-flexi-cards-mobile.forever,section#section-flexi-cards {
     top: 7px;
     right: 0px;
     background-size: contain;
-    background-image: url(../img/ico-input-arrow.png);
+    background-image: url(../img/ico-input-arrow.svg);
     pointer-events: none;
 		background-repeat: no-repeat;
 		width: 17px;
@@ -6270,7 +6269,7 @@ section#section-flexi-cards-mobile.forever,section#section-flexi-cards {
 }
 .form-content .input-ico.input-ico-right.input-select:after {
     display: inline-block;
-    background-image: url(../img/ico-input-arrow.png);
+    background-image: url(../img/ico-input-arrow.svg);
 		width: 17px;
     margin-right: 5px;
 		top: auto;
@@ -8484,6 +8483,7 @@ article.content-wrap{
 	padding:30px 25px;
 	position: relative;
 	height: 100%;
+	color: #5B6670;
 }
 
 .static-content .media img{
@@ -8540,6 +8540,7 @@ article.content-wrap{
 
 .static-wrap .media-body .link-more{
 	display: inline;
+	color: #5B6670;
 }
 
 .static-wrap .media-body p b{
@@ -9081,7 +9082,10 @@ section#detail-register{
     width: 100%;
   }
   .page-content .still-background.still-width img{
-  	width: 100%;
+  	width:auto;
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
   }
   .page-content .bg-pink-text {
     width: 100%;
