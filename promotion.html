@@ -1230,11 +1230,11 @@
     <script type="text/javascript">
       $('#edit-my-link-modal').on('shown.bs.modal', function (e) {
         $('body').addClass('modal-open');
-        $('body').append('<div class="modal-backdrop fade"></div>');
+        $('body').append('<div class="modal-backdrop fade" id="modal-backdrop-edit"></div>');
       });
 
       $('#edit-my-link-modal').on('hidden.bs.modal', function (e) {
-        $('.modal-backdrop').remove();
+        $('#modal-backdrop-edit').remove();
       });
     </script>
 
