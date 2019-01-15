@@ -3856,7 +3856,7 @@ nav.navbar .sub-nav-flexi{
 	padding: 0;
 }
 #nav-flexi.fixed .btn-flexi-share {
-	margin-top: 5px;
+	margin-top: 2px;
 }
 #nav-flexi.fixed .button-flexi-start {
 	display: block;
@@ -4339,7 +4339,7 @@ section#section-flexi-cards {
 
 .sub-sticky .content-wrap{
 	max-width: 1366px;
-	padding: 0 40px;
+	padding: 0 30px;
 }
 
 .sub-sticky .content-wrap:after{
@@ -4415,7 +4415,7 @@ section#section-flexi-cards {
 	font-size: 13px;
 	padding: 8px 26px;
 	/*line-height: 26px;*/
-	margin: 18px 0 18px 20px;
+	margin: 24px 0 24px 20px;
 	display: inline-block;
 	min-width: 0;
 	white-space: nowrap;
