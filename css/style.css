@@ -8648,6 +8648,7 @@ article.content-wrap{
 h4.no-dash{
 	width: 100%;
 	display: block;
+	text-align: center;
 }
 
 .static-content .small-desc{
