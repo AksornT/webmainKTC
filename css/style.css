@@ -2029,6 +2029,27 @@ a:hover .on-hover{
 	display: inline-block;
 }
 
+.overlay-breadcrumb{
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 5px 0;
+}
+.overlay-breadcrumb .site-breadcrumb{
+	font-family: 'Conv_SukhumvitTadmai_Tex';
+    font-size: 14px;
+    line-height: 26px;
+    color: rgba(255, 255, 255, 0.6);
+    margin-right: auto;
+}
+.overlay-breadcrumb .site-breadcrumb a{
+	color: rgba(255, 255, 255, 0.6);
+}
+.overlay-breadcrumb .site-breadcrumb a.current {
+    color: #FFF;
+}
 
 /* creditcard page -eve */
 .content-filter{
@@ -2400,7 +2421,7 @@ a:hover .on-hover{
 #header-card-detail .proud-head{
 	margin-bottom: 125px;
 	margin-top: 0;
-  height: 321px;
+  	height: 321px;
 }
 #header-card-detail .header-title{
   font-family: 'Conv_SukhumvitTadmai_Bol';
