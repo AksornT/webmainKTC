@@ -60,7 +60,7 @@
   display: none;
 }
 .sub-sticky .dropdown .dropdown-item.active, .sub-sticky .dropdown .dropdown-item:active {
-  color: #045AA7;
+  color: #0076c0;
   background-color: transparent;
 }
 .sub-sticky .dropdown.open .dropdown-menu {
@@ -95,17 +95,20 @@
 }
 
 #nav-sticky-merchant .sticky-left li.active a {
-  color: #045AA7;
+  color: #0076c0;
 }
 #nav-sticky-merchant .sticky-left li a:hover {
-  color: #045AA7;
+  color: #0076c0;
 }
 
 article#page-merchant-content section {
   border-bottom: none;
 }
 article#page-merchant-content h3::after, article#page-merchant-content h4::after {
-  background-color: #045AA7;
+  background-color: #0076c0;
+}
+article#page-merchant-content h4.title-no-line::after{
+  background-color: transparent;
 }
 
 .btn.button-shop-register {
@@ -116,7 +119,7 @@ article#page-merchant-content h3::after, article#page-merchant-content h4::after
   font-size: 18px;
   font-weight: normal;
   color: #ffffff;
-  background: #045AA7;
+  background: #0076c0;
   border-radius: 6px;
   text-decoration: none;
   -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
@@ -142,9 +145,9 @@ article#page-merchant-content h3::after, article#page-merchant-content h4::after
   min-width: 0;
 }
 .btn.button-shop-register.invert {
-  color: #045AA7;
+  color: #0076c0;
   background-color: #ffffff;
-  border-color: #045AA7;
+  border-color: #0076c0;
 }
 
 .page-merchant-header {
@@ -224,7 +227,7 @@ section#section-merchant-card-type .list-card-vendors li {
 }
 section#section-merchant-card-type .list-payment-services {
   display: flex;
-  margin-top: 60px;
+  margin-top: 20px;
   justify-content: space-around;
   flex-wrap: wrap;
 }
@@ -237,7 +240,7 @@ section#section-merchant-card-type .list-payment-services .item-payment-service 
   color: #000;
 }
 section#section-merchant-card-type .list-payment-services .item-payment-service a:hover{
-  color: #045aa7;
+  color: #0076c0;
 }
 section#section-merchant-card-type .list-payment-services .item-payment-service h5 {
   font-family: "Conv_SukhumvitTadmai_Tex", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -306,7 +309,7 @@ section#section-merchant-options p.small {
   }
 }
 section#section-merchant-options a {
-  color: #045AA7;
+  color: #0076c0;
   text-decoration: underline;
 }
 section#section-merchant-options .content-alipay {
@@ -363,7 +366,7 @@ section#section-merchant-register-form .form-row.form-wrap {
 }
 section#section-merchant-register-form .form-row.form-wrap input[type="text"]:focus + label,
 section#section-merchant-register-form .form-row.form-wrap input[type="text"].hasText:focus + label {
-  color: #045AA7;
+  color: #0076c0;
 }
 section#section-merchant-register-form .form-row .form-col.left {
   padding-right: 45px;
@@ -433,8 +436,8 @@ section#section-merchant-register-form .row-merchant-options .custom-checkbox {
   /* bootstrap override */
 }
 section#section-merchant-register-form .row-merchant-options .custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
-  border-color: #045AA7;
-  background-color: #045AA7;
+  border-color: #0076c0;
+  background-color: #0076c0;
 }
 section#section-merchant-register-form .row-merchant-options .custom-checkbox .custom-control-input:focus ~ .custom-control-label::before {
   box-shadow: none;
@@ -467,7 +470,7 @@ section#section-merchant-register-form .row-merchant-options label.custom-contro
   }
 }
 section#section-merchant-register-form #sending-form {
-  background-color: #045AA7;
+  background-color: #0076c0;
 }
 section#section-merchant-register-form .row-merchant-download-docs {
   margin-top: 30px;
@@ -510,7 +513,7 @@ section#section-merchant-register-form .row-merchant-download-docs .btn.button-d
 
 .contact-ribbon {
   padding: 17px 15px;
-  background: #045AA7;
+  background: #0076c0;
   text-align: center;
 }
 .contact-ribbon .text-contact {
@@ -701,13 +704,13 @@ article.page-merchant-inner-content h3, article.page-merchant-inner-content h4 {
   font-size: 35px;
 }
 article.page-merchant-inner-content h3::after, article.page-merchant-inner-content h4::after {
-  background-color: #045AA7;
+  background-color: #0076c0;
 }
 article.page-merchant-inner-content p, article.page-merchant-inner-content ul > li {
   line-height: 1.5;
 }
 article.page-merchant-inner-content p a, article.page-merchant-inner-content ul > li a {
-  color: #045AA7;
+  color: #0076c0;
   text-decoration: underline;
 }
 article.page-merchant-inner-content section.section-after-header {
@@ -733,7 +736,7 @@ article.page-merchant-inner-content section.section-after-header p + h3 {
   margin-top: 40px;
 }
 article.page-merchant-inner-content section.section-after-header .btn-link.underlined {
-  color: #045AA7;
+  color: #0076c0;
 }
 article.page-merchant-inner-content .list-card-vendors {
   display: flex;
@@ -831,7 +834,7 @@ section.content-inner-merchant-detail .text-phone {
   font-family: "Conv_SukhumvitTadmai_Bol", Helvetica, Arial, sans-serif;
   font-size: 35px;
   line-height: 1;
-  color: #045AA7;
+  color: #0076c0;
 }
 section.content-inner-merchant-detail .text-phone::before {
   content: '';

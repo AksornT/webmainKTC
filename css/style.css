@@ -2867,6 +2867,10 @@ a.card-register-center, a.btn-action {
 	top: 100%;
 }
 
+.content-title.title-memshop{
+	padding-top: 0;
+}
+
 .static-wrap.section-service-detail .text-left .row > div{
 	text-align: left;
 }
@@ -8146,7 +8150,7 @@ nav[aria-label="breadcrumb"]{
 }
 
 .static-merchant .link-more{
-	color: #0055B8;
+	color: #0076c0;
 }
 
 .half-half-white-reverse .link-more{
@@ -8178,7 +8182,7 @@ nav[aria-label="breadcrumb"]{
 
 .half-half-blue,
 .half-half-blue-reverse {
-	background: #0055B8;
+	background: #0076c0;
 }
 
 .half-half-black,
@@ -8260,7 +8264,7 @@ nav[aria-label="breadcrumb"]{
 }
 
 .static-merchant .the-number{
-	color: #0055B8;
+	color: #0076c0;
 	background: url('../img/ico-tel-big-blue.png') no-repeat;
 	background-size: auto 100%;
 }
@@ -8423,7 +8427,7 @@ nav[aria-label="breadcrumb"]{
 }
 
 .static-merchant .link-square{
-	border-color: #0055B8;
+	border-color: #0076c0;
 }
 
 .half-half-blue .link-square{
@@ -8508,7 +8512,7 @@ nav[aria-label="breadcrumb"]{
 }
 
 .top-banner.static-merchant .share-on-top .btn-flexi-share:focus{
-	background: #0055B8 url(../img/ico-share-pro-white.png) no-repeat center;
+	background: #0076c0 url(../img/ico-share-pro-white.png) no-repeat center;
     background-size: 80% auto;
 }
 
