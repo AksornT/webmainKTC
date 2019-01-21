@@ -8430,6 +8430,18 @@ nav[aria-label="breadcrumb"]{
 	border-color: #0076c0;
 }
 
+.static-merchant .section-app-download h5{
+	margin-bottom: 6px;
+}
+.static-merchant .section-app-download p{
+	font-size: 18px;
+	margin-bottom: 30px;
+}
+.static-merchant .section-app-download img{
+	width: 220px;
+	margin: 10px;
+}
+
 .half-half-blue .link-square{
 	border-color: #fff;
 }
