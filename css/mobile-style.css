@@ -963,6 +963,9 @@
     font-family: 'Conv_SukhumvitTadmai_Tex';
     font-size: 16px;
   }
+  .img-full-half img{
+    width: 70%;
+  }
   .proud-loan .after-header-on-mobile:nth-last-child(1){
     margin-top: 10px;
   }

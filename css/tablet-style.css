@@ -641,8 +641,9 @@
     font-size: 16px;
   }
   .img-full-half img{
-    width: 45%;
-    margin: 40px auto auto;
+    width: 50%;
+    margin: 0 auto auto;
+    padding: 0;
   }
   .box-more-wrap .box-con-cal {
     margin: 0 auto 40px auto;
@@ -1676,6 +1677,9 @@
   .white-layer.white-half h5,
   .white-layer.white-half p{
     color: #000;
+  }
+  .white-layer.white-half.bg-grey-half{
+    background-color: #fff;
   }
 
 

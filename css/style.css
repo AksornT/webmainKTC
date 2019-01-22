@@ -3427,6 +3427,10 @@ h4.content-title{
 .proud-loan .content-desc h3 {
     font-size: 20px;
 }
+.img-full-half img{
+    width: 100%;
+    padding: 55px;
+}
 .proud-service-withdraw .text-head-wrap{
 	font-size: 40px;
     line-height: 1.3;
@@ -8373,6 +8377,11 @@ nav[aria-label="breadcrumb"]{
 	padding:0 9%;
 }
 
+.full-overimage .top-banner-wrap{
+	padding: 0 55px;
+	margin: 0 auto;
+}
+
 .static-content.order-lg-1{
 	padding-left: calc(3% + 15px);
 	margin-left: 0;
@@ -8839,6 +8848,18 @@ section#detail-register{
 
 .static-wrap h5 + h5 + img{
 	margin-top: 20px;
+}
+
+.faq-title{
+	font-size: 35px;
+    margin-bottom: 20px;
+    font-family: 'Conv_SukhumvitTadmai_Tex'
+}
+@media (max-width: 576px){
+	.faq-title{
+		font-size: 20px;
+		margin-top: 40px;
+	}
 }
 
 

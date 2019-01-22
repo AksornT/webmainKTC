@@ -210,7 +210,7 @@ section#section-merchant-card-type .row:first-child {
 section#section-merchant-card-type .list-card-vendors {
   display: flex;
   margin: 30px auto;
-  width: 45vw;
+  width: 80vw;
   justify-content: space-around;
   align-items: center;
 }
@@ -219,10 +219,15 @@ section#section-merchant-card-type .list-card-vendors li {
 }
 @media (max-width: 991px) {
   section#section-merchant-card-type .list-card-vendors {
-    width: 300px;
+    width: 70vw; /*300px*/
   }
   section#section-merchant-card-type .list-card-vendors li {
     padding: 20px 10px;
+  }
+}
+@media (max-width: 576px) {
+  section#section-merchant-card-type .list-card-vendors {
+    width: 85vw;
   }
 }
 section#section-merchant-card-type .list-payment-services {
