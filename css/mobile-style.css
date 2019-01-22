@@ -164,6 +164,9 @@
     padding: 5px 0 7px 0;
     font-size: 12px;
   }
+  .overlay-breadcrumb .site-breadcrumb a.current {
+    width: 180px;
+  }
   .menu-global > .content-wrap{
     padding: 0 20px;
   }
@@ -673,6 +676,14 @@
 		padding: 16px;
 		margin-right: -16px;
 	}
+
+  .static-merchant .img-logo img {
+    margin: 0 10px;
+    height: 32px;
+  }
+  .static-merchant .img-logo-payment img{
+    height: 35px;
+  }
 
   /* creditcard page -eve */
   .click-compare .on-desktop{

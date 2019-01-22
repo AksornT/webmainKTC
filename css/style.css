@@ -2049,6 +2049,12 @@ a:hover .on-hover{
 }
 .overlay-breadcrumb .site-breadcrumb a.current {
     color: #FFF;
+    width: 300px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: bottom;
 }
 
 /* creditcard page -eve */
@@ -8449,6 +8455,13 @@ nav[aria-label="breadcrumb"]{
 .static-merchant .section-app-download img{
 	width: 220px;
 	margin: 10px;
+}
+
+.static-merchant .img-logo img{
+	margin: 0 12px;
+}
+.static-merchant .img-logo-payment img{
+	height: 43px;
 }
 
 .half-half-blue .link-square{

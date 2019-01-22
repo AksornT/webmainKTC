@@ -292,9 +292,9 @@
   <div class="content-wrap">
     <div class="sticky-left">
       <ul>
-        <li class="only-desktop"><a href="merchant-edc.html">เครื่องรูดบัตร</a></li>
-        <li class="only-desktop"><a href="merchant-mpos.html">เครื่องรูดบัตรแบบพกพา</a></li>
-        <li class="only-desktop"><a href="merchant-online.html">ระบบรับชำระเงินออนไลน์</a></li>
+        <li class="only-desktop"><a href="#section-merchant-edc">เครื่องรูดบัตร</a></li>
+        <li class="only-desktop"><a href="#section-merchant-mpos">เครื่องรูดบัตรแบบพกพา</a></li>
+        <li class="only-desktop"><a href="#section-merchant-gateway">ระบบรับชำระเงินออนไลน์</a></li>
         <li class="only-mobile"><img id="sticky-ham" data-toggle="modal" data-target="#nav-merchant-modal"  src="img/ico-menu-sticky.png"></li>
       </ul>
       <!-- dropdown -->
@@ -303,8 +303,8 @@
           เพิ่มเติม
         </button>
         <div class="dropdown-menu" aria-labelledby="sticky-dropdown-button">
-          <a class="dropdown-item" href="merchant-qrpay.html">ระบบชำระเงิน QRPAY</a>
-          <a class="dropdown-item" href="merchant-recurring.html">บริการหักบัญชีบัตรเครดิตลูกค้าอัตโนมัติ</a>
+          <a class="dropdown-item" href="#section-merchant-qrpay">ระบบชำระเงิน QRPAY</a>
+          <a class="dropdown-item" href="#section-merchant-recurring">บริการหักบัญชีบัตรเครดิตลูกค้าอัตโนมัติ</a>
         </div>
       </div>
     </div>
@@ -421,12 +421,12 @@
     </div>
   </section>
   <div class="global-space"></div>
-  <section class="static-wrap static-merchant half-half-white-reverse">
+  <section id="section-merchant-edc" class="static-wrap static-merchant half-half-white-reverse">
     <div class="row">
       <div class="col-lg-6 order-lg-1 col-12 order-2 static-content">
         <h5>EDC<br>บริการเครื่องรูดบัตร</h5>
         <p>ลูกค้าชำระเงินง่าย ร้านค้ามั่นใจ ได้รับเงินทันใจ</p>
-        <a href="#" class="link-more">รายละเอียดเพิ่มเติม</a>
+        <a href="merchant-edc.html" class="link-more">รายละเอียดเพิ่มเติม</a>
       </div>
       <div class="col-lg-6 order-lg-2 col-12 order-1">
         <img src="img/merchant/main/img-section-2.jpg" alt="">
@@ -434,7 +434,7 @@
     </div>
   </section>
   <div class="global-space"></div>
-  <section class="static-wrap static-merchant half-overlap-grey">
+  <section id="section-merchant-mpos" class="static-wrap static-merchant half-overlap-grey">
     <div class="row">
       <div class="col-lg-6 col-12">
         <img src="img/merchant/main/img-section-3.jpg" alt="">
@@ -444,25 +444,25 @@
           <div>
             <h5>mPOS<br>บริการเครื่องรูดบัตรแบบพกพา</h5>
             <p>ลูกค้าชำระเงินง่าย ร้านค้ามั่นใจ ได้รับเงินทันใจ</p>
-            <a href="#" class="link-more">รายละเอียดเพิ่มเติม</a>
+            <a href="merchant-mpos.html" class="link-more">รายละเอียดเพิ่มเติม</a>
           </div>
         </div>
       </div>
     </div>
   </section>
   <div class="global-space"></div>
-  <section class="static-wrap static-merchant half-half-blue-reverse">
+  <section id="section-merchant-gateway" class="static-wrap static-merchant half-half-blue-reverse">
     <div class="row">
       <div class="col-lg-6 order-lg-1 col-12 order-2 static-content">
         <h5>GATEWAY<br>บริการระบบรับชำระเงินออนไลน์</h5>
-        <a href="#" class="link-more">รายละเอียดเพิ่มเติม</a>
+        <a href="merchant-online.html" class="link-more">รายละเอียดเพิ่มเติม</a>
       </div>
       <div class="col-lg-6 order-lg-2 col-12 order-1">
         <img src="img/merchant/main/img-section-4.jpg" alt="">
       </div>
     </div>
   </section>
-  <section class="static-wrap static-merchant full-overimage">
+  <section id="section-merchant-recurring" class="static-wrap static-merchant full-overimage">
     <div class="row">
       <div class="col-12 space-on-right">
         <img src="img/merchant/main/img-section-5.jpg" alt="">
@@ -470,11 +470,11 @@
       <div class="col-lg-6 col-12 text-on-right-img static-content">
         <h5>RECURRING <br>บริการหักบัญชีบัตรลูกค้าอัตโนมัติ</h5>
         <p>เก็บค่าบริการได้ง่าย รับเงินตรงเวลา</p>
-        <a href="#" class="link-more">รายละเอียดเพิ่มเติม</a>
+        <a href="merchant-recurring.html" class="link-more">รายละเอียดเพิ่มเติม</a>
       </div>
     </div>
   </section>
-  <section class="static-wrap static-merchant full-overimage">
+  <section id="section-merchant-qrpay" class="static-wrap static-merchant full-overimage">
     <div class="row">
       <div class="col-12">
         <img src="img/merchant/main/img-section-6.jpg" alt="">
@@ -483,7 +483,7 @@
         <div>
           <h5>QR PAY <br>บริการ QR Code Payment</h5>
           <p>สะดวก สบาย ลูกค้าชำระเงินง่าย แค่สแกน QR code ผ่านโทรศัพท์มือถือ</p>
-          <a href="#" class="link-more">รายละเอียดเพิ่มเติม</a>
+          <a href="merchant-qrpay.html" class="link-more">รายละเอียดเพิ่มเติม</a>
         </div>
       </div>
     </div>
