@@ -248,7 +248,7 @@ section#section-merchant-card-type .list-payment-services .item-payment-service 
   color: #0076c0;
 }
 section#section-merchant-card-type .list-payment-services .item-payment-service h5 {
-  font-family: "Conv_SukhumvitTadmai_Tex", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Conv_SukhumvitTadmai_Bol", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.4;
 }
@@ -256,6 +256,7 @@ section#section-merchant-card-type .list-payment-services .item-payment-service 
   margin-top: 5px;
   font-size: 16px;
   line-height: 1.5;
+  font-family: "Conv_SukhumvitTadmai_Tex";
 }
 @media (max-width: 991px) {
   section#section-merchant-card-type .list-payment-services .item-payment-service {
