@@ -26,7 +26,7 @@
 	src: local('☺'), url('../fonts/GothamRnd-Medium.woff') format('woff'), url('../fonts/GothamRnd-Medium.ttf') format('truetype'), url('../fonts/GothamRnd-Medium.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
-	unicode-range: U+30-39, U+41-5A, U+61-7A, U+C0-FF;
+	/*unicode-range: U+30-39, U+41-5A, U+61-7A, U+C0-FF;*/
 }
 
 @font-face {
@@ -42,7 +42,15 @@
 	src: local('☺'), url('../fonts/GothamRnd-Book.woff') format('woff'), url('../fonts/GothamRnd-Book.ttf') format('truetype'), url('../fonts/GothamRnd-Book.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
-	unicode-range: U+30-39, U+41-5A, U+61-7A, U+C0-FF;
+	/*unicode-range:U+41-5A, U+61-7A, U+C0-FF;*/
+}
+
+@font-face {
+	font-family: 'Conv_SukhumvitTadmai_TexT';
+	src: url('../fonts/SukhumvitTadmai_Tex.eot');
+	src: local('☺'), url('../fonts/SukhumvitTadmai_Tex.woff') format('woff'), url('../fonts/SukhumvitTadmai_Tex.ttf') format('truetype'), url('../fonts/SukhumvitTadmai_Tex.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
 
 @font-face {
@@ -2474,9 +2482,6 @@ a:hover .on-hover{
 	padding-top: 20px;
   font-family: 'Conv_SukhumvitTadmai_Tex';
 }
-article#content-card-detail section{
-  padding-top: 0px;
-}
 #content-card-detail.page-content .content-inner-merchant-detail .section-service-detail{
   border-top: 1px solid #E7E8EA;
   padding-top: 40px;
@@ -2972,6 +2977,10 @@ a.card-register-center, a.btn-action {
 article#content-card-detail section{
   padding-top: 0px;
 }
+article#content-card-detail.first-section-bangchak section{
+  padding-top: 40px;
+  padding-bottom: 0px;
+}
 #content-card-detail.page-content .content-inner-merchant-detail .section-service-detail{
   border-top: 1px solid #E7E8EA;
   padding-top: 40px;
@@ -3092,6 +3101,12 @@ article.page-content #card-detail-regis h3::after{
 	height: 361px;
 	width: 519px;
 	box-shadow: 0px 3px 10px rgba(0,0,0,0.16);
+}
+.static-wrap .still-background img.bg-for-ipad{
+	display: none;
+}
+.static-wrap .still-background img.bg-for-mobile{
+	display: none;
 }
 .static-wrap .block-wrap img{
 	height: 100px;
@@ -5711,6 +5726,14 @@ section#section-flexi-cards-mobile.forever,section#section-flexi-cards {
 	height: 4px;
 	background-color: #DB195E;
 }
+#section-flexi-cards-mobile.forever.first-section-forever h4::after {
+	margin: 0;
+	background-color: transparent;
+}
+#section-flexi-cards.first-section-forever h4::after {
+	margin: 0;
+	background-color: transparent;
+}
 
 
 #section-flexi-cards-mobile.forever small,#section-flexi-cards small {
@@ -5739,7 +5762,7 @@ section#section-flexi-cards-mobile.forever,section#section-flexi-cards {
 }
 
 .forever #section-flexi-cards .sub-title-new{
-	font-family: 'Conv_SukhumvitTadmai_Thi';
+	font-family: 'Conv_SukhumvitTadmai_Tex';
 	font-size: 18px;
 }
 .forever #section-flexi-cards .box-title-forever{
@@ -9170,10 +9193,8 @@ section#detail-register{
     margin-top: 40px;
 	}
 	
-	.block-wrap.block-content{
-    margin-top: 30px;
-  }
   .block-wrap.block-content{
+    margin-top: 30px;
     height: 386px;
     width: 100%;
   }

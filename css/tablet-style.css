@@ -511,7 +511,7 @@
     text-align: center;
   }
   #header-card-detail .content-desc.only-mobile{
-    display: inline-block;
+    display: block;
     margin-top: 30px;
   }
   #header-card-detail .content-desc.only-desktop,
@@ -555,6 +555,10 @@
   #content-card-detail section.content-inner-merchant-detail .row > [class*="col"]{
     padding: 20px;
   }
+  article#content-card-detail.first-section-bangchak section,
+  article#content-card-detail.first-section-hospital{
+    padding-top: 0px;
+  }
   .sub-sticky .sticky-left li.nav-back {
     margin-right: 0px;
   }
@@ -581,9 +585,11 @@
   .more-modal .header {
     margin-top: 40px;
   }
-
+  .type-card{
+    margin: 40px auto 0 auto;
+  }
   .type-card p{
-    padding-bottom: 40px;
+    padding-bottom: 20px;
   }
   .static-wrap .negative-text.position-on-top{
     color: #fff;
@@ -594,6 +600,15 @@
   .block-wrap.block-content{
     height: auto;
     width: 100%;
+  }
+  .page-content .still-background.still-width.bg-any-device img{
+    width: 100%;
+  }
+  .static-wrap .still-background img.bg-for-ipad{
+    display: block;
+  }
+  .static-wrap .still-background img.bg-for-desktop{
+    display: none;
   }
   .bg-grey{
     background-color: #f6f7f7;
@@ -1167,7 +1182,7 @@
 
   #section-flexi-cards-mobile.forever .box-title-forever{
     margin-bottom: 8px;
-    margin-top: 18px;
+    margin-top: 32px;
   }
 
   .forever #nav-flexi-scroll-trigger{
@@ -1200,6 +1215,7 @@
   #page-flexi-content.forever .content-pre-nav h4 {
     font-family: "Conv_SukhumvitTadmai_Tex";
     font-size: 35px;
+    line-height: 1.2;
   }
 
 
@@ -1277,6 +1293,7 @@
 
   #section-flexi-cards-mobile.forever .sub-title-new {
     font-size: 20px;
+    line-height: 1.4;
   }
 
 
@@ -1702,6 +1719,9 @@
     text-align: center !important;
   }
   .full-overimage.top-banner .text-on-left-img.text-left.only-forever{
+    display: none;
+  }
+  .static-content.text-left.text-on-left-img.only-forever{
     display: none;
   }
 

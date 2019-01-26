@@ -786,16 +786,12 @@
   .after-header-on-desktop{
     display: none;
   }
-  .type-card {
-    margin: 60px auto 0px auto;
-  }
   .type-card h3 {
     font-size: 26px;
   }
   .type-card p{
     font-size: 18px;
     padding-top: 15px;
-    padding-bottom: 30px;
   }
   .static-wrap .negative-text.position-on-top{
     color: #fff;
@@ -807,6 +803,15 @@
   .block-wrap.block-content{
     height: auto;
     width: 100%;
+  }
+  .static-wrap .still-background img.bg-for-mobile{
+    display: block;
+  }
+  .static-wrap .still-background img.bg-for-ipad{
+    display: none;
+  }
+  .static-wrap .still-background img.bg-for-desktop{
+    display: none;
   }
   .static-wrap .negative-text .block-wrap.block-content .link-more{
     color: #000;
