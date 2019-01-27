@@ -856,7 +856,7 @@ section.content-inner-merchant-detail .text-phone::before {
 }
 
 #form-merchant.form-inner-page label {
-  font-family: "Conv_SukhumvitTadmai_Thi", Helvetica, Arial, sans-serif;
+  font-family: "Conv_SukhumvitTadmai_Tex", Helvetica, Arial, sans-serif;
 }
 #form-merchant.form-inner-page #sending-form {
   margin-bottom: 0;
@@ -1070,7 +1070,7 @@ article.page-merchant-inner-content section.full-width.content-merchant-online d
     padding: 0 2px;
   }
   .page-merchant-inner-header nav[aria-label="breadcrumb"] .breadcrumb-item a {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   article.page-merchant-inner-content h3, article.page-merchant-inner-content h4 {

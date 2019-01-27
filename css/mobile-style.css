@@ -161,8 +161,9 @@
     font-size: 12px;
   }
   .breadcrumb.bc-content{
-    padding: 5px 0 7px 0;
-    font-size: 12px;
+    padding: 5px 0 5px 0;
+    font-size: 14px;
+    line-height: 26px;
   }
   .overlay-breadcrumb .site-breadcrumb a.current {
     width: 180px;
@@ -682,7 +683,7 @@
     height: 32px;
   }
   .static-merchant .img-logo-payment img{
-    height: 35px;
+    height: 42px;
   }
 
   /* creditcard page -eve */
@@ -831,7 +832,6 @@
   }
   .main-loan h1{
   	font-size: 20px;
-    padding-top: 40px;
     margin-bottom: 45px;
   }
   .main-loan .box-content {
@@ -1334,7 +1334,7 @@
 
   #page-flexi-content.forever .content-pre-nav {
     padding-top: 22px;
-    padding-bottom: 0px;
+    padding-bottom: 25px;
   }
 
   #section-flexi-cards-mobile.forever h4 {
@@ -1402,7 +1402,7 @@
   }
 
   #section-flexi-cards-mobile.forever .box-title-forever {
-      margin-top: 18px;
+      margin-top: 20px;
   }
 
   #page-flexi-content.forever h4 {

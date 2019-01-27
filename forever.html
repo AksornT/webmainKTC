@@ -278,8 +278,8 @@
     <div class="row">
       <div class="col-12">
         <div class="overlay-breadcrumb">
-          <div class="content-wrap">
-            <div class="site-breadcrumb text-left">
+          <div class="content-wrap breadcrumb-wrap">
+            <div class="site-breadcrumb">
               <a href="index.html">หน้าหลัก</a> /
               <a href="creditcard.html">บัตรเครดิต</a> /
               <a href="forever.html" class="current">คะแนนสะสม</a>
@@ -305,13 +305,15 @@
     </div>
   </section>
 
+  <div id="nav-flexi-scroll-trigger"></div>
+  <div id="nav-flexi-mobile-scroll-trigger"></div>
+
 <article id="page-flexi-content" class="forever">
   <div class="content-pre-nav only-mobile">
     <h3>คะแนนบัตรเครดิต KTC</h3>
     <h4>สะสมง่าย แลกง่าย ได้สิทธิพิเศษมากมาย</h4>
     <a href="#" class="btn button-flexi-start only-mobile">เช็ก / แลก / โอนคะแนนสะสม </a>  
   </div>
-  <div id="nav-flexi-scroll-trigger"></div>
   <nav id="nav-flexi" class="navbar navbar-expand-lg only-desktop">
       <div id="nav-flexi-navbar">
         <ul class="nav navbar-nav">
@@ -378,7 +380,6 @@
       </div>
     </div>
   </nav>
-  <div id="nav-flexi-mobile-scroll-trigger"></div>
 
   <!--<h1 class="forever-share-top">
     <span class="share-on-top">
@@ -399,8 +400,8 @@
             <img src="img/img-score.svg">
         </figure>
         <div class="box-title-forever">
-          <p class="sub-title-new">ใช้จ่ายผ่านบัตรฯ ทุก 25 บาท รับคะแนนสะสม</p>
-          <p class="sub-title-new">KTC FOREVER REWARDS 1 คะแนน</p>
+          <p class="sub-title-new">ใช้จ่ายผ่านบัตรฯ ทุก 25 บาท รับคะแนน</p>
+          <p class="sub-title-new">KTC FOREVER 1 คะแนน</p>
           <p class="sub-title-new">สามารถนำไปแลกส่วนลด และสิทธิประโยชน์มากมาย</p>
         </div>
         <div class="special-button">
@@ -418,8 +419,7 @@
             <img src="img/img-score.svg">
         </figure>   
         <div class="box-title-forever">
-          <p class="sub-title-new">ใช้จ่ายผ่านบัตรฯ ทุก 25 บาท รับคะแนนสะสม
-          KTC FOREVER REWARDS 1 คะแนน<br>
+          <p class="sub-title-new">ใช้จ่ายผ่านบัตรฯ ทุก 25 บาท รับคะแนน KTC FOREVER 1 คะแนน<br>
           สามารถนำไปแลกส่วนลด และสิทธิประโยชน์มากมาย</p>
         </div>
          <button class="btn btn-link underlined button-terms" data-toggle="modal" data-target="#flexi-terms-modal">เงื่อนไขการใช้บริการ</button>
@@ -435,7 +435,7 @@
           <img src="img/forever/img-ticket-3.jpg" alt="">
         </div>
         <div class="col-12 col-lg-7 text-on-right-img static-content">
-          <h5 class="paragraph-head">แลกไมล์ /ตั๋วเครื่องบิน<br></h5>
+          <h5 class="paragraph-head">แลกไมล์ / ตั๋วเครื่องบิน<br></h5>
           <p class= "only-shopping"><a href="#" class="btn-link underlined" data-toggle="modal" data-target="#forever-rewards-modal">แลกคะแนนเป็นไมล์กับสายการบินชั้นนำ</a><br> 
             หรือ <a href="#" class="btn-link underlined">แลกตั๋วเครื่องบินกับ KTC World Travel Service</a></p>
         </div>
@@ -475,9 +475,9 @@
         </div>
         <div class="col-12 col-lg-6 static-content">
           <h5>จ่ายบิลบัตร KTC</h5>
-          <p>คะแนนสะสม KTC FOREVER REWARDS ทุก 1,000 คะแนน = 100 บาท<br>   
-         แลกเครดิตเงินคืนเข้าบัญชีบัตร KTC ชำระค่าใช้จ่ายบัตรเครดิต KTC<br>
-         และบัตรสินเชื่อพร้อมใช้ KTC PROUD</p>
+          <p>คะแนน KTC FOREVER ทุก 1,000 คะแนน = 100 บาท<br>
+            แลกเครดิตเงินคืนเข้าบัญชีบัตร KTC ชำระค่าใช้จ่ายบัตรเครดิต KTC<br>
+            และบัตรกดเงินสด KTC PROUD</p>
          <br>
          <p>แลกคะแนนผ่าน</p>
          <p style="color:#707070;">KTC PHONE <a href="tel:021235000" style="color:#707070;">02 123 5000</a><br>
@@ -515,7 +515,11 @@
           <h5 class="slide-title">Sweet Forever</h5>
           <p>คะแนนน้อย อร่อยมาก</p>
           <div class="item-footer">
-            <p class="text-date">1 ก.ค. 61 - 30 ก.ย. 61</p>
+            <p class="text-date">
+              <button type="button" class="btn button-favorite" data-toggle="button" aria-pressed="false">
+                <span class="sr-only">Favorite</span>
+              </button> 1 ก.ค. 61 - 30 ก.ย. 61
+            </p>
             <button class="button-register">ลงทะเบียน</button>
           </div>
         </figure>
@@ -526,7 +530,11 @@
           <h5 class="slide-title">แลกบินสุดคุ้มด้วย KTC Forever Rewards</h5>
           <p>ไมล์หรือตัวเครื่องบินสายการบินชั้นนำ</p>
           <div class="item-footer">
-            <p class="text-date">1 ก.ค. 61 - 30 ก.ย. 61</p>
+            <p class="text-date">
+              <button type="button" class="btn button-favorite" data-toggle="button" aria-pressed="false">
+                <span class="sr-only">Favorite</span>
+              </button> 1 ก.ค. 61 - 30 ก.ย. 61
+            </p>
             <button class="button-register">ลงทะเบียน</button>
           </div>
         </figure>
@@ -539,7 +547,11 @@
           <p>แบ่งชำระ รับเครดิตสูงสุด 10,000บาท ชำระ
           เต็มจำนวน แลกรับเครดิตเงินคืน 250บาท</p>
           <div class="item-footer">
-            <p class="text-date">1 ก.ค. 61 - 30 ก.ย. 61</p>
+            <p class="text-date">
+              <button type="button" class="btn button-favorite" data-toggle="button" aria-pressed="false">
+                <span class="sr-only">Favorite</span>
+              </button> 1 ก.ค. 61 - 30 ก.ย. 61
+            </p>
             <button class="button-register">ลงทะเบียน</button>
           </div>
         </figure>
@@ -550,7 +562,11 @@
           <h5 class="slide-title">KTC Happiness Forever</h5>
           <p>ลดเพิ่มสูงสุดถึง 15 %</p>
           <div class="item-footer">
-            <p class="text-date">1 ก.ค. 61 - 30 ก.ย. 61</p>
+            <p class="text-date">
+              <button type="button" class="btn button-favorite" data-toggle="button" aria-pressed="false">
+                <span class="sr-only">Favorite</span>
+              </button> 1 ก.ค. 61 - 30 ก.ย. 61
+            </p>
             <button class="button-register">ลงทะเบียน</button>
           </div>
         </figure>
@@ -561,7 +577,11 @@
           <h5 class="slide-title">KTC Happiness Forever</h5>
           <p>ลดเพิ่มสูงสุดถึง 15 % KTC</p>
           <div class="item-footer">
-            <p class="text-date">1 ก.ค. 61 - 30 ก.ย. 61</p>
+            <p class="text-date">
+              <button type="button" class="btn button-favorite" data-toggle="button" aria-pressed="false">
+                <span class="sr-only">Favorite</span>
+              </button> 1 ก.ค. 61 - 30 ก.ย. 61
+            </p>
             <button class="button-register">ลงทะเบียน</button>
           </div>
         </figure>

@@ -429,6 +429,13 @@
     font-size: 16px;
   }
 
+  .content-wrap.breadcrumb-wrap{
+    padding: 0 35px;
+  }
+  .content-wrap.breadcrumb-wrap .site-breadcrumb{
+    text-align: left;
+  }
+
   /* creditcard page -eve */
   .click-compare .on-desktop{
   	display: none;
@@ -1614,6 +1621,9 @@
     line-height: 1.4;
     font-size: 30px;
   }
+  .static-wrap h5.title-static-merchant{
+    margin-bottom: 14px;
+  }
 
   .static-wrap .text-left h5,
   .static-wrap .text-right h5{
@@ -1645,6 +1655,10 @@
   .static-merchant .link-more {
     color: #000;
     margin-top: 10px;
+  }
+
+  .static-merchant.full-blue .bg-on-desktop{
+    display: none;
   }
 
   .half-half-blue .link-more,

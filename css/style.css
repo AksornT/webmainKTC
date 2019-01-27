@@ -514,14 +514,16 @@ a:hover{
 /* favorite button */
 .btn.button-favorite {
 	display: inline-block;
-	width: 20px;
-	height: 20px;
-	background: transparent url("../img/ico-fav-inactive.svg") no-repeat center;
+	width: 24px;
+	height: 24px;
+	background: transparent url(../img/promotion/ico-fav.svg) no-repeat center;
+	margin-right: 6px;
+	background-size: 100%;
 }
 .btn.button-favorite.active,
 .btn.button-favorite.active:not(:disabled):not(.disabled),
 .btn.button-favorite:not(:disabled):not(.disabled):active {
-	background: transparent url("../img/ico-fav-active.svg") no-repeat center;
+	background: transparent url(../img/promotion/ico-fav-fill.svg) no-repeat center;
 }
 .btn.button-favorite.focus,
 .btn.button-favorite:focus {
@@ -833,7 +835,7 @@ a:hover{
 /* underlined buttons */
 .btn-link.underlined {
     font-size: 20px;
-    color: #cf3339;
+    color: #000;
     text-decoration: underline;
 }
 
@@ -902,7 +904,7 @@ article.page-content h4::after {
     left: 0;
     position: relative;
     width: 50%;
-    height: 4px;
+    height: 2px;
     background-color: #CF3339;
 }
 article.page-content h3.no-dash::after,
@@ -1124,13 +1126,13 @@ button:focus {
 .image-link img{
 	width: 100% ;
 	height: auto;
-	opacity: 1;
+	opacity: 0.65;
 	display: block;
 	margin-bottom: -1px;
 }
 
-.image-link a:hover img {
-    opacity: 0.65;
+.image-link a:hover img{
+    opacity: 1;
 }
 
 .image-link .icon-last-content{
@@ -1355,6 +1357,9 @@ body.modal-open{
 	width: 40px;
 	height: 40px;
 }
+.full-modal .modal-merchant .close{
+	background-image: url('../img/merchant/ico-close-merchant.svg');
+}
 
 .full-modal .close span{
 	display: none;
@@ -1381,6 +1386,9 @@ body.modal-open{
 	border-top: 4px solid #CF3339;
 	border-radius: 4px;
 	max-height: 90vh;
+}
+.full-modal .modal-content.modal-merchant{
+	border-color: #045aa7;
 }
 
 .full-modal .modal-header{
@@ -2063,6 +2071,10 @@ a:hover .on-hover{
     overflow: hidden;
     display: inline-block;
     vertical-align: bottom;
+    text-align: left;
+}
+.content-wrap.breadcrumb-wrap .site-breadcrumb{
+	text-align: left;
 }
 
 /* creditcard page -eve */
@@ -2858,7 +2870,7 @@ a.card-register-center, a.btn-action {
 
 .content-title{
     text-align: center;
-    font-size: 35px;
+    font-size: 40px;
     display: inline-block;
     margin-left: 50%;
     position: relative;
@@ -2869,7 +2881,7 @@ a.card-register-center, a.btn-action {
     transform: translateX(-50%);
 }
 .content-title:after {
-    height: 4px;
+    height: 2px;
     width: 50%;
     background: #CF3339;
     position: absolute;
@@ -2930,7 +2942,7 @@ a.card-register-center, a.btn-action {
 }
 .static-wrap .link-more.link-to-modal{
 	text-decoration: underline;
-	color: #CF3339;
+	color: #000;
 }
 .negative-text .link-more.static-link-red{
 	color: #CF3339;
@@ -3161,7 +3173,7 @@ article.page-content #card-detail-regis h3::after{
 	text-align: center;
 }
 .main-loan h1:after {
-    height: 4px;
+    height: 2px;
     width: 50%;
     background: #CF3339;
     position: absolute;
@@ -3223,6 +3235,16 @@ section#section-merchant-register-form select.form-control:focus,
     -webkit-appearance: none;
     border-color:#ced4da; 
 }
+/*.form-control.option-selected option{
+	border-color: transparent;
+	box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+}
+.form-control.option-selected option:hover,
+select:focus.form-control.option-selected option:checked{
+	background-color: #CF3339;
+	border-color: #CF3339;
+	color: #fff;
+}*/
 
 .form-wrap span.select-arrow {
     width: 30px;
@@ -3446,6 +3468,7 @@ h4.content-title{
     margin-bottom: 15px;
 }
 .proud-loan .content-desc h3 {
+	font-family: 'Conv_SukhumvitTadmai_Tex';
     font-size: 20px;
 }
 .img-full-half img{
@@ -3509,18 +3532,19 @@ h4.content-title{
 	font-size: 16px;
 }
 .static-wrap .desc-transfer a{
-	color: #CF3339;
+	color: #000;
     text-decoration: underline;
 }
 .static-wrap p strong{
-	font-family: 'Conv_SukhumvitTadmai_Tex';
+	font-family: 'Conv_SukhumvitTadmai_Bol';
 }
 .static-wrap p .underline{
-	color: #CF3339;
+	color: #000;
 }
 .static-wrap .little-notice{
-	font-family: 'Conv_SukhumvitTadmai_Thi';
+	font-family: 'Conv_SukhumvitTadmai_Tex';
     font-size: 16px;
+    color: #000;
     margin: 33px 0 0 0;
 }
 
@@ -3622,8 +3646,8 @@ h4.content-title{
 	padding-bottom: 10px;
 }
 .box-con-cal .con-cal-txt p{
-	color: #5B6670;
-	font-family: 'Conv_SukhumvitTadmai_Bol';
+	color: #000;
+	font-family: 'Conv_SukhumvitTadmai_Tex';
 	font-size: 14px;
 	line-height: 26px;
 	text-decoration: underline;
@@ -3665,7 +3689,7 @@ h4.content-title{
 }
 .detail-register h3:after,
 .title-red-line h3:after {
-  height: 4px;
+  height: 2px;
   background: #CF3339;
   position: absolute;
   left: 25%;
@@ -3733,7 +3757,7 @@ nav.navbar .sub-nav-flexi{
 	display: inline-block;
 	padding: 5px 30px;
 	font-family: "Conv_SukhumvitTadmai_Bol", Helvetica, Arial, sans-serif;
-	font-size: 18px;
+	font-size: 13px;
 	font-weight: normal;
 	color: #ffffff;
 	background: #CF3339;
@@ -3805,6 +3829,8 @@ nav.navbar .sub-nav-flexi{
 	display: flex;
 	opacity: 0;
 	pointer-events: none;
+	padding-left: calc(50vw - 653px - 0.5rem);
+	padding-right: calc(50vw - 653px - 0.5rem);
 }
 
 #nav-flexi.only-desktop.fixed {
@@ -4012,7 +4038,7 @@ nav.navbar .sub-nav-flexi{
 	display: block;
 	margin: 10px auto;
 	width: 50%;
-	height: 4px;
+	height: 2px;
 	background-color: #CF3339;
 }
 .forever .content-ticket{
@@ -4136,7 +4162,7 @@ section#section-flexi-cards {
 	margin-top: 3px;
 	width: 50%;
 	margin-left: 25%;
-	height: 4px;
+	height: 2px;
 	background: transparent;
 }
 #nav-flexi-installments li.nav-item.active a {
@@ -4339,11 +4365,13 @@ section#section-flexi-cards {
 
 #forever-rewards-modal .modal-title,
 #forever-donate-modal .modal-title{
-	font-family: 'Conv_PSL249pro';
+	font-family: "Conv_SukhumvitTadmai_Tex";
 	border-bottom: 1px solid #E6E8EA;
 	width: 100%;
 	text-align: left;
 	font-size: 36px;
+	padding-bottom: 17px;
+	margin-top: 18px;
 }
 #forever-rewards-modal p.row-title {
 	font-family: 'Conv_PSL249pro';
@@ -4445,6 +4473,10 @@ section#section-flexi-cards {
 	#nav-flexi .sticky-right{ 
 		padding-right: calc(50vw - 653px  - 0.5rem);
 	}
+}
+
+#nav-flexi .sticky-right.page-loan{
+	padding-right: 0;
 }
 
 .sticky-right a{
@@ -4625,6 +4657,7 @@ article.page-content .flexi-installments h4::after{
 }
 .installments-wrap .right{
 	padding-top: 20px;
+    padding-bottom: 20px;
 }
 .installments-wrap p{
 	font-family: 'Conv_SukhumvitTadmai_Tex';
@@ -4656,13 +4689,11 @@ article.page-content .flexi-installments h4::after{
 }
 .flexi-loan .box-title .title{
 	font-family: 'Conv_SukhumvitTadmai_Tex';
-  	font-size: 34px;
-  	text-align: left;
+  	font-size: 40px;
 }
 .flexi-loan .box-title .sub-title{
 	font-family: 'Conv_SukhumvitTadmai_Tex';
-  	font-size: 24px;
-  	text-align: left;
+  	font-size: 20px;
   	line-height: 1.4;
 }
 #page-flexi-content .section-cards h4::after{
@@ -4692,7 +4723,7 @@ article.page-content .flexi-installments h4::after{
     margin-top: auto;
     height: auto;
     text-align: center;
-    margin-top: 45px;
+    margin-top: 20px;
 }
 .section-cards figure.box-info > * {
     display: flex;
@@ -5591,10 +5622,10 @@ img[href]:hover{
 
  .forever .btn.button-flexi-start {
 	display: inline-block;
-	height:40px;
+	/*height:40px;*/
 	padding: 5px 30px;
 	font-family: "Conv_SukhumvitTadmai_Bol", Helvetica, Arial, sans-serif;
-	font-size: 18px;
+	font-size: 13px;
 	font-weight: normal;
 	color: #ffffff;
 	background: #DB195E;
@@ -5635,8 +5666,8 @@ img[href]:hover{
 }
 
 .forever #nav-flexi {
-    padding-right: 55px;
-    padding-left: 36px;
+    padding-right: calc(50vw - 653px - 0.5rem);
+    padding-left: calc(50vw - 653px - 0.5rem);
 }
 
 #page-flexi-content.forever section:last-child{
@@ -5663,7 +5694,7 @@ img[href]:hover{
 	display: block;
 	margin: 10px auto;
 	width: 50%;
-	height: 4px;
+	height: 2px;
 	background-color: #DB195E;
 }
 
@@ -5723,7 +5754,7 @@ section#section-flexi-cards-mobile.forever,section#section-flexi-cards {
 	display: block;
 	margin: 10px auto;
 	width: 50%;
-	height: 4px;
+	height: 2px;
 	background-color: #DB195E;
 }
 #section-flexi-cards-mobile.forever.first-section-forever h4::after {
@@ -6245,7 +6276,7 @@ section#section-flexi-cards-mobile.forever,section#section-flexi-cards {
 .section-title:after {
     content: '';
     width: 50%;
-    height: 4px;
+    height: 2px;
     background: #CF3339;
     position: absolute;
     bottom: 0;
@@ -6286,7 +6317,7 @@ section#section-flexi-cards-mobile.forever,section#section-flexi-cards {
 }
 
 .register-wrapper .nav .nav-link:after{
-	height: 4px;
+	height: 2px;
 	content: "";
 	display: block;
 	position: absolute;
@@ -8127,6 +8158,10 @@ nav[aria-label="breadcrumb"]{
 	margin:0 0 14px 0;
 }
 
+.static-wrap h5.title-static-merchant{
+	margin-bottom: 0;
+}
+
 .static-wrap .gold-header h5{
 	color: #C6663A;
 }
@@ -8304,6 +8339,19 @@ nav[aria-label="breadcrumb"]{
 
 .static-merchant.half-half-blue .the-number{
 	color: #fff;
+	background: url('../img/ico-tel-big-white.png') no-repeat;
+	background-size: auto 100%;
+	line-height: 1;
+}
+.static-merchant.full-blue{
+	background-color: #0076c0;
+}
+.static-merchant.full-blue p{
+	color: #fff;
+}
+.static-merchant.full-blue .the-number{
+	color: #fff;
+	font-family: 'Conv_SukhumvitTadmai_Bol';
 	background: url('../img/ico-tel-big-white.png') no-repeat;
 	background-size: auto 100%;
 	line-height: 1;
@@ -8661,7 +8709,8 @@ article.content-wrap{
 
 .static-modal .content p,
 .static-modal .content li{
-	line-height: 1.6;
+	line-height: 1.2;
+	font-size: 20px;
 }
 
 .static-modal .content > ul li{
