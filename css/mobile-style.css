@@ -1863,6 +1863,10 @@ nav[aria-label="breadcrumb"] + .row-search-filter {
   padding-bottom: 8px;
 }
 
+.text-on-slide .txt-no-mobile{
+  display: none;
+}
+
 .article-page .slide-wrap .index-slide2 .item .slide-content{
   height: 33px;
 }
