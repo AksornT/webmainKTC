@@ -497,7 +497,6 @@ a:hover{
 }
 
 .menu-global a.login-btn:hover{
-    /* top: -3px; */
     color: #000;
     background-color: #fff;
 }
@@ -1676,6 +1675,7 @@ body.modal-open{
 	margin: 40px 0 0 0;
 	opacity: 1;
 	border: none;
+	cursor: pointer;
 }
 
 .input-search + .button-search{
@@ -1684,7 +1684,13 @@ body.modal-open{
 
 .button-search:hover{
 	opacity: 0.65;
-	cursor: pointer;
+}
+.button-search[disabled]{
+	background: rgba(91,102,112,.6);
+	cursor: default;
+}
+.button-search[disabled]:hover{
+	opacity: 1;
 }
 
 .search-cat-wrap{
@@ -7114,8 +7120,11 @@ nav[aria-label="breadcrumb"] + .row-search-filter{
 	/*max-width: 19.5vw;*/
 }
 
-a.all-type-list[href]:hover{
+/*a.all-type-list[href]:hover{
 	top: -3px;
+}*/
+a.all-type-list[href]:hover p{
+	color: #CF3339;
 }
 
 .all-type-list > div{
