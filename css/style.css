@@ -238,6 +238,13 @@ a:hover{
     padding: 23px 0.8rem 16px 0.8rem;
     top: 3px;
     height: 63px;
+    vertical-align: bottom;
+}
+
+.scrolled-menu > li .fa{
+	vertical-align: middle;
+	position: relative;
+	top: -2px;
 }
 
 .scrolled-menu > li:hover{
@@ -259,7 +266,7 @@ a:hover{
 	left: 0.8rem;
 	right: 0.75rem;
 	height: 3px;
-	background: #000;
+	background: transparent;
 	content: "";
 	display: block;
 }
@@ -9060,7 +9067,7 @@ section#detail-register{
 
 @media (max-width: 1200px) {
 	.scrolled-menu > li{
-		font-size: 13px;
+		font-size: 12px;
     	padding: 23px 0.7rem 16px 0.1rem;
     	font-family: 'Conv_SukhumvitTadmai_Tex';
 	}
