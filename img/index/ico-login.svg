@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+  <g id="Symbol_343_1" data-name="Symbol 343 – 1" transform="translate(-2805 -645)">
+    <g id="Symbol_338_1" data-name="Symbol 338 – 1">
+      <rect id="Rectangle_2733" data-name="Rectangle 2733" width="18" height="18" transform="translate(2805 645)" fill="none"/>
+    </g>
+    <g id="Group_3334" data-name="Group 3334" transform="translate(2807 646)">
+      <path id="Path_1934" data-name="Path 1934" d="M10.7,16H3a2.006,2.006,0,0,1-2-2V8.9a2.006,2.006,0,0,1,2-2h7.7a2.006,2.006,0,0,1,2,2V14A2.006,2.006,0,0,1,10.7,16Z" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_1935" data-name="Path 1935" d="M3,6.9V4.54A3.678,3.678,0,0,1,6.9,1h0a3.739,3.739,0,0,1,3.9,3.54V6.9" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+      <g id="Group_3333" data-name="Group 3333">
+        <line id="Line_1539" data-name="Line 1539" y2="2.3" transform="translate(6.9 10.3)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+      </g>
+    </g>
+  </g>
+</svg>
