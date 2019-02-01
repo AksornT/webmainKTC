@@ -292,7 +292,7 @@ a:hover{
 	opacity: 0;
 	pointer-events: none;
 	color: rgba(255,255,255,0.7);
-	padding-bottom: 11px;
+	padding: 10px 0;
 	background: #000;
 }
 
@@ -305,7 +305,7 @@ a:hover{
     text-align: left;
     padding: 0 20px;
     font-size: 14px;
-    line-height: 45px;
+    line-height: 35px;
     position: relative;
 }
 
@@ -3356,7 +3356,6 @@ section .form-register-completed .img-result {
 	top: 0;
 	height: auto;
 	position: relative;
-	box-shadow: 0px 3px 10px rgba(0,0,0,0.2);
 	border-radius: 10px;
 }
 .main-loan .box-content{
