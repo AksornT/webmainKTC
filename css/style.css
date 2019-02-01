@@ -238,6 +238,13 @@ a:hover{
     padding: 23px 0.8rem 16px 0.8rem;
     top: 3px;
     height: 63px;
+    vertical-align: bottom;
+}
+
+.scrolled-menu > li .fa{
+	vertical-align: middle;
+	position: relative;
+	top: -2px;
 }
 
 .scrolled-menu > li:hover{
@@ -259,7 +266,7 @@ a:hover{
 	left: 0.8rem;
 	right: 0.75rem;
 	height: 3px;
-	background: #000;
+	background: transparent;
 	content: "";
 	display: block;
 }
@@ -292,7 +299,7 @@ a:hover{
 	opacity: 0;
 	pointer-events: none;
 	color: rgba(255,255,255,0.7);
-	padding-bottom: 11px;
+	padding: 10px 0;
 	background: #000;
 }
 
@@ -305,7 +312,7 @@ a:hover{
     text-align: left;
     padding: 0 20px;
     font-size: 14px;
-    line-height: 45px;
+    line-height: 35px;
     position: relative;
 }
 
@@ -3356,7 +3363,6 @@ section .form-register-completed .img-result {
 	top: 0;
 	height: auto;
 	position: relative;
-	box-shadow: 0px 3px 10px rgba(0,0,0,0.2);
 	border-radius: 10px;
 }
 .main-loan .box-content{
@@ -9061,7 +9067,7 @@ section#detail-register{
 
 @media (max-width: 1200px) {
 	.scrolled-menu > li{
-		font-size: 13px;
+		font-size: 12px;
     	padding: 23px 0.7rem 16px 0.1rem;
     	font-family: 'Conv_SukhumvitTadmai_Tex';
 	}
