@@ -6563,6 +6563,7 @@ section#section-flexi-cards-mobile.forever,section#section-flexi-cards {
 
 .index-slide1 .owl-dots .owl-dot.active{
 	background: #CF3339;
+	pointer-events: none;
 }
 
 .row-search-filter {
