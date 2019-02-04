@@ -736,6 +736,42 @@ $(document).ready(function() {
         $('#scrolled-menu-responsive').removeClass('active');
     });
 
+    //For custom dropdown
+    var dValue = $('#proud-regis select.form-control option:nth-child(1)').text();
+    $('#proud-regis select.form-control').after('<input class="required custom-dropdown" type="text" value="' + dValue + '"><ul class="custom-option"></ul>');
+
+    $('#proud-regis select.form-control option').each(function(){
+      $(this).parent().siblings('.custom-option').append('<li value="' + $(this).val() + '">'+$(this).text()+'</li>');
+    });
+
+    $('.custom-option > li:nth-child(1)').addClass('active');
+
+    $(".custom-dropdown").on('click touch', function () {
+        $(this).siblings('ul').addClass('active');
+        $("body").on('click touch', function () {
+            $('.custom-dropdown + ul').removeClass('active');
+        });
+        return false;
+    });
+
+    $(".custom-dropdown").keypress(function(e) {
+        e.preventDefault();
+    });
+    $(".custom-dropdown").keydown( function(e){  
+      if( e.which == 8){   
+        e.preventDefault();  
+        return false;   
+      } 
+    }); 
+
+    $(".custom-dropdown + ul li").on('click touch', function () {
+      var dropdownText = $(this).html();
+      $(this).addClass('active');
+      $(this).siblings().removeClass('active');
+      $(this).parent().parent().find('.custom-dropdown').val(dropdownText);
+      $(this).parent().removeClass('active');
+    });
+
 });
 
 //for chackbox

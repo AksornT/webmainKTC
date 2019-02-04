@@ -9017,6 +9017,71 @@ section#detail-register{
 	}
 }
 
+/* new dropdown*/
+#proud-register input.custom-dropdown{
+	margin-top: 4px;
+	height: 32px;
+	cursor: pointer;
+	caret-color: transparent;
+}
+
+#proud-register input.custom-dropdown:hover{
+	cursor: pointer;
+}
+
+#proud-register .form-wrap .custom-dropdown + ul{
+    position: absolute;
+    left: 15px;
+    right: 15px;
+    background: #fff;
+    top: 50px;
+    text-align: left;
+    padding: 0;
+    display: none;
+    box-shadow: 0px 1px 4px rgba(0,0,0,.16);
+    z-index: 1;
+}
+
+#proud-register .form-wrap .custom-dropdown + ul{
+	top: 88px;
+}
+
+#proud-register .form-wrap .custom-dropdown + ul.active{
+	display: block;
+}
+
+#proud-register .form-wrap .custom-dropdown + ul li{
+	padding: 5px 15px;
+	font-family: 'Conv_SukhumvitTadmai_Tex';
+
+}
+
+#proud-register .form-wrap .custom-dropdown + ul li:hover,
+#proud-register .form-wrap .custom-dropdown + ul li.active{
+	background: #CF3339;
+	cursor: pointer;
+	color: #fff;
+}
+
+#proud-register .form-wrap .custom-dropdown + ul li:nth-child(1),
+#proud-register .form-wrap .custom-dropdown + ul li:nth-child(1):hover{
+	background: #efefef;
+	color: #777;
+	pointer-events: none;
+}
+
+#proud-register .form-wrap select.form-control{
+  	display: none;
+ }
+
+#proud-register  .form-wrap span.select-arrow{
+	margin-top: 4px;
+}
+
+ .custom-dropdown + ul li.active{
+ 	pointer-events: none;
+ }
+
 
 /*Safari Only*/
 @media not all and (min-resolution:.001dpcm)
