@@ -239,6 +239,7 @@ a:hover{
     top: 3px;
     height: 63px;
     vertical-align: bottom;
+    font-size: 14px;
 }
 
 .scrolled-menu > li .fa{
@@ -2101,9 +2102,11 @@ a:hover .on-hover{
     line-height: 26px;
     color: rgba(255, 255, 255, 0.6);
     margin-right: auto;
+    display: flex;
 }
 .overlay-breadcrumb .site-breadcrumb a{
 	color: rgba(255, 255, 255, 0.6);
+	flex: 0 0 auto;
 }
 .overlay-breadcrumb .site-breadcrumb a.current {
     color: #FFF;
@@ -2126,6 +2129,7 @@ a:hover .on-hover{
 .breadcrumb.bc-content{
 	background-color: transparent;
 	padding: 0;
+	display: flex;
 }
 .breadcrumb.bc-content .breadcrumb-item a{
 	color: rgba(91, 102, 112, 0.6);
@@ -2143,6 +2147,7 @@ a:hover .on-hover{
 .breadcrumb.bc-content li{
 	display: inline-block;
 	vertical-align: middle;
+	flex: 0 0 auto;
 }
 .breadcrumb-item+.breadcrumb-item::before{
 	vertical-align: middle;
@@ -3874,6 +3879,13 @@ nav.navbar .sub-nav-flexi{
 	padding-right: calc(50vw - 653px - 0.5rem);
 }
 
+@media only screen and (max-width: 1400px) {
+	#nav-flexi.only-desktop{
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+}
+
 #nav-flexi.only-desktop.fixed {
 	opacity: 1;
 	pointer-events: all;
@@ -4509,15 +4521,17 @@ section#section-flexi-cards {
 
 @media (min-width: 1366px) {
 	#nav-flexi .sticky-left{
-		padding-left: calc(50vw - 653px - 0.5rem);
+		padding-left: 0;
 	}
 	#nav-flexi .sticky-right{ 
-		padding-right: calc(50vw - 653px  - 0.5rem);
+		padding-right: 0;
 	}
 }
 
 #nav-flexi .sticky-right.page-loan{
 	padding-right: 0;
+	padding-top: 7px;
+	padding-bottom: 7px;
 }
 
 .sticky-right a{

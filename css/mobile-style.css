@@ -166,7 +166,7 @@
     line-height: 26px;
   }
   .overlay-breadcrumb .site-breadcrumb a.current {
-    width: 180px;
+    flex: 1;
   }
   .menu-global > .content-wrap{
     padding: 0 20px;
@@ -1841,7 +1841,7 @@ nav[aria-label="breadcrumb"] + .row-search-filter {
     padding-right: 0px;
 }
 #article-detail .breadcrumb .breadcrumb-item.active{
-    width: calc(100% - 80px);
+    flex: 1;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
@@ -2038,7 +2038,7 @@ nav[aria-label="breadcrumb"] + .row-search-filter {
   nav[aria-label="breadcrumb"] .breadcrumb-item a {
     overflow: hidden;
     font-size: 12px;
-    max-width: 33vw;
+    /*max-width: 33vw;*/
     white-space: nowrap;
     text-overflow: ellipsis;
     display: inline-block;
