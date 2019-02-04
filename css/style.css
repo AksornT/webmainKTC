@@ -2490,6 +2490,7 @@ a:hover .on-hover{
 }
 .background-after-head{
 	background: url(../img/card-details/platinum/bg-section-01.png);
+	background-position: center bottom -50%;
 }
 #header-card-detail .proud-head{
 	margin-bottom: 125px;
@@ -3801,9 +3802,10 @@ nav.navbar .sub-nav-flexi{
 /* Flexi Page - @korstudio */
 .btn.button-flexi-start {
 	display: inline-block;
-	padding: 5px 30px;
+	padding: 8px 30px;
+	height: 45px;
 	font-family: "Conv_SukhumvitTadmai_Bol", Helvetica, Arial, sans-serif;
-	font-size: 13px;
+	font-size: 18px;
 	font-weight: normal;
 	color: #ffffff;
 	background: #CF3339;
@@ -3817,6 +3819,10 @@ nav.navbar .sub-nav-flexi{
 	color: #CF3339;
 	background: #ffffff;
 	border: 1px solid #CF3339;
+	height: 30px;
+    font-size: 13px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 .btn.button-flexi-start.invert:hover,
 .forever .btn.button-flexi-start.invert:hover {
@@ -4031,6 +4037,10 @@ nav.navbar .sub-nav-flexi{
 	padding: 3px 20px;
 	font-size: 14px;
 	margin: 0;
+}
+#nav-flexi-mobile .nav.mini .button-flexi-start{
+	padding: 5px 20px;
+	font-size: 13px;
 }
 #nav-flexi-mobile .nav.mini .btn-flexi-share, #nav-flexi-modal .nav.mini .btn-flexi-share {
 	-webkit-background-size: 22px;
@@ -4570,6 +4580,7 @@ section#section-flexi-cards {
 #nav-flexi-mobile a.card-register-center{
 	padding: 3px 20px;
 	top: 0 !important;
+	border-radius: 3px;
 }
 
 #nav-flexi .sticky-left li{
