@@ -2485,7 +2485,7 @@ a:hover .on-hover{
 }
 .background-after-head{
 	background: url(../img/card-details/platinum/bg-section-01.png);
-	background-position: bottom;
+	background-position: center bottom -50%;
 }
 #header-card-detail .proud-head{
 	margin-bottom: 125px;
@@ -4566,6 +4566,7 @@ section#section-flexi-cards {
 #nav-flexi-mobile a.card-register-center{
 	padding: 3px 20px;
 	top: 0 !important;
+	border-radius: 3px;
 }
 
 #nav-flexi .sticky-left li{
