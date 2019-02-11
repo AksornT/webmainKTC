@@ -188,7 +188,11 @@
     margin-top: 8px;
   }
   .footer .active + ul .two-line a{
-    height: 34px;
+    height: auto;
+    padding-right: 25px;
+    width: 100%;
+    max-width: none;
+    line-height: 1.1;
   }
   .footer h3{
     font-size: 16px;
@@ -1676,8 +1680,18 @@ nav[aria-label="breadcrumb"] + .row-search-filter {
   height: 33px;
 }
 
-.promotion-page .item .slide-content{
+.promotion-page .item .slide-footer .slide-content{
   margin-bottom: 0;
+      height: 21px;
+    overflow: visible;
+    position: relative;
+    padding-left: 34px;
+}
+
+.promotion-page .item .slide-footer .slide-content .fav-btn{
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .menu-sub-icon .permanent-link .nav-link{

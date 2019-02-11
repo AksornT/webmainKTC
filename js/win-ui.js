@@ -119,6 +119,20 @@ $(document).ready(function() {
 
     });
 
+    //button in merchant page
+    $('.link-more.link-square').each(function (index, elem) {
+        var touchHandler = function (event) {
+            event.preventDefault();
+            var hash = this.hash;
+            var topOffset = $('#menu-global').innerHeight() + $('.sub-sticky').innerHeight();
+            if (hash !== "#" && hash.length > 0) {
+                navScrollTo(hash, topOffset);
+            }
+        };
+        elem.addEventListener('click', touchHandler);
+        elem.addEventListener('touchend', touchHandler, {passive: false});
+    });
+
 
 
     

@@ -210,12 +210,14 @@ section#section-merchant-card-type .row:first-child {
 section#section-merchant-card-type .list-card-vendors {
   display: flex;
   margin: 30px auto;
-  width: 80vw;
+  width: 100%;
   justify-content: space-around;
   align-items: center;
 }
 section#section-merchant-card-type .list-card-vendors li {
   padding: 20px 0;
+  flex: 0 0 20%;
+  text-align: center;
 }
 @media (max-width: 991px) {
   section#section-merchant-card-type .list-card-vendors {

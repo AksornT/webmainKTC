@@ -725,7 +725,7 @@ a:hover{
 	color: #454545;
 	border-bottom: 4px solid #CF3339;
 	display: inline-block;
-	/*padding-bottom: 5px;*/
+	padding-bottom: 5px;
 }
 
 .text-on-slide .index-head a{
@@ -6192,6 +6192,23 @@ section#section-flexi-cards-mobile.forever,section#section-flexi-cards {
     line-height: 30px;
     /*margin-bottom: 40px;*/
 }
+
+.article-wrap .article-content table{
+	display: table;
+ 	border-collapse: separate;
+ 	margin-bottom: 15px;
+}
+
+.article-wrap .article-content ul{
+  margin-bottom: 15px;
+  list-style-type: disc;
+}
+
+.article-wrap .article-content ol{
+  margin-bottom: 15px;
+  list-style-type: decimal;
+}
+
 .article-wrap .article-content p {
     margin-bottom: 20px;
 		letter-spacing: 0;
