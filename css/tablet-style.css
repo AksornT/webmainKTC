@@ -36,6 +36,7 @@
   .menu-global .on-right .only-mobile{
   	display: inline-block;
     padding: 14px 0;
+    vertical-align: middle;
   }
   .on-right .profile-image img{
     width: 28px;
