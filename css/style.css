@@ -4679,6 +4679,10 @@ section#section-flexi-cards {
 .nav-menu-modal .nav a:hover {
 	color: #CF3339;
 }
+.modal-merchant .nav li.nav-item.active a,
+.modal-merchant .nav a:hover {
+	color: #0076C0;
+}
 .nav-menu-modal .nav a {
 	padding: 14px 0;
 	color: #4c4c4c;
