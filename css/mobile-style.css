@@ -165,6 +165,15 @@
     font-size: 14px;
     line-height: 26px;
   }
+  .breadcrumb.bc-content a.current{
+    width: 90px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: bottom;
+    text-align: left;
+  }
   .overlay-breadcrumb .site-breadcrumb a.current {
     flex: 1;
   }
