@@ -8290,6 +8290,9 @@ nav[aria-label="breadcrumb"]{
 .static-wrap h5.title-static-merchant{
 	margin-bottom: 0;
 }
+.static-wrap .merchant-hero h5{
+	margin-bottom: 0;
+}
 
 .static-wrap .gold-header h5{
 	color: #C6663A;
