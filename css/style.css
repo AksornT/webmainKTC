@@ -1441,7 +1441,7 @@ body.modal-open{
 	max-height: 90vh;
 }
 .full-modal .modal-content.modal-merchant{
-	border-color: #045aa7;
+	border-color: #0076C0;
 }
 
 .full-modal .modal-header{
@@ -2789,15 +2789,15 @@ a.card-register-center, a.btn-action {
 }
 
 .card-register-center.blue {
-	background: #045aa7;
+	background: #0076C0;
 }
 .btn-action.blue {
 	background-color: #fff;
-	border: 1px solid #045aa7;
-	color: #045aa7;
+	border: 1px solid #0076C0;
+	color: #0076C0;
 }
 .btn-action:hover{
-	background-color: #045aa7;
+	background-color: #0076C0;
 	color: #fff;
 }
 
@@ -3981,7 +3981,7 @@ nav.navbar .sub-nav-flexi{
 }
 
 #section-merchant-card-type .btn-flexi-share:focus{
-	background: #045AA7 url('../img/promotion/ico-share-pro-white.svg') no-repeat center;
+	background: #0076C0 url('../img/promotion/ico-share-pro-white.svg') no-repeat center;
 	background-size: 80% auto ;
 }
 
@@ -4108,7 +4108,7 @@ nav.navbar .sub-nav-flexi{
 }
 
 #nav-sticky-merchant .btn-flexi-share:focus{
-	background: #045aa7 url(../img/ico-share-pro-white.png) no-repeat center;
+	background: #0076C0 url(../img/ico-share-pro-white.png) no-repeat center;
     background-size: 80% auto;
 }
 
