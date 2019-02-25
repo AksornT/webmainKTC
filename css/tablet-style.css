@@ -1087,6 +1087,7 @@
     line-height: 22px;
     padding: 3px 20px;
     margin: 7px 0 7px 15px;
+    border-radius: 3px;
   }
 
   .for-sticky{

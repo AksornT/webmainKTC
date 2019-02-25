@@ -593,29 +593,29 @@ section#section-merchant-register-form .row-merchant-download-docs .btn.button-d
 @media (min-width: 1024px) and (max-width: 1365px) {
   /* iPad Pro specific fix */
   #nav-sticky-merchant.sub-sticky {
-    height: 70px;
+    height: 66px;
   }
   #nav-sticky-merchant.sub-sticky .dropdown {
     margin-right: 15px;
   }
   #nav-sticky-merchant.sub-sticky .dropdown .dropdown-menu .dropdown-item {
-    font-size: 14px;
+    font-size: 15px;
   }
   #nav-sticky-merchant.sub-sticky .dropdown-toggle {
-    font-size: 14px;
+    font-size: 15px;
   }
   #nav-sticky-merchant.sub-sticky .sticky-left li {
     margin-right: 20px;
-    font-size: 14px;
-    line-height: 70px;
+    font-size: 15px;
+    line-height: 66px;
   }
   #nav-sticky-merchant.sub-sticky .sticky-left li.nav-back {
     margin-right: 10px;
   }
   #nav-sticky-merchant.sub-sticky .sticky-right .btn-action {
-    margin: 20px 0 20px 20px;
+    margin: 18px 0 17px 20px;
     padding: 7px 25px;
-    font-size: 14px;
+    font-size: 15px;
   }
   #nav-sticky-merchant .btn-flexi-share {
     margin-top: 20px;
