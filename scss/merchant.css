@@ -688,7 +688,7 @@ section#section-merchant-register-form .row-merchant-download-docs .btn.button-d
 }
 .page-merchant-inner-header nav[aria-label="breadcrumb"] .breadcrumb {
   margin: 0;
-  padding: 9px 0 9px 0;
+  padding: 11px 0;
 }
 .page-merchant-inner-header nav[aria-label="breadcrumb"] .breadcrumb-item + .breadcrumb-item::before {
   color: rgba(255, 255, 255, 0.6);
