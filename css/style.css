@@ -8469,6 +8469,7 @@ nav[aria-label="breadcrumb"]{
 
 .static-merchant.half-half-blue .the-number{
 	color: #fff;
+	font-family: 'Conv_SukhumvitTadmai_Tex';
 	background: url('../img/ico-tel-big-white.png') no-repeat;
 	background-size: auto 100%;
 	line-height: 1;
@@ -8481,7 +8482,7 @@ nav[aria-label="breadcrumb"]{
 }
 .static-merchant.full-blue .the-number{
 	color: #fff;
-	font-family: 'Conv_SukhumvitTadmai_Bol';
+	font-family: 'Conv_SukhumvitTadmai_Tex';
 	background: url('../img/ico-tel-big-white.png') no-repeat;
 	background-size: auto 100%;
 	line-height: 1;
