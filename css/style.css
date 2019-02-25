@@ -3301,6 +3301,10 @@ article.page-content #card-detail-regis h3::after{
 	color: #fff;
 }
 
+:-ms-input-placeholder {
+    color: #fff !important;
+}
+
 .form-wrap input:focus{
 	outline: none;
 }
@@ -3939,9 +3943,25 @@ nav.navbar .sub-nav-flexi{
 	}
 }
 
+#nav-flexi.only-desktop,
+#nav-flexi.only-desktop *{
+	transition: none;
+}
+
 #nav-flexi.only-desktop.fixed {
 	opacity: 1;
 	pointer-events: all;
+	transition: all .3s ease-out;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+}
+
+#nav-flexi.only-desktop.fixed *{
+	transition: all .3s ease-out;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
 }
 
 #nav-flexi-navbar,
