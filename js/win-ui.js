@@ -786,6 +786,13 @@ $(document).ready(function() {
       $(this).parent().removeClass('active');
     });
 
+    $("body").on('click touch', function () {
+      $('.before-dropdown').removeClass('text-focus');
+    });
+    $(".custom-dropdown").on('click touch', function () {
+      $(this).siblings('.before-dropdown').addClass('text-focus');
+    });
+
 });
 
 //for chackbox

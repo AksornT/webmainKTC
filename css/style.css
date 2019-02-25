@@ -3355,6 +3355,19 @@ select:focus.form-control.option-selected option:checked{
   font-family: 'Conv_SukhumvitTadmai_Tex';
 }
 
+.before-dropdown.text-focus{
+	color: #CF3339
+}
+.custom-dropdown+ul.active:before {
+    display: block;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    z-index: 100;
+    bottom: 100%;
+}
+
 .input-notice{
 	margin-top: 30px;
 	padding: 7px 0;
@@ -4019,7 +4032,6 @@ nav.navbar .sub-nav-flexi{
 	padding-left: 20px;
 	padding-right: 20px;
 }
-
 #nav-flexi.fixed #nav-flexi-navbar .navbar-nav {
 	margin-left: 0;
 	padding: 0;
