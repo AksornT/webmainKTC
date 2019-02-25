@@ -1788,6 +1788,10 @@
   }
   section#section-merchant-card-type .list-card-vendors{
     margin: 0 auto;
+    display: block;
+    text-align: center;
+    font-size: 0;
+    width: 312px;
   }
 
   section#section-merchant-card-type .list-payment-services{

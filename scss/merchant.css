@@ -225,6 +225,9 @@ section#section-merchant-card-type .list-card-vendors li {
   }
   section#section-merchant-card-type .list-card-vendors li {
     padding: 20px 10px;
+    flex: none;
+    width: 33%;
+    display: inline-block;
   }
 }
 @media (max-width: 576px) {
