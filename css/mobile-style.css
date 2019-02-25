@@ -2168,6 +2168,8 @@ nav[aria-label="breadcrumb"] + .row-search-filter {
     padding: 0;
   }
 
-    
+  .btn.button-flexi-start{
+    border-radius: 3px;
+  }    
 
 }
