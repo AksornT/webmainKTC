@@ -428,7 +428,7 @@ section#section-merchant-register-form input[type="text"].form-control {
   border-radius: 0;
 }
 section#section-merchant-register-form input[type="text"].form-control:focus {
-  border-color: rgba(90, 102, 112, 0.4);
+  border-color: #0076c0;
   box-shadow: none;
 }
 section#section-merchant-register-form .row-merchant-options h5 {
