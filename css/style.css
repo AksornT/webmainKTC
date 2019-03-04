@@ -2264,6 +2264,7 @@ a:hover .on-hover{
 	width: 100%;
 	position: relative;
 	top: 0px;
+	padding: 0 25px;
 }
 
 .main-credit img:hover{
@@ -2285,20 +2286,22 @@ a:hover .on-hover{
 }
 .main-credit .credit-title{
 	font-family: 'Gotham-Bold';
-	font-size: 18px;
+	font-size: 14px;
 	letter-spacing: 0.25px;
-  	line-height: 18px;
+  	line-height: 1.3;
+  	text-align: center;
 }
 .main-credit .credit-content{
 	font-family: 'Conv_SukhumvitTadmai_Tex';
-	font-size: 16px;
+	font-size: 14px;
 	letter-spacing: 0.25px;
-	line-height: 16px;
+	line-height: 1.3;
 	padding-top: 10px;
 	margin-bottom: 10px;
+	text-align: center;
 }
 .main-credit .main-content{
-	min-height: 100px;
+	min-height: 55px;
 	text-decoration: none;
 }
 .main-credit a{
@@ -9655,6 +9658,12 @@ section#detail-register{
     padding: 0 5px;
   }
 
+  .no-wrap-responsive .content-wrap{
+    padding: 0;
+    margin: 0 -15px;
+    width: auto;
+    max-width: none;
+  }
 
 }
 
