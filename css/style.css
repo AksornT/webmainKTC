@@ -8546,6 +8546,11 @@ nav[aria-label="breadcrumb"]{
 	.media-content.content-wrap{
 		padding:0;
 	}
+	.static-content.text-left.text-on-left-img{
+		padding: 0 calc(50vw - 628px);
+		margin: 0 auto;
+		width: 100%;
+	}
 }
 
 .half-half .row .row .static-content.text-on-left-img{
@@ -8562,13 +8567,6 @@ nav[aria-label="breadcrumb"]{
 .static-content li{
 	list-style-type: disc;
 	margin-left: 1.5em;
-}
-
-.static-content.text-left.text-on-left-img{
-	padding: 0 calc(10% - 55px);
-	margin: 0 auto;
-	width: 100%;
-	max-width: 1316px;
 }
 
 .static-wrap .flexi-banner{

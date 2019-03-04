@@ -2082,7 +2082,7 @@ nav[aria-label="breadcrumb"] + .row-search-filter {
   }
 
   .static-content.text-left.text-on-left-img{
-    padding-left: 50px;
+    padding: 40px 50px;
   }
 
   .static-content .media{

@@ -1896,7 +1896,7 @@
   }
 
   .static-content.text-left.text-on-left-img{
-    padding-left: 100px;
+    padding: 40px 100px;
   }
 
   #header-card-detail a.card-register-center {
@@ -2013,6 +2013,10 @@
   #content-card-detail .static-wrap .content-title{
     font-size: 30px;
     line-height: 45px;
+    padding: 0;
+  }
+
+  .static-wrap .row.content-wrap{
     padding: 0;
   }
 
