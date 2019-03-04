@@ -656,7 +656,8 @@ section#section-merchant-register-form .row-merchant-download-docs .btn.button-d
   background: #E7E8EA;
 }
 .page-merchant-inner-header h1 {
-  font-size: 35px;
+  font-size: 28px;
+  line-height: 1.3;
   position: relative;
 }
 .page-merchant-inner-header h1.header-title.no-logo {
@@ -681,7 +682,7 @@ section#section-merchant-register-form .row-merchant-download-docs .btn.button-d
   font-family: "Conv_SukhumvitTadmai_Tex", Helvetica, Arial, sans-serif;
   font-size: 28px;
   text-align: center;
-  line-height: 1.5;
+  line-height: 1.2;
 }
 .page-merchant-inner-header nav[aria-label="breadcrumb"] {
   position: absolute;

@@ -2527,7 +2527,7 @@ a:hover .on-hover{
 	background-position: center bottom -50%;
 }
 #header-card-detail .proud-head{
-	margin-bottom: 125px;
+	margin-bottom: 105px;
 	margin-top: 0;
   	height: 321px;
 }
@@ -2538,11 +2538,11 @@ a:hover .on-hover{
 }
 
 #header-card-detail .header-desc{
-  margin-bottom: 40px;
+  margin-bottom: 60px;
 }
 #header-card-detail .content-desc h2{
   font-family: 'Conv_SukhumvitTadmai_Tex';
-  font-size: 36px;
+  font-size: 34px;
 }
 
 #header-card-detail .content-desc h2 .smaller-text{
@@ -2552,10 +2552,10 @@ a:hover .on-hover{
 #header-card-detail .content-desc h3{
   /*margin-top: 10px;*/
   font-family: 'Conv_SukhumvitTadmai_Tex';
-  font-size: 20px;
+  font-size: 18px;
 }
 #header-card-detail a.card-register-center{
-  margin: 60px 0 60px 0;
+  margin: 40px 0 60px 0;
 }
 #header-card-detail.page-merchant-inner-header > .content-wrap::after{
   display: none;
@@ -2952,11 +2952,11 @@ a.card-register-center, a.btn-action {
 
 .content-title{
     text-align: center;
-    font-size: 40px;
+    font-size: 34px;
     display: inline-block;
     margin-left: 50%;
     position: relative;
-    margin-bottom: 20px; /* 30 */
+    margin-bottom: 40px; /* 20 */
     font-family: 'Conv_SukhumvitTadmai_Tex';
     line-height: 1.5;
     padding-top: 40px;
@@ -3062,9 +3062,9 @@ a.card-register-center, a.btn-action {
   text-align: center;
   margin-top: 20px;
 }
-#header-card-detail a.card-register-center{
+/*#header-card-detail a.card-register-center{
   margin: 20px 0 40px 0;
-}
+}*/
 #header-card-detail.page-merchant-inner-header > .content-wrap::after{
   display: none;
 }
@@ -3775,7 +3775,7 @@ h4.content-title{
 }*/
 .detail-register h3{
 	text-align: center;
-    font-size: 35px;
+    font-size: 34px;
     line-height: 1.5;
     padding-bottom: 5px;
     margin-bottom: 40px;
@@ -3814,7 +3814,7 @@ h4.content-title{
 	font-family: 'Conv_PSL249pro';
 	list-style: outside;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 1.0;
     letter-spacing: 0px;
     margin-left: 17px;
 }
@@ -8318,10 +8318,10 @@ nav[aria-label="breadcrumb"]{
 
 .static-wrap h5{
 	font-family: 'Conv_SukhumvitTadmai_Tex';
-	font-size: 40px;
-	line-height: 1.5;
+	font-size: 30px;
+	line-height: 1.3;
 	display: block;
-	margin:0 0 14px 0;
+	margin:0 0 10px 0;
 }
 
 .static-wrap h5.title-static-merchant{
@@ -8337,7 +8337,7 @@ nav[aria-label="breadcrumb"]{
 
 .static-wrap p{
 	font-family: 'Conv_SukhumvitTadmai_Tex';
-	font-size: 20px;
+	font-size: 16px;
 	display: block;
 }
 
@@ -8376,9 +8376,8 @@ nav[aria-label="breadcrumb"]{
 	font-size: 16px;
 	text-decoration: underline;
 	color: #000;
-	margin: 33px 0;
 	display: block;
-	margin: 33px 0 0 0;
+	margin: 13px 0 0 0;
 }
 
 .static-modal .link-more{
@@ -8821,7 +8820,7 @@ article.content-wrap{
 }
 
 .static-wrap .media h5{
-	font-size: 20px;
+	font-size: 28px;
 	font-family: 'Conv_SukhumvitTadmai_Tex';
 	margin-bottom: 10px;
 	color: #5B6670;
@@ -8829,7 +8828,7 @@ article.content-wrap{
 
 .static-wrap .media p{
 	font-size: 20px;
-	line-height: 1.2;
+	line-height: 1.0;
 	color: #5B6670;
 	/*font-family: Helvetica, Arial, sans-serif;*/
 	font-family: 'Conv_PSL249pro';
