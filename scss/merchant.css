@@ -713,7 +713,7 @@ article.page-merchant-inner-content section {
   border-bottom: none;
 }
 article.page-merchant-inner-content h3, article.page-merchant-inner-content h4 {
-  font-size: 35px;
+  font-size: 34px;
 }
 article.page-merchant-inner-content h3::after, article.page-merchant-inner-content h4::after {
   background-color: #0076c0;

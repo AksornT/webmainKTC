@@ -8536,13 +8536,16 @@ nav[aria-label="breadcrumb"]{
 }
 
 .static-content{
-	padding: 40px 55px;
+	padding: 40px 3%;
 }
 
-.static-content.media-content{
-	max-width: 1316px;
-    margin: 0 auto;
-    padding: 40px 0;
+@media (min-width: 1366px){
+	.static-wrap .row.content-wrap{
+		padding: 0;
+	}
+	.media-content.content-wrap{
+		padding:0;
+	}
 }
 
 .half-half .row .row .static-content.text-on-left-img{
@@ -8562,8 +8565,10 @@ nav[aria-label="breadcrumb"]{
 }
 
 .static-content.text-left.text-on-left-img{
-	margin-left: 0;
-	padding-left: 6%
+	padding: 0 calc(10% - 55px);
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1316px;
 }
 
 .static-wrap .flexi-banner{
@@ -9064,7 +9069,7 @@ h4.no-dash{
 .static-wrap .real-size{
   	width: auto;
   	height: auto;
-  	margin: 30px 0 0 auto;
+  	margin: 30px 0 30px auto;
 }
 
 .static-wrap.half-half-reverse .real-size{
