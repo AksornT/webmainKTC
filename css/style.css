@@ -2125,6 +2125,7 @@ a:hover .on-hover{
 	color: rgba(255, 255, 255, 0.6);
 	flex: 0 0 auto;
 	margin: 0 6px;
+	font-size: 12px;
 }
 .overlay-breadcrumb .site-breadcrumb a:nth-child(1){
 	margin-left: 0;
@@ -8535,7 +8536,13 @@ nav[aria-label="breadcrumb"]{
 }
 
 .static-content{
-	padding:40px 3%;
+	padding: 40px 55px;
+}
+
+.static-content.media-content{
+	max-width: 1316px;
+    margin: 0 auto;
+    padding: 40px 0;
 }
 
 .half-half .row .row .static-content.text-on-left-img{
@@ -8713,7 +8720,7 @@ nav[aria-label="breadcrumb"]{
 
 .static-content.text-on-right-img.float-up{
     background: rgba(255,255,255,.9);
-    padding: 60px 3%;
+    padding: 60px 55px;
     align-self: flex-start;
     top: 50px;
     right: 50px;
@@ -8723,7 +8730,7 @@ nav[aria-label="breadcrumb"]{
 
 .static-content.text-on-left-img.float-up{
     background: rgba(255,255,255,.9);
-    padding: 60px 3%;
+    padding: 60px 55px;
     align-self: flex-start;
     top: 50px;
     left: 50px;
@@ -9057,12 +9064,12 @@ h4.no-dash{
 .static-wrap .real-size{
   	width: auto;
   	height: auto;
-  	margin: 30px 0 30px auto;
+  	margin: 30px 0 0 auto;
 }
 
 .static-wrap.half-half-reverse .real-size{
 	margin-left: 0;
-    max-width: calc(100% - 30px);
+    max-width: calc(100% - 60px);
 }
 
 section#detail-register{
@@ -9080,7 +9087,8 @@ section#detail-register{
 }
 
 .static-wrap .visasig-wrap p{
-	font-size: 30px;
+	font-size: 24px;
+	line-height: 1.4;
 }
 
 #proud-regis .content-title{

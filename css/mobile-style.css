@@ -2029,6 +2029,10 @@ nav[aria-label="breadcrumb"] + .row-search-filter {
     font-size: 26px;
   }
 
+  .static-wrap h5 + h5 + img{
+    width: 200px;
+  }
+
   .static-wrap p{
     font-size: 18px;
   }
