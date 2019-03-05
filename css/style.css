@@ -1186,7 +1186,7 @@ button:focus {
 .image-link img{
 	width: 100% ;
 	height: auto;
-	opacity: 0.65;
+	opacity: 0.85;
 	display: block;
 	margin-bottom: -1px;
 }
