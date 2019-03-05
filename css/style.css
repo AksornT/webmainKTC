@@ -457,7 +457,7 @@ a:hover{
 .card-register-btn{
 	padding: 8px 26px;
 	border-radius: 6px;
-	font-size: 13px;
+	font-size: 14px;
 	background: #cf3339;
 	position: relative;
 	top: 0;
@@ -475,7 +475,7 @@ a:hover{
 
 .login-btn{
 	font-family: 'Conv_SukhumvitTadmai_Tex';
-    font-size: 13px;
+    font-size: 14px;
     letter-spacing: 1px;
     line-height: 16px;
     padding: 4px 12px;
@@ -2194,6 +2194,7 @@ a:hover .on-hover{
 	border: 1px solid #5B6670;
 	border-radius: 6px;
 	font-family: 'Conv_SukhumvitTadmai_Tex';
+	font-size: 12px;
 	line-height: 32px;
 }
 .col-right-filter input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
@@ -2233,7 +2234,8 @@ a:hover .on-hover{
 	vertical-align: middle;
 }
 .btn-filter span{
-	font-size: 18px;
+	font-family: 'Conv_SukhumvitTadmai_Tex';
+	font-size: 14px;
 	vertical-align: middle;
 }
 .btn-filter img{
@@ -6716,6 +6718,7 @@ section#section-flexi-cards-mobile.forever,section#section-flexi-cards {
     line-height: 28px;
     outline: 0;
     font-family: "Conv_SukhumvitTadmai_Tex";
+    font-size: 12px;
 }
 
 .row-search-filter .input-search-inline input:focus {
@@ -6741,7 +6744,7 @@ section#section-flexi-cards-mobile.forever,section#section-flexi-cards {
 }
 
 .row-search-filter .filter-btn img + span{
-	font-size: 16px;
+	font-size: 14px;
 	font-family: "Conv_SukhumvitTadmai_Tex";
 }
 
@@ -9318,7 +9321,7 @@ section#detail-register{
 	}
 	.login-btn{
 		font-size: 12px;
-    padding: 4px 8px;
+    	padding: 4px 8px;
 	}
 
 	.profile-name{
@@ -9331,24 +9334,24 @@ section#detail-register{
 
 	.profile-name,
 	.login-btn i{
-	display: none;
+		display: none;
 	}
 
 	.box-cash .content-cash h2 {
-    font-size: 26px;
-    line-height: 42px;
+	    font-size: 26px;
+	    line-height: 42px;
 	}
 	.box-cash-long .content-cash {
 		top: calc(50% - 70px);
-    left: calc(50% - 240px);
+    	left: calc(50% - 240px);
 	}
 	.box-cash-long .content-cash span{
 		padding-left: 27px;
-    padding-right: 25px;
+    	padding-right: 25px;
 	}
 	.box-con-cal {
-    padding-left: calc(50% - 300px);
-    padding-right: calc(50% - 300px);
+	    padding-left: calc(50% - 300px);
+	    padding-right: calc(50% - 300px);
 	}
 
 	.detail-register-desc h5{
