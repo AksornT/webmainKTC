@@ -698,7 +698,7 @@ section#section-merchant-register-form .row-merchant-download-docs .btn.button-d
   color: rgba(255, 255, 255, 0.6);
 }
 .page-merchant-inner-header nav[aria-label="breadcrumb"] .breadcrumb-item a {
-  font-size: 14px;
+  font-size: 12px;
   color: rgba(255, 255, 255, 0.6);
 }
 .page-merchant-inner-header nav[aria-label="breadcrumb"] .breadcrumb-item a:hover {
