@@ -6140,7 +6140,7 @@ section#section-flexi-cards-mobile.forever,section#section-flexi-cards {
     width: 25px;
     height: 25px;
     background-size: contain;
-    background-image: url(../img/promotion/ico-art-fav.svg);
+    background-image: url(../img/promotion/ico-art-fav-bl.svg);
     background-color: transparent;
     background-repeat: no-repeat;
     margin-right: 10px;
@@ -6158,7 +6158,7 @@ section#section-flexi-cards-mobile.forever,section#section-flexi-cards {
     width: 25px;
     height: 25px;
     background-size: contain;
-    background-image: url(../img/promotion/ico-art-share.svg);
+    background-image: url(../img/promotion/ico-share-pro.svg);
     background-color: transparent;
     background-repeat: no-repeat;
     position: relative;
@@ -9691,4 +9691,6 @@ section#detail-register{
 .loading{
 	margin-bottom: 60px;
 	text-align: center;
+	-webkit-transform: scaleX(-1);
+  	transform: scaleX(-1);
 }

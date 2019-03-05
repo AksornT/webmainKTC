@@ -50,6 +50,9 @@
     width: 19px;
     height: auto;
   }
+  .menu-global a.login-btn:hover{
+    display: none;
+  }
 
   .menu-mobile{
     position: relative;
