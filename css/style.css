@@ -859,6 +859,7 @@ a:hover{
 .footer a.tel,
 .footer a.tel:hover{
 	color: #000;
+	cursor: unset;
 }
 
 .footer .download-section a{
