@@ -300,7 +300,7 @@ a:hover{
 	opacity: 0;
 	pointer-events: none;
 	color: rgba(255,255,255,0.7);
-	padding: 10px 0;
+	padding: 10px 20px;
 	background: #000;
 }
 
@@ -311,9 +311,9 @@ a:hover{
 
 .scrolled-menu ul li{
     text-align: left;
-    padding: 0 20px;
+    /*padding: 0 20px;*/
     font-size: 14px;
-    line-height: 35px;
+    line-height: 45px;
     position: relative;
 }
 
@@ -327,6 +327,13 @@ a:hover{
 	left: 0;
 	right: 0;
 	bottom: 0;
+}
+
+.scrolled-menu li ul > li {
+    border-bottom: 1px solid #21262B;
+}
+.scrolled-menu li ul > li:nth-last-child(1) {
+    border-bottom: none;
 }
 
 /* EDIT ACTIVE LINE */
@@ -4142,7 +4149,7 @@ nav.navbar .sub-nav-flexi{
 }
 
 #nav-sticky-merchant .btn-flexi-share{
-	margin-top: 24px;
+	margin-top: 18px;
 }
 
 #nav-sticky-merchant .btn-flexi-share:focus{
@@ -4537,7 +4544,7 @@ section#section-flexi-cards {
 	right: 0;
 	top: 0;
 	background: #fff;
-	height: 82px;
+	height: 66px;
 	border-bottom: 1px solid rgba(112,112,112,.15);
 	z-index: 3;
 	opacity: 0;
@@ -4574,10 +4581,10 @@ section#section-flexi-cards {
 
 .sticky-left li{
 	display: inline-block;
-	font-size: 18px;
+	font-size: 15px;
 	font-family: "Conv_SukhumvitTadmai_Tex";
 	margin-right: 40px;
-	line-height: 82px;
+	line-height: 66px;
 }
 
 .sticky-left li.only-mobile{
@@ -4634,7 +4641,7 @@ section#section-flexi-cards {
 	font-size: 13px;
 	padding: 8px 26px;
 	/*line-height: 26px;*/
-	margin: 24px 0 24px 20px;
+	margin: 18px 0 18px 20px;
 	display: inline-block;
 	min-width: 0;
 	white-space: nowrap;
