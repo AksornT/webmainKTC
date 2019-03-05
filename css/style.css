@@ -9694,3 +9694,9 @@ section#detail-register{
 	-webkit-transform: scaleX(-1);
   	transform: scaleX(-1);
 }
+
+@media (min-width: 992px) and (max-width: 1024px){
+	.menu-global .search-on-menu{
+		padding: 16px 8px;
+	}
+}
