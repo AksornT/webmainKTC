@@ -461,6 +461,16 @@ a:hover{
 	display: inline-block;
 }
 
+/*debug iPhone&iPad*/
+@media not all and (min-resolution:.001dpcm){ @supports (-webkit-appearance:none) { @media (max-width: 1024px){
+	.menu-global a:hover .search-on-default{
+		display: inline-block;
+	}
+	.menu-global a:hover .search-on-hover{
+		display: none;
+	}
+}}}
+
 .card-register-btn{
 	padding: 8px 26px;
 	border-radius: 6px;
@@ -517,6 +527,7 @@ a:hover{
     color: #000;
     background-color: #fff;
 }
+
 .menu-global a.login-btn .login-default{
 	display: inline-block;
 }
@@ -529,6 +540,20 @@ a:hover{
 .menu-global a.login-btn:hover .login-hover{
 	display: inline-block;
 }
+
+/*debug iPhone&iPad*/
+@media not all and (min-resolution:.001dpcm){ @supports (-webkit-appearance:none) { @media (max-width: 1024px){
+	.menu-global a.login-btn:hover{
+	    color: inherit;
+	    background-color: inherit;
+	}
+	.menu-global a.login-btn:hover .login-default{
+		display: inline-block;
+	}
+	.menu-global a.login-btn:hover .login-hover{
+		display: none;
+	}
+}}}
 
 .menu-global .content-wrap{
 	display: flex;
@@ -2112,6 +2137,16 @@ a:hover .on-default{
 a:hover .on-hover{
 	display: inline-block;
 }
+
+/*debug iPhone&iPad*/
+@media not all and (min-resolution:.001dpcm){ @supports (-webkit-appearance:none) { @media (max-width: 1024px){
+    a:hover .on-default{
+		display: inline-block;
+	}
+	a:hover .on-hover{
+		display: none;
+	}
+}}}
 
 .overlay-breadcrumb{
 	position: absolute;
@@ -9240,13 +9275,11 @@ section#detail-register{
 
 
 /*Safari Only*/
-@media not all and (min-resolution:.001dpcm)
-    { @supports (-webkit-appearance:none) {
-        .campare-table th:nth-child(1) { 
-            width: calc(33% - 71px);
-        }
+@media not all and (min-resolution:.001dpcm){ @supports (-webkit-appearance:none) {
+    .campare-table th:nth-child(1) { 
+        width: calc(33% - 71px);
     }
-}
+}}
 
 
 /*Firefox Only*/
