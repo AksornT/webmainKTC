@@ -6320,7 +6320,11 @@ section#section-flexi-cards-mobile.forever,section#section-flexi-cards {
 .article-wrap .article-content table{
 	display: table;
  	border-collapse: separate;
- 	margin-bottom: 15px;
+ 	margin-bottom: 25px;
+}
+
+.article-wrap .table-bordered td, .article-wrap .table-bordered th {
+    border: 1px solid #000;
 }
 
 .article-wrap .article-content ul{
@@ -6335,7 +6339,7 @@ section#section-flexi-cards-mobile.forever,section#section-flexi-cards {
 
 .article-wrap .article-content p {
     margin-bottom: 20px;
-		letter-spacing: 0;
+	letter-spacing: 0;
 }
 .article-wrap .article-content a {
     font-weight: bold;
