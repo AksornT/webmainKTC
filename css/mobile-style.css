@@ -1695,11 +1695,13 @@ nav[aria-label="breadcrumb"] + .row-search-filter {
 }
 
 .promotion-page .item .slide-footer .slide-content{
-  margin-bottom: 0;
-      height: 21px;
+    margin-bottom: 0;
+    height: 21px;
     overflow: visible;
     position: relative;
-    padding-left: 34px;
+    padding-left: 30px;
+    font-size: 12px;
+    line-height: 16px;
 }
 
 .promotion-page .item .slide-footer .slide-content .fav-btn{
