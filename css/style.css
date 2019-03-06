@@ -551,7 +551,7 @@ a:hover{
 		display: inline-block;
 	}
 	.menu-global a.login-btn:hover .login-hover{
-		display: none;
+		display: none; 
 	}
 }}}
 
