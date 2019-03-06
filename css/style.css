@@ -1040,9 +1040,24 @@ h1 .share-on-top{
     overflow: hidden;
 }
 .slide-wrap .index-slide2 .item{
-	display: block;
-	padding: 13px 0 0 0;
+    display: flex;
+    padding: 13px 0 0 0;
+    height: 100%;
+    flex-direction: column;
 }
+
+.index-slide2 .owl-stage {
+    display: flex;
+    flex-direction: row;
+}
+
+.index-slide2 .slide-footer {
+    height: 84px;
+    margin-top: auto;
+    display: block;
+    margin-bottom: 0;
+}
+
 .owl-nav button{
 	background: none;
 	border: none;
