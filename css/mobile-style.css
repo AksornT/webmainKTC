@@ -1,4 +1,13 @@
 @media (max-width: 767px) {
+
+  .page-content .still-background img{
+    max-width: none;
+    width: auto;
+    height: 100%;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
   /*for creditcards compare*/
 
   .campare-table tr{

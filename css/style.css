@@ -4734,6 +4734,12 @@ section#section-flexi-cards {
     text-overflow: ellipsis;
 }
 
+@media (min-width: 1366px){
+	#nav-flexi h1{
+		max-width: 566px;
+	}
+}
+
 .sticky-white-menu-list li a{
 	line-height: 42px;
 	font-size: 14px;
@@ -9662,9 +9668,10 @@ section#detail-register{
     padding-left: 0;
 	}
 	
-	.page-content .still-background img{
-  	max-width: none;
-  	width: auto;
+  .page-content .still-background img{
+  	height: auto;
+    top: 50%;
+    transform: translateY(-50%);
   }
 
   .still-background,
