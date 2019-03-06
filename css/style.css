@@ -3331,7 +3331,7 @@ article.page-content #card-detail-regis h3::after{
 	font-size: 16px;
 	border-bottom: rgba(90,102,112,.4) solid 1px;
     font-family: 'Conv_SukhumvitTadmai_Tex';
-	margin-top: 60px;
+	margin-top: 35px;
 	height: 30px;
 	border-radius: 0;
 	-webkit-box-shadow: 0 0 0 30px white inset !important;
@@ -4784,7 +4784,7 @@ section#section-flexi-cards {
 .form-wrap input[type="text"] + label,
 .form-wrap input[type="password"] + label{
 	position: absolute;
-    top: 65px;
+    top: 38px;
     left: 15px;
     color: rgba(90,102,112,.7);
     pointer-events: none;
@@ -4799,8 +4799,8 @@ section#section-flexi-cards {
 
 .form-wrap input[type="text"].hasText + label,
 .form-wrap input[type="password"].hasText + label{
-	font-size: 14px;
-	top: 38px;
+	font-size: 12px;
+	top: 16px;
 	color: black;
 	font-family: 'Conv_SukhumvitTadmai_Tex';
 }
@@ -4809,9 +4809,9 @@ section#section-flexi-cards {
 .form-wrap input[type="text"].hasText:focus + label,
 .form-wrap input[type="password"]:focus + label,
 .form-wrap input[type="password"].hasText:focus + label{
-	color: #CF3339;
-	font-size: 14px;
-	top: 38px;
+	color: #CF3339 !important;
+	font-size: 12px;
+	top: 16px;
 }
 
 .form-wrap #calendar + label,
@@ -5060,6 +5060,7 @@ article.page-content .flexi-installments h4::after{
 	font-family: 'Conv_SukhumvitTadmai_Bol';
 	font-size: 24px;
 	margin-top: 0px;
+	margin-bottom: 10px;
 }
 
 .bg-login .index-sub-head{
@@ -5128,7 +5129,7 @@ article.page-content .flexi-installments h4::after{
 /* Create a custom checkbox */
 .checkmark {
   position: absolute;
-  top: 40px;
+  top: 30px;
   left: 0;
   height: 18px;
   width: 18px;
@@ -5166,7 +5167,7 @@ article.page-content .flexi-installments h4::after{
   transform: rotate(45deg);
 }
 .box-other-form.checkbox-form{
-	padding-top: 40px;
+	padding-top: 30px;
 }
 .box-other-form{
 	position: relative;
@@ -5265,7 +5266,7 @@ button.btn-default:disabled:hover{
 /* Create a custom radio */
 .dotmark {
 	position: absolute;
-	top: 40px;
+	top: 30px;
 	left: 0;
 	height: 20px;
 	width: 20px;
@@ -5321,7 +5322,7 @@ button.btn-default:disabled:hover{
 .box-input-form .form-group label{
 	font-size: 12px;
 	color: black;
-	margin-top: 60px;
+	margin-top: 30px;
 }
 .box-input-form .form-control{
 	padding-left: 0;
@@ -5354,7 +5355,7 @@ button.btn-next-step{
   color: #fff;
 	font-size: 18px;
 	font-family: 'Conv_SukhumvitTadmai_Bol';
-  margin: 60px 0 30px 0;
+  margin: 40px 0 30px 0;
   cursor: pointer;
 	box-shadow: 0 1px 3px rgba(0, 0, 0, .2);
 }
@@ -5363,7 +5364,7 @@ button.btn-next-step{
 	font-family: 'FontAwesome';
 	color: #CF3339;
 	position: absolute;
-	top: 67px;
+	top: 40px;
 	right: 3px;
 }
 .box-input-form span{
