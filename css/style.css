@@ -4799,7 +4799,7 @@ section#section-flexi-cards {
 .form-wrap input[type="text"] + label,
 .form-wrap input[type="password"] + label{
 	position: absolute;
-    top: 38px;
+    top: 44px;
     left: 15px;
     color: rgba(90,102,112,.7);
     pointer-events: none;
@@ -6607,7 +6607,7 @@ section#section-flexi-cards-mobile.forever,section#section-flexi-cards {
 		width: 17px;
     margin-right: 5px;
 		top: auto;
-    bottom: -28px;
+    bottom: -32px;
     z-index: 2;
 }
 .form-content .input-ico.input-ico-right:after {
@@ -6619,7 +6619,7 @@ section#section-flexi-cards-mobile.forever,section#section-flexi-cards {
 		width: 17px;
     margin-right: 5px;
 		top: auto;
-    bottom: -28px;
+    bottom: -32px;
 }
 .form-content .input-ico.input-ico-right.input-baht:after {
     display: inline-block;
@@ -6630,7 +6630,7 @@ section#section-flexi-cards-mobile.forever,section#section-flexi-cards {
     color: #A5ABB0;
 		margin-right: 5px;
 		top: auto;
-    bottom: -28px;
+    bottom: -32px;
 }
 .form-content .input-ico.input-ico-right.input-date:after {
     display: inline-block;
@@ -6638,7 +6638,7 @@ section#section-flexi-cards-mobile.forever,section#section-flexi-cards {
 		width: 17px;
     margin-right: 5px;
 		top: auto;
-    bottom: -28px;
+    bottom: -32px;
 }
 .form-content .input-ico.input-ico-right.input-upload:after {
     display: inline-block;
@@ -6646,7 +6646,7 @@ section#section-flexi-cards-mobile.forever,section#section-flexi-cards {
 		width: 17px;
     margin-right: 5px;
 		top: auto;
-    bottom: -28px;
+    bottom: -32px;
 }
 .form-content .input-ico.input-ico-right span {
     font-family: 'Conv_SukhumvitTadmai_Tex';
