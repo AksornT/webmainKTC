@@ -7325,7 +7325,7 @@ nav[aria-label="breadcrumb"] + .row-search-filter{
 	top: 0;
 	vertical-align: top;
 	width: calc(14% - 12px);
-	/*max-width: 19.5vw;*/
+	max-width: 7.5vw;
 }
 
 /*a.all-type-list[href]:hover{
@@ -9763,5 +9763,8 @@ section#detail-register{
 @media (min-width: 992px) and (max-width: 1024px){
 	.menu-global .search-on-menu{
 		padding: 16px 8px;
+	}
+	#edit-my-link-modal .btn-wrap {
+	    margin-top: 0px;
 	}
 }

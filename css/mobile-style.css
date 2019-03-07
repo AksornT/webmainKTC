@@ -161,6 +161,11 @@
     line-height: 40px;
   }
 
+  .all-type-list {
+      margin: 10px 9px;
+      width: 18vw;
+  }
+
 }
 
 
@@ -1740,11 +1745,12 @@ nav[aria-label="breadcrumb"] + .row-search-filter {
 
 #edit-my-link-modal .btn-wrap {
     position: fixed;
-    bottom: 0;
+    bottom: 25px;
     left: 20px;
     right: 20px;
     width: calc(100% - 40px);
     background: #fff;
+    z-index: 2;
 }
 
 #edit-my-link-modal .modal-body .content-wrap{
