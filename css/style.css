@@ -1422,7 +1422,7 @@ button:focus {
 }
 
 body.modal-open{
-	padding: 0 !important;
+	/*padding: 0 !important;*/
 }
 
 .modal.in{
@@ -1430,7 +1430,7 @@ body.modal-open{
 }
 
 .modal.full-modal.in{
-	padding: 0 !important;
+	/*padding: 0 !important;*/
 }
 
 .modal-backdrop.in{
@@ -6607,7 +6607,7 @@ section#section-flexi-cards-mobile.forever,section#section-flexi-cards {
 		width: 17px;
     margin-right: 5px;
 		top: auto;
-    bottom: -55px;
+    bottom: -28px;
     z-index: 2;
 }
 .form-content .input-ico.input-ico-right:after {
@@ -6619,7 +6619,7 @@ section#section-flexi-cards-mobile.forever,section#section-flexi-cards {
 		width: 17px;
     margin-right: 5px;
 		top: auto;
-    bottom: -55px;
+    bottom: -28px;
 }
 .form-content .input-ico.input-ico-right.input-baht:after {
     display: inline-block;
@@ -6630,7 +6630,7 @@ section#section-flexi-cards-mobile.forever,section#section-flexi-cards {
     color: #A5ABB0;
 		margin-right: 5px;
 		top: auto;
-    bottom: -55px;
+    bottom: -28px;
 }
 .form-content .input-ico.input-ico-right.input-date:after {
     display: inline-block;
@@ -6638,7 +6638,7 @@ section#section-flexi-cards-mobile.forever,section#section-flexi-cards {
 		width: 17px;
     margin-right: 5px;
 		top: auto;
-    bottom: -55px;
+    bottom: -28px;
 }
 .form-content .input-ico.input-ico-right.input-upload:after {
     display: inline-block;
@@ -6646,7 +6646,7 @@ section#section-flexi-cards-mobile.forever,section#section-flexi-cards {
 		width: 17px;
     margin-right: 5px;
 		top: auto;
-    bottom: -55px;
+    bottom: -28px;
 }
 .form-content .input-ico.input-ico-right span {
     font-family: 'Conv_SukhumvitTadmai_Tex';
@@ -7325,7 +7325,7 @@ nav[aria-label="breadcrumb"] + .row-search-filter{
 	top: 0;
 	vertical-align: top;
 	width: calc(14% - 12px);
-	max-width: 7.5vw;
+	/*max-width: 7.5vw;*/
 }
 
 /*a.all-type-list[href]:hover{
