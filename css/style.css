@@ -710,7 +710,7 @@ a:hover{
 
 .another-sub a{
 	position: relative;
-	padding-bottom: 20px;
+	padding-bottom: 10px;
 	width: 20%;
 }
 
@@ -740,6 +740,7 @@ a:hover{
 	font-family: 'Conv_SukhumvitTadmai_Bol';
 	color: #000000;
 	z-index: 1;
+	margin: auto 48px;
 }
 
 .another-sub span{
@@ -9788,5 +9789,8 @@ section#detail-register{
 	}
 	#edit-my-link-modal .btn-wrap {
 	    margin-top: 0px;
+	}
+	.another-sub p{
+		margin: auto;
 	}
 }
