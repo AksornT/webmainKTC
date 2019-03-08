@@ -3934,8 +3934,7 @@ nav.navbar .sub-nav-flexi{
 	-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
 	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
 }
-.btn.button-flexi-start.invert,
-.forever .btn.button-flexi-start.invert {
+.btn.button-flexi-start.invert {
 	color: #CF3339;
 	background: #ffffff;
 	border: 1px solid #CF3339;
@@ -3944,12 +3943,24 @@ nav.navbar .sub-nav-flexi{
     padding-top: 5px;
     padding-bottom: 5px;
 }
-.btn.button-flexi-start.invert:hover,
-.forever .btn.button-flexi-start.invert:hover {
+.btn.button-flexi-start.invert:hover {
     top: auto;
     background-color: #CF3339;
     border-color: transparent;
     color: #fff;
+}
+.forever .btn.button-flexi-start.invert{
+	color: #E0005A;
+	background: #ffffff;
+	border: 1px solid #E0005A;
+}
+.forever .btn.button-flexi-start.invert:hover{
+	background-color: #E0005A;
+	color: #fff;
+}
+
+.forever-banner .btn.button-flexi-start{
+	background: #E0005A;
 }
 
 .button-flexi-start.only-desktop {
@@ -4065,6 +4076,9 @@ nav.navbar .sub-nav-flexi{
 #nav-flexi-navbar-desktop .nav-item.active .nav-link,
 #nav-flexi-navbar-desktop .nav-item .nav-link:hover {
 	color: #cf3339;
+}
+.forever #nav-flexi-navbar .nav-item.active .nav-link{
+	color: #E0005A;
 }
 
 .btn-flexi-share {
@@ -4867,13 +4881,13 @@ article.page-content .flexi-installments h4::after{
 	margin: auto;
 }
 .installments-wrap .right{
-	padding-top: 20px;
-    padding-bottom: 20px;
+	padding-top: 15px;
+    padding-bottom: 15px;
 }
 .installments-wrap p{
 	font-family: 'Conv_SukhumvitTadmai_Tex';
-	font-size: 20px;
-	line-height: 1.4;
+	font-size: 16px;
+	line-height: 1.2;
 	color: #5B6670;
 	letter-spacing: 0;
 }
@@ -4882,13 +4896,16 @@ article.page-content .flexi-installments h4::after{
 }
 .installments-wrap p.title-desc{
 	font-size: 24px;
+	line-height: 1.3;
 	color: #000;
+	margin-bottom: 10px
 }
 .installments-wrap .btn-link{
 	padding: 0;
 	font-family: 'Conv_SukhumvitTadmai_Tex';
 	color: #5B6670;
-	font-size: 20px;
+	font-size: 16px;
+	line-height: 1.2;
 	text-decoration: underline;
 }
 
@@ -4900,19 +4917,20 @@ article.page-content .flexi-installments h4::after{
 }
 .flexi-loan .box-title .title{
 	font-family: 'Conv_SukhumvitTadmai_Tex';
-  	font-size: 40px;
+  	font-size: 30px;
+  	line-height: 1.3;
 }
 .flexi-loan .box-title .sub-title{
 	font-family: 'Conv_SukhumvitTadmai_Tex';
-  	font-size: 20px;
-  	line-height: 1.4;
+  	font-size: 16px;
+  	line-height: 1.2;
 }
 #page-flexi-content .section-cards h4::after{
 	display: none;
 }
 .section-cards .box-info h5{
 	font-family: 'Conv_SukhumvitTadmai_Tex';
-  	font-size: 20px;
+  	font-size: 16px;
 }
 .section-cards .box-info span{
 	font-family: 'Conv_SukhumvitTadmai_Tex';
@@ -4926,7 +4944,7 @@ article.page-content .flexi-installments h4::after{
 .section-cards .box-info button,
 .section-cards .box-info a{
 	font-family: 'Conv_SukhumvitTadmai_Tex';
-  	font-size: 14px;
+  	font-size: 16px;
   	display: block;
 }
 .section-cards figure.box-info {
@@ -4959,12 +4977,13 @@ article.page-content .flexi-installments h4::after{
 }
 .flexi-credit .box-title .sub-title{
 	font-family: 'Conv_SukhumvitTadmai_Tex';
-  	font-size: 20px;
-  	line-height: 1.4;
+  	font-size: 16px;
+  	line-height: 1.2;
 }
 .flexi-credit .box-title .title{
 	font-family: 'Conv_SukhumvitTadmai_Tex';
-  	font-size: 40px;
+  	font-size: 30px;
+  	line-height: 1.3;
   	text-align: center;
 }
 .box-info span{
@@ -4978,7 +4997,7 @@ article.page-content .flexi-installments h4::after{
   	margin-bottom: 18px;
 }
 .flexi-shop .box-title .sub-title{
-	font-family: 'Conv_SukhumvitTadmai_Thi';
+	font-family: 'Conv_SukhumvitTadmai_Tex';
   	font-size: 20px;
   	text-align: left;
   	line-height: 1.4;
@@ -8454,7 +8473,7 @@ nav[aria-label="breadcrumb"]{
 }
 
 .static-wrap .link-more{
-	font-family: 'Conv_SukhumvitTadmai_Thi';
+	font-family: 'Conv_SukhumvitTadmai_Tex';
 	font-size: 16px;
 	text-decoration: underline;
 	color: #000;
@@ -8649,12 +8668,13 @@ nav[aria-label="breadcrumb"]{
 
 .static-wrap .flexi-banner{
 	font-family: 'Conv_SukhumvitTadmai_Bol';
-	font-size: 42px;
+	font-size: 30px;
+	line-height: 1.3;
 	margin: 0;
 }
 
 .static-wrap .flexi-banner + p{
-	font-size: 35px;
+	font-size: 16px;
 	margin-bottom: 38px;
 }
 
@@ -9285,7 +9305,7 @@ section#detail-register{
 }
 
 .score p{
-	color: #e1285b;
+	color: #E0005A;
 	font-size: 2.28em;
 	vertical-align: middle;
 	margin: 0 34px;
