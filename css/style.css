@@ -3610,16 +3610,17 @@ h4.content-title{
 }
 .proud-loan .proud-after-logo{
 	font-family: 'Conv_SukhumvitTadmai_Bol';
-	font-size: 35px;
+	font-size: 28px;
+    line-height: 1.3;
 	text-align: center;
-	margin: 117px auto 22px auto;
+	margin: 117px auto 8px auto;
 }
 .proud-loan .sub-desc{
 	font-family: 'Conv_SukhumvitTadmai_Tex';
 	font-size: 28px;
+	line-height: 1.2;
 	text-align: center;
 	margin-bottom: 60px;
-	line-height: 38px;
 }
 .proud-loan.cash-loan .proud-after-logo {
 	margin: 70px auto 15px auto;
@@ -3629,13 +3630,13 @@ h4.content-title{
 }
 .proud-loan .content-desc h2 {
     font-family: 'Conv_SukhumvitTadmai_Tex';
-    font-size: 35px;
+    font-size: 34px;
+    line-height: 1.2;
     letter-spacing: 0;
-    margin-bottom: 15px;
 }
 .proud-loan .content-desc h3 {
 	font-family: 'Conv_SukhumvitTadmai_Tex';
-    font-size: 20px;
+    font-size: 18px;
 }
 .img-full-half img{
     width: 100%;
@@ -3834,8 +3835,8 @@ h4.content-title{
 .box-con-cal .con-cal-txt.content-sub p{
 	color: #000;
 	font-family: 'Conv_SukhumvitTadmai_Tex';
-	font-size: 20px;
-	line-height: 32px;
+	font-size: 16px;
+	line-height: 1.2;
 	text-decoration: none;
 }
 /*.box-line-right{

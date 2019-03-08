@@ -1717,6 +1717,13 @@
   .white-layer.white-half.bg-grey-half{
     background-color: #fff;
   }
+  .white-layer.white-mobile{
+    background-color: #fff;
+  }
+  .white-layer.white-mobile h5,
+  .white-layer.white-mobile p{
+    color: #000;
+  }
 
 
 
