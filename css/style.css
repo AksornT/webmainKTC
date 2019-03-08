@@ -6103,9 +6103,10 @@ section#section-flexi-cards-mobile.forever,section#section-flexi-cards {
 }
 
 .forever .only-shopping .btn-link.underlined{
-	font-size: 20px;
-	line-height: 33px;
+	font-size: 16px;
+	line-height: 1.2;
 	color: #000;
+	vertical-align: baseline;
 }
 
 .forever .section-box .button-contact-shop {
