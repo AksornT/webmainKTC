@@ -190,6 +190,7 @@ a:hover{
 
 #ktc-logo img{
 	margin-top: 13px;
+	margin-right: 10px;
 	max-width: 79px;
 }
 
@@ -227,25 +228,33 @@ a:hover{
 	pointer-events: none;
 }
 
-.mini-header .scrolled-menu{
+.menu-global.expand-menu .scrolled-menu{
+	flex: 1;
+}
+.menu-global.mini-header .scrolled-menu{
 	opacity: 1;
-	pointer-events: all;
+    pointer-events: all;
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
 }
 
 .scrolled-menu > li{
-	display: inline-block;
+    display: inline-block;
     position: relative;
-    padding: 23px 0.8rem 16px 0.8rem;
+    padding: 23px 0 16px 5px;
     top: 3px;
     height: 63px;
     vertical-align: bottom;
     font-size: 14px;
+    flex: 0 0 auto;
 }
 
 .scrolled-menu > li .fa{
 	vertical-align: middle;
 	position: relative;
 	top: -2px;
+	margin-left: 3px;
 }
 
 .scrolled-menu > li:hover{
@@ -264,8 +273,8 @@ a:hover{
 .scrolled-menu > li:after{
 	position: absolute;
 	bottom: 0;
-	left: 0.8rem;
-	right: 0.75rem;
+	left: 5px;
+	right: 0;
 	height: 3px;
 	background: transparent;
 	content: "";
@@ -336,27 +345,8 @@ a:hover{
     border-bottom: none;
 }
 
-/* EDIT ACTIVE LINE */
-.scrolled-menu li:after {
-  left: 0.3rem;
-  right: 0.3rem;
-}
-
-@media only screen and (min-width: 1200px) {
-  .scrolled-menu li:after {
-    left: 0.8rem;
-    right: 0.8rem;
-  }
-}
-
 .scrolled-menu li.dropdown:after {
-  right: calc(0.3rem + 15px);
-}
-
-@media only screen and (min-width: 1200px) {
-  .scrolled-menu li.dropdown:after {
-    right: calc(0.8rem + 15px);
-  }
+  right: 13px;
 }
 /* END */
 
@@ -560,6 +550,9 @@ a:hover{
 }
 
 .menu-global .content-wrap > *{
+	flex:0 0 auto;
+}
+.open-on-top .content-wrap > .row{
 	flex: auto;
 }
 .menu-global .on-right .only-mobile{
@@ -9402,13 +9395,12 @@ section#detail-register{
 
 @media (max-width: 1200px) {
 	.scrolled-menu > li{
-		font-size: 12px;
-    	padding: 23px 0.7rem 16px 0.1rem;
+		font-size: 11px;
+    	padding: 23px 0 16px 5px;
     	font-family: 'Conv_SukhumvitTadmai_Tex';
 	}
-	.scrolled-menu > li:after {
-	    left: 0.11rem;
-	    right: 0.6rem;
+	.scrolled-menu li.dropdown:after{
+		right: 10px;
 	}
 	.card-register-btn{
 		font-size: 12px;
