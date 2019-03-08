@@ -4514,7 +4514,8 @@ section#section-flexi-cards {
 }
 
 .flexi-modal h5.modal-title.long-title {
-	font-size: 28px;
+	font-size: 22px;
+	line-height: 1.3;
 	text-align: left;
 	margin-bottom: -14px;
 }
@@ -4582,7 +4583,7 @@ section#section-flexi-cards {
 	border-bottom: 1px solid #E6E8EA;
 	width: 100%;
 	text-align: left;
-	font-size: 36px;
+	font-size: 22px;
 	padding-bottom: 17px;
 	margin-top: 18px;
 }
