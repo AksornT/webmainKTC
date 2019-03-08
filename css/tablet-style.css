@@ -1270,7 +1270,7 @@
   }
 
   .forever#page-flexi-content .half-img-responsive img{
-    max-width: calc(100vw - 60px);
+    /*max-width: calc(100vw - 60px);*/
     margin: 0 auto;
   }
 
@@ -1740,6 +1740,9 @@
   article.page-content .space-on-right img{
     max-width: none;
     width: 200%;
+  }
+  .space-on-right img.crop-small{
+    width: 185%;
   }
   .full-overimage.top-banner .text-on-left-img.text-left{
     padding:40px 100px;

@@ -656,7 +656,7 @@ section#section-merchant-register-form .row-merchant-download-docs .btn.button-d
   background: #E7E8EA;
 }
 .page-merchant-inner-header h1 {
-  font-size: 28px;
+  font-size: 26px;
   line-height: 1.3;
   position: relative;
 }
@@ -680,7 +680,7 @@ section#section-merchant-register-form .row-merchant-download-docs .btn.button-d
 .page-merchant-inner-header h2 {
   margin-top: 8px;
   font-family: "Conv_SukhumvitTadmai_Tex", Helvetica, Arial, sans-serif;
-  font-size: 28px;
+  font-size: 16px;
   text-align: center;
   line-height: 1.2;
 }
@@ -713,7 +713,7 @@ article.page-merchant-inner-content section {
   border-bottom: none;
 }
 article.page-merchant-inner-content h3, article.page-merchant-inner-content h4 {
-  font-size: 34px;
+  font-size: 30px;
 }
 article.page-merchant-inner-content h3::after, article.page-merchant-inner-content h4::after {
   background-color: #0076c0;

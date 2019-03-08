@@ -2611,7 +2611,7 @@ a:hover .on-hover{
 }
 #header-card-detail .content-desc h2{
   font-family: 'Conv_SukhumvitTadmai_Tex';
-  font-size: 34px;
+  font-size: 30px;
 }
 
 #header-card-detail .content-desc h2 .smaller-text{
@@ -2621,7 +2621,7 @@ a:hover .on-hover{
 #header-card-detail .content-desc h3{
   /*margin-top: 10px;*/
   font-family: 'Conv_SukhumvitTadmai_Tex';
-  font-size: 18px;
+  font-size: 16px;
 }
 #header-card-detail a.card-register-center{
   margin: 40px 0 60px 0;
@@ -3021,7 +3021,7 @@ a.card-register-center, a.btn-action {
 
 .content-title{
     text-align: center;
-    font-size: 34px;
+    font-size: 30px;
     display: inline-block;
     margin-left: 50%;
     position: relative;
@@ -3106,7 +3106,7 @@ a.card-register-center, a.btn-action {
 }
 .more-modal .header .title {
     font-family: 'Conv_SukhumvitTadmai_Tex';
-    font-size: 35px;
+    font-size: 22px;
     line-height: 1.3;
     margin-bottom: 7px;
 }
@@ -3334,7 +3334,7 @@ article.page-content #card-detail-regis h3::after{
 }
 
 .sub-title{
-	font-size: 20px;
+	font-size: 16px;
     font-family: 'Conv_SukhumvitTadmai_Tex';
     text-align: center;
     margin-bottom: 20px;
@@ -3611,33 +3611,33 @@ h4.content-title{
 }
 .proud-loan .proud-after-logo{
 	font-family: 'Conv_SukhumvitTadmai_Bol';
-	font-size: 28px;
+	font-size: 26px;
     line-height: 1.3;
 	text-align: center;
 	margin: 117px auto 8px auto;
 }
 .proud-loan .sub-desc{
 	font-family: 'Conv_SukhumvitTadmai_Tex';
-	font-size: 28px;
+	font-size: 16px;
 	line-height: 1.2;
 	text-align: center;
 	margin-bottom: 60px;
 }
 .proud-loan.cash-loan .proud-after-logo {
-	margin: 70px auto 15px auto;
+	margin: 52px auto 15px auto;
 }
 .proud-loan.cash-loan .sub-desc{
 	margin-bottom: 15px;
 }
 .proud-loan .content-desc h2 {
     font-family: 'Conv_SukhumvitTadmai_Tex';
-    font-size: 34px;
+    font-size: 30px;
     line-height: 1.2;
     letter-spacing: 0;
 }
 .proud-loan .content-desc h3 {
 	font-family: 'Conv_SukhumvitTadmai_Tex';
-    font-size: 18px;
+    font-size: 16px;
 }
 .img-full-half img{
     width: 100%;
@@ -3845,7 +3845,7 @@ h4.content-title{
 }*/
 .detail-register h3{
 	text-align: center;
-    font-size: 34px;
+    font-size: 30px;
     line-height: 1.5;
     padding-bottom: 5px;
     margin-bottom: 40px;
@@ -5909,7 +5909,7 @@ img[href]:hover{
 
 #page-flexi-content.forever h4 {
 	font-family: "Conv_SukhumvitTadmai_Tex", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 40px;
+	font-size: 30px;
 	text-align: center;
 	margin-top: 60px;
 	margin-bottom: 25px;
@@ -8588,12 +8588,12 @@ nav[aria-label="breadcrumb"]{
 
 .tel-number p{
 	font-family: 'Conv_SukhumvitTadmai_Tex';
-	font-size: 35px;
+	font-size: 30px;
 	display: block;
 }
 .tel-number .the-number{
 	font-size: 41px;
-	padding: 1px 0 1px 70px; 
+	padding: 1px 0 1px 55px; 
 	display: inline-block;
 	margin: 20px 0;
 	color: #CF3339;
@@ -8630,7 +8630,7 @@ nav[aria-label="breadcrumb"]{
 
 .tel-number .mini-text{
 	font-family: 'Conv_SukhumvitTadmai_Tex';
-	font-size: 20px;
+	font-size: 16px;
 }
 
 .static-content{
@@ -8801,7 +8801,7 @@ nav[aria-label="breadcrumb"]{
 	margin-bottom: 6px;
 }
 .static-merchant .section-app-download p{
-	font-size: 18px;
+	font-size: 16px;
 	margin-bottom: 30px;
 }
 .static-merchant .section-app-download img{
@@ -8932,7 +8932,7 @@ article.content-wrap{
 }
 
 .static-wrap .media h5{
-	font-size: 28px;
+	font-size: 22px;
 	font-family: 'Conv_SukhumvitTadmai_Tex';
 	margin-bottom: 10px;
 	color: #5B6670;
@@ -9781,6 +9781,10 @@ section#detail-register{
 	text-align: center;
 	-webkit-transform: scaleX(-1);
   	transform: scaleX(-1);
+}
+
+.static-wrap h5.title-left-mt{
+	margin-top: 15px;
 }
 
 @media (min-width: 992px) and (max-width: 1024px){

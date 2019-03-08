@@ -598,7 +598,6 @@
   }
   .another-sub p{
     font-size: 12px;
-    margin-top: -5px;
     white-space: nowrap;
     left: 50%;
     transform: translateX(-50%);
@@ -606,6 +605,7 @@
     max-width: none;
     width: auto;
     display: block;
+    margin: -5px auto auto auto;
   }
   .menu-global{
   	/*background: url("../img/bg_menu.png");*/
@@ -944,6 +944,7 @@
   .box-con-cal .con-cal-txt.content-sub p{
     font-size: 18px;
     line-height: 1.4;
+    white-space: normal;
   }
   .detail-register{
     padding: 40px 0 40px 0;
@@ -1033,7 +1034,6 @@
   h4.content-title{
     text-align: center;
     padding-top: 0px;
-    margin-bottom: 10px;
   }
 
   .two-icon-link > div{
@@ -2051,7 +2051,7 @@ nav[aria-label="breadcrumb"] + .row-search-filter {
   }
 
   .static-wrap h5 + h5 + img{
-    width: 200px;
+    width: 150px;
   }
 
   .static-wrap p{
