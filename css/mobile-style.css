@@ -972,6 +972,15 @@
   .proud-head, .header-big-cover{
     height: 234px;
   }
+  .proud-head {
+    background: url(../img/proud/bg-proud-mb.png);
+    height: 387px;
+    width: 100%;
+  }
+  .proud-loan.cash-loan .proud-head {
+    background: url(../img/cash/bg-cash-mb.png);
+    margin-bottom: 0;
+  }
   .proud-head img, .header-big-cover img {
     position: absolute;
     bottom: -76px;
