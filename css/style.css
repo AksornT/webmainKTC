@@ -399,7 +399,7 @@ a:hover{
 
 .menu-global > .content-wrap{
     padding: 0 30px;
-		max-width: none;
+	max-width: none;
     position: fixed;
     z-index: 4;
     max-width: none;
@@ -550,7 +550,7 @@ a:hover{
 }
 
 .menu-global .content-wrap > *{
-	flex:0 0 auto;
+	flex: 0 0 auto;
 }
 .open-on-top .content-wrap > .row{
 	flex: auto;

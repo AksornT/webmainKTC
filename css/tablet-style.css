@@ -15,7 +15,10 @@
     text-align: center;
   }
   .scrolled-menu{
-    display: none;
+    display: none !important;
+  }
+  .menu-global.mini-header .scroll-menu{
+    display: none !important;
   }
 
   .menu-global{
@@ -23,6 +26,7 @@
     margin-bottom: 235px;
   }
   .menu-global .on-right{
+    flex: 1;
     width: 160px;
     position: relative;
     /*z-index: 6;*/
