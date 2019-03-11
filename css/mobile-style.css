@@ -1282,10 +1282,15 @@
 
   .search-cat-head img{
     margin: 8px 0 -8px 0;
+    vertical-align: bottom;
   }
 
   #search-cat-wrap-top .ktc-tabs {
     margin-top: 25px;
+  }
+
+  .search-cat-wrap label{
+    padding-right: 0;
   }
 
   #result-content .item .slide-title,
@@ -1705,13 +1710,19 @@ nav[aria-label="breadcrumb"] + .row-search-filter {
   margin-top: -3px;
 }
 
-.promotion-page .item .slide-title,
+.promotion-page .item .slide-title{
+  height: 30px;
+  max-height: 30px;
+}
 .article-page .item .slide-title{
   height: 56px;
   max-height: 56px;
 }
 
-.promotion-page .item .slide-title + .slide-content,
+.promotion-page .item .slide-title + .slide-content{
+  margin-bottom: 20px;
+  height: 39px;
+}
 .article-page .item .slide-title + .slide-content{
   margin-bottom: 20px;
   height: 33px;

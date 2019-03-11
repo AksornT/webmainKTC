@@ -7003,7 +7003,15 @@ section#section-flexi-cards-mobile.forever,section#section-flexi-cards {
     background: #cf3339;
 }
 
-.promotion-page .item .slide-title,
+.promotion-page .item .slide-title{
+	display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    padding-bottom: 0;
+    margin-bottom: 5px;
+    height: 45px;
+}
 .article-page .item .slide-title{
 	display: -webkit-box;
     -webkit-line-clamp: 2;
@@ -7012,6 +7020,10 @@ section#section-flexi-cards-mobile.forever,section#section-flexi-cards {
     padding-bottom: 0;
     margin-bottom: 5px;
     height: 75px;
+}
+
+.promotion-page .item .slide-content{
+	padding-top: 4px;
 }
 
 .promotion-page .item  .slide-title + .slide-content,

@@ -1537,7 +1537,10 @@
       margin-bottom: 0px;
     }
 
-    .promotion-page .item .slide-title, 
+    .promotion-page .item .slide-title{
+      height: 36px;
+      line-height: 1.4;
+    } 
     .article-page .item .slide-title{
       height: 60px;
       line-height: 1.4;
