@@ -587,6 +587,9 @@
   .only-mobile{
     display: block;
   }
+  .another-sub{
+    padding: 15px 0 25px 0;
+  }
   .another-sub img{
     height: 40px;
   }
@@ -598,12 +601,13 @@
   }
   .another-sub p{
     font-size: 12px;
-    white-space: nowrap;
+    line-height: 1.2;
+    white-space: normal;
     left: 50%;
     transform: translateX(-50%);
     position: absolute;
     max-width: none;
-    width: auto;
+    width: 100px;
     display: block;
     margin: -5px auto auto auto;
   }
