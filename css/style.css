@@ -6204,12 +6204,19 @@ section#section-flexi-cards-mobile.forever,section#section-flexi-cards {
     position: relative;
     top: 0;
 }
+.article-wrap .article-title-wrap{
+	margin-bottom: 25px;
+}
 .article-wrap .article-title {
     font-family: 'Conv_SukhumvitTadmai_Bol';
     font-size: 25px;
-    line-height: 54px;
-    margin-bottom: 20px;
+    line-height: 1.4;
     padding: 0 15px;
+}
+.article-wrap .article-sub-title{
+	font-family: 'Conv_SukhumvitTadmai_Bol';
+    margin-top: 8px;
+    font-size: 20px;
 }
 .article-wrap .article-meta{
 	display: flex;
