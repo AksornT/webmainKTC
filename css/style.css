@@ -883,6 +883,7 @@ a:hover{
 
 .footer .download-section a{
 	margin: 0;
+	display: inline-block;
 }
 
 .footer-menu{
@@ -1271,13 +1272,13 @@ button:focus {
 	font-family: 'Gotham-Bold';
 	line-height: 15px;
 	font-size: 18px;
-	margin:45px 0 12px 0;
+	margin:45px 0 8px 0;
 }
 
 .tel span{
 	font-family: 'Gotham-Bold';
 	line-height: 29px;
-	font-size: 24px;
+	font-size: 21px;
 	padding-left: 24px;
 	background: url(../img/index/ico-footer-tel.svg) no-repeat;
 	background-size: 20px;
@@ -1293,18 +1294,18 @@ button:focus {
 
 .download-section p{
 	font-family: 'Conv_SukhumvitTadmai_Bol';
-	font-size: 16px;
+	font-size: 17px;
 	line-height: 25px;
 }
 
 .download-section .footer-badge{
-	margin: 2px 0;
-	width: 100px;
+	margin: 8px 0;
+	width: 85px;
 }
 
 .footer-badge.tapktc{
 	margin-bottom: 3px;
-	width: 116px;
+	width: 156px;
 }
 
 .download-section img{
@@ -1481,6 +1482,9 @@ body.modal-open{
 	border-top: 4px solid #CF3339;
 	border-radius: 4px;
 	max-height: 90vh;
+}
+.full-modal .modal-content.modal-forever{
+	border-color: #E0005A;
 }
 .full-modal .modal-content.modal-merchant{
 	border-color: #0076C0;
@@ -4506,6 +4510,10 @@ section#section-flexi-cards {
 	text-decoration: none;
 }
 
+.flexi-promotions .item .slide-title{
+	-webkit-line-clamp: 1;
+}
+
 .flexi-modal h5.modal-title.long-title {
 	font-size: 22px;
 	line-height: 1.3;
@@ -5840,11 +5848,12 @@ img[href]:hover{
 }
 
 .forever .item .slide-title {
-    line-height: 32px;
+    line-height: 1.4;
+    -webkit-line-clamp: 1;
 }
 
 .forever #section-flexi-promotions .slide-flexi-promotions .item p {
-    padding-top: 10px;
+    padding-top: 0;
  }
 
  .forever .btn.button-flexi-start {
