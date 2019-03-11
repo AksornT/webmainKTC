@@ -6376,11 +6376,17 @@ section#section-flexi-cards-mobile.forever,section#section-flexi-cards {
 
 .article-wrap .article-content ul{
   margin-bottom: 15px;
+  list-style: inside;
+}
+.article-wrap .article-content ul li{
   list-style-type: disc;
 }
 
 .article-wrap .article-content ol{
   margin-bottom: 15px;
+  list-style: inside;
+}
+.article-wrap .article-content ol li{
   list-style-type: decimal;
 }
 
