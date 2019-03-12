@@ -5696,6 +5696,28 @@ input:focus + .suggess-box,
     height: auto;
 }
 
+.search-slide.type-credits .item .item-img-slide img{
+	box-shadow: none;
+}
+.search-slide.type-credits .item .item-text-slide{
+	min-height: 55px;
+}
+.search-slide.type-credits .item .slide-title{
+	font-size: 14px;
+	text-align: center;
+	white-space: normal;
+}
+.search-slide.type-credits .item .slide-content{
+	font-size: 14px;
+	line-height: 1.3;
+	text-align: center;
+	margin-bottom: 20px;
+    padding-top: 0;
+}
+.search-slide.type-credits .card-register-btn{
+	margin: auto;
+}
+
 .box-input-form span.select-arrow{
     width: 30px;
     height: 35px;
