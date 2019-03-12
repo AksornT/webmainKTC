@@ -1453,6 +1453,9 @@ body.modal-open{
 	width: 40px;
 	height: 40px;
 }
+.full-modal .modal-forever .close{
+	background-image: url('../img/forever/ico-close.svg');
+}
 .full-modal .modal-merchant .close{
 	background-image: url('../img/merchant/ico-close-merchant.svg');
 }
@@ -9676,7 +9679,9 @@ section#detail-register{
   }
 
   body section#section-merchant-register-form .row-merchant-download-docs .btn.button-download-link{
+  	font-family: 'Conv_SukhumvitTadmai_Tex';
   	font-size: 18px;
+  	margin-bottom: 10px;
   }
 
   #section-flexi-promotions .slide-wrap{

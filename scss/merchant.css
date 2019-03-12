@@ -377,7 +377,7 @@ section#section-merchant-register-form .form-row.form-wrap {
 }
 section#section-merchant-register-form .form-row.form-wrap input[type="text"]:focus + label,
 section#section-merchant-register-form .form-row.form-wrap input[type="text"].hasText:focus + label {
-  color: #0076c0;
+  color: #0076c0 !important;
 }
 section#section-merchant-register-form .form-row .form-col.left {
   padding-right: 45px;
@@ -498,7 +498,7 @@ section#section-merchant-register-form .row-merchant-download-docs .img-wrap {
 section#section-merchant-register-form .row-merchant-download-docs .btn.button-download-link {
   text-align: left;
   font-family: "Conv_SukhumvitTadmai_Tex", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 24px;
+  font-size: 16px;
   color: #000000;
 }
 section#section-merchant-register-form .row-merchant-download-docs .btn.button-download-link:hover {
@@ -519,6 +519,14 @@ section#section-merchant-register-form .row-merchant-download-docs .btn.button-d
   section#section-merchant-register-form .row-merchant-download-docs .content-col {
     flex-basis: 350px;
     max-width: 350px;
+  }
+}
+@media (max-width: 767px) {
+  body section#section-merchant-register-form .row-merchant-download-docs .btn.button-download-link{
+    text-align: left;
+  }
+  section#section-merchant-register-form .row-merchant-download-docs .content-col{
+    margin-bottom: 8px;
   }
 }
 
