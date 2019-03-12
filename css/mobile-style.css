@@ -1584,6 +1584,9 @@ nav[aria-label="breadcrumb"] + .row-search-filter {
   font-size: 16px;
   line-height: 26px;
 }
+.article-wrap .article-sub-title{
+  font-size: 14px;
+}
 .article-wrap .article-cover {
     margin-top: 10px;
     margin-bottom: 20px;
