@@ -43,7 +43,7 @@
   position: relative;
   padding: 15px 20px;
   font-family: "Conv_SukhumvitTadmai_Tex", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 15px;
+  font-size: 14px;
 }
 .sub-sticky .dropdown .dropdown-item::after {
   content: '';
@@ -79,7 +79,7 @@
 }
 .sub-sticky .dropdown-toggle {
   font-family: "Conv_SukhumvitTadmai_Tex", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 15px;
+  font-size: 14px;
   background-color: transparent;
 }
 .sub-sticky .dropdown-toggle::after {

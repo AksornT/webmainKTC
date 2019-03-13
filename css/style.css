@@ -4109,7 +4109,7 @@ nav.navbar .sub-nav-flexi{
 }
 
 #nav-flexi{
-	font-size: 15px;
+	font-size: 14px;
 }
 
 #nav-flexi .button-flexi-start {
@@ -4661,7 +4661,7 @@ section#section-flexi-cards {
 
 .sticky-left li{
 	display: inline-block;
-	font-size: 15px;
+	font-size: 14px;
 	font-family: "Conv_SukhumvitTadmai_Tex";
 	margin-right: 40px;
 	line-height: 66px;
@@ -4772,6 +4772,9 @@ section#section-flexi-cards {
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
+}
+#nav-flexi h1{
+	display: none;
 }
 
 @media (min-width: 1366px){
