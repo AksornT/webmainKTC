@@ -5696,9 +5696,12 @@ input:focus + .suggess-box,
     height: auto;
 }
 
-.search-slide.type-credits .item .item-img-slide img{
-	box-shadow: none;
+.search-slide.type-credits .item .item-img-slide{
+	padding: 0 25px;
 }
+/*.search-slide.type-credits .item .item-img-slide img{
+	box-shadow: none;
+}*/
 .search-slide.type-credits .item .item-text-slide{
 	min-height: 55px;
 }
