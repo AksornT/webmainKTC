@@ -1459,7 +1459,7 @@
   }
 
   #section-flexi-cards-mobile.forever .box-title-forever {
-      margin-top: 20px;
+      margin-top: 38px;
   }
 
   #page-flexi-content.forever h4 {
@@ -1582,6 +1582,10 @@ nav[aria-label="breadcrumb"] + .row-search-filter {
     padding-top: 6px;
 }
 
+#forever-rewards-modal p{
+  font-size: 20px;
+}
+
 /* promotion detail -eve */
 .article-wrap .article-title{
   font-size: 16px;
@@ -1628,7 +1632,7 @@ nav[aria-label="breadcrumb"] + .row-search-filter {
   font-size: 16px;
 }
 .article-wrap .article-collapse .info li {
-  font-size: 14px;
+  font-size: 20px;
 }
 .article-wrap .article-collapse {
   margin-bottom: 20px;
@@ -1687,7 +1691,7 @@ nav[aria-label="breadcrumb"] + .row-search-filter {
   font-size: 16px;
 }
 .article-wrap .article-link .link a {
-  font-size: 14px;
+  font-size: 20px;
 }
 .article-wrap .article-link {
   padding-bottom: 30px;
@@ -1708,7 +1712,7 @@ nav[aria-label="breadcrumb"] + .row-search-filter {
 }
 
 .article-wrap .article-collapse .info p {
-  font-size: 14px;
+  font-size: 20px;
   line-height: 24px;
 }
 
@@ -1808,7 +1812,7 @@ nav[aria-label="breadcrumb"] + .row-search-filter {
   line-height: 22px;
 }
 #terms-modal .content {
-  font-size: 12px;
+  font-size: 20px;
   line-height: 18px;
 }
 #terms-modal .header {
