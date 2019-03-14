@@ -719,6 +719,9 @@
   .static-merchant .img-logo-payment img{
     height: 42px;
   }
+  .static-wrap h5.title-static-merchant.first-merchant-title br{
+    display: block;
+  }
 
   /* creditcard page -eve */
   .click-compare .on-desktop{
