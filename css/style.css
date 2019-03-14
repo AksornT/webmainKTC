@@ -859,7 +859,6 @@ a:hover{
 	font-family: 'Conv_PSL249pro';
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    font-weight: 300;
 	letter-spacing: 0;
 	font-size: 19px;
 	line-height: 1.2;
@@ -9850,6 +9849,12 @@ section#detail-register{
 
 .static-wrap h5.title-left-mt{
 	margin-top: 15px;
+}
+
+@media (min-width: 1025px) and (max-width: 1064px){
+	.another-sub p{
+		margin: auto;
+	}
 }
 
 @media (min-width: 992px) and (max-width: 1024px){
