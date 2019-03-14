@@ -8492,6 +8492,9 @@ nav[aria-label="breadcrumb"]{
 .static-wrap h5.title-static-merchant{
 	margin-bottom: 0;
 }
+.static-wrap h5.title-static-merchant.first-merchant-title br{
+	display: none;
+}
 .static-wrap .merchant-hero h5{
 	margin-bottom: 0;
 }
