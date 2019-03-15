@@ -818,7 +818,8 @@
   }
   .more-modal .content li,
   .more-modal .content p{
-    font-size: 12px;
+    font-size: 20px;
+    line-height: 1.4;
   }
   .after-header-on-mobile{
     display: block;
@@ -1813,7 +1814,7 @@ nav[aria-label="breadcrumb"] + .row-search-filter {
 }
 #terms-modal .content {
   font-size: 20px;
-  line-height: 18px;
+  line-height: 1.4;
 }
 #terms-modal .header {
   margin-top: 0;

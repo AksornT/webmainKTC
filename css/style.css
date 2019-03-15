@@ -115,6 +115,7 @@ body {
 	font-family: 'Conv_SukhumvitTadmai_Thi';
 	font-size: 16px;
 	letter-spacing: 0.5px;
+	overflow: overlay;
 }
 ol, ul {
 	list-style: none;
@@ -1416,7 +1417,7 @@ button:focus {
 }
 
 body.modal-open{
-	/*padding: 0 !important;*/
+	padding: 0 !important;
 }
 
 .modal.in{
