@@ -751,8 +751,9 @@ $(document).ready(function() {
     });
 
     //For custom dropdown
-    var dValue = $('#proud-regis select.form-control option:nth-child(1)').text();
-    $('#proud-regis select.form-control').after('<input class="required custom-dropdown" type="text" value="' + dValue + '"><ul class="custom-option"></ul>');
+    $('#proud-regis select.form-control').each(function(){
+        $(this).after('<input class="required custom-dropdown" type="text" value="' + $(this).find('option:nth-child(1)').text() + '"><ul class="custom-option"></ul>');
+    });
 
     $('#proud-regis select.form-control option').each(function(){
       $(this).parent().siblings('.custom-option').append('<li value="' + $(this).val() + '">'+$(this).text()+'</li>');
@@ -779,7 +780,17 @@ $(document).ready(function() {
     }); 
 
     $(".type-or-selected .custom-dropdown").on('click touch', function () {
+      if( $(this).val() == $(this).siblings('select').find('option:nth-child(1)').text()){ 
+        $(this).val('');
         return true;
+      }
+    });
+    $(".type-or-selected .custom-dropdown").focusout(function() {
+      if( $(this).val().length == 0) { 
+        var defaultText = $(this).siblings('select').find('option:nth-child(1)').text();
+        $(this).val(defaultText);
+        return true;
+      }
     });
     $('.type-or-selected .custom-dropdown').unbind('keypress');
     

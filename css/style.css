@@ -9304,6 +9304,10 @@ section#detail-register{
 	caret-color: transparent;
 }
 
+#proud-register .type-or-selected input.custom-dropdown{
+	caret-color: #000;
+}
+
 #proud-register input.custom-dropdown:hover{
 	cursor: pointer;
 }
