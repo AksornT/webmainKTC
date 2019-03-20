@@ -778,6 +778,13 @@ $(document).ready(function() {
       } 
     }); 
 
+    $(".type-or-selected .custom-dropdown").on('click touch', function () {
+        return true;
+    });
+    $('.type-or-selected .custom-dropdown').unbind('keypress');
+    
+    $('.type-or-selected .custom-dropdown').unbind('keydown');
+
     $(".custom-dropdown + ul li").on('click touch', function () {
       var dropdownText = $(this).html();
       $(this).addClass('active');
