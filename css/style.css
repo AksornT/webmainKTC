@@ -2236,6 +2236,7 @@ a:hover .on-hover{
 .breadcrumb-item+.breadcrumb-item::before{
 	vertical-align: middle;
 	padding: 0;
+	content: " ";
 }
 .filter-credit nav[aria-label="breadcrumb"]{
 	padding-top: 20px;
@@ -9158,6 +9159,7 @@ h4.no-dash{
 }
 .app-download .app-download-box .media img{
 	margin-right: 15px;
+	width: 65px;
 }
 .app-download .media-body{
 	font-family: 'Conv_SukhumvitTadmai_Bol';

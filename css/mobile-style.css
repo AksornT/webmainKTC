@@ -2129,7 +2129,7 @@ nav[aria-label="breadcrumb"] + .row-search-filter {
     /*max-width: 33vw;*/
     white-space: nowrap;
     text-overflow: ellipsis;
-    display: inline-block;
+    /*display: inline-block;*/
     vertical-align: middle;
   }
 
