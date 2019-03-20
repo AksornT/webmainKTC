@@ -2780,6 +2780,12 @@ article.page-content #card-detail-regis h3::after{
     margin-top: 0;
     height: 321px;
 }
+.proud-loan #section-flexi-promotions .slide-flexi-promotions .item .item-footer{
+	display: block;
+}
+.proud-loan #section-flexi-promotions{
+	padding-bottom: 40px;
+}
 .header-big-cover {
 	background: url("../img/bg_menu.png");
 	background-size: cover !important;
