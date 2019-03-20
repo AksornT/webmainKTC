@@ -444,6 +444,19 @@
   .content-wrap.breadcrumb-wrap .site-breadcrumb{
     text-align: left;
   }
+  .content-wrap.breadcrumb-wrap .site-breadcrumb a:not(:first-child),
+  .overlay-breadcrumb .site-breadcrumb a:not(:first-child),
+  .breadcrumb.bc-content li:not(:first-child).breadcrumb-item{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 10px;
+  }
+  .content-wrap.breadcrumb-wrap .site-breadcrumb a:last-child,
+  .overlay-breadcrumb .site-breadcrumb a:last-child,
+  .breadcrumb.bc-content li:last-child.breadcrumb-item{
+    width: 40%;
+  }
 
   /* creditcard page -eve */
   .click-compare .on-desktop{
