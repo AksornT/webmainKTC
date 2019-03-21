@@ -6453,7 +6453,6 @@ section#section-flexi-cards-mobile.forever,section#section-flexi-cards {
 }
 .article-wrap .article-content a {
     color: #CF3339;
-    text-decoration: underline;
     cursor: pointer;
 }
 .article-wrap .article-content .hightlight{
@@ -6551,7 +6550,6 @@ section#section-flexi-cards-mobile.forever,section#section-flexi-cards {
     font-family: 'Conv_PSL249pro';
     font-size: 22px;
     line-height: 30px;
-    font-weight: bold;
 	color: #CF3339;
 	margin-bottom: 5px;
 }
