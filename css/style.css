@@ -4945,6 +4945,10 @@ article.page-content .flexi-installments h4::after{
   	font-size: 16px;
   	line-height: 1.2;
 }
+.flexi-loan .offset-lg-1.text-on-right-img{
+	margin-right: 0;
+	margin-left: 0;
+}
 #page-flexi-content .section-cards h4::after{
 	display: none;
 }
@@ -5005,6 +5009,9 @@ article.page-content .flexi-installments h4::after{
   	font-size: 30px;
   	line-height: 1.3;
   	text-align: center;
+}
+.flexi-credit .offset-lg-1.text-on-left-img{
+	margin-left: 0;
 }
 .box-info span{
 	color: #cf3339;
@@ -9474,6 +9481,13 @@ section#detail-register{
 
 	.page-forever-header {
     background-position: center 15%;
+	}
+
+	.flexi-credit .offset-lg-1.text-on-left-img{
+		margin-left: 8.333333%;
+	}
+	.flexi-loan .offset-lg-1.text-on-right-img{
+		margin-right: 8.333333%;
 	}
 
 }
