@@ -1625,7 +1625,7 @@ body.modal-open{
 	position: fixed;
 	bottom: 50px; /*20*/
 	right: 37px;
-	z-index: 1;
+	z-index: 3;
 	width: 45px;
     height: 45px;
     background: #fff;
@@ -6452,8 +6452,8 @@ section#section-flexi-cards-mobile.forever,section#section-flexi-cards {
 	letter-spacing: 0;
 }
 .article-wrap .article-content a {
-    font-weight: bold;
     color: #CF3339;
+    text-decoration: underline;
     cursor: pointer;
 }
 .article-wrap .article-content .hightlight{
@@ -6649,7 +6649,7 @@ section#section-flexi-cards-mobile.forever,section#section-flexi-cards {
 }
 
 .register-wrapper .nav .active .nav-link:after{
-	border-bottom: 4px solid #CF3339;
+	border-bottom: 2px solid #CF3339;
 }
 /*.register-wrapper .form-register .row {
     margin: 0 -40px;
@@ -6672,7 +6672,11 @@ section#section-flexi-cards-mobile.forever,section#section-flexi-cards {
 }
 .form-content.form-wrap input[type="text"] + label,
 .form-content.form-wrap input[type="password"] + label{
-	left: 5px;
+	left: 0;
+}
+
+.form-register.form-content .input-select label.input-select-title{
+	display: none;
 }
 
 .form-content .input-ico > * {
