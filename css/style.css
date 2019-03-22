@@ -1316,8 +1316,6 @@ button:focus {
 
 .download-section img:hover{
 	cursor: pointer;
-	opacity: 0.6;
-	top: -2px;
 }
 
 .download-section .tapktc:hover{
