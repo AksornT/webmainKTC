@@ -2784,6 +2784,12 @@ article.page-content #card-detail-regis h3::after{
 .proud-loan #section-flexi-promotions{
 	padding-bottom: 40px;
 }
+.proud-loan .offset-lg-1.text-left{
+	margin-left: 0;
+}
+.proud-loan .item .slide-title{
+	-webkit-line-clamp: 1;
+}
 .header-big-cover {
 	background: url("../img/bg_menu.png");
 	background-size: cover !important;
@@ -9488,6 +9494,9 @@ section#detail-register{
 	}
 	.flexi-loan .offset-lg-1.text-on-right-img{
 		margin-right: 8.333333%;
+	}
+	.proud-loan .offset-lg-1.text-left{
+		margin-left: 11%;
 	}
 
 }
