@@ -983,6 +983,9 @@ article.page-content img {
 	max-width: 100%;
 	cursor: pointer;
 }
+article.page-content .installments-wrap img{
+	height: 293px;
+}
 
 .share-on-top{
 	left: -30px;
