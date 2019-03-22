@@ -5948,10 +5948,10 @@ img[href]:hover{
 	padding-right: 0px;
 }
 
-.forever #nav-flexi {
+/*.forever #nav-flexi {
     padding-right: calc(50vw - 653px - 0.5rem);
     padding-left: calc(50vw - 653px - 0.5rem);
-}
+}*/
 
 #page-flexi-content.forever section:last-child{
 	padding-bottom: 40px;
@@ -9896,5 +9896,19 @@ section#detail-register{
 	}
 	.another-sub p{
 		margin: auto;
+	}
+	.fixed #nav-flexi-navbar .nav-item .nav-link {
+	    font-size: 11px;
+	}
+	.scrolled-menu ul li{
+		font-size: 11px;
+	}
+	.btn.button-flexi-start.invert{
+		font-size: 11px;
+		padding-top: 6px;
+    	padding-bottom: 6px;
+	}
+	.card-register-btn {
+	    font-size: 11px;
 	}
 }

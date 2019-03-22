@@ -632,6 +632,21 @@ section#section-merchant-register-form .row-merchant-download-docs .btn.button-d
     margin-top: 20px;
   }
 }
+@media (min-width: 992px) and (max-width: 1024px){
+  #nav-sticky-merchant.sub-sticky .sticky-left li {
+    font-size: 11px;
+  }
+  #nav-sticky-merchant.sub-sticky .dropdown-toggle {
+    font-size: 11px;
+  }
+  #nav-sticky-merchant.sub-sticky .dropdown .dropdown-menu .dropdown-item {
+    font-size: 11px;
+  }
+  #nav-sticky-merchant.sub-sticky .sticky-right .btn-action{
+    font-size: 11px;
+  }
+}
+
 /* Merchant Page - mobile - @korstudio */
 /* Page - Merchant inner pages */
 .page-merchant-inner-header {
