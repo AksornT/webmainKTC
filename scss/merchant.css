@@ -263,6 +263,9 @@ section#section-merchant-card-type .list-payment-services .item-payment-service 
   line-height: 1.5;
   font-family: "Conv_SukhumvitTadmai_Tex";
 }
+section#section-merchant-card-type .list-payment-services .item-payment-service.type-qrpay{
+  width: 100%;
+}
 @media (max-width: 991px) {
   section#section-merchant-card-type .list-payment-services .item-payment-service {
     /* TABLET */
@@ -278,6 +281,17 @@ section#section-merchant-card-type .list-payment-services .item-payment-service 
   }
   section#section-merchant-card-type .list-payment-services .item-payment-service p {
     font-size: 14px;
+  }
+}
+
+section#section-merchant-card-type h5.title-type-qrpay{
+  font-size: 30px;
+  line-height: 1.3;
+  text-align: center;
+}
+@media (max-width: 576px){
+  section#section-merchant-card-type h5.title-type-qrpay{
+    font-size: 26px;
   }
 }
 
@@ -1100,7 +1114,7 @@ article.page-merchant-inner-content section.full-width.content-merchant-online d
     padding: 0 2px;
   }
   .page-merchant-inner-header nav[aria-label="breadcrumb"] .breadcrumb-item a {
-    font-size: 14px;
+    font-size: 12px;
   }
 
   article.page-merchant-inner-content h3, article.page-merchant-inner-content h4 {

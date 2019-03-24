@@ -456,8 +456,8 @@
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-    width: 12px;
-    margin-right: 4px;
+    width: 16px;
+    margin-right: 6px;
   }
   .content-wrap.breadcrumb-wrap .site-breadcrumb a:last-child,
   .overlay-breadcrumb .site-breadcrumb a:last-child,
