@@ -4906,6 +4906,8 @@ article.page-content .flexi-installments h4::after{
 }
 .installments-wrap .left{
 	margin: auto;
+	text-align: right;
+    padding-right: 70px;
 }
 .installments-wrap .right{
 	padding-top: 15px;
@@ -6757,7 +6759,6 @@ section#section-flexi-cards-mobile.forever,section#section-flexi-cards {
 	text-align: left;
 	color: #cf3339;
 	margin-top: 2px;
-	padding-left: 5px;
 }
 .form-content .input-ico input[type=file] {
     display: block;
@@ -7679,7 +7680,7 @@ a.all-type-list[href]:hover p{
   padding: 12px 16px;
 }
 .ui-menu .ui-menu-item.ui-card-item img{
-	width: 77px;
+	width: 53px;
 	height: auto;
 }
 .ui-menu .ui-menu-item.ui-card-item .info {
@@ -7709,12 +7710,15 @@ a.all-type-list[href]:hover p{
 }
 .ui-autocomplete.form-dropdown {
  	padding: 0;
-	width: 42vw !important;
+	width: 42% !important;
 	box-shadow: 0px 1px 3px rgba(0,0,0,.16);
-	max-height: 55vh;
-	height: 24vh;
+	max-height: 214px;
 	overflow: auto;
 }
+.form-dropdown{
+	z-index: 1200;
+}
+
 
 .ui-datepicker {
   transition: none;

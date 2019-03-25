@@ -229,10 +229,18 @@ section#section-merchant-card-type .list-card-vendors li {
     width: 33%;
     display: inline-block;
   }
+  section#section-merchant-card-type .list-card-vendors li img{
+    max-width: none;
+    height: 56px;
+  }
 }
 @media (max-width: 576px) {
   section#section-merchant-card-type .list-card-vendors {
+    display: block;
     width: 85vw;
+  }
+  section#section-merchant-card-type .list-card-vendors li img{
+    height: 46px;
   }
 }
 section#section-merchant-card-type .list-payment-services {

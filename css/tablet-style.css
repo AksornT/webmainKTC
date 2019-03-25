@@ -1000,6 +1000,10 @@
 
   section#section-flexi-installments .left {
     text-align: center;
+    padding: 0;
+  }
+  article.page-content .installments-wrap img {
+    height: auto;
   }
   section#section-flexi-installments .right {
     padding: 20px 5px;
@@ -1830,10 +1834,10 @@
   }
   section#section-merchant-card-type .list-card-vendors{
     margin: 0 auto;
-    display: block;
+    /*display: block;*/
     text-align: center;
     font-size: 0;
-    width: 312px;
+    width: 354px; /* 312px */
   }
 
   section#section-merchant-card-type .list-payment-services{
