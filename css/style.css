@@ -8784,7 +8784,7 @@ nav[aria-label="breadcrumb"]{
     bottom: 25px;
     width: auto;
     display: flex;
-    background: rgba(255,255,255,0.8);
+    background: rgba(255,255,255,0.6);
 }
 
 .white-layer.white-100{
