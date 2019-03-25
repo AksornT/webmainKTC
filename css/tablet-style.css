@@ -1565,7 +1565,7 @@
     .promotion-page .item .slide-title{
       height: 36px;
       line-height: 1.4;
-    } 
+    }
     .article-page .item .slide-title{
       height: 60px;
       line-height: 1.4;
@@ -2064,6 +2064,11 @@
 
   .static-wrap .row.content-wrap{
     padding: 0;
+  }
+
+  .ui-autocomplete.form-dropdown{
+    width: 45% !important;
+    left: 3% !important;
   }
 
 }

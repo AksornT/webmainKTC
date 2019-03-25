@@ -1670,7 +1670,7 @@ nav[aria-label="breadcrumb"] + .row-search-filter {
   bottom: 0px;
 }
 .ui-autocomplete.form-dropdown {
-  padding-left: 10px;
+  left: 5% !important;
   width: 90vw !important;
 }
 .form-content .input-ico.input-ico-right.input-select:after{
