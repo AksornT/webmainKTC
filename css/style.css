@@ -5882,6 +5882,12 @@ img[href]:hover{
     -webkit-box-orient: vertical;
 }
 
+#result-content .item .slide-footer{
+	height: 84px;
+    margin-bottom: 0;
+}
+
+
 /*== page forever ==*/
 
 .static-wrap.forever-banner h5{
