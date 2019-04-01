@@ -335,7 +335,7 @@
                     <div class="col-12 col-md-6">
                       <!-- IF LOGIN -->
                       <div class="input-ico input-ico-right input-select">
-                        <input type="text" class="input-card-picker required ui-autocomplete-input" placeholder="เลือกบัตรที่ต้องการลงทะเบียน" readonly />
+                        <input type="text" class="input-card-picker required ui-autocomplete-input" placeholder="เลือกบัตรที่ต้องการลงทะเบียน"/>
                         <span class="error">ตัวอย่าง error message</span>
                       </div>
                       <!-- IF NOT LOGIN -->
@@ -484,7 +484,10 @@
             },
             select: function(e, ui) {
                 e.preventDefault();
-                $(this).val(ui.item.label).trigger('change').blur();
+                $(this).val(ui.item.label).trigger('change');
+                $(this).autocomplete('close');
+                $(this).addClass('add-by-click');
+                $(this).blur(); 
             },
             create: function() {
                 $(this).data('ui-autocomplete')._renderItem = function (ul, item) {
@@ -501,6 +504,19 @@
 
         $('.form-register input[type=file]').change(function(){
             $(this).siblings('.input-file').val($(this).val());
+        });
+
+        $('.form-register .input-card-picker').keydown( function(e){  
+            if($(this).hasClass("add-by-click")) {
+                if(e.which == 8){   
+                    $(this).val('');
+                    $(this).removeClass("add-by-click");
+                    $(this).focus();
+                    return true;
+                } 
+            }
+            $(this).removeClass("add-by-click");
+            $(this).focus();
         });
 
     });
