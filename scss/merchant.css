@@ -643,14 +643,14 @@ section#section-merchant-register-form .row-merchant-download-docs .btn.button-d
     margin-right: 15px;
   }
   #nav-sticky-merchant.sub-sticky .dropdown .dropdown-menu .dropdown-item {
-    font-size: 15px;
+    font-size: 11px;
   }
   #nav-sticky-merchant.sub-sticky .dropdown-toggle {
-    font-size: 15px;
+    font-size: 11px;
   }
   #nav-sticky-merchant.sub-sticky .sticky-left li {
     margin-right: 20px;
-    font-size: 15px;
+    font-size: 11px;
     line-height: 66px;
   }
   #nav-sticky-merchant.sub-sticky .sticky-left li.nav-back {
@@ -659,15 +659,16 @@ section#section-merchant-register-form .row-merchant-download-docs .btn.button-d
   #nav-sticky-merchant.sub-sticky .sticky-right .btn-action {
     margin: 18px 0 17px 20px;
     padding: 7px 25px;
-    font-size: 15px;
+    font-size: 11px;
   }
   #nav-sticky-merchant .btn-flexi-share {
     margin-top: 20px;
   }
 }
-@media (min-width: 992px) and (max-width: 1024px){
+@media (min-width: 992px) and (max-width: 1023px){
   #nav-sticky-merchant.sub-sticky .sticky-left li {
     font-size: 11px;
+    margin-right: 22px;
   }
   #nav-sticky-merchant.sub-sticky .dropdown-toggle {
     font-size: 11px;
