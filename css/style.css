@@ -249,6 +249,7 @@ a:hover{
     vertical-align: bottom;
     font-size: 14px;
     flex: 0 0 auto;
+    line-height: 12px;
 }
 
 .scrolled-menu > li .fa{
