@@ -587,9 +587,6 @@
   .only-mobile{
     display: block;
   }
-  .another-sub{
-    padding: 15px 0 25px 0;
-  }
   .another-sub img{
     height: 40px;
   }
@@ -605,7 +602,7 @@
     white-space: normal;
     left: 50%;
     transform: translateX(-50%);
-    position: absolute;
+    position: relative;
     max-width: none;
     width: 100px;
     display: block;

@@ -281,6 +281,10 @@
   .index-head {
     /*padding-bottom: 4px;*/
   }
+  .another-sub{
+    padding: 15px 0 10px 0;
+    margin-bottom: 10px;
+  }
   .another-sub span{
     display: none;
   }
