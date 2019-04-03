@@ -7687,6 +7687,7 @@ a.all-type-list[href]:hover p{
   padding-bottom: 30px;
   line-height: 0;
   padding: 12px 16px;
+  cursor: pointer;
 }
 .ui-menu .ui-menu-item.ui-card-item img{
 	width: 53px;
@@ -7724,6 +7725,7 @@ a.all-type-list[href]:hover p{
 	max-height: 214px;
 	overflow: auto;
 	left: 6% !important;
+	cursor: pointer;
 }
 .form-dropdown{
 	z-index: 1200;
