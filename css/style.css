@@ -154,6 +154,10 @@ a:hover{
     -o-transition: all .3s ease-out;
 }
 
+strong, b{
+	font-weight: bold;
+}
+
 /*Global Menu*/
 
 .menu-global{
