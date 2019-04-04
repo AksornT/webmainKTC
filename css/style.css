@@ -7720,11 +7720,11 @@ a.all-type-list[href]:hover p{
 }
 .ui-autocomplete.form-dropdown {
  	padding: 0;
-	width: 43% !important;
+	width: 43.5% !important;
 	box-shadow: 0px 1px 3px rgba(0,0,0,.16);
 	max-height: 214px;
 	overflow: auto;
-	left: 6% !important;
+	left: 5.4% !important;
 	cursor: pointer;
 }
 .form-dropdown{
