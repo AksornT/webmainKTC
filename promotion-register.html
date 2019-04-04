@@ -486,6 +486,11 @@
                 'ui-autocomplete': 'form-dropdown',
                 'ui-menu': 'list-no-wrap'
             },
+            open: function (result) {
+                if (navigator.userAgent.match(/(iPod|iPhone|iPad)/)) {
+                    $('.ui-autocomplete').off('menufocus hover mouseover');
+                }
+            },
             select: function(e, ui) {
                 e.preventDefault();
                 $(this).val(ui.item.label).trigger('change');

@@ -9912,6 +9912,11 @@ section#detail-register{
 .form-wrap input.input-card-picker{
 	cursor: pointer;
 }
+.form-content .input-ico .input-card-picker[disabled]{
+  -webkit-opacity: 1 !important;
+  -webkit-text-fill-color: #000!important;
+  color: #000!important;
+}
 
 @media (min-width: 1025px) and (max-width: 1064px){
 	.another-sub p{
