@@ -474,6 +474,10 @@
 
         $('.form-register .input-date-picker').datepicker();
 
+        $('.form-register .input-select').on('click touch', function () {
+            $(this).find('.input-card-picker').removeAttr("disabled").focus().autocomplete('search', '');
+        });
+
         $('.form-register .input-card-picker').autocomplete({
             source: cardData,
             minLength: 0,
@@ -487,7 +491,8 @@
                 $(this).val(ui.item.label).trigger('change');
                 $(this).autocomplete('close');
                 $(this).addClass('add-by-click');
-                $(this).blur(); 
+                $(this).blur();
+                $(this).prop("disabled", true);
             },
             create: function() {
                 $(this).data('ui-autocomplete')._renderItem = function (ul, item) {
