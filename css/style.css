@@ -4106,6 +4106,8 @@ nav.navbar .sub-nav-flexi{
 	border-radius: 50%;
 	background: #fff url("../img/promotion/ico-share-pro.svg") no-repeat center;
 	background-size: 80% auto ;
+	padding: 0;
+	cursor: pointer;
 }
 
 .btn-flexi-share:focus{
@@ -4236,9 +4238,13 @@ nav.navbar .sub-nav-flexi{
 .sticky-right .navbar-nav{
     flex-direction: row;
 }
+.sticky-right .nav-item{
+	cursor: pointer;
+}
 
 #nav-sticky-merchant .btn-flexi-share{
 	margin-top: 18px;
+	cursor: pointer;
 }
 
 #nav-sticky-merchant .btn-flexi-share:focus{
