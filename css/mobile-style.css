@@ -1777,7 +1777,7 @@ nav[aria-label="breadcrumb"] + .row-search-filter {
 
 #edit-my-link-modal .btn-wrap {
     position: fixed;
-    bottom: 25px;
+    bottom: 40px;
     left: 20px;
     right: 20px;
     width: calc(100% - 40px);
