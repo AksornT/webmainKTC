@@ -1613,6 +1613,12 @@ nav[aria-label="breadcrumb"] + .row-search-filter {
 .article-wrap .article-icon .share-popover:after{
   right: 17px;
 }
+.article-icon .share-btn.share-btn-mg .share-popover{
+  right: -40px;
+}
+.article-icon .share-btn.share-btn-mg .share-popover:after{
+  right: 44px;
+}
 .promotion-page .index-slide1 .owl-item.active{
   opacity: 1;
 }

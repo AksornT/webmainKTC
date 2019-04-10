@@ -1945,6 +1945,20 @@
     right: 98px;
   }
 
+  .merchant-share-icon.article-icon .share-btn{
+    margin: 10px 0;
+  }
+  .share-btn.share-btn-mg{
+    margin-top: 0;
+    margin-right: 12px;
+  }
+  .second-share-icon{
+    display: inline-block;
+  }
+  .nav.mini .nav-right.nav-second-menu{
+    display: inline-flex;
+  }
+
   .static-content.text-left.text-on-left-img{
     padding: 40px 100px;
   }
