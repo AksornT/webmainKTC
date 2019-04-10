@@ -348,6 +348,15 @@ $(document).ready(function() {
       $('.share-btn').removeClass('active');
     });
 
+    $(".btn-flexi-share").on('click touch', function () {
+      $(this).toggleClass('active');
+      return false;
+    });
+
+    $('body').on('click touch', function () {
+      $('.btn-flexi-share').removeClass('active');
+    });
+
     /* FILTER FORM */
     $('#filter-modal input').change(function(){
         var hasChecked = false;
@@ -642,6 +651,10 @@ $(document).on('scroll', function() {
         $(".btn-flexi-share").blur()
     }
 
+    if ($(".btn-flexi-share")[0]){ 
+        $(".btn-flexi-share").removeClass('active');
+    }
+
     if ($(".share-btn")[0]){ 
         $(".share-btn").removeClass('active');
     }
@@ -704,6 +717,14 @@ $(document).on('scroll', function() {
     // for share button
     if ($(".article-icon .share-btn")[0]){ 
         if($(this).scrollTop()>=$('.article-icon .share-btn').offset().top - 200){
+            $('.share-popover').addClass('on-bottom');
+        }else{
+            $('.share-popover').removeClass('on-bottom');
+        }
+    };
+
+    if ($(".btn-flexi-share")[0]){ 
+        if($(this).scrollTop()>=$('.btn-flexi-share').offset().top - 200){
             $('.share-popover').addClass('on-bottom');
         }else{
             $('.share-popover').removeClass('on-bottom');
