@@ -7465,7 +7465,7 @@ nav[aria-label="breadcrumb"] + .row-search-filter{
 	position: relative;
 	top: 0;
 	vertical-align: top;
-	width: calc(14% - 12px);
+	width: calc(16% - 12px);
 	/*max-width: 7.5vw;*/
 }
 
