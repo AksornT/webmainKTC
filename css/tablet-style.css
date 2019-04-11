@@ -176,7 +176,7 @@
 
   .menu-responsive-dropdown .menu-btn{
     position: absolute;
-    bottom: 10px;
+    bottom: 0;
   }
   .menu-responsive-dropdown .menu-lang{
     position: relative;
@@ -223,6 +223,7 @@
     color: #fff;
     width: 90vw;
     height: 45px;
+    cursor: pointer;
   }
   #ktc-logo{
     position: relative;

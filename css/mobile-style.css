@@ -467,7 +467,7 @@
 
   .menu-responsive-dropdown .menu-btn{
     position: absolute;
-    bottom: 10px;
+    bottom: 0;
   }
   .menu-responsive-dropdown .menu-lang{
     position: relative;
@@ -514,6 +514,7 @@
     color: #fff;
     width: 87vw;
     height: 45px;
+    cursor: pointer;
   }
 
   .menu-global.alway-mini{
@@ -2249,10 +2250,14 @@ nav[aria-label="breadcrumb"] + .row-search-filter {
 
 @media screen and (max-width: 870px) and (min-height: 800px){
   .menu-responsive-dropdown{
-    padding-bottom: 235px;
+    padding-bottom: 180px;
   }
   .menu-responsive-dropdown .menu-btn{
-    bottom: 80px;
-    padding-bottom: env(safe-area-inset-bottom);
+    position: fixed;
+    padding-bottom: 60px, constant(safe-area-inset-bottom);
+    padding-bottom: 60px, env(safe-area-inset-bottom);
   }
+  /*.menu-responsive-dropdown .menu-btn button{
+    margin-bottom: 80px;
+  }*/
 }
