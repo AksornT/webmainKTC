@@ -1958,6 +1958,9 @@
   .nav.mini .nav-right.nav-second-menu{
     display: inline-flex;
   }
+  .nav.mini .nav-right.page-loan a.card-register-center{
+    vertical-align: super;
+  }
 
   .static-content.text-left.text-on-left-img{
     padding: 40px 100px;
