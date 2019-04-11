@@ -6363,6 +6363,7 @@ section#section-flexi-cards-mobile.forever,section#section-flexi-cards {
 .merchant-share-icon.article-icon .share-btn:hover {
     background-image: url(../img/promotion/ico-share-pro.svg);
     background-size: 100% auto;
+    border-radius: 50%;
 }
 .merchant-share-icon.article-icon .share-btn.active {
     background: #0076C0 url(../img/ico-share-pro-white.png) no-repeat center;
@@ -6383,6 +6384,12 @@ section#section-flexi-cards-mobile.forever,section#section-flexi-cards {
     display: inline-block;
     padding: 8px;
 	cursor: pointer;
+}
+.second-share-icon.article-icon .share-btn:hover,
+.forever-share-icon.article-icon .share-btn:hover {
+    background-image: url(../img/promotion/ico-share-pro.svg);
+    background-size: 100% auto;
+    border-radius: 50%;
 }
 .second-share-icon.article-icon .share-btn.active {
     background: #cf3339 url(../img/ico-share-pro-white.png) no-repeat center;
