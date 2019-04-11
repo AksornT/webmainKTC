@@ -2246,3 +2246,9 @@ nav[aria-label="breadcrumb"] + .row-search-filter {
   }    
 
 }
+
+@media screen and (max-width: 576px) and (min-height: 800px){
+  .menu-responsive-dropdown .menu-btn{
+    padding-bottom: 20px;
+  }
+}
