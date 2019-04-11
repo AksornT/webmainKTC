@@ -176,7 +176,7 @@
 
   .menu-responsive-dropdown .menu-btn{
     position: absolute;
-    bottom: 0;
+    bottom: 10px;
   }
   .menu-responsive-dropdown .menu-lang{
     position: relative;

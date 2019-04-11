@@ -9609,6 +9609,12 @@ section#detail-register{
 	.proud-loan .offset-lg-1.text-left{
 		margin-left: 11%;
 	}
+	.static-content.text-on-right-img.float-up.xvisa{
+		right: 16.5vw;
+	}
+	.visasig-wrap {
+	    padding: 6.955vw 120px 4.393vw 120px;
+	}
 
 }
 

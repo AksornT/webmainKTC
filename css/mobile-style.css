@@ -387,7 +387,7 @@
     height: calc(100vh);
     padding: 0 25px;
     padding-top: 45px;
-    padding-bottom: 150px;
+    padding-bottom: 160px;
     z-index: 5;
   }
   .menu-resp-scroll{
@@ -467,7 +467,7 @@
 
   .menu-responsive-dropdown .menu-btn{
     position: absolute;
-    bottom: 0;
+    bottom: 10px;
   }
   .menu-responsive-dropdown .menu-lang{
     position: relative;
@@ -2247,8 +2247,12 @@ nav[aria-label="breadcrumb"] + .row-search-filter {
 
 }
 
-@media screen and (max-width: 576px) and (min-height: 800px){
+@media screen and (max-width: 870px) and (min-height: 800px){
+  .menu-responsive-dropdown{
+    padding-bottom: 235px;
+  }
   .menu-responsive-dropdown .menu-btn{
-    padding-bottom: 20px;
+    bottom: 80px;
+    padding-bottom: env(safe-area-inset-bottom);
   }
 }
