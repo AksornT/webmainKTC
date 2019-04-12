@@ -214,6 +214,10 @@ strong, b{
 	vertical-align: middle;
 }
 
+.menu-global .on-right.header-login-pg{
+	flex: 1;
+}
+
 .profile-on-menu{
 	display: none !important;
 }
@@ -10061,5 +10065,43 @@ section#detail-register{
 	}
 	a:hover .on-hover{
 	    display: none;
+	}
+
+	.menu-global a.login-btn:hover{
+	    color: inherit;
+	    background-color: inherit;
+	}
+	.menu-global a.login-btn:hover .login-default{
+		display: inline-block;
+	}
+	.menu-global a.login-btn:hover .login-hover{
+		display: none;
+	}
+}
+
+@media only screen and (min-device-width : 1024px) and (max-device-width : 1366px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+	.menu-global a:hover .search-on-default{
+	    display: inline-block;
+	}
+	.menu-global a:hover .search-on-hover{
+	    display: none;
+	}
+
+	a:hover .on-default{
+		display: inline-block;
+	}
+	a:hover .on-hover{
+	    display: none;
+	}
+
+	.menu-global a.login-btn:hover{
+	    color: inherit;
+	    background-color: inherit;
+	}
+	.menu-global a.login-btn:hover .login-default{
+		display: inline-block;
+	}
+	.menu-global a.login-btn:hover .login-hover{
+		display: none;
 	}
 }
