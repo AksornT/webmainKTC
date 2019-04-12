@@ -270,16 +270,18 @@
           });
         </script>
         <script type="text/javascript">
-          if ($("#head-trigger")[0]){ 
-              if($(this).scrollTop()>=$('#head-trigger').position().top){
-                  $('#menu-global').addClass('mini-header');
-                  $('.ghost-footer').addClass('active');
-              }else{
-                  $('#menu-global').removeClass('mini-header');
-                  $('#menu-global.expand-menu .scrolled-menu > li').removeClass('active');
-                  $('.ghost-footer').removeClass('active');
-              }
-          }
+          $(document).on('scroll', function() {
+            if ($("#head-trigger")[0]){ 
+                if($(this).scrollTop()>=$('#head-trigger').position().top){
+                    $('#menu-global').addClass('mini-header');
+                    $('.ghost-footer').addClass('active');
+                }else{
+                    $('#menu-global').removeClass('mini-header');
+                    $('#menu-global.expand-menu .scrolled-menu > li').removeClass('active');
+                    $('.ghost-footer').removeClass('active');
+                }
+            }
+          });
         </script>
       </div>
       <div id="head-trigger"></div>
