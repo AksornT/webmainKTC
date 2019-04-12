@@ -548,6 +548,20 @@
     display: none;
   }
 
+  .menu-global a:hover .search-on-default{
+    display: inline-block;
+  }
+  .menu-global a:hover .search-on-hover{
+    display: none;
+  }
+
+  a:hover .on-default{
+    display: inline-block;
+  }
+  a:hover .on-hover{
+    display: none;
+  }
+
   /* creditcard detail -eve */
   #header-card-detail .center-responsive{
     text-align: center;
