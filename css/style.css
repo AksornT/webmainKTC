@@ -6822,25 +6822,27 @@ section#section-flexi-cards-mobile.forever,section#section-flexi-cards {
     width: 36px;
     text-align: right;
     color: #A5ABB0;
-		margin-right: 5px;
-		top: auto;
+	margin-right: 5px;
+	top: auto;
     bottom: -32px;
 }
 .form-content .input-ico.input-ico-right.input-date:after {
     display: inline-block;
     background-image: url(../img/promotion/ico-calendar.svg);
-		width: 17px;
+	width: 17px;
     margin-right: 5px;
-		top: auto;
+	top: auto;
     bottom: -32px;
+    cursor: pointer;
 }
 .form-content .input-ico.input-ico-right.input-upload:after {
     display: inline-block;
     background-image: url(../img/promotion/ico-upload.svg);
-		width: 17px;
+	width: 17px;
     margin-right: 5px;
-		top: auto;
+	top: auto;
     bottom: -32px;
+    cursor: pointer;
 }
 .form-content .input-ico.input-ico-right span {
     font-family: 'Conv_SukhumvitTadmai_Tex';
