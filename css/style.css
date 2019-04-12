@@ -10105,3 +10105,30 @@ section#detail-register{
 		display: none;
 	}
 }
+
+@media only screen and (min-device-width : 834px) and (max-device-width : 1194px) and (orientation : landscape){
+	.menu-global a:hover .search-on-default{
+	    display: inline-block;
+	}
+	.menu-global a:hover .search-on-hover{
+	    display: none;
+	}
+
+	a:hover .on-default{
+		display: inline-block;
+	}
+	a:hover .on-hover{
+	    display: none;
+	}
+
+	.menu-global a.login-btn:hover{
+	    color: inherit;
+	    background-color: inherit;
+	}
+	.menu-global a.login-btn:hover .login-default{
+		display: inline-block;
+	}
+	.menu-global a.login-btn:hover .login-hover{
+		display: none;
+	}
+}
