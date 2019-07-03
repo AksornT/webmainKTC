@@ -1572,13 +1572,14 @@ body.modal-open{
 .card-choice{
 	/*width: 510px;*/
 	max-width: 100%;
-	display: block;
+	display: flex;
 	margin: 0 5px 35px;
 	padding: 13px 15px 14px 15px;
 	border-radius: 6px;
 	position: relative;
 	top: 0;
 	color: #000;
+	align-items: center;
   -webkit-box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.2);
 	-moz-box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.2);
 	box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.2);
