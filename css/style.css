@@ -1615,7 +1615,10 @@ body.modal-open{
 }
 .card-choice .left-icon img{
 	width: 76px;
-  height: 53px;
+  	height: 53px;
+  	position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .only-mobile .social-footer{
@@ -3476,7 +3479,34 @@ select:focus.form-control.option-selected option:checked{
 
 #proud-register .input-notice{
 	text-align: center;
+	max-width: calc(100% - 30px);
+	margin-left: auto;
+    margin-right: auto;
 }
+
+#proud-register .input-notice .checkbox-form{
+	display: inline-block;
+	padding: 4px 0 0px 25px;
+	text-align: left;
+}
+
+#proud-register .input-notice .checkbox-form > label,
+#proud-register .input-notice .checkbox-form > label input[type="checkbox"]{
+	position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+#proud-register .input-notice .checkbox-form > label .checkmark{
+	top: 5px;
+}
+
+#proud-register .input-notice .checkbox-form input[type="checkbox"]{
+	margin: 0;
+}
+
 article.page-content .title-red-line h3:after{
 	background-color: #CF3339;
 }
@@ -3619,6 +3649,14 @@ h4.content-title{
 	/*font-family: Helvetica, Arial, sans-serif;*/
 	font-family: 'Conv_PSL249pro';
 	font-weight: 100;
+}
+
+.faq-answer > div a u{
+	color: #000;
+}
+
+.faq-answer > div a:hover u{
+	color: #cf3339;
 }
 
 .table.faq-tb{
@@ -3903,6 +3941,36 @@ h4.content-title{
 	font-size: 20px;
 	padding: 24px 0 10px 0;
 }
+
+.detail-register-desc div.notice{
+	font-family: 'Conv_PSL249pro';
+    font-size: 20px;
+    line-height: 1.0;
+    letter-spacing: 0px;
+    display: flex;
+    padding-top: 10px;
+}
+.detail-register-desc div.notice ol{
+	display: inline-block;
+    vertical-align: top;
+    padding-left: 10px;
+}
+
+.static-content .type-dash li{
+	list-style-type: none;
+	position: relative;
+}
+
+.static-content .type-dash li:before{
+	content: "-";
+	font-family: 'Conv_SukhumvitTadmai_Tex';
+	font-size: 20px;
+	line-height: 20px;
+	top: 2px;
+    left: -16px;
+	position: absolute;
+}
+
 .detail-register-desc li{
 	/*font-family: Helvetica, Arial, sans-serif ;*/
 	font-family: 'Conv_PSL249pro';
@@ -9105,6 +9173,17 @@ nav[aria-label="breadcrumb"]{
 
 section.static-wrap img{
 	cursor: default;
+}
+
+section.static-wrap img.loan-car-banner{
+	height: 321px;
+    width: auto;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+section.static-wrap .car-special-text img{
+	margin: -10px 0 -1px 0;
 }
 
 .half-half .full-overimage + .full-overimage{

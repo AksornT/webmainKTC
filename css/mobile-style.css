@@ -659,7 +659,6 @@
   .left-icon{
   	width: 80px;
     height: 58px;
-    padding: 8px 0;
   }
 
   .left-icon img{
@@ -678,7 +677,15 @@
   }
 
   .card-choice{
-  	margin-bottom: 20px;
+    margin-bottom: 20px;
+  }
+
+  .card-choice.smaller-text{
+    padding-right: 5px;
+  }
+
+  .card-choice.smaller-text .left-icon + p{
+    font-size: 13px;
   }
 
   .footer-menu > .col-lg-3{
@@ -2246,7 +2253,11 @@ nav[aria-label="breadcrumb"] + .row-search-filter {
 
   .btn.button-flexi-start{
     border-radius: 3px;
-  }    
+  }  
+
+  section.static-wrap .car-special-text img{
+    height: 38px;
+  }  
 
 }
 

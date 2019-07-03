@@ -1,0 +1,1072 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no">
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/tablet-style.css">
+    <link rel="stylesheet" href="css/mobile-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="js/jquery-1.12.4.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="js/win-ui.js"></script>
+    <title>KTC</title>
+  </head>
+  <body>
+  <div id="menu-global" class="menu-global">
+    <div class="content-wrap">
+      <div id="ktc-logo">
+        <a href="index.html">
+          <img src="img/index/logo-ktc.svg">
+        </a>
+      </div>
+      <ul class="scrolled-menu">
+        <li>บัตรเครดิต
+          <i class="fa fa-angle-down"></i>
+          <ul>
+            <li>ผลิตภัณฑ์บัตรเครดิต<a href="creditcard.html"></a></li>
+            <li>คะแนน<a href="forever.html"></a></li>
+            <li>ผ่อนชำระ<a href="flexi.html"></a></li>
+            <li>บริจาค<a href="#"></a></li>
+            <li>บริการหักค่าใช้จ่ายอัตโนมัติ<a href="#"></a></li>
+            <li>อัตราดอกเบี้ยและค่าธรรมเนียม<a href="#"></a></li>
+          </ul>
+
+        </li>
+        <li>สินเชื่อบุคคล
+          <i class="fa fa-angle-down"></i>
+          <ul>
+            <li>ผลิตภัณฑ์สินเชื่อ<a href="loan.html"></a></li>
+            <li>ผ่อนชำระ<a href="#"></a></li>
+            <li>เครื่องคำนวนสินเชื่อ<a href="#"></a></li>
+            <li>อัตราดอกเบี้ยและค่าธรรมเนียม<a href="#"></a></li>
+          </ul>
+        </li>
+        <li>โปรโมชั่น<a href="promotion.html"></a>
+        </li>
+        <li>ธุรกิจร้านค้า<a href="merchant.html"></a>
+          </li>
+        <li>บริการท่องเที่ยว<a href="#"></a>
+        </li>
+        <li>ช้อปสินค้าออนไลน์
+        </li>
+        <li class="dropdown">บริการลูกค้า
+          <i class="fa fa-angle-down"></i>
+          <ul>
+            <li>ติดต่อ KTC<a href="#"></a></li>
+            <li>บริการ KTC Online<a href="#"></a></li>
+            <li>บริการ KTC MOBILE APPLICATION<a href="#"></a></li>
+            <li>ช่องทางการชำระเงิน<a href="#"></a></li>
+            <li>วารสารรายเดือน<a href="#"></a></li>
+            <li>ดาวน์โหลดแบบฟอร์มและคู่มือ<a href="#"></a></li>
+            <li>คำถามที่พบบ่อย<a href="#"></a></li>
+          </ul>
+        </li>
+      </ul>
+      <div class="on-right">
+        <a class="search-on-menu" data-toggle="modal" data-target="#search-modal">
+          <img src="img/index/ico-menu-search.svg" class="search-on-default"><img src="img/index/ico-menu-search-red.svg" class="search-on-hover">
+        </a>
+        <div id="card-register" class="card-register-btn" data-toggle="modal" data-target="#card-register-modal" href="#">สมัครบัตร</div>
+        <!-- ก่อนล็อกอิน -->
+        <!-- <a class="login-btn" href="#">
+           <img src="img/index/ico-login.svg" class="login-default">
+           <img src="img/index/ico-login-bl.svg" class="login-hover">
+          เข้าสู่ระบบ
+        </a>
+        <div class="login-mobile only-mobile" href="#">
+          <img src="img/index/ico-login.svg">
+        </div> -->
+
+        <!-- หลังล็อกอิน -->
+        <div class="login-btn logged-in">
+          <div class="profile-image"><img src="img/img-profile.png"></div>
+          <p class="profile-name">บัญชีของฉัน</p><i class="fa fa-angle-down"></i>
+          <ul>
+            <li><a href="#"><div class="subimg-wrap"><img src="img/index/ico-my-card.svg"></div><p>บัตร KTC ของฉัน</p></a></li>
+            <li><a href="#"><div class="subimg-wrap"><img src="img/index/ico-my-promotion.svg"></div><p>โปรโมชั่นของฉัน</p></a></li>
+            <li><a href="#"><div class="subimg-wrap"><img src="img/index/ico-log-out.svg"></div><p>ออกจากระบบ</p></a></li>
+          </ul>
+          <div class="for-sub-profile-mobile">
+            <div class="profile-image"><img src="img/img-profile.png"></div>
+            <button type="button" class="close">
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="menu-mobile only-mobile" onclick="myFunction()"></div>
+        </div>
+
+
+        <div class="profile-on-menu">
+          <!--<div class="profile-image"><img src="img/ico-user.png"></div>-->
+          <span class="profile-name"></span>
+          <div class="menu-mobile only-mobile" onclick="myFunction()"></div>
+        </div>
+      </div>
+      <div id="scrolled-menu-responsive" class="menu-responsive-dropdown only-mobile">
+        <div class="menu-resp-scroll">
+          <button type="button" class="menu-resp-close close">
+            <span aria-hidden="true">×</span>
+          </button>
+          <div class="menu-responsive">
+            <img src="img/index/ico-creditcard.svg"><h3 class="menu-more">บัตรเครดิต</h3>
+            <ul>
+              <li><a href="creditcard.html">ผลิตภัณฑ์บัตรเครดิต</a></li>
+              <li><a href="forever.html">คะแนน</a></li>
+              <li><a href="flexi.html">ผ่อนชำระ</a></li>
+              <li><a href="#">บริจาค</a></li>
+              <li><a href="#">บริการหักค่าใช้จ่ายอัตโนมัติ</a></li>
+              <li><a href="#">อัตราดอกเบี้ยและค่าธรรมเนียม</a></li>
+            </ul>
+          </div>
+          <div class="menu-responsive">
+            <img src="img/index/ico-personal-loans.svg"><h3 class="menu-more">สินเชื่อบุคคล</h3>
+            <ul>
+              <li><a href="loan.html">ผลิตภัณฑ์สินเชื่อ</a></li>
+              <li><a href="flexi.html">ผ่อนชำระ</a></li>
+              <li><a href="#">เครื่องคำนวนสินเชื่อ</a></li>
+              <li><a href="#">อัตราดอกเบี้ยและค่าธรรมเนียม</a></li>
+            </ul>
+          </div>
+          <a href="promotion.html" class="menu-responsive">
+            <img src="img/index/ico-privilege.svg"><h3>โปรโมชั่น</h3>
+          </a>
+          <a class="menu-responsive" href="merchant.html">
+              <img src="img/index/ico-business-store.svg"><h3>ธุรกิจร้านค้า</h3>
+            </a>
+          <a class="menu-responsive" href="#">
+            <img src="img/index/ico-travel-service.svg"><h3>บริการท่องเที่ยว</h3>
+          </a>
+          <div class="menu-responsive">
+            <img src="img/index/ico-shopping-online.svg"><h3>ช้อปสินค้าออนไลน์</h3>
+          </div>
+          <div class="menu-responsive">
+            <img src="img/index/ico-service-custom.svg"><h3 class="menu-more">บริการลูกค้า</h3>
+            <ul>
+              <li><a href="#">ติดต่อ KTC</a></li>
+              <li><a href="#">บริการ KTC Online</a></li>
+              <li><a href="#">บริการ KTC MOBILE APPLICATION</a></li>
+              <li><a href="#">ช่องทางการชำระเงิน</a></li>
+              <li><a href="#">วารสารรายเดือน</a></li>
+              <li><a href="#">ดาวน์โหลดแบบฟอร์มและคู่มือ</a></li>
+              <li><a href="#">คำถามที่พบบ่อย</a></li>
+            </ul>
+          </div>
+
+          <div class="menu-btn">
+            <div class="menu-lang">
+              <div class="lang-header-menu">
+                <img src="img/ico-lang.png">
+                  <div class="lang-wrap active">
+                    <label for="lang-change">Language</label>
+                    <p id="lang-change">EN</p>
+                  </div>
+                  <div class="lang-wrap">
+                    <label for="lang2-change">Language</label>
+                    <p id="lang2-change">TH</p>
+                  </div>
+              </div>
+            </div>
+            <button data-toggle="modal" data-target="#card-register-modal">สมัครบัตร</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="open-on-top">
+      <div class="content-wrap">
+        <div class="row">
+          <div class="col-lg-6">
+            <h1 class="only-desktop">Fulfill your life with <span>KTC Credit</span></h1>
+            <p class="only-desktop">Suspendisse accumsan in ante et dapibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam nec pulvinar leo, vel malesuada orci.</p>
+            <h2 class="title-mobile only-mobile">ประสบการณ์<br>ให้ความหมายกับชีวิต</h2>
+          </div>
+          <div class="col-lg-6 row icon-wrap">
+            <a class="big-link col-4" href="creditcard.html">
+              <div>
+                <img src="img/index/ico-creditcard.svg">
+                <p>บัตรเครดิต</p>
+              </div>
+            </a>
+            <a class="big-link col-4" href="loan.html">
+              <div>
+                <img src="img/index/ico-personal-loans.svg">
+                <p>สินเชื่อบุคคล</p>
+              </div>
+            </a>
+            <a class="big-link col-4" href="promotion.html">
+              <div>
+                <img src="img/index/ico-privilege.svg">
+                <p>โปรโมชั่น</p>
+              </div>
+            </a>
+            <a class="big-link col-4" href="merchant.html">
+              <div>
+                <img src="img/index/ico-business-store.svg">
+                <p>ธุรกิจร้านค้า</p>
+              </div>
+            </a>
+            <a class="big-link col-4" href="article.html">
+              <div>
+                <img src="img/index/ico-travel-service.svg">
+                <p>บริการท่องเที่ยว</p>
+                <span>KTC World</span>
+              </div>
+            </a>
+            <a class="big-link col-4" href="#">
+              <div>
+                <img src="img/index/ico-shopping-online.svg">
+                <p>ช้อปสินค้าออนไลน์</p>
+                <span>KTC U Shop</span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="another-sub">
+        <div class="content-wrap row">
+          <a class="col-4 col-sm-4">
+            <img src="img/index/ico-shopping.svg">
+            <p>คะแนนสะสม</p>
+            <span>Suspendisse</span>
+          </a>
+          <a class="col-4 col-sm-4" href="flexi.html">
+            <img src="img/index/ico-dining.svg">
+            <p>แบ่งชำระ</p>
+            <span>Suspendisse</span>
+          </a>
+          <a class="col-4 col-sm-4">
+            <img src="img/index/ico-shoponline.svg">
+            <p>บริจาค</p>
+            <span>Suspendisse</span>
+          </a>
+          <a class="col-4 col-sm-4 only-mobile">
+            <img src="img/index/ico-apply-card.svg">
+            <p>สมัครบัตร</p>
+            <span>Others</span>
+          </a>
+          <a class="col-4 col-sm-4 only-desktop">
+            <img src="img/index/ico-travel.svg">
+            <p>บริการลูกค้า</p>
+            <span>Suspendisse</span>
+          </a>
+          <a class="col-4 col-sm-4 only-desktop">
+            <img src="img/index/ico-nearby.svg">
+            <p>ตรวจสอบสถานะบัตร</p>
+            <span>Suspendisse</span>
+          </a>
+          <a class="col-4 col-sm-4 only-mobile">
+            <img src="img/index/ico-nearby.svg">
+            <p>ตรวจสอบสถานะบัตร</p>
+            <span>Suspendisse</span>
+          </a>
+          <a class="col-4 col-sm-4 only-mobile">
+            <img src="img/index/ico-travel.svg">
+            <p>บริการลูกค้า</p>
+            <span>Suspendisse</span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div id="head-trigger"></div>
+  </div>
+<!-- end Header -->
+
+<!-- start sub-sticky -->
+  <div id="nav-flexi-scroll-trigger"></div>
+  <nav id="nav-flexi" class="navbar navbar-expand-lg only-desktop">
+    <div class="content-wrap sub-nav-flexi">
+      <div id="nav-flexi-navbar">
+        <ul class="nav navbar-nav">
+          <li class="nav-item active">
+            <a href="#loan-car-detail" class="nav-link">รายละเอียด</a>
+          </li>
+          <li class="nav-item">
+            <a href="#detail-register" class="nav-link">รายละเอียดการสมัคร</a>
+          </li>
+          <li class="nav-item">
+            <a href="#proud-regis" class="nav-link">สมัครสินเชื่อ</a>
+          </li>
+        </ul>
+      </div>
+
+      <ul class="navbar-nav justify-content-end sticky-right page-loan">
+        <li class="nav-item">
+          <!-- <button class="btn btn-flexi-share"><span class="sr-only">Share</span></button>
+          <div class="share-popover">
+            <a class="share-fb-btn" href="#"></a>
+            <a class="share-tw-btn" href="#"></a>
+            <a class="share-line-btn" href="#"></a>
+            <a class="share-mail-btn" href="#"></a>
+          </div> -->
+          <div class="second-share-icon article-icon">
+            <div class="share-btn share-btn-mg">
+              <div class="share-popover">
+                <a class="share-fb-btn" href="#"></a>
+                <a class="share-tw-btn" href="#"></a>
+                <a class="share-line-btn" href="#"></a>
+                <a class="share-mail-btn" href="#"></a>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a href="#proud-regis" class="card-register-center">สมัครสินเชื่อ</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <nav id="nav-flexi-mobile" class="only-mobile">
+    <div class="nav mini">
+      <button class="btn button-show-flexi-menu" data-toggle="modal" data-target="#sticky-modal"><span class="sr-only">Menu</span></button>
+      <div class="nav-right page-loan">
+        <!-- <button class="btn btn-flexi-share"><span class="sr-only">Share</span></button>
+          <div class="share-popover">
+            <a class="share-fb-btn" href="#"></a>
+            <a class="share-tw-btn" href="#"></a>
+            <a class="share-line-btn" href="#"></a>
+            <a class="share-mail-btn" href="#"></a>
+          </div> -->
+          <div class="second-share-icon article-icon">
+            <div class="share-btn share-btn-mg">
+              <div class="share-popover">
+                <a class="share-fb-btn" href="#"></a>
+                <a class="share-tw-btn" href="#"></a>
+                <a class="share-line-btn" href="#"></a>
+                <a class="share-mail-btn" href="#"></a>
+              </div>
+            </div>
+          </div>
+        <a href="#proud-regis" class="card-register-center">สมัครสินเชื่อ</a>
+      </div>
+    </div>
+  </nav>
+  <div id="nav-flexi-mobile-scroll-trigger"></div>
+<!-- end sub-sticky -->
+
+<!-- start page -->
+    <div class="page-loan-proud proud-loan">
+      <div>
+      </div>
+      <div class="content-wrap">
+        <div id="sticky-trigger"></div>
+      </div>
+
+      <section class="static-wrap full-overimage" background="#DBDCE0">
+        <div class="row">
+          <div class="col-12">
+            <img src="img/car/img-section-01.jpg" alt="" class="loan-car-banner">
+            <!--<span class="share-on-top only-mobile">
+              <button class="btn btn-flexi-share"><span class="sr-only">Share</span></button>
+              <div class="share-popover">
+                <a class="share-fb-btn" href="#"></a>
+                <a class="share-tw-btn" href="#"></a>
+                <a class="share-line-btn" href="#"></a>
+                <a class="share-mail-btn" href="#"></a>
+              </div>
+            </span>-->
+          </div>
+        </div>
+         <div class="overlay-breadcrumb">
+          <div class="content-wrap">
+            <div class="site-breadcrumb">
+              <a href="index.html">หน้าหลัก</a> /
+              <a href="loan.html">ผลิตภัณฑ์สินเชื่อ</a> /
+              <a href="loan-car.html" class="current">สินเชื่อทะเบียนรถยนต์ KTC พี่เบิ้ม</a>
+            </div>  
+          </div>
+        </div>
+      </section>
+
+      <section id="loan-car-detail" class="static-wrap">
+          <div class="row">
+            <div class="col-12 static-content ">
+              <div class="only-desktop"><br><br></div>
+              <h5 style="line-height:1.2">สินเชื่อทะเบียนรถยนต์ KTC พี่เบิ้ม</h5>
+              <p>เปลี่ยนเล่มทะเบียนรถเป็นเงินสด ให้ชีวิตได้ไปต่อ สำหรับคนที่เป็นเจ้าของรถยนต์ หรือรถกระบะ<br>
+                สมัครง่าย ไม่จำกัดอาชีพ ไม่ต้องใช้คนค้ำประกัน รู้ผลอนุมัติทันที รถยังมีขับ ไม่ต้องโอนเล่ม
+              </p>
+              <br><br>
+              <a href="#proud-regis" class="card-register-center">สมัครสินเชื่อ</a>
+              <div class="only-desktop"><br><br></div>
+            </div>
+          </div>
+        </section>
+
+
+
+        <section class="static-wrap static-merchant full-overimage" style="background:#f9f9f9">
+          <div class="row">
+            <div class="col-12 space-on-right">
+              <img src="img/car/img-section-02.jpg" alt="">
+            </div>
+            <div class="col-12 col-lg-6 text-on-right-img static-content text-left">
+              <h5 class="car-special-text" style="line-height:1.2"><img src="img/car/ico-pbig.svg" alt="">ใจใหญ่ สมัครได้ทุกอาชีพ<br>เพียงมีรถ ก็สมัครได้ รู้ผลปั๊บ รับเงินเลย</h5>
+              <ul class="type-dash">
+                <li>ง่ายๆ เพียงมีเล่มทะเบียนรถเป็นชื่อตัวเอง ไม่ต้องใช้คนค้ำประกัน</li>
+                <li>สมัครเสร็จ รู้ผลทันที</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section class="static-wrap static-merchant full-overimage" style="background:#f9f9f9">
+          <div class="row">
+            <div class="col-12 space-on-left">
+              <img src="img/car/img-section-03.jpg" alt="">
+            </div>
+            <div class="col-12 col-lg-6 text-on-left-img static-content text-left">
+              <h5 style="line-height:1.2">ผ่อนเบาๆ ให้ชีวิตสบายๆ ชีวิตไปต่อได้ง่ายขึ้น<br></h5>
+              <ul class="type-dash"> 
+                <li>เลือกผ่อนได้นานสูงสุด 60 เดือน (ตามวงเงินที่ได้รับอนุมัติ)</li>
+                <li>ดอกเบี้ยแบบลดต้นลดดอก ต้นลดหมดภาระไวขึ้น โปะได้ไม่มีค่าปรับ</li>
+                <li>จ่ายค่างวดสะดวก ที่ศูนย์บริการ KTC TOUCH<br>และช่องทางของธนาคารกรุงไทย ทั่วประเทศ</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+
+        <section>
+          <div id="proud-box">
+            <div class="box-more row">
+              <div class="box-con-cal col-12">
+                <a href="#" class="text-center">
+                  <img src="img/proud/ico-payment-gateway.svg">
+                  <div class="con-cal-txt">
+                    <h5>ช่องทางชำระเงิน</h5>
+                    <p>ดูช่องทางชำระเงิน ></p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+      <section id="detail-register" class="for-sticky">
+        <div class="detail-register">
+          <h3>รายละเอียดการสมัคร</h3>
+          <div class="content-wrap">
+            <div class="row">
+              <div class="col-lg-12 col-12 detail-register-desc">
+                <h5>คุณสมบัติ</h5>
+                <br>
+              </div>
+              <div class="col-lg-12 col-12 detail-register-desc">
+                <ol>
+                  <li>สัญชาติไทยอายุ 20 – 65 ปี</li>
+                  <li>รายได้ขั้นต่ำ 8,000 บาทต่อเดือน</li>
+                  <li>ประสบการณ์ทำงานไม่ต่ำกว่า 4 เดือน (กรณีประกอบอาชีพเจ้าของกิจการ ต้องดำเนินธุรกิจไม่ต่ำกว่า 6 เดือน)</li>
+                  <li>มีโทรศัพท์ที่บ้านหรือที่ทำงาน ที่สามารถติดต่อได้สะดวก</li>
+                  <li>มีรถยนต์ หรือรถกระบะเป็นของตนเอง (อายุรถไม่เกิน 15 ปีนับจากวันที่จดทะเบียน)</li>
+                </ol>
+              </div>
+              <div class="col-lg-12 col-12 detail-register-desc">
+                <h5>เอกสาร</h5>
+                <br>
+              </div>
+              <div class="col-lg-12 col-12 detail-register-desc">
+                <ol>
+                  <li>สำเนาบัตรประจำตัวประชาชน</li>
+                  <li>สำเนาทะเบียนบ้าน</li>
+                  <li>เอกสารแสดงรายได้ เช่นหนังสือรับรองเงินเดือน หรือสลิปเงินเดือนล่าสุด (ฉบับจริง) หรือหนังสือรับรองการหักภาษี ณ ที่จ่าย ทวิ 50</li>
+                  <li>สำเนาใบแจ้งยอดบัญชีธนาคาร หรือสำเนาบัญชีธนาคารที่เป็นบัญชีเงินเดือนย้อนหลัง 3 เดือนพร้อมหน้าสมุดบัญชีที่ระบุชื่อ – เลขที่บัญชี</li>
+                  <li>ทะเบียนรถเล่มจริง มีชื่อผู้กู้เป็นเจ้าของเท่านั้น</li>
+                </ol>
+                <div class="notice">
+                  <u>หมายเหตุ</u>
+                  <ol>
+                    <li>ต้องนำรถยนต์มาตรวจสภาพ</li>
+                    <li>เฉพาะรถยี่ห้อที่ให้บริการ ดังนี้ Toyota, Honda, Isuzu, Mitsubishi, Nissan, Hyundai, Suzuki, Ford, Mazda, Chevrolet, MG, Mercedes Benz, BMW, Volvo, Audi, MINI</li>
+                  </ol>
+                </div>
+              </div>
+              <div id="fake-proud-regis"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- แบบฟอร์มสมัคร -->
+      <section id="proud-regis" class="for-sticky">
+        <div id="proud-register" class="content-wrap title-red-line blank-form">
+          <h3 class="content-title">สินเชื่อทะเบียนรถยนต์ KTC พี่เบิ้ม</h3>
+          <p class="sub-title">อนุมัติเร็ว วงเงินสูงสุด 5 เท่าของรายได้ สมัครเลย</p>
+          <form action="register-campaign-success.html" class="row form-wrap">
+            <div class="col-sm-6 col-12">
+              <input class="required" type="text" placeholder="ชื่อ">
+            </div>
+            <div class="col-sm-6 col-12">
+              <input class="required" type="text" placeholder="นามสกุล">
+            </div>
+            <div class="col-sm-6 col-12">
+              <input class="required" type="text" placeholder="หมายเลขโทรศัพท์ (10 หลัก)" inputmode="numeric">
+            </div>
+            <div class="col-sm-6 col-12">
+              <input class="required" type="text" placeholder="อีเมล">
+            </div>
+            <div class="col-sm-6 col-12">
+              <label class="before-dropdown">รายได้ต่อเดือน</label>
+              <select class="form-control">
+                <option disabled selected value="">&nbsp; &nbsp;- รายได้ต่อเดือน -</option>
+                <option value="">&nbsp; &nbsp;น้อยกว่า 15,000 บาท</option>
+                <option value="">&nbsp; &nbsp;15,001 - 60,000 บาท</option>
+                <option value="">&nbsp; &nbsp;มากกว่า 60,001 บาท</option>
+              </select>
+            </div>
+            <!-- <div class="col-sm-6 col-12" style="display:flex;align-items:flex-end;">
+              <div class="row" style="position:relative;width:calc(100% + 30px)">
+                <div class="col-12">
+                  <input class="required" type="text" placeholder="เวลาที่สะดวกติดต่อกลับ">
+                </div>
+              </div>
+            </div> -->
+            <div class="input-notice col-12">     
+              <div class="box-other-form checkbox-form has-success">
+                <label>
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+                <p>ข้อมูลของผู้สมัครจะไม่ถูกเปิดเผยหรือใช้ร่วมกับบุคคลที่ 3 นอกเหนือจาก บริษัท บัตรกรุงไทย จำกัด (มหาชน)</p>
+              </div>
+            </div>
+            <div class="btn-wrap">
+              <button type="submit" id="sending-form" class="card-register-center">สมัครสินเชื่อ</button>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <div class="content-wrap">
+        <h4 class="faq-title">คำถามที่พบบ่อย</h4>
+        <div id="faq" class="row faq-wrap" role="tablist" aria-multiselectable="true">
+          <div class="col-sm-12">
+            <div class="theFAQ" role="tablist" aria-multiselectable="true">
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="faq1">
+                  <h4 class="panel-title faq-head">
+                    <div class="collapsed" data-toggle="collapse" data-target="#ans1" data-parent=".theFAQ" aria-expanded="true" aria-controls="ans1">
+                      เคทีซี พี่เบิ้ม คืออะไร
+                    </div>
+                  </h4>
+                </div>
+                <div id="ans1" class="panel-collapse collapse faq-answer" role="tabpanel" aria-labelledby="faq1">
+                  <div>เป็นบริการให้สินเชื่อรูปแบบใหม่ ที่ผู้ขอสินเชื่อไม่ต้องกรอกเอกสาร มีขั้นตอนการดำเนินการขอสินเชื่อที่ง่าย และที่สำคัญอนุมัติรู้ผล และโอนเงินทันที</div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="faq2">
+                  <h4 class="panel-title faq-head">
+                    <div class="collapsed" data-toggle="collapse" data-target="#ans2" data-parent=".theFAQ" aria-expanded="false" aria-controls="ans2">เคทีซี พี่เบิ้ม ให้บริการสินเชื่อประเภทใดบ้าง</div>
+                  </h4>
+                </div>
+                <div id="ans2" class="panel-collapse collapse faq-answer" role="tabpanel" aria-labelledby="faq2">
+                  <div>เราให้บริการสินเชื่อที่มีทะเบียนรถเป็นประกัน ได้แก่
+สินเชื่อทะเบียน<u>รถยนต์</u> เคทีซีพี่เบิ้ม เป็นสินเชื่อไม่ต้องโอนเล่ม เพียงฝากเล่มทะเบียนรถยนต์ไว้ที่เคทีซี โดยที่ผู้ขอสินเชื่อยังคงเป็นเจ้าของและมีรถไว้ใช้อยู่ และในเร็วๆ นี้เราจะเปิดให้บริการสินเชื่อทะเบียน<u>รถจักรยานยนต์</u> เคทีซีพี่เบิ้ม และสินเชื่อบุคคล: สินเชื่อ<u>เงินสด</u> เคทีซีพี่เบิ้ม
+</div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="faq3">
+                  <h4 class="panel-title faq-head">
+                    <div class="collapsed" data-toggle="collapse" data-target="#ans3" data-parent=".theFAQ" aria-expanded="false" aria-controls="ans3">
+                      อัตราดอกเบี้ย ของเคทีซี พี่เบิ้มเป็นอย่างไร
+                    </div>
+                  </h4>
+                </div>
+                <div id="ans3" class="panel-collapse collapse faq-answer" role="tabpanel" aria-labelledby="faq3">
+                  <div>เราให้บริการสินเชื่อในระบบดอกเบี้ยต่ำ และเป็นดอกเบี้ยแบบลดต้นลดดอก (Effective Rate)
+<br>1. สินเชื่อทะเบียน<u>รถยนต์</u> เคทีซีพี่เบิ้ม รถอายุไม่เกิน 15 ปี อัตราดอกเบี้ยแบบลดต้นลดดอก 21%ต่อปี และรถที่อายุ15 ปีขึ้นไป อัตราดอกเบี้ยแบบลดต้นลดดอก 36%ต่อปี
+<br>2. สินเชื่อทะเบียน<u>รถจักรยานยนต์</u> เคทีซีพี่เบิ้ม รถอายุไม่เกิน 10 ปี อัตราดอกเบี้ยแบบลดต้นลดดอก 28%ต่อปี และรถที่อายุ 10 ปีขึ้นไป อัตราดอกเบี้ยแบบลดต้นลดดอก 36%ต่อปี
+</div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="faq4">
+                  <h4 class="panel-title faq-head">
+                    <div class="collapsed" data-toggle="collapse" data-target="#ans4" data-parent=".theFAQ" aria-expanded="false" aria-controls="ans4">
+                      ดอกเบี้ยแบบลดต้นลดดอก (Effective Rate) ดีอย่างไร
+                    </div>
+                  </h4>
+                </div>
+                <div id="ans4" class="panel-collapse collapse faq-answer" role="tabpanel" aria-labelledby="faq4">
+                  <div>ปกติการชำระค่างวดจะแบ่งออกเป็นเงินต้น และดอกเบี้ย ซึ่งดอกเบี้ยจะถูกคำนวณตามมูลค่าของเงินต้น ดังนั้นเมื่อเราชำระค่างวดในแต่ละครั้ง ดอกเบี้ยก็จะลดลงพร้อมเงินต้น และหากเราชำระไปเรื่อยๆ ในงวดท้ายๆ เราจะจ่ายดอกเบี้ยน้อยกว่าเดิม เพราะทุกครั้งที่เราชำระค่างวด เงินต้นที่คงเหลือก็จะลดลงไปพร้อมกับดอกเบี้ย
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="faq5">
+                  <h4 class="panel-title faq-head">
+                    <div class="collapsed" data-toggle="collapse" data-target="#ans5" data-parent=".theFAQ" aria-expanded="false" aria-controls="ans5">
+                      วงเงินในการอนุมัติขึ้นอยู่กับอะไร
+                    </div>
+                  </h4>
+                </div>
+                <div id="ans5" class="panel-collapse collapse faq-answer" role="tabpanel" aria-labelledby="faq5">
+                  <div>วงเงินอนุมัติขึ้นอยู่กับ ยี่ห้อ-รุ่นรถ, ปีจดทะเบียน และสภาพรถ
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="faq6">
+                  <h4 class="panel-title faq-head">
+                    <div class="collapsed" data-toggle="collapse" data-target="#ans6" data-parent=".theFAQ" aria-expanded="false" aria-controls="ans6">
+                      ระยะเวลาผ่อนเป็นอย่างไร
+                    </div>
+                  </h4>
+                </div>
+                <div id="ans6" class="panel-collapse collapse faq-answer" role="tabpanel" aria-labelledby="faq6">
+                  <div>ระยะเวลาผ่อนของลูกค้าแต่ละคนจะไม่เท่ากัน ขึ้นอยู่กับผลการอนุมัติ
+<br>- สินเชื่อทะเบียน<u>รถยนต์</u> เคทีซีพี่เบิ้ม รถอายุไม่เกิน 15 ปี ผ่อนยาวสูงสุด 60 เดือน, รถอายุ 15 ปีขึ้นไป ผ่อนยาวสูงสุด 36 เดือน
+<br>- สินเชื่อทะเบียน<u>รถจักรยานยนต์</u> เคทีซีพี่เบิ้ม ผ่อนยาวสูงสุด 36 เดือน
+</div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="faq7">
+                  <h4 class="panel-title faq-head">
+                    <div class="collapsed" data-toggle="collapse" data-target="#ans7" data-parent=".theFAQ" aria-expanded="true" aria-controls="ans7">
+                      เงื่อนไขการขอสินเชื่อเคทีซี พี่เบิ้ม
+                    </div>
+                  </h4>
+                </div>
+                <div id="ans7" class="panel-collapse collapse faq-answer" role="tabpanel" aria-labelledby="faq7">
+                  <div>ได้แก่
+<br>- สัญชาติไทย อายุตั้งแต่ 20 ปีบริบูรณ์ สูงสุดไม่เกิน 65 ปี
+<br>- เป็นผู้ที่มีรายได้ เช่น พนักงานบริษัท ข้าราชการ เจ้าของกิจการ ผู้ประกอบอาชีพอิสระ
+<br>- รายได้ขั้นต่ำ 8,000 บาทต่อเดือน
+<br>- มีอายุงานในสถานที่ทำงานปัจจุบัน หรือประกอบอาชีพอิสระ อย่างน้อย 4 เดือน หรือเจ้าของกิจการ มีอายุกิจการตั้งแต่ 6 เดือนขึ้นไป
+
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="faq8">
+                  <h4 class="panel-title faq-head">
+                    <div class="collapsed" data-toggle="collapse" data-target="#ans8" data-parent=".theFAQ" aria-expanded="false" aria-controls="ans8">
+                      เอกสารสำหรับขอสินเชื่อเคทีซี พี่เบิ้ม
+                    </div>
+                  </h4>
+                </div>
+                <div id="ans8" class="panel-collapse collapse faq-answer" role="tabpanel" aria-labelledby="faq8">
+                  <div>ได้แก่
+<br>- เล่มทะเบียนรถตัวจริง (ผู้ขอสินเชื่อต้องเป็นชื่อเจ้าของเล่มเท่านั้น)
+<br>- บัตรประชาชนตัวจริงพร้อมสำเนา
+<br>- สำเนาทะเบียนบ้าน
+<br>- สำเนาสมุดบัญชีกรุงไทย
+<br>- หลักฐานแสดงรายได้และ/หรือหลักฐานยืนยันการประกอบอาชีพ
+</div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="faq9">
+                  <h4 class="panel-title faq-head">
+                    <div class="collapsed" data-toggle="collapse" data-target="#ans9" data-parent=".theFAQ" aria-expanded="false" aria-controls="ans9">
+                      ขอสินเชื่อกับเคทีซี พี่เบิ้ม ต้องมีคนค้ำประกันหรือไม่
+                    </div>
+                  </h4>
+                </div>
+                <div id="ans9" class="panel-collapse collapse faq-answer" role="tabpanel" aria-labelledby="faq9">
+                  <div>สินเชื่อทะเบียนรถยนต์/จักรยายนต์ เคทีซีพี่เบิ้ม ไม่ต้องมีคนค้ำประกันทุกกรณี
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="faq10">
+                  <h4 class="panel-title faq-head">
+                    <div class="collapsed" data-toggle="collapse" data-target="#ans10" data-parent=".theFAQ" aria-expanded="false" aria-controls="ans10">
+                      ตรวจสอบค่างวดได้ที่ไหนบ้าง
+                    </div>
+                  </h4>
+                </div>
+                <div id="ans10" class="panel-collapse collapse faq-answer" role="tabpanel" aria-labelledby="faq10">
+                  <div>ลูกค้าสามารถตรวจสอบค่างวดได้จากตาราง Amortization (ตารางแสดงภาระหนี้) ที่ให้ไปพร้อมสัญญา หรือสามารถสอบถามที่ KTC Contract center
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="faq11">
+                  <h4 class="panel-title faq-head">
+                    <div class="collapsed" data-toggle="collapse" data-target="#ans11" data-parent=".theFAQ" aria-expanded="false" aria-controls="ans11">
+                      สามารถชำระค่างวดได้ที่ไหนบ้าง
+                    </div>
+                  </h4>
+                </div>
+                <div id="ans11" class="panel-collapse collapse faq-answer" role="tabpanel" aria-labelledby="faq11">
+                  <div>สามารถเลือกชำระค่างวดผ่านช่องทางต่างๆ ได้ดังนี้
+<br>- KTC Touch ทุกสาขา ชำระฟรี
+<br>- ช่องทางธ.กรุงไทย (สาขาของธนาคาร, Mobile App Krungthai Next, Internet banking, ATM) ค่าธรรมเนียมไม่เกิน 25 บาท
+<br>- ช่องทางชำระบิลข้ามธนาคาร ดูช่องทางที่ <a href="www.bot.or.th/Thai/PaymentSystems/Documents/Bill_Payment_InterBank.pdf"><u>www.bot.or.th/Thai/PaymentSystems/Documents/Bill_Payment_InterBank.pdf</u></a> ค่าธรรมเนียมไม่เกิน 20 บาท
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="faq12">
+                  <h4 class="panel-title faq-head">
+                    <div class="collapsed" data-toggle="collapse" data-target="#ans12" data-parent=".theFAQ" aria-expanded="false" aria-controls="ans12">
+                      กรณีต้องการชำระค่างวดก่อนครบกำหนด จะต้องเสียค่าปรับหรือไม่
+                    </div>
+                  </h4>
+                </div>
+                <div id="ans12" class="panel-collapse collapse faq-answer" role="tabpanel" aria-labelledby="faq12">
+                  <div>ไม่เสียค่าปรับใดๆ ทั้งสิ้น เพราะเราคิดดอกเบี้ยแบบลดต้นลดดอก ซึ่งยิ่งชำระค่างวดไว ดอกเบี้ยจะยิ่งต่ำลง
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="faq13">
+                  <h4 class="panel-title faq-head">
+                    <div class="collapsed" data-toggle="collapse" data-target="#ans13" data-parent=".theFAQ" aria-expanded="false" aria-controls="ans13">
+                      ในการชำระค่างวด สามารถชำระได้มากกว่ายอดที่ต้องชำระต่องวดได้หรือไม่
+                    </div>
+                  </h4>
+                </div>
+                <div id="ans13" class="panel-collapse collapse faq-answer" role="tabpanel" aria-labelledby="faq13">
+                  <div>สามารถชำระได้ เพราะเราใช้วิธีการคิดดอกเบี้ยแบบลดต้นลดดอก
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="faq14">
+                  <h4 class="panel-title faq-head">
+                    <div class="collapsed" data-toggle="collapse" data-target="#ans14" data-parent=".theFAQ" aria-expanded="false" aria-controls="ans13">
+                      เมื่อชำระค่างวดครบตามยอดในสัญญา สามารถขอสินเชื่อได้เลยหรือไม่
+                    </div>
+                  </h4>
+                </div>
+                <div id="ans14" class="panel-collapse collapse faq-answer" role="tabpanel" aria-labelledby="faq14">
+                  <div>สามารถนำรถเข้าไปขอสินเชื่อในวันรุ่งขึ้นหลังชำระเงินได้ทันที
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end page -->
+
+
+
+    <!-- start Footer -->
+
+  <div class="footer">
+      <div id="foot-trigger"></div>
+      <div class="content-wrap">
+        <div class="row">
+          <div class="col-sm-9 col-lg-10 row footer-menu">
+            <div class="col-lg-3 col-sm-6">
+              <h3><a href="about.html">เกี่ยวกับเรา</a></h3>
+              <ul>
+                <li>
+                  <a href="vision.html">วิสัยทัศน์ / พันธกิจ </a>
+                </li>
+                <li>
+                  <a href="overview.html">ข้อมูลทั่วไป</a>
+                </li>
+                <li>
+                  <a href="company-shareholding-structure.html">โครงสร้างการถือหุ้นกลุ่มบริษัท</a>
+                </li>
+                <li>
+                  <a href="shareholder-structure.html">โครงสร้างการถือหุ้น</a>
+                </li>
+                <li>
+                  <a href="organization-chart-structure.html">โครงสร้างองค์กร</a>
+                </li>
+                <li>
+                  <a href="board-of-director.html">คณะกรรมการ</a>
+                </li>
+                <li>
+                  <a href="executives.html">คณะผู้บริหาร</a>
+                </li>
+                <li>
+                  <a href="company-secretary.html">เลขานุการบริษัท</a>
+                </li>
+                <li>
+                  <a href="compliance-internal-audit.html">หัวหน้างานตรวจสอบภายใน</a>
+                </li>
+                <li>
+                  <a href="news.html">ข่าวประชาสัมพันธ์</a>
+                </li>
+                <li>
+                  <a href="article.html">บทความ</a>
+                </li>
+                <li>
+                  <a href="careers.html">สมัครงาน / ฝึกงาน</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <h3><a href="support.html">บริการลูกค้า</a></h3>
+              <ul>
+                <li>
+                  <a href="/onlineservice" target="_blank">บริการออนไลน์</a>
+                </li>
+                <li>
+                  <a href="rate.html">อัตราดอกเบี้ยและค่าธรรมเนียม</a>
+                </li>
+                <li>
+                  <a href="ktc-cash.html">คำนวณดอกเบี้ย / ค่าธรรมเนียม</a>
+                </li>
+                <li>
+                  <a href="#">ช่องทางการชำระเงิน</a>
+                </li>
+                <li>
+                  <a href="ktc-autopayment.html">บริการหักค่าใช้จ่ายรายเดือนอัตโนมัติ</a>
+                </li>
+                <li>
+                  <a href="download.html">ดาวน์โหลด</a>
+                </li>
+                <li>
+                  <a href="announcement.html">ประกาศบริษัท</a>
+                </li>
+                <li>
+                  <a href="faq.html">คำถามที่พบบ่อย</a>
+                </li>
+                <li>
+                  <a href="sitemap.html">แผนผังเว็บไซต์</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <h3><a href="corporate-governance.html">กำกับดูแลกิจการ</a></h3>
+              <ul>
+                <li class="two-line">
+                  <a href="supervision.html">การควบคุมภายในและการบริหารจัดการความเสี่ยง</a>
+                </li>
+                <li>
+                  <a href="responsibility.html">ความรับผิดชอบต่อสังคม</a>
+                </li>
+                <li class="two-line">
+                  <a href="activities.html">ประมวลภาพกิจกรรมการกำกับดูแลกิจการและความรับผิดชอบต่อสังคม</a>
+                </li>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <h3><a href="/sites/ktc/investor-relations/">นักลงทุนสัมพันธ์</a></h3>
+              <ul>
+                <li>
+                  <a href="/sites/ktc/investor-relations/financialinformation/">ข้อมูลด้านการเงิน</a>
+                </li>
+                <li>
+                  <a href="/sites/ktc/investor-relations/privacy-policy/">นโยบายการเปิดเผยข้อมูล</a>
+                </li>
+                <li>
+                  <a href="/sites/ktc/investor-relations/resources/investors-news/">เอกสารเผยแพร่</a>
+                </li>
+                <li>
+                  <a href="/sites/ktc/investor-relations/debenturesinfo/bond-profile/">ข้อมูลผู้ถือหุ้นกู้</a>
+                </li>
+                <li>
+                  <a href="/sites/ktc/investor-relations/shareholder/top-10-debentures/">ข้อมูลผู้ถือหุ้น</a>
+                </li>
+                <li>
+                  <a href="/sites/ktc/investor-relations/shareholders-meetings/">การประชุมผู้ถือหุ้น</a>
+                </li>
+                <li>
+                  <a href="/sites/ktc/investor-relations/contact/">ติดต่อนักลงทุนสัมพันธ์</a>
+                </li>
+            </div>
+          </div>
+          <div class="col-sm-3 col-lg-2">
+            <a href="tel:021235000" class="tel">
+              <p class="tel-text">KTC PHONE</p>
+              <span>02 123 5000</span>
+            </a>
+            <img class="footer-badge" src="img/ico-footer-badge.png">
+            <div class="download-section">
+              <p>ดาวน์โหลด</p>
+              <img class="footer-badge tapktc" src="img/ico-download-tapktc.svg">
+              <div class="fotter-hollow"></div>
+              <a href="https://itunes.apple.com/th/app/tapktc/id723657868?|s=1&mt=8"><img class="footer-badge" src="img/ico-download-ios.png"></a>
+              <a href="https://play.google.com/store/apps/details?id=com.tapktc.app"><img class="footer-badge" src="img/ico-download-ggplay.png"></a>
+            </div>
+          </div>
+          <div class="col-sm-12 only-mobile">
+            <div class="social-footer">
+              <a href="https://www.facebook.com/ktcrealprivilege">
+                <img src="img/index/ico-social-facebook.svg">
+              </a>
+              <a href="https://twitter.com/ktcprivilege">
+                <img src="img/index/ico-social-twitter.svg">
+              </a>
+              <a href="https://www.instagram.com/ktccard">
+                <img src="img/index/ico-social-instagram.svg">
+              </a>
+              <a href="https://line.me/R/ti/p/@ktc_card">
+                <img src="img/index/ico-social-line.svg">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="content-wrap last-piece">
+        <div class="row">
+          <div class="col-lg-6 license">© 2561 บริษัท บัตรกรุงไทย จำกัด (มหาชน)</div>
+          <div class="col-lg-6 text-right">
+            <div class="social-footer">
+              <a href="https://www.facebook.com/ktcrealprivilege">
+                <img class="on-default" src="img/index/ico-social-facebook.svg">
+                <img class="on-hover" src="img/index/ico-social-facebook-color.svg">
+              </a>
+              <a href="https://twitter.com/ktcprivilege">
+                <img class="on-default" src="img/index/ico-social-twitter.svg">
+                <img class="on-hover" src="img/index/ico-social-twitter-color.svg">
+              </a>
+              <a href="https://www.instagram.com/ktccard">
+                <img class="on-default" src="img/index/ico-social-instagram.svg">
+                <img class="on-hover" src="img/index/ico-social-instagram-color.svg">
+              </a>
+              <a href="https://line.me/R/ti/p/@ktc_card">
+                <img class="on-default" src="img/index/ico-social-line.svg">
+                <img class="on-hover" src="img/index/ico-social-line-color.svg">
+              </a>
+            </div>
+            <a class="lang-footer">
+              <div class="lang-wrap active">
+                <p id="lang-change">EN</p>
+              </div>
+              <div class="lang-wrap">
+                <p id="lang2-change">TH</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="chat ghost-footer"><img src="img/ico-chat.png"><p>Live Chat</p></div>
+      <div class="to-top ghost-footer"><img class="icon-link" src="img/index/ico-to-top.svg"></div>
+    </div>
+
+  <!-- end Footer -->
+  <!-- start modal -->
+  <div id="card-register-modal" class="modal fade full-modal" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">เลือกผลิตภัณฑ์</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <a href="creditcard.html" class="card-choice">
+            <div class="left-icon">
+              <img src="img/index/ico-prod-card.svg">
+            </div>
+            <p>บัตรเครดิต</p>
+          </a>
+          <a href="loan-proud.html" class="card-choice">
+            <div class="left-icon">
+              <img src="img/index/ico-prod-proud.svg">
+            </div>
+            <p>บัตรกดเงินสด KTC PROUD</p>
+          </a>
+          <a href="loan-cash.html" class="card-choice">
+            <div class="left-icon">
+              <img src="img/index/ico-prod-cash.svg">
+            </div>
+            <p>สินเชื่ออเนกประสงค์ KTC CASH</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <div id="search-modal" class="modal fade full-modal" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="search-head">
+                <div class="panel-title search-cat-head">
+                  <div class="collapsed" data-toggle="collapse" data-target="#search-cat-wrap" aria-controls="search-cat-wrap">
+                    <img src="img/promotion/ico-filter.svg"><h4>ตัวกรอง</h4><i class="fa fa-angle-up"></i>
+                  </div>
+                </div>
+              </div>
+              <div id="search-cat-wrap" class="panel-collapse search-cat-wrap collapsed collapse" role="tabpanel" aria-labelledby="search-head" style="height: 0px;">
+                <div class="subcat-wrap">
+                  <input checked="checked" type="checkbox" name="" id="all-cat">
+                  <label for="all-cat">ทั้งหมด</label>
+                  <input type="checkbox" name="" id="credit-cat" class="subcat">
+                  <label for="credit-cat">บัตรเครดิต</label>
+                  <input type="checkbox" name="" id="privill-cat" class="subcat">
+                  <label for="privill-cat">สิทธิพิเศษ</label>
+                  <input type="checkbox" name="" id="article-cat" class="subcat">
+                  <label for="article-cat">บทความ</label>
+                  <input type="checkbox" name="" id="other-cat" class="subcat">
+                  <label for="other-cat">อื่นๆ</label>
+                </div>
+              </div>
+            </div>
+            <form action="search-result.html" class="search-wrap">
+              <img src="img/index/ico-search-black.svg" class="icon-search-result">
+              <div class="search-input-wrap">
+                <input id="search" autocomplete="off" class="input-search" type="text" placeholder="ค้นหาทุกสิ่งใน KTC">
+                <div tabindex="0" id="suggest-box" class="suggess-box">
+                  <div class="suggess-list">
+                    <div class="suggess-img-wrap">
+                      <img src="img/index/ico-prod-card.svg">
+                    </div>
+                    <p>KTC X VISA SIGNATURE</p>
+                  </div>
+                  <div class="suggess-list">
+                    <div class="suggess-img-wrap">
+                      <img src="img/index/ico-shopping.svg">
+                    </div>
+                    <p>KTC X MASTERCARD</p>
+                  </div>
+                  <div class="suggess-list">
+                    <div class="suggess-img-wrap">
+                      <img src="img/index/ico-service-custom.svg">
+                    </div>
+                    <p>มูลนิธิศิริราช</p>
+                  </div>
+                  <div class="suggess-list">
+                    <div class="suggess-img-wrap">
+                      <img src="img/ico-other.png">
+                    </div>
+                    <p>Early Inactive Q1 2018</p>
+                  </div>
+                </div>
+                <div id="fake-result"></div>
+              </div>
+              <div class="btn-wrap">
+                <button class="button-search">ค้นหา</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  <div id="sticky-modal" class="modal fade full-modal" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <ul class="sticky-white-menu-list">
+            <li><a href='#privillage-withdraw'>รายละเอียด</a></li>
+            <li><a href='#detail-register'>รายละเอียดการสมัคร</a></li>
+            <li><a href='#proud-regis'>สมัครสินเชื่อ</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  </body>
+</html>
