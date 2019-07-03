@@ -2224,6 +2224,10 @@ nav[aria-label="breadcrumb"] + .row-search-filter {
       height: 160px;
     }
 
+  #proud-register{
+    text-align: center;
+  }
+
   .static-wrap .flexi-banner{
     font-size: 32px;
   }
@@ -2233,8 +2237,15 @@ nav[aria-label="breadcrumb"] + .row-search-filter {
   }
 
   #proud-regis .content-title{
-    white-space: nowrap;
+        white-space: normal;
     font-size: 26px;
+    margin-left: 0;
+    transform: none;
+  }
+
+  #proud-regis .content-title span{
+    padding: 0;
+    line-height: 39px;
   }
 
   #proud-regis #regis-cash{

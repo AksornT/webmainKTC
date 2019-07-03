@@ -1573,7 +1573,7 @@ body.modal-open{
 	/*width: 510px;*/
 	max-width: 100%;
 	display: flex;
-	margin: 0 5px 35px;
+	margin: 0 5px 20px;
 	padding: 13px 15px 14px 15px;
 	border-radius: 6px;
 	position: relative;
@@ -1587,6 +1587,10 @@ body.modal-open{
 
 .card-choice:first-child{
 	margin-top: 5px;
+}
+
+.card-choice:nth-last-child(1){
+	margin-bottom: 0;
 }
 
 .card-choice:hover{
@@ -3960,6 +3964,10 @@ h4.content-title{
 
 #card-register-modal > div{
 	max-width: 485px;
+}
+
+#card-register-modal.full-modal .modal-body{
+	height: auto;
 }
 
 .static-content .type-dash li{
