@@ -3958,9 +3958,15 @@ h4.content-title{
     padding-left: 10px;
 }
 
+#card-register-modal > div{
+	max-width: 485px;
+}
+
 .static-content .type-dash li{
 	list-style-type: none;
 	position: relative;
+    font-family: 'Conv_SukhumvitTadmai_Tex';
+    font-size: 16px;
 }
 
 .static-content .type-dash li:before{
