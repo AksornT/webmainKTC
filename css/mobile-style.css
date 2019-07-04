@@ -2228,6 +2228,10 @@ nav[aria-label="breadcrumb"] + .row-search-filter {
     text-align: center;
   }
 
+  #proud-register .col-sm-6{
+    text-align: left;
+  }
+
   .static-wrap .flexi-banner{
     font-size: 32px;
   }
