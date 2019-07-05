@@ -1619,6 +1619,9 @@ body.modal-open{
     max-width: calc(100% - 80px);
     font-family: 'Conv_SukhumvitTadmai_Tex';
 }
+.left-icon + p span{
+	display: inline-block;
+}
 .card-choice .left-icon img{
 	width: 76px;
   	height: 53px;
