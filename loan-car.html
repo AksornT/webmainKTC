@@ -358,7 +358,24 @@
       <section class="static-wrap full-overimage" style="background: linear-gradient(to right, #dbdce0, #d5d6db);">
         <div class="row">
           <div class="col-12">
-            <img src="img/car/img-section-01.jpg" alt="" class="loan-car-banner">
+            <img src="img/car/img-section-01d.jpg" alt="" class="loan-car-banner only-desktop">
+						<img src="img/car/img-section-01m.jpg" alt="" class="loan-car-banner only-mobile">
+						<style>
+							.loan-car-banner.only-mobile{
+								width:100% !important;
+								height:auto !important;
+							}
+							@media (min-width: 992px){
+								.only-mobile {
+									display: none !important;
+								}
+							}
+							@media (max-width: 991px){
+								.only-desktop {
+									display: none !important;
+								}
+							}
+						</style>
             <!--<span class="share-on-top only-mobile">
               <button class="btn btn-flexi-share"><span class="sr-only">Share</span></button>
               <div class="share-popover">
