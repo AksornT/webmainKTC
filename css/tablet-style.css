@@ -318,11 +318,6 @@
     opacity: 0;
   }*/
 
-  .to-top:hover{
-    cursor: pointer;
-    bottom: 30px;
-  }
-
   .chat:hover{
     cursor: pointer;
     bottom: 57px;
